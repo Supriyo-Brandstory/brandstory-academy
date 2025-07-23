@@ -1,8 +1,8 @@
 <?php
 
 use App\Http\Controllers\admin\auth\AuthController;
-use App\Http\Controllers\Admin\Blog\BlogController;
-use App\Http\Controllers\Admin\Blog\CategoryController;
+use App\Http\Controllers\admin\Blog\BlogController;
+use App\Http\Controllers\admin\Blog\CategoryController;
 use App\Http\Controllers\admin\ClientController;
 use App\Http\Controllers\admin\dashboard\DashboardController;
 use App\Http\Controllers\admin\DisputeLetterController;
