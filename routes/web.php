@@ -15,6 +15,8 @@ Route::get('/blogs', [WebsiteController::class, 'blogs'])->name('blogs');
 Route::get('/blogs/{slug?}', [WebsiteController::class, 'blogsVariation'])->name('blogsVaritaion');
 Route::get('sitemap.xml', [WebsiteController::class, 'sitemap'])->name('sitemap');
 
+Route::post('/enquiry', [WebsiteController::class, 'store_enquery'])->name('enquiry.store');
+
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
