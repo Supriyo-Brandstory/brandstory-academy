@@ -1,0 +1,1060 @@
+    .banner-section{
+    background: url('../images/home/banner-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.banner-section p{
+    color: #7F7796;
+    font-weight: 500;
+}
+.student-main p{
+    color: #A4A4A4;
+}
+.bannerform{
+    background: #fff;
+    box-shadow: 0px 29.24px 26.32px -1.25px rgba(233, 235, 247, 0.16);
+    padding: 16px 30px;
+    border-radius: 28px;
+}
+.banner-form-main{
+    padding-left: 10px;
+}
+.banner-form-main .form-control{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 26px;
+    border-radius: 20px;
+    border: 1px solid rgba(204, 216, 251, 0.8);
+    margin-right: 9px;
+    width: 28%;
+}
+.bannerform .col-lg-10{
+    border-left: 1px solid rgba(204, 216, 251, 0.8) !important;
+}
+.banner-form-main button{
+    font-size: 15px;
+    line-height: 21.46px;
+    color: #845EF7;
+    background: #E7DFFF;
+    padding: 10px 30px;
+    border-radius: 50px;
+    box-shadow: 0px 7.45px 16.38px 0px rgba(132, 94, 247, 0.13);
+    font-weight: 600;
+}
+.brandlogo1 .swiper-wrapper{
+    align-items: center;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+}
+.brandlogo1 {
+    position: relative;
+    overflow: hidden; /* Ensures blur effect is contained within the swiper */
+}
+
+.brandlogo1::before,
+.brandlogo1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100px; /* Adjust width as needed */
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.brandlogo1::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+}
+
+.brandlogo1::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+}
+.dm-course-main .nav-pills {
+    background: #F5F4EE;
+    width: fit-content;
+    margin: auto;
+    padding: 4px;
+    border-radius: 50px;
+}
+.dm-course-main .nav-link {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 700;
+    padding: 9px 40px;
+    border-radius: 50px !important;
+    color: #302357 !important;
+}
+.dm-course-main .nav-link.active {
+    background: #302357 !important;
+    color: #fff !important;
+}
+.course-main{
+    background: #fff;
+    box-shadow: 0px 24px 24px -1.75px rgba(0, 0, 0, 0.1);
+    padding: 36px;
+    border-radius: 16px;
+}
+.coursebtns a{
+    font-size: 14.75px;
+    line-height: 27.2px;
+    font-weight: 700;
+    padding: 11px;
+    border-radius: 50px;
+    color: #fff;
+}
+.coursebtns.one a{
+    border: 8px solid #E7DFFF;
+}
+.course-main p{
+    color: #695A96;
+}
+.mentorship-btn a{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    border: 8px solid #D2EAFF;
+    background: #31A8FE;
+}
+.mentorship-section .container{
+    background: url('../images/home/mentorship-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 44px 70px;
+    border-radius: 8px;
+    border: 1px solid #ECF6FF;
+}
+.mentorship-img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.tech-capital{
+    background: url('../images/home/tech-capital-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tech-capital-main{
+    padding: 25px 28px 40px 28px;
+    border-radius: 13px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    background: #fff;
+}
+.key-highlight-main button.accordion-button {
+    font-size: 16px;
+    line-height: 24px;
+    color: #845EF7 !important;
+    font-weight: 600;
+    padding: 0px;
+    background: transparent !important;
+    border: none !important;
+}
+.key-highlight-main .accordion-item {
+    border: none;
+    border-bottom: 1px solid rgba(48, 35, 87, 0.2);
+    padding: 24px 0px;
+}
+.key-highlight-main .accordion-button {
+    border-bottom: none !important;
+}
+.key-highlight-main .accordion-button:not(.collapsed) {
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+.key-highlight-main .accordion-body {
+    padding: 0px;
+    margin-top: 6px;
+}
+.key-highlight-main .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: rotate(-180deg);
+}
+.key-highlight-main .accordion-button::after{
+    background-image: none;
+}
+.agency-experience-section .coursebtns a{
+    padding: 12px 24px;
+}
+.agency-experience-section{
+    background: url('../images/home/agency-experience-newn.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 128px 0px;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.dm-career-main{
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+    padding: 60px 25px 25px 25px;
+    background: #fff;
+    border-top: 9px solid #FFC700;
+    border-radius: 12px;
+}
+.dm-career-main p{
+    color: #695A96;
+}
+.dm-career-main.two{
+    border-top: 9px solid #1BC6AF;
+}
+.dm-career-main.three{
+    border-top: 9px solid #EC696A;
+}
+.dm-career-main.four{
+    border-top: 9px solid #3AA0FE;
+}
+.dmcareersld .swiper-wrapper {
+    display: flex;
+    align-items: stretch; /* Ensures all slides stretch */
+}
+
+.dmcareersld .swiper-slide {
+    display: flex;
+    height: auto; /* Ensures flexibility */
+}
+
+.dm-career-main {
+    display: flex;
+    flex-direction: column;
+}
+.swiper.dmcareersld{
+    padding: 15px;
+}
+.swiper-pagination.dmcareer-pagi.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -50px;
+}
+.swiper-pagination.dmcareer-pagi span.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: #D9D9D9;
+    opacity: 1;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background: #845EF7 !important;
+}
+.modesmin{
+    box-shadow: 0px 24px 24px -1.75px rgba(0, 0, 0, 0.1);
+    padding: 36px;
+    background: #fff;
+    border-radius: 16px;
+}
+.learning-modes-main .dm-course-main .nav-pills{
+    background: rgba(132, 94, 247, 0.15);
+}
+.inter-main{
+    background: #fff;
+    border-radius: 6px;
+    padding: 34px 20px 38px 50px;
+}
+.intern-section{
+    background: url('../images/home/intern-bg.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.swiper-pagination.certificatepagi.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: -40px;
+}
+.homeform-main{
+    box-shadow: 1px 24px 24px -1.75px rgba(0, 0, 0, 0.1);
+    padding: 36px;
+    border-radius: 16px;
+}
+.homeform-main .form-control{
+    border: 1px solid rgba(102, 102, 102, 0.2);
+    padding: 12px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+.homeform-main .form-label, .col-form-label{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #7F7796;
+    margin-bottom: 8px;
+}
+.homeform-main .form-check{
+    margin-bottom: 15px;
+}
+.homeform-main .form-check:last-child{
+    margin-bottom: 0px;
+}
+.homeform-main .form-check-label{
+    font-size: 16px;
+    line-height: 24px;
+    color: #454545;
+}
+.homeform-main .btn{
+    border: 8px solid #E7DFFF;
+    font-size: 14.75px;
+    line-height: 27.2px;
+    font-weight: 700;
+    padding: 11px;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 30px;
+    background-color: #845EF7 !important;
+}
+.form-check-input:checked {
+    background-color: #845EF7;
+    border-color: #DACFF8;
+    background-image: unset !important;
+    border: 3px solid #DACFF8;
+}
+.form-check-input:focus {
+    box-shadow:none;
+}
+.form-check-input[type=radio] {
+    border-radius: 50%;
+    border: 3px solid #DACFF8 !important;
+}
+.faq-main {
+    box-shadow: 0px 56px 56px -2px rgba(94, 137, 255, 0.14);
+    background: #fff;
+    border-radius: 16px;
+    padding-bottom: 12px;
+}
+.faq-head p{
+    padding: 24px 12px;
+}
+.faq-head{
+    border-bottom: 1px solid #695a965b;
+}
+.faq-main .accordion-button{
+    padding: 24px 12px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #302357 !important;
+    background: #fff !important;
+    font-weight: 500;
+}
+.faq-main .accordion-item{
+    border-bottom: 1px solid #695a965b;
+}
+.faq-main .accordion-button::after{
+    background-image: url('../images/home/faq-close.svg');
+}
+.faq-main .accordion-button:not(.collapsed)::after{
+    transform: none;
+    background-image: url('../images/home/faq-open.svg');
+}
+.faq-main .accordion-body {
+    padding: 0px 12px 24px 12px;
+}
+.banner-section{
+    margin-top: 80px;
+}
+.fixed-internship-btn {
+    position: fixed;
+    right: -80px;
+    top: 60%;
+    transform: translateY(-50%) rotate(270deg);
+    background-color: #302357; 
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+    white-space: nowrap;
+    border: 8px solid #fff;
+}
+
+#internshipPopup {
+    visibility: hidden; /* Hide without layout shift */
+    opacity: 0; /* Make it fully transparent */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.popup-content {
+    background: #fff;
+    border-radius: 5px;
+    width: 60%;
+    position: relative;
+    z-index: auto;
+}
+
+
+.close-btn {
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.course-pg .student-main p{
+    margin-top: -10px;
+}
+.video-production-section{
+    background: url('../images/adm-bootcamp/videoproduction-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video-production-section .container{
+    background: url('../images/adm-bootcamp/video-production.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 127px 50px 127px 50px;
+}
+.course-pg .mentorship-section .container{
+    background: url('../images/adm-bootcamp/media-mastery-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* cus-jack-code:start  */
+.digital-ai-marketing .mentorship-section .container{
+    background: url('../images/digital-marketing-with-ai-j/image019.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.full-degree-digital-marketing .mentorship-section .container{
+    background: url('../images/360-degree-digital-j/image0004.png') !important;
+    background-size: cover !important ;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+.text-green1 {
+    color: #1BC6AF;
+}
+.text-yellow {
+    color:#E6B33D;
+}
+.digital-ai-marketing .mentorship-btn a {
+    background: #1BC6AF !important;
+    border-color: #9dfbeec4 !important;
+}
+.full-degree-digital-marketing .mentorship-btn a {
+    background: #E6B33D !important;
+    border-color: #fae1a6 !important;
+}
+/* cus-jack-code:end  */
+
+
+.course-pg .mentorship-btn a{
+    background: #EA7D30;
+    border-color: #F8C9A8;
+}
+.learn-tab-main .nav-wrapper {
+    overflow-x: auto;
+}
+
+.learn-tab-main .nav-pills {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px; /* Adjust spacing between items */
+}
+
+.learn-tab-main .nav-item {
+    flex: 0 0 auto; /* Prevent items from wrapping */
+}
+.learn-tab-main .nav-link{
+    padding: 16px;
+}
+.learn-tab-main .nav-link .learnh{
+    color: #000;
+}
+.learn-tab-main .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: #302357;
+}
+.learn-tab-main .nav-link.active .learnh{
+    color: #fff !important;
+}
+.lesson-min{
+    padding: 36px 36px 60px 36px;
+    border-radius: 16px;
+    box-shadow: 1px 24px 24px -1.75px rgba(0, 0, 0, 0.1);
+}
+.industry-experts-section{
+    background: #F3EFFF;
+}
+.industry-experts-main{
+    padding: 12px 32px;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #EDEDED;
+    background: #fff;
+}
+.hiddenb {
+    display: none !important;
+}
+#toggleButtonb {
+    position: relative;
+    z-index: 10;
+}
+#toggleButtonb img {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+    margin-right: 5px;
+}
+.industryexpertbtn{
+    padding: 0px;
+    border: none;
+    color: #845EF7 !important;
+}
+.course-certificate-sec{
+    background: url('../images/adm-bootcamp/certificate-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.course-form-main{
+    border: 1px solid #E3E3E300;
+    box-shadow: 1px 24px 24px -1.75px rgba(0, 0, 0, 0.1);
+    padding: 36px;
+    border-radius: 16px;
+}
+.course-form-main .form-label{
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F7796;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.course-form-main input, .course-form-main textarea{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    padding: 12px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+ ::placeholder{
+    color: #CFCFCF !important;
+}
+.course-form-main .btn{
+border: 8px solid #E7DFFF;
+    font-size: 14.75px;
+    line-height: 27.2px;
+    font-weight: 700;
+    padding: 11px;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 30px;
+    background-color: #845EF7 !important;
+}
+.homeform-main.form-main.normal .radio-button-sec{
+width: 100% !important;
+}
+.homeform-main.form-main.normal .form-check-label{
+    font-size: 13px;
+}
+.edge-main{
+    padding: 42px;
+    border-radius: 12px;
+    height: 450px;
+}
+.edge-main.one{
+    background: url('../images/about/edge-bg-1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.edge-main.two{
+    background: url('../images/about/edge-bg-2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.edge-main.three{
+    background: url('../images/about/edge-bg-3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.edge-main.four{
+    background: url('../images/about/edge-bg-4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.edge-main .edgenum{
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: 600;
+}
+.abouttab-main{
+    padding: 50px 36px 50px 36px;
+    border-radius: 13px;
+    border-top: 9px solid #302357;
+    border-bottom: 9px solid #302357;
+    box-shadow: 0px 24px 24px -1.75px rgba(0, 0, 0, 0.1);
+}
+.lear-frmus-sec{
+    background: url('../images/about/learn-fromusbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top: 100px;
+}
+.lear-frmus-sec h2, .lear-frmus-sec p{
+    color: #fff;
+}
+.custom-popup {
+    display: none; /* Ensure it's hidden initially */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #F2F2F2;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    width: 90%;
+    border-radius: 6px;
+}
+.popup-content-custom {
+    position: relative;
+}
+.close-popup-custom {
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 50px;
+}
+.popup-content-custom{
+    background: url('../images/download-popup-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.cuspopup{
+    background: #fff;
+    width: 80%;
+}
+/* cus-jack */
+.lesson-box-shadow {
+    padding: 36px 36px 60px 36px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.1);
+}
+
+.acad-ads-pg .footer-section{
+    padding: 50px 0px;
+}
+.ads-header{
+    padding: 15px 0px;
+}
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+.whatsapp-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.whatsapp-icon img:hover {
+    transform: scale(1.1);
+}
+.acad-ads-pg .popup-content-custom {
+    background: url(../images/adsdownload-popup-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.aboutacademy-sec .container{
+    background: rgba(228, 239, 255, 0.5);
+    padding: 70px;
+    background: url('../images/home/about-academy-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutacademy-sec img{
+    position: absolute;
+    left: 0px;
+}
+.key-highlight-main.facts button.accordion-button {
+    font-size: 24px;
+    line-height: 32px;
+    color: #302357 !important;
+    font-weight: 600;
+    padding: 0px;
+    background: transparent !important;
+    border: none !important;
+}
+.key-highlight-main.facts .accordion-body{
+    margin-top: 18px;
+}
+.key-highlight-main.facts .accordion-body p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #1C1919;
+}
+.ourstudents-sec{
+    padding: 70px 0px;
+    background: url('../images/home/students-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ourstudent-inner-main{
+    padding: 16px 24px;
+}
+.ourstudent-cnt h4{
+    font-size: 18px;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+.ourstudent-cnt p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.student-rates p{
+    font-size: 18px;
+    line-height: 26px;
+}
+.student-testi-main{
+    padding: 60px 95px;
+    background: #fff;
+    border-radius: 24px;
+}
+.student-testi-main p{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.student-detailsmin h4{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+}
+.student-detailsmin p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.ourstudent-main{
+    border-left: 5px solid transparent;
+    margin-bottom: 16px;
+}
+.ourstudent-main.active{
+    background: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-left: 5px solid #fff;
+}
+.ourstudent-main:last-child{
+    margin-bottom: 0px;
+}
+.viewallbtn a{
+    background: #fff;
+    color: #1BC6AF;
+    padding: 16px 32px;
+    border-radius: 80px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    text-decoration: none;
+}
+@media screen and (min-width:1200px){
+    .ourstudent-main {
+    width: 80%;
+}
+    .max-1000{
+        max-width: 1000px;
+        margin: auto;
+    }
+    .youtubemain{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .youtubemain iframe {
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        width: 100%;
+        height: 598px;
+        padding-left: 226px;
+        padding-right: 226px;
+    }
+    .abouttab-main{
+        height: 580px;
+    }
+.aboutpage .banner-section{
+    padding-bottom: 200px;
+}
+section.youtubesec {
+    margin-top: -150px;
+}
+.tech-capital-main {
+    width: 70%;
+}
+}
+@media screen and (min-width:768px) and (max-width:1080px){
+    .popup-content-custom{
+        background-position: right;
+    }
+    .youtubemain{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .youtubemain iframe {
+        position: absolute;
+        top: 19px;
+        left: 0px;
+        width: 100%;
+        height: 319px;
+        padding-left: 114px;
+        padding-right: 114px;
+    }
+    .aboutpage .banner-section{
+        padding-bottom: 200px;
+    }
+    section.youtubesec {
+        margin-top: -150px;
+    }
+    .mentorship-img img {
+        height: 260px;
+    }
+.mentorship-section .container {
+    padding: 40px;
+}
+.popup-content {
+    width: 80%;
+}
+.bannerform input{
+    margin-bottom: 0px !important;
+}
+}
+@media screen and (max-width:1000px){
+    .key-highlight-main.facts button.accordion-button {
+    font-size: 20px;
+    line-height: 28px;
+}
+.key-highlight-main.facts .accordion-body p {
+    font-size: 16px;
+    line-height: 24px;
+}
+    .student-testi-main p {
+    font-size: 18px;
+    line-height: 26px;
+}
+    .student-testi-main {
+    padding: 30px 15px;
+}
+    .aboutacademy-sec img{
+        position: relative;
+    }
+    .aboutacademy-sec .container{ 
+        background: rgba(228, 239, 255, 0.5) !important;
+        padding: 30px 15px;
+    }
+    .lear-frmus-sec h2, .lear-frmus-sec p{
+        color: #000;
+    }
+    .lear-frmus-sec{
+        background: transparent;
+        text-align: center !important;
+        padding: 0px;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .edge-main .edgenum {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .edge-main{
+        padding: 0px;
+        border-radius: 0px;
+        height: auto;
+        background: none !important;
+        color:  #000 !important;
+    }
+    
+    .bannerform .col-lg-10 {
+        border-left: none !important;
+    }
+    .bannerform input{
+        margin-bottom: 20px;
+    }
+    .bannerform {
+        padding: 16px;
+    }
+.banner-form-main .form-control {
+    font-size: 13px;
+    width: 100%;
+}
+.video-production-section .container {
+    background: none;
+    padding: 0 15px;
+}
+}
+@media screen and (max-width:500px){
+    .popup-content-custom{
+        background-position: right;
+    }
+    .cuspopup {
+        background: #fff;
+        width: 100%;
+    }
+    .popup-content-custom {
+        padding-bottom: 20px;
+    }
+    .youtubemain iframe {
+        position: absolute;
+        top: 11px;
+        left: 0px;
+        width: 100%;
+        height: 92%;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    .youtubesec{
+        padding-top: 50px;
+    }
+    .agency-experience-section {
+        background-position: left;
+    }
+    .inter-main {
+        padding: 34px 20px 38px 20px;
+    }
+    .dm-course-main .nav-link {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 9px 24px;
+    }
+    .mentorship-img {
+        display: none;
+    }
+.mentorship-section .container {
+    padding: 40px 15px;
+}
+.mentorship-section{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.agency-experience-section {
+    padding: 50px 0px;
+}
+.fixed-internship-btn {
+    right: -65px;
+    font-size: 12px;
+}
+.popup-content {
+    width: 95%;
+}
+.homeform-main.popfrm {
+    height: 560px;
+    overflow: scroll;
+}
+}
+
+/* screen width 100% start */
+@media screen and (min-width:1200px) and (max-width:1300px){
+    .youtubemain iframe {
+        left: 0px;
+        width: 100%;
+        height: 473px;
+        padding-left: 221px;
+        padding-right: 221px;
+    }
+    .cus-height-p{
+        height: 72px;
+    }
+    .cus-height-2p{
+        height: 96px;
+    }
+}
+/* screen width 100% end */
+
+
+/* screen width 90% start */
+@media screen and (min-width:1300px) and (max-width:1500px){
+    
+}
+/* screen width 90% end */
+
+/* Screen size 80% start */
+@media screen and (min-width:1500px) and (max-width:1600px){
+ 
+}
+/* Screen size 80% end */
+
+/* pre system  start*/
+@media screen and (min-width:1510px) and (max-width:1540px){
+    
+}
+/* pre system  end*/
+
+
+/* Screen size 75% start */
+@media screen and (min-width:1700px) and (max-width:1800px){
+    .form-main .radio-button-sec{
+        width: 75% !important;
+    }
+}
+/* Screen size 75% end */
+
+/* Screen size 67% start */
+@media screen and (min-width:1800px) and (max-width:2000px){
+    .form-main .radio-button-sec{
+        width: 60% !important;
+    }
+}
+/* Screen size 67% end */
+
+/* Screen size 50% start */
+@media screen and (min-width:2000px) {
+    .form-main .radio-button-sec{
+        width: 60% !important;
+    }
+}
+/* Screen size 50% end */
+
+
+
+/* cus-style-mb-view: start*/
+
+@media (max-width: 575.98px) {
+
+    .digital-ai-marketing .mb-tb-space{
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .mb-t-space{
+        padding-top: 20px !important;
+    }
+    .mb-b-space{
+        padding-bottom: 20px !important;
+    }
+ 
+ 
+}
+/* cus-style-mb-view: end*/

@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   {!!$seo->script ?? '<title>#1 Digital Marketing Institute in Bangalore: BrandStory Academy</title>'!!}
+	<link rel="canonical" href="https://brandstory.in/academy/" />
+	<link rel="preload" href="{{asset('frontend/assets/fonts/HankenGrotesk-Regular.woff2')}}" as="font" type="font/woff2"
+	crossorigin>    
+	<link href="{{asset('frontend/assets/css/bootstrap-min.css')}}" rel="stylesheet">
+	<link href="{{asset('frontend/assets/css/swiper.css')}}" rel="stylesheet">
+	<link href="{{asset('frontend/assets/css/global.css')}}" rel="stylesheet">
+	<link href="{{asset('frontend/assets/css/skin.css')}}" rel="stylesheet">
+    <link href="{{asset('frontend/assets/css/style.css')}}" rel="stylesheet">
+	<link href="{{asset('frontend/assets/css/style-sheet.css')}}" rel="stylesheet">
+	<link href="{{asset('frontend/assets/css/header.css')}}" rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-932195052"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-932195052');
+</script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '600881299379467');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=600881299379467&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<script type="application/ld+json">
+    [
+        {
+            "@context": "https://schema.org",
+            "@type": "EducationalOrganization",
+            "@id": "https://brandstory.in/academy/#organization",
+            "name": "BrandStory Academy",
+            "url": "https://brandstory.in/academy/",
+            "logo": "https://brandstory.in/academy/assets/images/hero-image.webp",
+            "description": "BrandStory Academy offers top-rated digital marketing courses with hands-on training, affordable fees, and placement support.",
+            "sameAs": [
+                "https://www.facebook.com/brandstory.in/",
+                "https://www.instagram.com/brandstorydigital/",
+                "https://twitter.com/BrandStory_in/",
+                "https://www.youtube.com/@brandstorysolutionsprivate7689"
+            ]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://brandstory.in/academy/#localbusiness",
+            "name": "BrandStory Academy",
+            "url": "https://brandstory.in/academy/",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "No 34, 3rd Floor, Surya Chambers, Domlur I Stage, Amarjyoti Layout, Domlur",
+                "addressLocality": "Bangalore",
+                "addressRegion": "Karnataka",
+                "postalCode": "560071",
+                "addressCountry": "IN"
+            },
+            "telephone": "+91 8858458584",
+            "contactType": "customer service",
+            "areaServed": "IN",
+            "image": "https://brandstory.in/academy/assets/images/hero-image.webp",
+            "sameAs": [
+                "https://www.facebook.com/brandstory.in/",
+                "https://www.instagram.com/brandstorydigital/",
+                "https://twitter.com/BrandStory_in/",
+                "https://www.youtube.com/@brandstorysolutionsprivate7689"
+            ],
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "opens": "09:00",
+                "closes": "19:00"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "12.956428",
+                "longitude": "77.640754"
+            }
+        }
+    ]
+    </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which is the best digital marketing academy in Bangalore?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Brandstory Academy stands out for its practical approach. Bringing in expert trainers, multiple courses, and real-time clients, the students are equipped with skills needed to succeed in the fast-paced digital world."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who will be teaching digital marketing courses in BrandStory Academy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At BrandStory, the courses taught by our instructors are seasoned professionals. These instructors are passionate and aim to share their knowledge and help learners like you succeed. Our professionals are supportive, and learners can have access to them directly throughout the course."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who can enroll in the digital marketing course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The digital marketing course at Brandstory Academy is open to all. Either you want to try something new or are looking to upskill, we have no restrictions in people enrolling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is the Digital Marketing Academy program, and what can I expect during this time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At BrandStory, our digital marketing program is a 6-month duration designed to give you more than just theoretical knowledge. Over the course of six months, Work on real projects, gaining hands-on experience with actual clients. Experience what it’s like to work in an agency setting, as if you’re an intern. You’ll learn through practical tasks and challenges, building skills you can directly apply to the digital marketing industry. By the end, you’ll have a strong portfolio to help you stand out in your digital marketing career."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the timings at your digital marketing academy in Bangalore?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our digital marketing academy runs on weekdays from 9.30 AM to 6 PM. During this timing, you’ll have a 30 mins lunch break and two short 15-minute breaks throughout the day to recharge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who can enroll in the digital marketing course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The digital marketing course at Brandstory Academy is open to all. Either you want to try something new or are looking to upskill, we have no restrictions in people enrolling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "I’m a working professional. Can I get flexible hours?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. There's no restriction on anybody working. We offer flexible class timings, including weekend and self-paced options, so you can learn at your own convenience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I get future assistance after completing the course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At BrandStory Academy, our digital marketing courses have no restrictions based on time zones. You can attend the course at your own pace and convenience, wherever you are in the world."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I receive a certificate after completing the Digital Marketing Academy program in Bangalore?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you'll receive a digital marketing certificate upon completion. This 6-month program goes beyond a traditional course – it’s like a real internship. You’ll gain hands-on experience working on live client projects, simulating an agency environment. By the end, you’ll have a portfolio to showcase to the world, proving you’ve worked as an intern and gained valuable industry experience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who will be teaching digital marketing courses in BrandStory Academy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At BrandStory, the courses taught by our instructors are seasoned professionals. These instructors are passionate and aim to share their knowledge and help learners like you succeed. Our professionals are supportive, and learners can have access to them directly throughout the course."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who can enroll in the digital marketing course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The digital marketing course at Brandstory Academy is open to all. Either you want to try something new or are looking to upskill, we have no restrictions in people enrolling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What payment methods are available in your Digital Marketing Academy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At BrandStory Academy, we accept various payment methods for your convenience, including UPI (Google Pay, PhonePe, Paytm, and more), cash, credit cards, and net banking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is EMI-based fee convenience available in your digital marketing institute?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer EMI options to make the course more accessible. For detailed information about course fees and EMI options, feel free to contact our team at +91 88584 58584."
+      }
+    }
+  ]
+}
+</script>
+
+
+<meta name="google-site-verification" content="wlX0t0AxPVzff3Q_jWud9lVdDm9piG8oNlQ5utKlg-Y" />
+
+</head>
+
+<body class="homepage">
+
+
+    @include('frontend.partial.header')
+    @yield('content')
+    @include('frontend.partial.footer')
+
+
+<!-- fixed button start -->
+<a href="#" class="fixed-internship-btn">Join the Internship Now</a>
+
+<!-- Popup Modal -->
+<div id="internshipPopup" class="popup-overlay">
+    <div class="popup-content">
+        <div class="homeform-main popfrm form-main">
+        <span class="close-btn">&times;</span>
+
+        <form id="enquiryForm" action="contact_enquiry.php" method="post">
+                <div class="row">
+        <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" name="firstname" required pattern="[A-Za-z\s]+" title="Only alphabets are allowed">
+        </div>
+        <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" name="lastname" required pattern="[A-Za-z\s]+" title="Only alphabets are allowed">
+        </div>
+        <div class="col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="col-md-6">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" name="phone" required pattern="[0-9]+" title="Only numbers are allowed">
+        </div>
+    </div>
+    <fieldset class="mb-3">
+        <legend class="col-form-label pt-0">Select a Program</legend>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-check mb-3 w-100">
+                    <input class="form-check-input" type="radio" name="program" id="program1_popup" value="Digital Marketing Mastery" required>
+                    <label class="form-check-label" for="program1_popup">Digital Marketing Mastery</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-check mb-3 w-100">
+                    <input class="form-check-input" type="radio" name="program" id="program2_popup" value="Advanced Digital Marketing Boot Camp" required>
+                    <label class="form-check-label" for="program2_popup">Advanced Digital Marketing Boot Camp</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-check w-100">
+                    <input class="form-check-input" type="radio" name="program" id="program3_popup" value="360 Degree Digital Marketing" required>
+                    <label class="form-check-label" for="program3_popup">360 Degree Digital Marketing</label>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="1" placeholder="Type your message..." required></textarea>
+    </div>
+    <input type="hidden" id="recaptcha_response" name="recaptcha_response" class="recaptcha_response">
+    <button type="submit" class="btn d-block w-100 text-center bg-violet">Submit</button>
+</form>
+
+        </div>
+    </div>
+</div>
+<!-- fixed button end -->
+
+
+
+  
+{{-- <div id="custom-popup" class="custom-popup">
+    <div class="popup-content-custom">
+        <span class="close-popup-custom">&times;</span>
+
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-lg-4 col-md-2"></div>
+                <div class="col-lg-8 col-md-10">
+                    <div class="homeform-main form-main normal cuspopup">
+                        <h4 class="mb-4 text-blue text-md-start text-center">You might be a perfect fit! Enroll today!</h4>
+                        <form id="enquiryForm" action="download-brochure-validation.php" method="post">
+                                <div class="row">
+            <div class="col-md-6">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" name="firstname" required pattern="[A-Za-z\s]+" title="Only alphabets are allowed">
+            </div>
+            <div class="col-md-6">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" name="lastname" required pattern="[A-Za-z\s]+" title="Only alphabets are allowed">
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="col-md-6">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required pattern="[0-9]+" title="Only numbers are allowed">
+            </div>
+        </div>
+        <input type="hidden" id="recaptcha_response" name="recaptcha_response" class="recaptcha_response">
+        <button type="submit" class="btn d-block w-100 text-center bg-violet">Download Brochure</button>
+    </form>
+    
+    
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> --}}
+
+
+<!-- form validation code -->
+<script>
+    document.getElementById('enquiryForm').addEventListener('submit', function(event) {
+        let firstName = document.getElementById('firstName').value;
+        let lastName = document.getElementById('lastName').value;
+        let phone = document.getElementById('phone').value;
+
+        // Validate First and Last Name (Only alphabets)
+        let namePattern = /^[A-Za-z]+$/;
+        if (!namePattern.test(firstName) || !namePattern.test(lastName)) {
+            alert("First Name and Last Name should contain only alphabets.");
+            event.preventDefault();
+            return;
+        }
+
+        // Validate Phone Number (Only digits)
+        let phonePattern = /^[0-9]+$/;
+        if (!phonePattern.test(phone)) {
+            alert("Phone Number should contain only numbers.");
+            event.preventDefault();
+            return;
+        }
+    });
+</script>
+<!-- Form validation code end -->
+ 
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    function initializeRadioButtons(container) {
+        const radioButtons = container.querySelectorAll(".form-check-input");
+
+        radioButtons.forEach((radio) => {
+            radio.addEventListener("change", function () {
+                // Remove .selected class from all parent .form-check elements in the same container
+                container.querySelectorAll(".form-check").forEach((div) => div.classList.remove("selected"));
+
+                // Add .selected class to the parent .form-check of the selected radio button
+                if (this.checked) {
+                    this.closest(".form-check").classList.add("selected");
+                }
+            });
+        });
+    }
+
+    // Initialize radio buttons for the normal form
+    initializeRadioButtons(document);
+
+    // Function to open the popup and reinitialize radio buttons
+    function openPopup() {
+        const popup = document.querySelector("#internshipPopup");
+        popup.style.display = "block"; // Ensure the popup is shown
+        initializeRadioButtons(popup); // Reinitialize radio buttons inside the popup
+    }
+
+    // Attach event listener to the popup trigger button
+    document.querySelector(".your-popup-trigger-button").addEventListener("click", openPopup);
+
+    // Close the popup when clicking outside or on the close button
+    document.querySelector("#internshipPopup").addEventListener("click", function (event) {
+        if (event.target.classList.contains("popup-overlay") || event.target.classList.contains("close-btn")) {
+            this.style.display = "none";
+        }
+    });
+});
+</script>
+
+
+{{-- <script>
+    document.querySelectorAll('form').forEach(function(form) {
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+  
+            let recaptchaInput = form.querySelector('input[name="recaptcha_response"]'); // Find the hidden input in the form
+            
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6LfEBOIqAAAAAGSxBwirAeNNnL-GSGkVxyOQNS77', { action: 'submit' }).then(function(token) {
+                    if (recaptchaInput) {
+                        recaptchaInput.value = token; // Set token in the hidden input
+                        form.submit(); // Submit the form after setting the token
+                    } else {
+                        console.error("reCAPTCHA input field not found in the form.");
+                    }
+                });
+            });
+        });
+    });
+  </script> --}}
+<script src="https://www.google.com/recaptcha/api.js?render=6LfEBOIqAAAAAGSxBwirAeNNnL-GSGkVxyOQNS77"></script>
+
+
+<script src="{{asset('frontend/assets/js/bootstrap-bundle.js')}}"></script>
+<script src="{{asset('frontend/assets/js/swiper.js')}}"></script>
+<script src="{{asset('frontend/assets/js/custome.js?v=1.2')}}"></script>
+
+<script>
+    if (window.location.pathname.endsWith("{{route('home')}}")) {
+        // Redirect to the academy homepage if the current path is index
+      window.location.href = window.location.origin + "/academy/";
+    }
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function () {
+    // Initially show only the first testimonial
+    $('.student-testi-main').hide();
+    $('.student-testi-main[data-student="1"]').show();
+    $('.ourstudent-main[data-student="1"]').addClass('active');
+
+    // On clicking any student box
+    $('.ourstudent-main').click(function () {
+        var studentId = $(this).data('student');
+
+        // Remove active from all, then add to clicked
+        $('.ourstudent-main').removeClass('active');
+        $(this).addClass('active');
+
+        // Show the corresponding testimonial
+        $('.student-testi-main').hide();
+        $('.student-testi-main[data-student="' + studentId + '"]').show();
+    });
+});
+</script>
+  
+</body>
+
+</html>

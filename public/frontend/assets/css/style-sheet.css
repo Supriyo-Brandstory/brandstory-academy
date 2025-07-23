@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p, ul, li, a {
+    font-family: "Poppins", sans-serif;
+}  
+
+/* CSS for Ternms-and-conditions START */
+.main-body{background-image: url('../images/terms-and-conditions/main-banner.png');background-repeat: no-repeat;background-position: center;background-size: cover;margin-top: 100px;}
+.main-body .container{padding: 50px 0px !important;}
+.text-violet{color: rgba(132, 94, 247, 1) !important;}
+.tandC-letter{background: white;width: 100%;padding: 30px 0px;}.commonContainer{margin: 30px 100px;display: flex;align-items: center;justify-content: center;flex-direction: column;}
+.middleContainer{padding: 0px 80px !important;display: flex;justify-content: flex-start;flex-direction: column;}
+/* .middleContainer::-webkit-scrollbar {
+    width: 10px; 
+}
+.middleContainer::-webkit-scrollbar-track {
+    background: rgba(201, 201, 201, 0.2); 
+    border-radius: 10px; 
+    border: 1px solid rgba(217, 217, 217, 1);
+}
+.middleContainer::-webkit-scrollbar-thumb {
+    background: rgba(132, 94, 247, 1); 
+    border-radius: 10px; 
+}
+.middleContainer::-webkit-scrollbar-thumb:hover {
+    background: rgb(41, 98, 219); 
+} */
+.ind-terms{position: relative;padding:10px 0px 20px 0px !important;}
+.ind-terms::after {content: "";position: absolute;left: 0;bottom: 0;width: 100%;height: 2px;background: linear-gradient(to right, #2E63D8, #FFFFFF);}
+.approval-check{display: flex;justify-content: space-between;width: 95%;}.approval-check label{font-size: 16px !important;line-height: 24px !important; font-family: "Poppins", sans-serif !important;}
+.fs-14{font-size: 14px;line-height: 20px}
+.appnreject-btn{padding: 40px 30px;display: flex;justify-content: center;}
+.agree-terms{padding:10px;border-radius: 50px;overflow: hidden;cursor: pointer;width: fit-content;display: flex;justify-content: center;align-items: center;}
+.agree-terms-inner {background: rgba(132, 94, 247, 1);color: white;padding:17px 20px;border-radius: 50px;box-shadow: 0px 10px 50px 10px rgb(132 94 247 / 61%);}
+.reject-btn-inner{background: rgba(255, 239, 239, 1);border: 1px solid rgba(247, 94, 94, 1);padding: 24px 30px; border-radius: 50px;color: rgba(247, 94, 94, 1);}
+.reject-btn{border-radius: 50px;width: fit-content;display: flex;justify-content: center;align-items: center;cursor: pointer;}
+.agree-terms-inner:hover{background:rgb(113, 66, 255);color: rgb(253, 253, 253);transition: 0.3s ease-in-out;}
+.reject-btn-inner:hover{background: rgba(247, 94, 94, 1);color: rgba(255, 239, 239, 1);transition: 0.3s ease-in-out;}
+
+
+
+
+@media(max-width:992px){
+    .middleContainer{padding: 0px 40px !important;}
+}
+
+@media(max-width:600px){
+    .commonContainer{padding: 30px 15px !important;margin: 20px 20px !important;}
+    .middleContainer{padding: 0px 30px !important;}
+    .main-body .container{padding: 50px 15px !important;}
+    .approval-check label{font-size: 12px !important;line-height: 14px !important;}
+    .appnreject-btn{padding: 20px 30px;display: flex;justify-content: center;flex-direction: column;gap: 10px;align-items: center;}
+}
+
+/* CSS for Ternms-and-conditions END */
+
+
+/* CSS for Privacy Policy START */
+.privacy-policy-banner{background-image: url('../images/privacy-policy/privacy-policy-banner.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;margin-top: 100px;}
+.bannerRow{padding-top: 100px;padding-bottom: 50px;}
+.body-banner-section{background-image: url('../images/privacy-policy/body-banner-privacy-policy.png');background-repeat: no-repeat;background-size: cover;background-position: center;}
+.information-letter{background: white;width: 100%;padding: 30px 0px;}
+.body-banner-section .container{padding: 50px 0px !important;}
+.body-banner-section .ind-terms p,ul,li,a{font-size: 14px;}.address-parent{display: flex;justify-content: start;}
+@media(max-width:600px){
+    .body-banner-section .container{padding: 50px 20px !important;}
+    .bannerRow{padding-top: 60px;}
+}
+/* CSS for Privacy Policy END */
+
+
+/* CSS for Contact-us START */
+.fs-24{font-size: 24px;}
+.main-body-contact-us{background-image: url('../images/contact-us/contact-us-bg.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;margin-top: 100px;}
+.main-body-contact-us .container{padding:100px 70px;width: 75%;}
+.form-main .homeform-main textarea{height: 100px;}
+.form-main .homeform-main{background: white;border: 1px solid rgba(231, 231, 231, 1);}.homeform-main .approval-check{justify-content: start;}.mail-contact .contact a{text-decoration: none;color: black;font-weight: 500;}.mail-contact .mail a{text-decoration: none;color: black;font-weight: 500;}
+.mail-contact .mail{border: 1px solid rgba(160, 132, 255, 1);border-radius: 50px;padding: 10px 30px; box-shadow: 0px 5px 12px 0px rgba(136, 70, 255, 0.4);width: 350px;text-align: center;cursor: pointer;}
+.mail-contact .contact{border: 1px solid rgba(160, 132, 255, 1);border-radius: 50px;padding: 10px 30px; box-shadow: 0px 5px 12px 0px rgba(136, 70, 255, 0.4);width: 350px;text-align: center;cursor: pointer;}
+.mail-contact .mail:hover{transform: scale(0.95);transition: 0.15s ease-in-out;}
+.mail-contact .contact:hover{transform: scale(0.95);transition: 0.15s ease-in-out;}
+.form-main .form-check{padding: 15px 20px;width: fit-content;border: 1px solid  rgba(160, 132, 255, 1);border-radius: 50px;}
+.form-main .form-check.selected{background-color: rgba(160, 132, 255, 1);box-shadow: 0px 5px 12px 0px rgba(136, 70, 255, 0.4);}
+.form-main .form-check.selected label{color: white;font-weight: 600;}
+.form-main .form-check label{color: black;cursor: pointer;}
+.form-main .form-check input{opacity: 0;}
+.form-main .radio-button-sec{width: 80%;display: flex;flex-wrap: wrap;gap: 10px;}
+
+@media(max-width:990px){
+    .mail-contact{display: flex !important;flex-direction: column !important;}
+}
+
+@media(max-width:600px){
+    .main-body-contact-us .container{padding: 0px;width: 95%;padding: 80px 0px;}
+}
+/* CSS for Contact-us END */

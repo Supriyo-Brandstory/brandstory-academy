@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'HK Grotesk';
+    src:
+      url('..//fonts/HankenGrotesk-Regular.woff2') format('woff2 supports variations'),
+      url('../fonts/HankenGrotesk-Regular.woff2') format('woff2-variations'),
+      url('../fonts/HankenGrotesk-Regular.woff') format('woff');
+    font-weight: 400 500 600 700;
+    font-display: swap;
+    /* font-stretch: 75% 125%; */
+}
+:root {
+    --font-main: 'HK Grotesk' !important;
+
+
+	--font-size-h1: 52px;
+	--font-size-h2: 38px;
+	--font-size-h3: 32px;
+	--font-size-h4: 24px;
+	--font-size-h5: 20px;
+	--line-height-h1: 60px;
+	--line-height-h2: 46px;
+	--line-height-h3: 40px;
+	--line-height-h4: 32px;
+	--line-height-h5: 28px;
+    
+}
+@media (max-width:1000px) {
+	:root {
+		--font-size-h1: 32px;
+		--font-size-h2: 28px;
+		--font-size-h3: 24px;
+        --font-size-h4: 20px;
+        --font-size-h5: 18px;
+        --line-height-h1: 40px;
+		--line-height-h2: 36px;
+        --line-height-h3: 32px;
+        --line-height-h4: 28px;
+        --line-height-h5: 26px;
+	}
+}
+
+/**** heading ***/
+h1{ 
+	font-family: var(--font-main); 
+	font-size: var(--font-size-h1);
+	line-height: var(--line-height-h1);
+    font-weight: 600;
+}
+
+h2{ 
+	font-family: var(--font-main);
+	font-size: var(--font-size-h2);
+	line-height: var(--line-height-h2);
+    font-weight: 700;
+}
+
+h3{ 
+	font-family: var(--font-main);
+	font-size: var(--font-size-h3);
+	line-height: var(--line-height-h3);
+    font-weight: 700;
+}
+
+h4{ 
+	font-family: var(--font-main);
+	font-size: var(--font-size-h4);
+	line-height: var(--line-height-h4);
+    font-weight: 500;
+}
+
+h5{ 
+	font-family: var(--font-main);
+	font-size: var(--font-size-h5);
+	line-height: var(--line-height-h5);
+    font-weight: 500;
+}
+
+/**** paragraph****/
+p, li{ 
+    font-family: var(--font-main);
+	font-size: 18px; 
+	line-height: 24px;
+    font-weight: normal;
+}
+a{
+    font-family: var(--font-main);
+}
+.violet-btn a{
+    font-size: 14.75px;
+    background: #845EF7;
+    padding: 12px 24px;
+    line-height: 27px;
+    border: 10px solid #E7DFFF;
+    box-shadow: 0px 9px 20px 0px rgba(132, 94, 247, 0.13);
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.fs-16{
+    font-size: 16px;
+    line-height: 24px;
+}
+.fs-18{
+    font-size: 18px;
+    line-height: 26px;
+}
+.fs-20{
+    font-size: 20px;
+    line-height: 28px;
+}
+.fs-14{
+    font-size: 14px;
+    line-height: 22px;
+}
+.fs-12{
+    font-size: 12px;
+    line-height: 20px;
+}
+.fs-42{
+    font-size: 42px;
+    line-height: 50px;
+}
+.fw-600{
+    font-weight: 600 !important;
+}
+.fw-500{
+    font-weight: 500 !important;
+}
+.btn-font{
+    font-size: 14.75px;
+    line-height: 27.2px;
+    font-weight: 700;
+}
+@media screen and (min-width:1200px){
+    .db{
+        display: block;
+    }
+    .sp-100{
+        padding: 100px 0px;
+    }
+    .spb-100{
+        padding-bottom: 100px;
+    }
+    .spt-100{
+        padding-top: 100px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1080px){
+    .tabheight{
+        width: 100%;
+        height: 400px;
+        object-fit: fill;
+    }
+    .tabheight1{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+@media screen and (max-width:1000px){
+    .fs-42{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .sp-100{
+        padding: 50px 0px;
+    }
+    .spb-100{
+        padding-bottom: 50px;
+    }
+    .spt-100{
+        padding-top: 50px;
+    }
+    p, li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .col-reverse{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:500px){
+    .mbl-fs-16{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .mbl-spt-0{
+        padding-top: 0px;
+    }
+    .mbl-col-reverse{
+        flex-direction: column-reverse;
+    }
+}
