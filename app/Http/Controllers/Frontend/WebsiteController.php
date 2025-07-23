@@ -169,40 +169,42 @@ class WebsiteController extends Controller
     }
     
 
-    public function store_enquery(Request $request)
-    {
-        // Validate basic required fields
-        $request->validate([
-            'firstname' => 'required|string',
-            'lastname' => 'required|string',
-            'phone' => 'required|digits_between:6,15',
-            'recaptcha_response' => 'required|string',
-        ]);
+public function store_enquery(Request $request)
+{
+    // Validate fields including reCAPTCHA token
+    $request->validate([
+        'firstname' => 'required|string',
+        'lastname' => 'required|string',
+        'phone' => 'required|digits_between:6,15',
+        'email' => 'required|email',
+        'program' => 'required|string',
+        'message' => 'required|string',
+        'termsAndConditions-Consent' => 'accepted',
+        'recaptcha_response' => 'required|string',
+    ]);
 
-        // Verify reCAPTCHA token with Google
-        $recaptcha = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-            'secret' => env('RECAPTCHA_SECRET_KEY'),
-            'response' => $request->recaptcha_response,
-        ])->json();
+    // Verify reCAPTCHA token
+    $recaptcha = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+        'secret' => env('RECAPTCHA_SECRET_KEY'),
+        'response' => $request->input('recaptcha_response'),
+    ])->json();
 
-        if (!($recaptcha['success'] ?? false) || ($recaptcha['score'] ?? 0) < 0.5) {
-            return back()->withErrors(['recaptcha' => 'reCAPTCHA failed. Try again.']);
-        }
-
-        // Save the enquiry
-        $fullName = trim($request->firstname . ' ' . $request->lastname);
-
-        Enquiry::create([
-            'name' => $fullName,
-            'phone' => $request->phone,
-            'email' => $request->email,
-            'message' => $request->message,
-            'program' => $request->program,
-            'terms_accepted' => $request->has('termsAndConditions-Consent'),
-            'recaptcha_response' => $request->recaptcha_response,
-            'page_url' => $request->page_url,
-        ]);
-
-        return back()->with('success', 'Enquiry submitted successfully!');
+    if (!($recaptcha['success'] ?? false) || ($recaptcha['score'] ?? 0) < 0.5) {
+        return back()->withErrors(['recaptcha' => 'reCAPTCHA failed. Try again.'])->withInput();
     }
+
+    // Save enquiry
+    Enquiry::create([
+        'name' => $request->firstname . ' ' . $request->lastname,
+        'phone' => $request->phone,
+        'email' => $request->email,
+        'message' => $request->message,
+        'program' => $request->program,
+        'terms_accepted' => $request->has('termsAndConditions-Consent'),
+        'recaptcha_response' => $request->recaptcha_response,
+        'page_url' => $request->page_url,
+    ]);
+
+    return back()->with('success', 'Enquiry submitted successfully!');
+}
 }
