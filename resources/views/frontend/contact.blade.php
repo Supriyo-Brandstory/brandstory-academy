@@ -108,9 +108,7 @@
                         <input type="hidden" id="recaptcha_response" name="recaptcha_response">
                         <input type="hidden" id="page_url" name="page_url" value="{{ url()->current() }}">
 
-                        <button type="submit" class="btn d-block w-100 text-center bg-violet g-recaptcha"
-                            data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}" data-callback='onSubmit'
-                            data-action='submit'>Submit</button>
+                        <button type="submit" class="btn d-block w-100 text-center bg-violet g-recaptcha">Submit</button>
                     </form>
 
 
