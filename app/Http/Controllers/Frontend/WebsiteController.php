@@ -199,7 +199,7 @@ class WebsiteController extends Controller
             'message' => $request->message,
             'program' => $request->program,
             'terms_accepted' => $request->has('termsAndConditions-Consent'),
-            'recaptcha_response' => $request->recaptcha_response,
+            'recaptcha_response' => 'Validated',
             'page_url' => $request->page_url,
         ]);
 
