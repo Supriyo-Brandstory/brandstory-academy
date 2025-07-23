@@ -102,8 +102,7 @@
             data-action='submit'>Submit</button>
 </form>
 
-<!-- Add reCAPTCHA script -->
-<script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SECRET_KEY') }}"></script>
+
 <script>
     // Function to execute when form is submitted
     function onSubmit(token) {
