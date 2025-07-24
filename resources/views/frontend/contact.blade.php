@@ -23,13 +23,13 @@
                 <div class="homeform-main">
                     <h4 class=" text-blue fs-24 fw-500 text-center">You might be a perfect fit!</h4>
                     <p class="mb-4 text-blue fs-20 fw-400 text-center">Enroll today!</p>
-                 
+
                     <!-- reCAPTCHA Error (specific to recaptcha) -->
                     {{-- @error('recaptcha')
-                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                            {{ $message }}
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                        </div>
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        {{ $message }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
                     @enderror --}}
                     <form id="enquiryForm" action="{{ route('enquiry.store') }}" method="post">
                         @csrf
@@ -92,22 +92,25 @@
 
                         <button type="submit" class="btn d-block w-100 text-center bg-violet g-recaptcha">Submit</button>
                     </form>
-   @if(session('success'))
-                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+
+                    @if(session('success'))
+                        <div class="alert alert-success alert-dismissible fade show rounded-pill mt-4" role="alert">
                             {{ session('success') }}
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            <button type="button" class="btn-close" style="transform: scale(0.85);" data-bs-dismiss="alert"
+                                aria-label="Close"></button>
                         </div>
                     @endif
 
                     <!-- Error Messages -->
                     @if($errors->any())
-                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <div class="alert alert-danger alert-dismissible fade show rounded-pill mt-4" role="alert">
                             <ul class="mb-0">
                                 @foreach($errors->all() as $error)
                                     <li>{{ $error }}</li>
                                 @endforeach
                             </ul>
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            <button type="button" class="btn-close" style="transform: scale(0.85);" data-bs-dismiss="alert"
+                                aria-label="Close"></button>
                         </div>
                     @endif
 

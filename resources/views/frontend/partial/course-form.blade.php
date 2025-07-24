@@ -1,5 +1,3 @@
-
-
 <form id="enquiryForm" action="{{ route('enquiry.store') }}" method="post">
     @csrf
     <div class="row">
@@ -28,31 +26,33 @@
         <textarea class="form-control" id="message" name="message" rows="4" placeholder="Type your message..."
             required></textarea>
     </div>
-       <input type="hidden" id="recaptcha_response" name="recaptcha_response">
-                        <input type="hidden" id="page_url" name="page_url" value="{{ url()->current() }}">
+    <input type="hidden" id="recaptcha_response" name="recaptcha_response">
+    <input type="hidden" id="page_url" name="page_url" value="{{ url()->current() }}">
 
 
-<button type="submit" class="btn d-block w-100 text-center bg-violet g-recaptcha">Submit</button>
+    <button type="submit" class="btn d-block w-100 text-center bg-violet g-recaptcha">Submit</button>
 </form>
 
-@if(session('success'))
-    <div class="alert alert-success alert-dismissible fade show" role="alert">
-        {{ session('success') }}
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-@endif
+ @if(session('success'))
+                        <div class="alert alert-success alert-dismissible fade show rounded-pill mt-4" role="alert">
+                            {{ session('success') }}
+                            <button type="button" class="btn-close" style="transform: scale(0.85);" data-bs-dismiss="alert"
+                                aria-label="Close"></button>
+                        </div>
+                    @endif
 
-<!-- Error Messages -->
-@if($errors->any())
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-        <ul class="mb-0">
-            @foreach($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-@endif
+                    <!-- Error Messages -->
+                    @if($errors->any())
+                        <div class="alert alert-danger alert-dismissible fade show rounded-pill mt-4" role="alert">
+                            <ul class="mb-0">
+                                @foreach($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                            <button type="button" class="btn-close" style="transform: scale(0.85);" data-bs-dismiss="alert"
+                                aria-label="Close"></button>
+                        </div>
+                    @endif
 <script>
     document.getElementById('enquiryForm').addEventListener('submit', function (e) {
         e.preventDefault();
