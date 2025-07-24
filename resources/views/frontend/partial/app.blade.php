@@ -536,6 +536,21 @@
       });
     });
   </script>
+  <script>
+  document.querySelectorAll('.enquiryFormalternative').forEach(function(form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      grecaptcha.ready(function () {
+        grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', { action: 'submit' }).then(function (token) {
+          form.querySelector('.recaptcha_response').value = token;
+          form.submit();
+        });
+      });
+    });
+  });
+</script>
+
 <script>
   document.querySelectorAll('.enquiry-form').forEach(function(form) {
     form.addEventListener('submit', function(e) {
