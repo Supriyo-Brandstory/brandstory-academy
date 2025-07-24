@@ -185,9 +185,9 @@ public function store_enquery(Request $request)
         'firstname' => 'required|string',
         'lastname' => 'nullable|string',
         'phone' => 'required|digits_between:6,15',
-        'recaptcha_response' => 'nullable|string',
+        'recaptcha_response' => 'required|string',
     ]);
-    dd($request->all());
+
     // Check if fragment exists
     $fragment = $request->input('formFragment');
     $isJson = !empty($fragment); // Return JSON if fragment is present
