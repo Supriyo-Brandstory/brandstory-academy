@@ -12,6 +12,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
 use App\Models\Enquiry;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Validator;
 class WebsiteController extends Controller
 {  public function sitemap()
     {
@@ -169,41 +170,57 @@ class WebsiteController extends Controller
     }
     
 
-    public function store_enquery(Request $request)
-    {
-        // Validate basic required fields
-        $request->validate([
-            'firstname' => 'required|string',
-            'lastname' => 'required|string',
-            'phone' => 'required|digits_between:6,15',
-            'recaptcha_response' => 'required|string',
-        ]);
+ // Make sure this is at the top of your controller
 
-        // Verify reCAPTCHA token with Google
-        $recaptcha = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-            'secret' => env('RECAPTCHA_SECRET_KEY'),
-            'response' => $request->recaptcha_response,
-        ])->json();
+public function store_enquery(Request $request)
+{
+    // ✅ Manually validate so we can add ->withFragment
+    $validator = Validator::make($request->all(), [
+        'firstname' => 'required|string',
+        'lastname' => 'required|string',
+        'phone' => 'required|digits_between:6,15',
+        'recaptcha_response' => 'required|string',
+    ]);
 
-        if (!($recaptcha['success'] ?? false) || ($recaptcha['score'] ?? 0) < 0.5) {
-            return back()->withErrors(['recaptcha' => 'reCAPTCHA failed. Try again.'])->withFragment('enquiryForm');
-        }
-
-        // Save the enquiry
-        $fullName = trim($request->firstname . ' ' . $request->lastname);
-
-        Enquiry::create([
-            'name' => $fullName,
-            'phone' => $request->phone,
-            'email' => $request->email,
-            'message' => $request->message,
-            'program' => $request->program,
-            'terms_accepted' => $request->has('termsAndConditions-Consent'),
-            'recaptcha_response' => 'Validated',
-            'page_url' => $request->page_url,
-        ]);
-
-      return redirect()->back()->with('success', 'Your enquiry has been submitted!')->withFragment('enquiryForm');
-
+    if ($validator->fails()) {
+        return back()
+            ->withErrors($validator)
+            ->withInput()
+            ->withFragment('enquiryForm'); // 👈 Scroll to form on error
     }
+
+    // ✅ Verify reCAPTCHA token with Google
+    $recaptcha = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+        'secret' => env('RECAPTCHA_SECRET_KEY'),
+        'response' => $request->recaptcha_response,
+    ])->json();
+
+    if (!($recaptcha['success'] ?? false) || ($recaptcha['score'] ?? 0) < 0.5) {
+        return back()
+            ->withErrors(['recaptcha' => 'reCAPTCHA failed. Try again.'])
+            ->withInput()
+            ->withFragment('enquiryForm'); // 👈 Scroll to form on reCAPTCHA fail
+    }
+
+    // ✅ Save the enquiry
+    $fullName = trim($request->firstname . ' ' . $request->lastname);
+
+    Enquiry::create([
+        'name' => $fullName,
+        'phone' => $request->phone,
+        'email' => $request->email,
+        'message' => $request->message,
+        'program' => $request->program,
+        'terms_accepted' => $request->has('termsAndConditions-Consent'),
+        'recaptcha_response' => 'Validated',
+        'page_url' => $request->page_url,
+    ]);
+
+    // ✅ Redirect back with success and scroll to form
+    return redirect()
+        ->back()
+        ->with('success', 'Your enquiry has been submitted!')
+        ->withFragment('enquiryForm');
+}
+
 }
