@@ -37,9 +37,11 @@
                                     class="d-md-flex justify-content-between text-md-start text-center">
                                     @csrf
                                     <div class="d-md-flex gap-2 flex-grow-1">
-                                        <input type="text" class="form-control" id="name" name="firstName"
+
+                                        <input type="text" name="firstname" id="name" class="form-control"
                                             placeholder="Name" pattern="[A-Za-z\s]+"
                                             title="Only alphabets and spaces are allowed" required>
+
                                         <input type="tel" class="form-control" id="mobile" name="phone"
                                             placeholder="Mobile Number" pattern="[0-9]+" title="Only numbers are allowed"
                                             required>
@@ -52,7 +54,7 @@
 
                                     <button type="submit" class="btn">Join the Academy</button>
                                 </form>
-                              
+
 
                             </div>
                         </div>

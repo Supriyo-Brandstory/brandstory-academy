@@ -508,65 +508,65 @@
       });
     });
   </script>
-    <script>
-                                    document.getElementById('enquiry').addEventListener('submit', function (e) {
-                                        e.preventDefault();
+  <script>
+    document.getElementById('enquiry').addEventListener('submit', function (e) {
+      e.preventDefault();
 
-                                        const form = e.target;
-                                        const formData = new FormData(form);
+      const form = e.target;
+      const formData = new FormData(form);
 
-                                        // Call reCAPTCHA first
-                                        grecaptcha.ready(function () {
-                                            grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', { action: 'submit' }).then(function (token) {
-                                                formData.append('recaptcha_response', token);
+      // Call reCAPTCHA first
+      grecaptcha.ready(function () {
+        grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', { action: 'submit' }).then(function (token) {
+          formData.append('recaptcha_response', token);
 
-                                                fetch(form.action, {
-                                                    method: 'POST',
-                                                    headers: {
-                                                        'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value,
-                                                    },
-                                                    body: formData
-                                                })
-                                                    .then(response => response.json())
-                                                    .then(data => {
-                                                        if (data.status === 'success') {
-                                                            Swal.fire({
-                                                                icon: 'success',
-                                                                title: 'Thank you!',
-                                                                text: data.message,
-                                                                confirmButtonColor: '#3085d6',
-                                                            });
-                                                            form.reset();
-                                                        } else if (data.status === 'error') {
-                                                            let errorText = '';
-                                                            if (data.errors) {
-                                                                for (const key in data.errors) {
-                                                                    errorText += data.errors[key].join('<br>') + '<br>';
-                                                                }
-                                                            } else {
-                                                                errorText = data.message || 'Something went wrong!';
-                                                            }
+          fetch(form.action, {
+            method: 'POST',
+            headers: {
+              'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value,
+            },
+            body: formData
+          })
+            .then(response => response.json())
+            .then(data => {
+              if (data.status === 'success') {
+                Swal.fire({
+                  icon: 'success',
+                  title: 'Thank you!',
+                  text: data.message,
+                  confirmButtonColor: '#3085d6',
+                });
+                form.reset();
+              } else if (data.status === 'error') {
+                let errorText = '';
+                if (data.errors) {
+                  for (const key in data.errors) {
+                    errorText += data.errors[key].join('<br>') + '<br>';
+                  }
+                } else {
+                  errorText = data.message || 'Something went wrong!';
+                }
 
-                                                            Swal.fire({
-                                                                icon: 'error',
-                                                                title: 'Oops!',
-                                                                html: errorText,
-                                                                confirmButtonColor: '#d33',
-                                                            });
-                                                        }
-                                                    })
-                                                    .catch(error => {
-                                                        console.error(error);
-                                                        Swal.fire({
-                                                            icon: 'error',
-                                                            title: 'Error',
-                                                            text: 'Something went wrong while submitting the form.',
-                                                        });
-                                                    });
-                                            });
-                                        });
-                                    });
-                                </script>
+                Swal.fire({
+                  icon: 'error',
+                  title: 'Oops!',
+                  html: errorText,
+                  confirmButtonColor: '#d33',
+                });
+              }
+            })
+            .catch(error => {
+              console.error(error);
+              Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: 'Something went wrong while submitting the form.',
+              });
+            });
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
