@@ -38,7 +38,7 @@
                                         <td>{{ Str::limit($enquiry->message, 50) }}</td>
                                         <td><a href="{{ $enquiry->page_url }}" target="_blank">View Page</a></td>
                                         <td>
-                                            <form method="POST" action="{{ route('admin.enquiries.destroy', $enquiry->id) }}"
+                                            <form method="POST" action="{{ route('enquiries.destroy', $enquiry->id) }}"
                                                 class="d-inline-block">
                                                 @csrf
                                                 @method('DELETE')
