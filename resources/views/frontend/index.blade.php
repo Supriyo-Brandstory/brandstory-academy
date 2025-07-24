@@ -973,7 +973,7 @@
                 <div class="col-lg-6">
                     <div class="homeform-main form-main normal">
                         <h4 class="mb-4 text-blue text-md-start text-center">You might be a perfect fit! Enroll today!</h4>
-                          @include('frontend.partial.form')
+                          @include('frontend.partial.course-form', ['program' => 'Digital Marketing Mastery'])
 
 
 
