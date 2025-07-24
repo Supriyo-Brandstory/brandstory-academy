@@ -21,7 +21,7 @@ class EnquiryController extends Controller
     {
         $enquiry = Enquiry::findOrFail($id);
         $enquiry->delete();
-        return redirect()->route('admin.enquiries.index')->with('msg', 'Enquiry deleted successfully.');
+        return redirect()->route('enquiries.index')->with('msg', 'Enquiry deleted successfully.');
     }
     /**
      * Show the form for creating a new resource.
