@@ -244,7 +244,8 @@
       <div class="homeform-main popfrm form-main">
         <span class="close-btn">&times;</span>
 
-        <form id="enquiryForm" action="contact_enquiry.php" method="post">
+        <form id="enquiryForm" action="{{ route('enquiry.store') }}" method="post" class="enquiry-form">
+          @csrf
           <div class="row">
             <div class="col-md-6">
               <label for="firstName" class="form-label">First Name</label>
@@ -297,9 +298,36 @@
             <textarea class="form-control" id="message" name="message" rows="1" placeholder="Type your message..."
               required></textarea>
           </div>
-          <input type="hidden" id="recaptcha_response" name="recaptcha_response" class="recaptcha_response">
-          <button type="submit" class="btn d-block w-100 text-center bg-violet">Submit</button>
+
+
+          <input type="hidden" id="recaptcha_response" name="recaptcha_response">
+          <input type="hidden" id="page_url" name="page_url" value="{{ url()->current() }}">
+          <input type="hidden" name="formFragment" value="enquiry"> <!-- or "enquiry" -->
+
+          <button type="submit" class="btn d-block w-100 text-center bg-violet g-recaptcha">Submit</button>
         </form>
+
+        @if(session('success'))
+      <div class="alert alert-success alert-dismissible fade show rounded-pill mt-4" role="alert">
+        {{ session('success') }}
+        <button type="button" class="btn-close" style="transform: scale(0.85);" data-bs-dismiss="alert"
+        aria-label="Close"></button>
+      </div>
+    @endif
+
+        <!-- Error Messages -->
+        @if($errors->any())
+        <div class="alert alert-danger alert-dismissible fade show rounded-pill mt-4" role="alert">
+          <ul class="mb-0">
+          @foreach($errors->all() as $error)
+        <li>{{ $error }}</li>
+        @endforeach
+          </ul>
+          <button type="button" class="btn-close" style="transform: scale(0.85);" data-bs-dismiss="alert"
+          aria-label="Close"></button>
+        </div>
+    @endif
+
 
       </div>
     </div>
@@ -508,27 +536,36 @@
       });
     });
   </script>
-  <script>
-    document.getElementById('enquiry').addEventListener('submit', function (e) {
+<script>
+  document.querySelectorAll('.enquiry-form').forEach(function(form) {
+    form.addEventListener('submit', function(e) {
       e.preventDefault();
 
       const form = e.target;
       const formData = new FormData(form);
 
       // Call reCAPTCHA first
-      grecaptcha.ready(function () {
-        grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', { action: 'submit' }).then(function (token) {
+      grecaptcha.ready(function() {
+        grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', {
+          action: 'submit'
+        }).then(function(token) {
           formData.append('recaptcha_response', token);
 
           fetch(form.action, {
-            method: 'POST',
-            headers: {
-              'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value,
-            },
-            body: formData
-          })
+              method: 'POST',
+              headers: {
+                'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value,
+              },
+              body: formData
+            })
             .then(response => response.json())
             .then(data => {
+              // Close the internship popup before showing SweetAlert
+              const internshipPopup = document.querySelector("#internshipPopup");
+              if (internshipPopup) {
+                internshipPopup.style.display = "none";
+              }
+
               if (data.status === 'success') {
                 Swal.fire({
                   icon: 'success',
@@ -566,7 +603,8 @@
         });
       });
     });
-  </script>
+  });
+</script>
 </body>
 
 </html>
