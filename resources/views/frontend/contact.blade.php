@@ -90,7 +90,7 @@
                         <input type="hidden" id="recaptcha_response" name="recaptcha_response">
                         <input type="hidden" id="page_url" name="page_url" value="{{ url()->current() }}">
 
-                        <button type="submit" class="btn d-block w-100 text-center bg-violet g-recaptcha">Submit</button>
+                        <button type="submit" id="enquirySubmit-with-recaptcha" class="btn d-block w-100 text-center bg-violet g-recaptcha">Submit</button>
                     </form>
 
                     @if(session('success'))
@@ -114,19 +114,6 @@
                         </div>
                     @endif
 
-
-                    <script>
-                        document.getElementById('enquiryForm').addEventListener('submit', function (e) {
-                            e.preventDefault();
-
-                            grecaptcha.ready(function () {
-                                grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', { action: 'submit' }).then(function (token) {
-                                    document.getElementById('recaptcha_response').value = token;
-                                    e.target.submit();
-                                });
-                            });
-                        });
-                    </script>
                 </div>
             </div>
         </div>
