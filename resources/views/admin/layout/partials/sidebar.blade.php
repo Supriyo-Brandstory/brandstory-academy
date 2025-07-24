@@ -33,6 +33,12 @@
                 <span>Sitemap</span>
             </a>
         </li>
+ <li class="nav-item {{ Route::is('enquiries*') ? 'active' : ''}}">
+            <a class="nav-link " href="{{route('enquiries.index')}}">
+                <i class="bi bi-grid"></i>
+                <span>Enquiries</span>
+            </a>
+        </li>
        
         
 

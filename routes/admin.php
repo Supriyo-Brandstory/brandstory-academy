@@ -6,6 +6,7 @@ use App\Http\Controllers\admin\Blog\CategoryController;
 use App\Http\Controllers\admin\ClientController;
 use App\Http\Controllers\admin\dashboard\DashboardController;
 use App\Http\Controllers\admin\DisputeLetterController;
+use App\Http\Controllers\admin\form\EnquiryController;
 use App\Http\Controllers\admin\seo\SEOController;
 use App\Http\Controllers\admin\sitemap\SitemapController;
 use Illuminate\Support\Facades\Route;
@@ -24,6 +25,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::get('categories/{id}/edit/{type}', [CategoryController::class, 'edit'])->name('categories.edit');
     Route::delete('subcategories/{id}', [CategoryController::class, 'subcategorydestroy'])->name('subcategories.destroy');
     route::resource('blogs', BlogController::class);
+    Route::resource('enquiries', EnquiryController::class);
+
    
 
 
