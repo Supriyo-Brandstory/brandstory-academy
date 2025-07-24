@@ -188,6 +188,7 @@ public function store_enquery(Request $request)
         'recaptcha_response' => 'required|string',
     ]);
 
+    dd($request->all());
     // Check if fragment exists
     $fragment = $request->input('formFragment');
     $isJson = !empty($fragment); // Return JSON if fragment is present
