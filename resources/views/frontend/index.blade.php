@@ -973,7 +973,86 @@
                 <div class="col-lg-6">
                     <div class="homeform-main form-main normal">
                         <h4 class="mb-4 text-blue text-md-start text-center">You might be a perfect fit! Enroll today!</h4>
-                          @include('frontend.partial.course-form', ['program' => 'Digital Marketing Mastery'])
+                           <form id="enquiryForm"  class="enquiryFormalternative" action="{{ route('enquiry.store') }}" method="post">
+                        @csrf
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName" name="firstname" required
+                                    pattern="[A-Za-z\s]+" title="Only alphabets are allowed">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" name="lastname" required
+                                    pattern="[A-Za-z\s]+" title="Only alphabets are allowed">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" required pattern="[0-9]+"
+                                    title="Only numbers are allowed">
+                            </div>
+                        </div>
+                         <fieldset class="mb-3 mb-lg-5 d-lg-flex">
+                            <div class="radio-button-sec">
+                           <legend class="col-form-label pt-0 pe-3">Program</legend>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="program" id="program1_normal"
+                                        value="Digital Marketing Mastery" required>
+                                    <label class="form-check-label" for="program1_normal">Digital Marketing Mastery</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="program" id="program3_normal"
+                                        value="Advanced Digital Marketing Boot Camp" required>
+                                    <label class="form-check-label" for="program3_normal">Advanced Digital Marketing Boot
+                                        Camp</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="program" id="program2"
+                                        value="360 Degree Digital Marketing" required>
+                                    <label class="form-check-label" for="program2">
+                                        360 Degree Digital Marketing
+                                    </label>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="1"
+                                placeholder="Type your message..." required></textarea>
+                        </div>
+                       
+                        
+                        <input type="hidden" id="recaptcha_response" name="recaptcha_response">
+                        <input type="hidden" id="page_url" name="page_url" value="{{ url()->current() }}">
+
+                        <button type="submit" class="btn d-block w-100 text-center bg-violet g-recaptcha">Submit</button>
+                    </form>
+
+                    @if(session('success'))
+                        <div class="alert alert-success alert-dismissible fade show rounded-pill mt-4" role="alert">
+                            {{ session('success') }}
+                            <button type="button" class="btn-close" style="transform: scale(0.85);" data-bs-dismiss="alert"
+                                aria-label="Close"></button>
+                        </div>
+                    @endif
+
+                    <!-- Error Messages -->
+                    @if($errors->any())
+                        <div class="alert alert-danger alert-dismissible fade show rounded-pill mt-4" role="alert">
+                            <ul class="mb-0">
+                                @foreach($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                            <button type="button" class="btn-close" style="transform: scale(0.85);" data-bs-dismiss="alert"
+                                aria-label="Close"></button>
+                        </div>
+                    @endif
 
 
 
