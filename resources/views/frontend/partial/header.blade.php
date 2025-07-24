@@ -26,7 +26,7 @@
           </ul>
         </li>
 		<li class="nav-item mb-lg-0 mb-3">
-          <a class="nav-link" href="#">Blogs</a>
+          <a class="nav-link" href="{{route('blogs')}}">Blogs</a>
         </li>
 		<li class="nav-item headerbtn">
 			<a class="nav-link" href="{{route('contact')}}">Contact Us</a>
