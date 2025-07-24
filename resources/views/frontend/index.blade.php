@@ -971,9 +971,9 @@
                         src="{{asset('frontend/assets/images/home/form-img-mbl.jpg')}}">
                 </div>
                 <div class="col-lg-6">
-                    <div class="homeform-main form-main normal">
+                    <div class="homeform-main form-main normal enquiryFormalternative">
                         <h4 class="mb-4 text-blue text-md-start text-center">You might be a perfect fit! Enroll today!</h4>
-                           <form id="enquiryForm"  class="enquiryFormalternative" action="{{ route('enquiry.store') }}" method="post">
+                           <form id="enquiryForm" action="{{ route('enquiry.store') }}" method="post">
                         @csrf
                         <div class="row">
                             <div class="col-md-6">
@@ -1028,7 +1028,7 @@
                        
                         
                         <!-- Add class to the input -->
-<input type="hidden" id="recaptcha_response" name="recaptcha_response" class="recaptcha_response">
+                        <input type="hidden" id="recaptcha_response" name="recaptcha_response" class="recaptcha_response">
 
                         <input type="hidden" id="page_url" name="page_url" value="{{ url()->current() }}">
 
