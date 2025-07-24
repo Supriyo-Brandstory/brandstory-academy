@@ -971,9 +971,9 @@
                         src="{{asset('frontend/assets/images/home/form-img-mbl.jpg')}}">
                 </div>
                 <div class="col-lg-6">
-                    <div class="homeform-main form-main normal enquiryFormalternative">
+                    <div id="enquiryForm" class="homeform-main form-main normal ">
                         <h4 class="mb-4 text-blue text-md-start text-center">You might be a perfect fit! Enroll today!</h4>
-                           <form id="enquiryForm" action="{{ route('enquiry.store') }}" method="post">
+                           <form class="enquiryFormalternative" action="{{ route('enquiry.store') }}" method="post">
                         @csrf
                         <div class="row">
                             <div class="col-md-6">
