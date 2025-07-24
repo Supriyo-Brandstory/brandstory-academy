@@ -1027,7 +1027,9 @@
                         </div>
                        
                         
-                        <input type="hidden" id="recaptcha_response" name="recaptcha_response">
+                        <!-- Add class to the input -->
+<input type="hidden" id="recaptcha_response" name="recaptcha_response" class="recaptcha_response">
+
                         <input type="hidden" id="page_url" name="page_url" value="{{ url()->current() }}">
 
                         <button type="submit" class="btn d-block w-100 text-center bg-violet g-recaptcha">Submit</button>
