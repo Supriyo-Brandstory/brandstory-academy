@@ -821,33 +821,7 @@
             <div class="col-lg-6">
                 <div class="course-form-main">
                     <h4 class="mb-3 text-blue text-md-start text-center">You might be a perfect fit! Enroll today!</h4>
-                    <form id="enquiryForm" action="course-form-validation.php" method="post">
-    <div class="row">
-        <div class="col-md-6">
-            <label for="firstName" class="form-label">First Name</label>
-            <input type="text" class="form-control" id="firstName" name="firstname" required pattern="[A-Za-z\s]+" title="Only alphabets are allowed">
-        </div>
-        <div class="col-md-6">
-            <label for="lastName" class="form-label">Last Name</label>
-            <input type="text" class="form-control" id="lastName" name="lastname" required pattern="[A-Za-z\s]+" title="Only alphabets are allowed">
-        </div>
-        <div class="col-md-6">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" name="email" required>
-        </div>
-        <div class="col-md-6">
-            <label for="phone" class="form-label">Phone Number</label>
-            <input type="tel" class="form-control" id="phone" name="phone" required pattern="[0-9]+" title="Only numbers are allowed">
-        </div>
-    </div>
-    <div class="mb-3">
-        <label for="message" class="form-label">Message</label>
-        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Type your message..." required></textarea>
-    </div>
-    <input type="hidden" id="recaptcha_response" name="recaptcha_response" class="recaptcha_response">
-
-    <button type="submit" class="btn d-block w-100 text-center bg-violet">Submit</button>
-</form>
+                    @include('frontend.partial.course-form')
                 </div>
             </div>
         </div>

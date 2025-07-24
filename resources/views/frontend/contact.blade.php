@@ -43,12 +43,12 @@
                     @endif
 
                     <!-- reCAPTCHA Error (specific to recaptcha) -->
-                    @error('recaptcha')
+                    {{-- @error('recaptcha')
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
                             {{ $message }}
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
-                    @enderror
+                    @enderror --}}
                     <form id="enquiryForm" action="{{ route('enquiry.store') }}" method="post">
                         @csrf
                         <div class="row">
@@ -112,7 +112,6 @@
                     </form>
 
 
-                    <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}"></script>
                     <script>
                         document.getElementById('enquiryForm').addEventListener('submit', function (e) {
                             e.preventDefault();

@@ -431,7 +431,8 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
   </script> --}}
-<script src="https://www.google.com/recaptcha/api.js?render=6LfEBOIqAAAAAGSxBwirAeNNnL-GSGkVxyOQNS77"></script>
+{{-- <script src="https://www.google.com/recaptcha/api.js?render=6LfEBOIqAAAAAGSxBwirAeNNnL-GSGkVxyOQNS77"></script> --}}
+                    <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}"></script>
 
 
 <script src="{{asset('frontend/assets/js/bootstrap-bundle.js')}}"></script>

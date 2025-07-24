@@ -186,7 +186,7 @@ class WebsiteController extends Controller
         ])->json();
 
         if (!($recaptcha['success'] ?? false) || ($recaptcha['score'] ?? 0) < 0.5) {
-            return back()->withErrors(['recaptcha' => 'reCAPTCHA failed. Try again.']);
+            return back()->withErrors(['recaptcha' => 'reCAPTCHA failed. Try again.'])->withFragment('enquiryForm');
         }
 
         // Save the enquiry
@@ -203,6 +203,7 @@ class WebsiteController extends Controller
             'page_url' => $request->page_url,
         ]);
 
-        return back()->with('success', 'Enquiry submitted successfully!');
+      return redirect()->back()->with('success', 'Your enquiry has been submitted!')->withFragment('enquiryForm');
+
     }
 }
