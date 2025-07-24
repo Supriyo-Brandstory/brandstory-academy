@@ -32,7 +32,7 @@
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
       if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
       n.queue = []; t = b.createElement(e); t.async = !0;
@@ -446,6 +446,8 @@
   </script> --}}
   {{--
   <script src="https://www.google.com/recaptcha/api.js?render=6LfEBOIqAAAAAGSxBwirAeNNnL-GSGkVxyOQNS77"></script> --}}
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
   <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}"></script>
 
 
@@ -453,7 +455,8 @@
   <script src="{{asset('frontend/assets/js/swiper.js')}}"></script>
   <script src="{{asset('frontend/assets/js/custome.js?v=1.2')}}"></script>
 
-  {{-- <script>
+  {{--
+  <script>
     if (window.location.pathname.endsWith("{{route('home')}}")) {
       // Redirect to the academy homepage if the current path is index
       window.location.href = window.location.origin + "/academy/";
@@ -494,17 +497,76 @@
     });
   </script>
   <script>
-    document.getElementById('enquirySubmit-with-recaptcha').addEventListener('click', function (e) {
-        e.preventDefault();
+    document.getElementById('enquiryForm').addEventListener('submit', function (e) {
+      e.preventDefault();
 
-        grecaptcha.ready(function () {
-            grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', { action: 'submit' }).then(function (token) {
-                document.getElementById('recaptcha_response').value = token;
-                document.getElementById('enquiryForm').submit();
-            });
+      grecaptcha.ready(function () {
+        grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', { action: 'submit' }).then(function (token) {
+          document.getElementById('recaptcha_response').value = token;
+          document.getElementById('enquiryForm').submit();
         });
+      });
     });
-</script>
+  </script>
+    <script>
+                                    document.getElementById('enquiry').addEventListener('submit', function (e) {
+                                        e.preventDefault();
+
+                                        const form = e.target;
+                                        const formData = new FormData(form);
+
+                                        // Call reCAPTCHA first
+                                        grecaptcha.ready(function () {
+                                            grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', { action: 'submit' }).then(function (token) {
+                                                formData.append('recaptcha_response', token);
+
+                                                fetch(form.action, {
+                                                    method: 'POST',
+                                                    headers: {
+                                                        'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value,
+                                                    },
+                                                    body: formData
+                                                })
+                                                    .then(response => response.json())
+                                                    .then(data => {
+                                                        if (data.status === 'success') {
+                                                            Swal.fire({
+                                                                icon: 'success',
+                                                                title: 'Thank you!',
+                                                                text: data.message,
+                                                                confirmButtonColor: '#3085d6',
+                                                            });
+                                                            form.reset();
+                                                        } else if (data.status === 'error') {
+                                                            let errorText = '';
+                                                            if (data.errors) {
+                                                                for (const key in data.errors) {
+                                                                    errorText += data.errors[key].join('<br>') + '<br>';
+                                                                }
+                                                            } else {
+                                                                errorText = data.message || 'Something went wrong!';
+                                                            }
+
+                                                            Swal.fire({
+                                                                icon: 'error',
+                                                                title: 'Oops!',
+                                                                html: errorText,
+                                                                confirmButtonColor: '#d33',
+                                                            });
+                                                        }
+                                                    })
+                                                    .catch(error => {
+                                                        console.error(error);
+                                                        Swal.fire({
+                                                            icon: 'error',
+                                                            title: 'Error',
+                                                            text: 'Something went wrong while submitting the form.',
+                                                        });
+                                                    });
+                                            });
+                                        });
+                                    });
+                                </script>
 </body>
 
 </html>

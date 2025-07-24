@@ -31,7 +31,7 @@
     <input type="hidden" name="program" value="{{ $program ?? '' }}">
 
 
-    <button type="submit" id="enquirySubmit-with-recaptcha" class="btn d-block w-100 text-center bg-violet g-recaptcha">Submit</button>
+    <button type="submit" class="btn d-block w-100 text-center bg-violet g-recaptcha">Submit</button>
 </form>
 
 @if(session('success'))
