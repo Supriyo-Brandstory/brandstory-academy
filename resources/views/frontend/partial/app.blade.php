@@ -244,7 +244,7 @@
       <div class="homeform-main popfrm form-main">
         <span class="close-btn">&times;</span>
 
-        <form id="enquiryForm" action="{{ route('enquiry.store') }}" method="post" class="enquiry-form">
+        <form action="{{ route('enquiry.store') }}" method="post" class="enquiry-form">
           @csrf
           <div class="row">
             <div class="col-md-6">

@@ -973,7 +973,7 @@
                 <div class="col-lg-6">
                     <div class="homeform-main form-main normal">
                         <h4 class="mb-4 text-blue text-md-start text-center">You might be a perfect fit! Enroll today!</h4>
-                         <form id="enquiryForm" action="{{ route('enquiry.store') }}" method="post">
+                           <form id="enquiryForm" action="{{ route('enquiry.store') }}" method="post">
                         @csrf
                         <div class="row">
                             <div class="col-md-6">
@@ -996,14 +996,9 @@
                                     title="Only numbers are allowed">
                             </div>
                         </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" name="message" rows="1"
-                                placeholder="Type your message..." required></textarea>
-                        </div>
-                        <fieldset class="mb-3 mb-lg-5 d-lg-flex">
+                         <fieldset class="mb-3 mb-lg-5 d-lg-flex">
                             <div class="radio-button-sec">
-                            <legend class="col-form-label pt-0 pe-3" style="width: 12%;">Program</legend>
+                           <legend class="col-form-label pt-0 pe-3">Program</legend>
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="program" id="program1_normal"
@@ -1025,7 +1020,13 @@
                                 </div>
                             </div>
                         </fieldset>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="1"
+                                placeholder="Type your message..." required></textarea>
+                        </div>
                        
+                        
                         <input type="hidden" id="recaptcha_response" name="recaptcha_response">
                         <input type="hidden" id="page_url" name="page_url" value="{{ url()->current() }}">
 
@@ -1052,6 +1053,7 @@
                                 aria-label="Close"></button>
                         </div>
                     @endif
+
 
 
                     </div>
