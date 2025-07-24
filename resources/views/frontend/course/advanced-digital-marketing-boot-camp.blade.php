@@ -862,7 +862,8 @@
             <div class="col-lg-6">
                 <div class="course-form-main">
                     <h4 class="mb-3 text-blue text-md-start text-center">You might be a perfect fit! Enroll today!</h4>
- @include('frontend.partial.course-form')
+                        @include('frontend.partial.course-form', ['program' => 'Advanced Digital Marketing Boot Camp'])
+
                 </div>
             </div>
         </div>
