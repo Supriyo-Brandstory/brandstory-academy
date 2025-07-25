@@ -73,43 +73,43 @@
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand1.svg"
-                                class="img-fluid" alt="Video production Service">
+                                class="img-fluid" alt="Our Partner Company">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand2.svg"
-                                class="img-fluid" alt="Video production Service">
+                                class="img-fluid" alt="Our Partner Company">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand3.svg"
-                                class="img-fluid" alt="Video production Service">
+                                class="img-fluid" alt="Our Partner Company">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand4.svg"
-                                class="img-fluid" alt="Video production Service">
+                                class="img-fluid" alt="Our Partner Company">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand5.svg"
-                                class="img-fluid" alt="Video production Service">
+                                class="img-fluid" alt="Our Partner Company">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand6.svg"
-                                class="img-fluid" alt="Video production Service">
+                                class="img-fluid" alt="Our Partner Company">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand7.svg"
-                                class="img-fluid" alt="Video production Service">
+                                class="img-fluid" alt="Our Partner Company">
                         </div>
                     </div>
                 </div>
