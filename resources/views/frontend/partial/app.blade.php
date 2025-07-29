@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   {!!$seo->script ?? '<title>#1 Digital Marketing Institute in Bangalore: BrandStory Academy</title>'!!}
@@ -16,15 +16,9 @@
   <link href="{{asset('frontend/assets/css/style-sheet.css')}}" rel="stylesheet">
   <link href="{{asset('frontend/assets/css/header.css')}}" rel="stylesheet">
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-932195052"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
 
-    gtag('config', 'AW-932195052');
-  </script>
+  
+
 
   <!-- Meta Pixel Code -->
   <script>
@@ -47,9 +41,6 @@
   <!-- End Meta Pixel Code -->
 
 
-
-
-  <meta name="google-site-verification" content="wlX0t0AxPVzff3Q_jWud9lVdDm9piG8oNlQ5utKlg-Y" />
 
 </head>
 
