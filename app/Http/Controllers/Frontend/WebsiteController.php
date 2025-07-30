@@ -144,7 +144,7 @@ class WebsiteController extends Controller
                 ];
             }
 
-            return view('frontend.blogs.details', compact('blog', 'seo'));
+            return view('frontend.blogs.details', compact('blog', 's'));
         }
 
 
