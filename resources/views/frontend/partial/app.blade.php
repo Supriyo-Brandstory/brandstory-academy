@@ -5,7 +5,8 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
+  <link rel="icon" href="https://blr1.digitaloceanspaces.com/brandstory/2018/04/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="https://blr1.digitaloceanspaces.com/brandstory/2018/04/favicon.png" type="image/x-icon">
   {!!$seo->script ?? '<title>#1 Digital Marketing Institute in Bangalore: BrandStory Academy</title>'!!}
   <link rel="preload" href="{{asset('frontend/assets/fonts/HankenGrotesk-Regular.woff2')}}" as="font" type="font/woff2"
     crossorigin>
