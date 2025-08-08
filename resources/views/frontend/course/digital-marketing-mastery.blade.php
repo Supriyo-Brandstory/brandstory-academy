@@ -99,15 +99,15 @@
     <section class="py-5 mb-tb-space">
         <div class="container">
 
-            <div class="row g-0">
+            <div class="row g-5">
                 <div class="col-lg-6 ">
-                    <img class="w-100 h-100 mb-lg-0 mb-3 d-lg-block d-none"
+                    <img class="w-100  mb-lg-0 mb-3 d-lg-block d-none"
                         src="{{asset('frontend/assets/images/digital-marketing-with-ai-j/image020.jpg')}}">
                     <img class="w-100 mb-3 d-lg-none d-block"
                         src="{{asset('frontend/assets/images/digital-marketing-with-ai-j/image020.jpg')}}">
                 </div>
-                <div class="col-lg-6 lesson-box-shadow">
-                    <h2 class="mb-lg-5 mb-4 ">Digital Marketing Course <br><span class="text-violet">Description</span></h2>
+                <div class="col-lg-6 lesson-box-shadow pb-md-4">
+                    <h2 class="mb-lg-2 mb-4 ">Digital Marketing Course <br><span class="text-violet">Description</span></h2>
                     <p class="fs-16">Our AI-powered Digital Marketing Mastery course is curated for aspiring marketers,
                         entrepreneurs, business owners, and career-switchers who want to stand out in today’s digital-first
                         world.</p>

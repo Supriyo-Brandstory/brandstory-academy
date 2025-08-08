@@ -122,7 +122,7 @@
     background: #31A8FE;
 }
 .mentorship-section .container{
-    background: url('../images/home/mentorship-bg.jpg');
+    background: url('../images/home/mentorship-bg.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,7 +136,7 @@
     bottom: 0px;
 }
 .tech-capital{
-    background: url('../images/home/tech-capital-bg.png');
+    background: url('../images/home/tech-capital-bg.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -183,7 +183,7 @@
     padding: 12px 24px;
 }
 .agency-experience-section{
-    background: url('../images/home/agency-experience-newn.jpg');
+    background: url('../images/home/agency-experience-newn.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,7 +255,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
     padding: 34px 20px 38px 50px;
 }
 .intern-section{
-    background: url('../images/home/intern-bg.jpg');
+    background: url('../images/home/intern-bg.webp');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -692,7 +692,7 @@ width: 100% !important;
 .aboutacademy-sec .container{
     background: rgba(228, 239, 255, 0.5);
     padding: 70px;
-    background: url('../images/home/about-academy-bg.jpg');
+    background: url('../images/home/about-academy-bg.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -720,7 +720,7 @@ width: 100% !important;
 }
 .ourstudents-sec{
     padding: 70px 0px;
-    background: url('../images/home/students-bg.jpg');
+    background: url('../images/home/students-bg.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

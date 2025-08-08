@@ -16,13 +16,13 @@
                             <a href="{{route('contact')}}">Enquire Now today!</a>
                         </div>
                         <div class="student-main mb-md-0 mb-5">
-                            <img class="mb-1" src="{{asset('frontend/assets/images/home/students.png')}}">
+                            <img class="mb-1" src="{{asset('frontend/assets/images/home/students.webp')}}">
                             <p class="mb-0 fs-12">Trusted by 1000+ Students</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-5">
-                    <img class="w-100" src="{{asset('frontend/assets/images/home/banner-img.png')}}">
+                    <img class="w-100" src="{{asset('frontend/assets/images/home/banner-img.webp')}}">
                 </div>
             </div>
             <div class="container mt-5">
@@ -153,9 +153,9 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-block d-none"
-                                    src="{{asset('frontend/assets/images/home/course1.jpg')}}">
+                                    src="{{asset('frontend/assets/images/home/course1.webp')}}">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-none d-block"
-                                    src="{{asset('frontend/assets/images/home/mbl-course1.jpg')}}">
+                                    src="{{asset('frontend/assets/images/home/mbl-course1.webp')}}">
                             </div>
                             <div class="col-lg-6 d-flex">
                                 <div class="course-main d-flex flex-column w-100">
@@ -191,9 +191,9 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-block d-none"
-                                    src="{{asset('frontend/assets/images/home/course2.jpg')}}">
+                                    src="{{asset('frontend/assets/images/home/course2.webp')}}">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-none d-block"
-                                    src="{{asset('frontend/assets/images/home/mbl-course2.jpg')}}">
+                                    src="{{asset('frontend/assets/images/home/mbl-course2.webp')}}">
                             </div>
                             <div class="col-lg-6 d-flex">
                                 <div class="course-main d-flex flex-column w-100">
@@ -235,9 +235,9 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-block d-none"
-                                    src="{{asset('frontend/assets/images/home/course3.jpg')}}">
+                                    src="{{asset('frontend/assets/images/home/course3.webp')}}">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-none d-block"
-                                    src="{{asset('frontend/assets/images/home/mbl-course3.jpg')}}">
+                                    src="{{asset('frontend/assets/images/home/mbl-course3.webp')}}">
                             </div>
                             <div class="col-lg-6 d-flex">
                                 <div class="course-main d-flex flex-column w-100">
@@ -296,7 +296,7 @@
                 </div>
             </div>
             <div class="mentorship-img">
-                <img src="{{asset('frontend/assets/images/home/mentorship-img-newn.png')}}">
+                <img src="{{asset('frontend/assets/images/home/mentorship-img-newn.webp')}}">
             </div>
         </div>
     </section>
@@ -310,7 +310,7 @@
                     <h2 class="mb-3 text-lg-start text-center">About BrandStory <span class="text-violet">Academy</span>
                     </h2>
                     <img class="w-100 d-lg-none d-block mb-3"
-                        src="{{asset('frontend/assets/images/home/about-academy-img.png')}}">
+                        src="{{asset('frontend/assets/images/home/about-academy-img.webp')}}">
                     <p>BrandStory Academy, Bangalore, was founded in 2018 with a vision to train aspirants to become
                         successful digital marketing professionals. Our goal is to offer a practical learning environment
                         where students apply their knowledge to live projects, build skills, and grow into industry-ready
@@ -336,9 +336,9 @@
             <div class="row">
                 <div class="col-lg-6">
                     <img class="w-100 d-lg-block d-none mb-lg-0 mb-3"
-                        src="{{asset('frontend/assets/images/home/tech-capital-img.jpg')}}">
+                        src="{{asset('frontend/assets/images/home/tech-capital-img.webp')}}">
                     <img class="w-100 d-lg-none d-block mb-lg-0 mb-3"
-                        src="{{asset('frontend/assets/images/home/tech-capital-img-mbl.jpg')}}">
+                        src="{{asset('frontend/assets/images/home/tech-capital-img-mbl.webp')}}">
                 </div>
                 <div class="col-lg-6">
                     <div class="d-flex justify-content-end mb-lg-5 mb-4">
@@ -459,7 +459,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <img class="w-100 mb-lg-0 mb-3" src="{{asset('frontend/assets/images/home/key-highlight-newn.jpg')}}">
+                    <img class="w-100 mb-lg-0 mb-3" src="{{asset('frontend/assets/images/home/key-highlight-newn.webp')}}">
                 </div>
             </div>
         </div>
@@ -492,7 +492,7 @@
                         <div class="swiper-slide">
                             <div class="dm-career-main one">
                                 <img class="mb-lg-5 mb-4 ms-auto me-auto"
-                                    src="{{asset('frontend/assets/images/home/dm-career1-newn.png')}}">
+                                    src="{{asset('frontend/assets/images/home/dm-career1-newn.webp')}}">
                                 <h4 class="mb-2 text-blue">Students and Career Changers</h4>
                                 <p class="mb-2">If you're someone looking for something new or just trying to figure out
                                     your next move, Bangalore's best digital marketing is waiting for you.</p>
@@ -503,7 +503,7 @@
                         <div class="swiper-slide">
                             <div class="dm-career-main two">
                                 <img class="mb-lg-5 mb-4 ms-auto me-auto"
-                                    src="{{asset('frontend/assets/images/home/dm-career2-newn.png')}}">
+                                    src="{{asset('frontend/assets/images/home/dm-career2-newn.webp')}}">
                                 <h4 class="mb-2 text-blue">Current Practitioners</h4>
                                 <p class="mb-2">If you're a professional looking to sharpen your skills in SEO, social
                                     media, content creation, and digital strategy.</p>
@@ -514,7 +514,7 @@
                         <div class="swiper-slide">
                             <div class="dm-career-main three">
                                 <img class="mb-lg-5 mb-4 ms-auto me-auto"
-                                    src="{{asset('frontend/assets/images/home/dm-career3-newn.png')}}">
+                                    src="{{asset('frontend/assets/images/home/dm-career3-newn.webp')}}">
                                 <h4 class="mb-2 text-blue">Freelancers and Newcomers</h4>
                                 <p class="mb-2">If you're someone aiming to upskill their practical knowledge and gain
                                     real-world experience working with clients.</p>
@@ -525,7 +525,7 @@
                         <div class="swiper-slide">
                             <div class="dm-career-main four">
                                 <img class="mb-lg-5 mb-4 ms-auto me-auto"
-                                    src="{{asset('frontend/assets/images/home/dm-career4-newn.png')}}">
+                                    src="{{asset('frontend/assets/images/home/dm-career4-newn.webp')}}">
                                 <h4 class="mb-2 text-blue">Aspiring Digital Marketing Managers</h4>
                                 <p class="mb-2">If you're someone who wants to take marketing knowledge to the next level
                                     and manage campaigns for top brands.</p>
@@ -573,7 +573,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-6 align-self-center">
-                    <img class="w-100 mb-lg-0 mb-3" src="{{asset('frontend/assets/images/home/dm-help.png')}}">
+                    <img class="w-100 mb-lg-0 mb-3" src="{{asset('frontend/assets/images/home/dm-help.webp')}}">
                 </div>
             </div>
         </div>
@@ -604,9 +604,9 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <img class="w-100 d-lg-block d-none"
-                                        src="{{asset('frontend/assets/images/home/learning-modes.jpg')}}">
+                                        src="{{asset('frontend/assets/images/home/learning-modes.webp')}}">
                                     <img class="w-100 d-lg-none d-block mb-3"
-                                        src="{{asset('frontend/assets/images/home/learning-modes-mbl.jpg')}}">
+                                        src="{{asset('frontend/assets/images/home/learning-modes-mbl.webp')}}">
                                 </div>
                                 <div class="col-lg-6 align-self-center">
                                     <div class="modesmin d-flex flex-column w-100">
@@ -641,9 +641,9 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <img class="w-100 d-lg-block d-none"
-                                        src="{{asset('frontend/assets/images/home/learning-modes2n.jpg')}}">
+                                        src="{{asset('frontend/assets/images/home/learning-modes2n.webp')}}">
                                     <img class="w-100 d-lg-none d-block"
-                                        src="{{asset('frontend/assets/images/home/learning-modes-mbl2.jpg')}}">
+                                        src="{{asset('frontend/assets/images/home/learning-modes-mbl2.webp')}}">
                                 </div>
                                 <div class="col-lg-6 align-self-center">
                                     <div class="modesmin d-flex flex-column w-100">
@@ -687,12 +687,12 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="certificatemin">
-                                        <img class="w-100" src="{{asset('frontend/assets/images/home/certificate1.png')}}">
+                                        <img class="w-100" src="{{asset('frontend/assets/images/home/certificate1.webp')}}">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="certificatemin">
-                                        <img class="w-100" src="{{asset('frontend/assets/images/home/certificate2.png')}}">
+                                        <img class="w-100" src="{{asset('frontend/assets/images/home/certificate2.webp')}}">
                                     </div>
                                 </div>
                             </div>
@@ -744,7 +744,7 @@
                 Bangalore. With our comprehensive digital marketing courses + internship, students will learn the
                 fundamentals, work on live projects, and become experts. Our hands-on approach to learning will help you
                 apply the knowledge in real-world projects, gain insights, and become a specialist.</p>
-            <img class="w-100 mb-4" src="{{asset('frontend/assets/images/home/institute.jpg')}}">
+            <img class="w-100 mb-4" src="{{asset('frontend/assets/images/home/institute.webp')}}">
             <ul class="d-lg-flex mb-0 list-unstyled p-0 justify-content-center">
                 <li class="mb-4 me-md-5 me-0"><img class="me-2"
                         src="{{asset('frontend/assets/images/home/institute-icon1.svg')}}">Fully hands-on practical sessions
@@ -853,7 +853,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="w-100" src="{{asset('frontend/assets/images/home/fast-img.png')}}">
+                    <img class="w-100" src="{{asset('frontend/assets/images/home/fast-img.webp')}}">
                 </div>
             </div>
         </div>
@@ -869,7 +869,7 @@
                     <div class="ourstudent-main" data-student="1">
                         <div class="ourstudent-inner-main d-flex justify-content-between text-white align-items-center">
                             <div class="ourstudent d-flex align-items-center">
-                                <img class="me-3" src="{{asset('frontend/assets/images/home/student-small1.png')}}">
+                                <img class="me-3" src="{{asset('frontend/assets/images/home/student-small1.webp')}}">
                                 <div class="ourstudent-cnt text-white">
                                     <h4 class="mb-2">Shaun Moore</h4>
                                     <p class="mb-0">Digital Marketing Mastery With
@@ -879,14 +879,14 @@
                             </div>
                             <div class="student-rates">
                                 <p class="mb-0">5.0 <img class="ms-2"
-                                        src="{{asset('frontend/assets/images/home/star.png')}}">
+                                        src="{{asset('frontend/assets/images/home/star.webp')}}">
                             </div>
                         </div>
                     </div>
                     <div class="ourstudent-main" data-student="2">
                         <div class="ourstudent-inner-main d-flex justify-content-between text-white align-items-center">
                             <div class="ourstudent d-flex align-items-center">
-                                <img class="me-3" src="{{asset('frontend/assets/images/home/student-small2.png')}}">
+                                <img class="me-3" src="{{asset('frontend/assets/images/home/student-small2.webp')}}">
                                 <div class="ourstudent-cnt text-white">
                                     <h4 class="mb-2">James Lee</h4>
                                     <p class="mb-0">Advanced Digital Marketing
@@ -896,14 +896,14 @@
                             </div>
                             <div class="student-rates">
                                 <p class="mb-0">5.0 <img class="ms-2"
-                                        src="{{asset('frontend/assets/images/home/star.png')}}">
+                                        src="{{asset('frontend/assets/images/home/star.webp')}}">
                             </div>
                         </div>
                     </div>
                     <div class="ourstudent-main" data-student="3">
                         <div class="ourstudent-inner-main d-flex justify-content-between text-white align-items-center">
                             <div class="ourstudent d-flex align-items-center">
-                                <img class="me-3" src="{{asset('frontend/assets/images/home/student-small3.png')}}">
+                                <img class="me-3" src="{{asset('frontend/assets/images/home/student-small3.webp')}}">
                                 <div class="ourstudent-cnt text-white">
                                     <h4 class="mb-2">Shaun Moore</h4>
                                     <p class="mb-0">360° Digital Marketing</p>
@@ -911,7 +911,7 @@
                             </div>
                             <div class="student-rates">
                                 <p class="mb-0">5.0 <img class="ms-2"
-                                        src="{{asset('frontend/assets/images/home/star.png')}}">
+                                        src="{{asset('frontend/assets/images/home/star.webp')}}">
                             </div>
                         </div>
                     </div>
@@ -921,7 +921,7 @@
                 </div>
                 <div class="col-md-6 align-self-center">
                     <div class="student-testi-main text-center" data-student="1">
-                        <img class="mb-3" src="{{asset('frontend/assets/images/home/student-large1.png')}}">
+                        <img class="mb-3" src="{{asset('frontend/assets/images/home/student-large1.webp')}}">
                         <p class="mb-4">I was a beginner, but Sparkly’s step-by-step courses made everything simple and easy
                             to grasp</p>
                         <div class="student-detailsmin">
@@ -929,11 +929,11 @@
                             <p class="mb-2">Digital Marketing Mastery With Artificial
                                 <span class="db">Intelligence (AI)</span>
                             </p>
-                            <img src="{{asset('frontend/assets/images/home/student-review.png')}}">
+                            <img src="{{asset('frontend/assets/images/home/student-review.webp')}}">
                         </div>
                     </div>
                     <div class="student-testi-main text-center" data-student="2">
-                        <img class="mb-3" src="{{asset('frontend/assets/images/home/student-large2.png')}}">
+                        <img class="mb-3" src="{{asset('frontend/assets/images/home/student-large2.webp')}}">
                         <p class="mb-4">I was a beginner, but Sparkly’s step-by-step courses made everything simple and easy
                             to grasp</p>
                         <div class="student-detailsmin">
@@ -941,17 +941,17 @@
                             <p class="mb-2">Advanced Digital Marketing
                                 <span class="db">Boot Camp</span>
                             </p>
-                            <img src="{{asset('frontend/assets/images/home/student-review.png')}}">
+                            <img src="{{asset('frontend/assets/images/home/student-review.webp')}}">
                         </div>
                     </div>
                     <div class="student-testi-main text-center" data-student="3">
-                        <img class="mb-3" src="{{asset('frontend/assets/images/home/student-large3.png')}}">
+                        <img class="mb-3" src="{{asset('frontend/assets/images/home/student-large3.webp')}}">
                         <p class="mb-4">I was a beginner, but Sparkly’s step-by-step courses made everything simple and easy
                             to grasp</p>
                         <div class="student-detailsmin">
                             <h4 class="mb-2">Shaun Moore</h4>
                             <p class="mb-2">360° Digital Marketing</p>
-                            <img src="{{asset('frontend/assets/images/home/student-review.png')}}">
+                            <img src="{{asset('frontend/assets/images/home/student-review.webp')}}">
                         </div>
                     </div>
                 </div>
@@ -966,9 +966,9 @@
             <div class="row">
                 <div class="col-lg-6">
                     <img class="w-100 mb-lg-0 mb-3 d-lg-block d-none"
-                        src="{{asset('frontend/assets/images/home/form-imgn.jpg')}}">
+                        src="{{asset('frontend/assets/images/home/form-imgn.webp')}}">
                     <img class="w-100 mb-lg-0 mb-3 d-lg-none d-block"
-                        src="{{asset('frontend/assets/images/home/form-img-mbl.jpg')}}">
+                        src="{{asset('frontend/assets/images/home/form-img-mbl.webp')}}">
                 </div>
                 <div class="col-lg-6">
                     <div id="enquiryForm" class="homeform-main form-main normal ">

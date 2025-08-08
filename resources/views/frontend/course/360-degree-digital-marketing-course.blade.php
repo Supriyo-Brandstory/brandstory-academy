@@ -75,13 +75,13 @@
 <section class="py-5">
     <div class="container">
         
-        <div class="row">
-            <div class="col-lg-6 g-0 ">
-                <img class="w-100 h-100 mb-lg-0 mb-3 d-lg-block d-none" src="{{asset('frontend/assets/images/360-degree-digital-j/image0002.png')}}">
+        <div class="row g-5">
+            <div class="col-lg-6  ">
+                <img class="w-100  mb-lg-0 mb-3 d-lg-block d-none" src="{{asset('frontend/assets/images/360-degree-digital-j/image0002.png')}}">
                 <img class="w-100 mb-3 d-lg-none d-block" src="{{asset('frontend/assets/images/360-degree-digital-j/image0002.png')}}">
             </div>
-            <div class="col-lg-6 lesson-box-shadow">
-                <h2 class="mb-lg-5 mb-4 ">360 Degree Digital Marketing Course Description</h2>
+            <div class="col-lg-6 lesson-box-shadow py-md-3  ">
+                <h2 class="mb-lg-2 mb-4 ">360 Degree Digital Marketing Course Description</h2>
                 <p class="fs-16">BrandStory Academy offers a future-ready 360 360-degree digital Marketing course in Bangalore, designed for aspiring digital marketers, media creators, and e-commerce specialists.</p>
                 <p class="fs-16">This all-in-one course gives you comprehensive training across digital marketing, AI-driven automation, media production, video editing, and eCommerce operations, led by industry professionals from Bangalore’s top-rated digital marketing institute.</p>
                 <p class="fs-16">From driving eCommerce sales to mastering media storytelling to optimizing brand presence through AI tools, this program builds versatile professionals ready to excel in the modern digital economy.</p>
