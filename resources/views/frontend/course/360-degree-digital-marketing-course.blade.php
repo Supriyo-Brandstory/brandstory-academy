@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-7 text-md-start text-center align-self-center">
-                <h1 class="mb-3 text-blue">360 DEGREE DIGITAL MARKETING COURSE..</h1>
+                <h1 class="mb-3 text-blue">360 DEGREE DIGITAL MARKETING COURSE</h1>
                 <p class="mb-2">BrandStory Academy provides the ultimate 360 360-degree digital Marketing Program — master the full spectrum of digital marketing, AI integration, media production, video editing, and eCommerce growth strategies.</p>
                 <p class="mb-4"><span class="text-blue fw-600">Duration:</span> 4 Months + 6 Months Internship</p>
                 <div class="d-md-flex align-items-center">
