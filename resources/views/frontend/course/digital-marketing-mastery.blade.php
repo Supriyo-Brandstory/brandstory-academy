@@ -1175,7 +1175,7 @@
                                 <div id="flush-collapse1" class="accordion-collapse collapse"
                                     aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample3">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Yes, we offer 6-month internships where students work on real campaigns and gain practical industry experience. During the internship, you’ll handle real clients and projects under the guidance of the top industry experts. </p>
+                                        <p class="mb-0 fs-16">Yes, we offer <a href="https://brandstoryacademy.com/blogs/internship-backed-learning-why-theory-isnt-enough-to-get-hired-today" class="text-violet">6-month internships</a> where students work on real campaigns and gain practical industry experience. During the internship, you’ll handle real clients and projects under the guidance of the top industry experts. </p>
                                     </div>
                                 </div>
                             </div>
@@ -1222,7 +1222,7 @@
                                 <div id="flush-collapse4" class="accordion-collapse collapse"
                                     aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample3">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">You can work as a Digital Marketing Executive, SEO Specialist, Social Media Manager, Content Strategist, PPC Analyst, or Marketing Automation Expert. Know more at Digital Marketing Job Roles </p>
+                                        <p class="mb-0 fs-16">You can work as a Digital Marketing Executive, SEO Specialist, Social Media Manager, Content Strategist, PPC Analyst, or Marketing Automation Expert. Know more at <a href="https://brandstoryacademy.com/blogs/digital-marketing-job-roles-in-2025-what-skills-you-need-to-compete" class="text-violet">Digital Marketing Job Roles</a> </p>
                                     </div>
                                 </div>
                             </div>
@@ -1239,7 +1239,7 @@
                                 <div id="flush-collapse5" class="accordion-collapse collapse"
                                     aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample3">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">By combining digital marketing fundamentals with AI-powered skills, you gain future-ready expertise that ensures long-term career growth. We give you a launchpad where you can learn, build expertise, and get a job in top global companies.</p>
+                                        <p class="mb-0 fs-16">By combining digital marketing fundamentals with <a href="https://brandstoryacademy.com/blogs/how-ai-is-changing-the-way-we-learn-digital-marketing" class="text-violet">AI-powered skills</a>, you gain future-ready expertise that ensures long-term career growth. We give you a launchpad where you can learn, build expertise, and get a job in top global companies.</p>
                                     </div>
                                 </div>
                             </div>
