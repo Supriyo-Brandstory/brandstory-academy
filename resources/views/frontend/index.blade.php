@@ -1063,6 +1063,7 @@
             </div>
         </div>
     </section>
+    <x-blog-component />
 
     <section class="sp-100 bg-lightblue1">
         <div class="container">

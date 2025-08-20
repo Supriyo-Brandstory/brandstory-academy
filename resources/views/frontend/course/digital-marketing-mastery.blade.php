@@ -904,6 +904,7 @@
             </div>
         </div>
     </section>
+    <x-blog-component />
     <section class="sp-100 bg-lightblue1">
         <div class="container">
             <h2 class="mb-lg-5 mb-4 text-center">FAQ</h2>
