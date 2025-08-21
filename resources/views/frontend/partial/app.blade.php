@@ -58,7 +58,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CF6TMZ5"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-
+  @stack('styles')
 </head>
 
 <body class="homepage">
@@ -454,6 +454,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
   });
 </script>
+@stack('scripts')
 </body>
 
 </html>

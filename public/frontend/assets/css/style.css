@@ -1180,6 +1180,9 @@ section.youtubesec {
         color: #666;
         font-weight: 500;
     }
+    .pt-100{
+        padding-top: 100px ;
+    }
 
     @media (min-width: 992px) {
         .navbar-expand-lg .navbar-nav {
@@ -1189,6 +1192,9 @@ section.youtubesec {
     }
 
     @media (max-width: 767px) {
+        .pt-100 {
+            padding-top: 50px ;
+        }
         .custom-btn {
             padding: 10px 20px;
             font-size: 14px;

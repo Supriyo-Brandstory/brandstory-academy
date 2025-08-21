@@ -1063,7 +1063,15 @@
             </div>
         </div>
     </section>
+    <x-our-success-stories :videos="[
+  'https://www.instagram.com/p/DNiDU0ExHZI',
+  'https://www.instagram.com/p/DNiDU0ExHZI',
+  'https://www.instagram.com/p/DNiDU0ExHZI',
+  'https://www.instagram.com/p/DNiDU0ExHZI'
+]" />
+<div class="pt-100">
     <x-blog-component />
+</div>
 
     <section class="sp-100 bg-lightblue1">
         <div class="container">
