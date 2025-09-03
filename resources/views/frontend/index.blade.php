@@ -141,7 +141,7 @@
 
     <section class="dm-course-section spb-100">
         <div class="container">
-            <h2 class="text-center db">#1<span class="text-violet">Expert-Led</span> Digital Marketing Courses in Bangalore</h2>
+            <h2 class="text-center db">Best<span class="text-violet">Expert-Led</span> Digital Marketing Courses in Bangalore</h2>
             <p class="max-1000 text-center">BrandStory Academy is the top-rated digital marketing institute,
                 offering most-advanced digital marketing courses in Bangalore. You’ll learn everything, from the basics to advanced-level
                 concepts, and gain practical experience through live projects at various stages of training. We offer the
