@@ -5,10 +5,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-7 text-md-start text-center">
-                    <h1 class="mb-3">6-Month <span class="text-violet">Digital Marketing Course:</span> Learn, Work, and
+                    <h1 class="mb-3">Best <span class="text-violet">Digital Marketing Institute in Bangalore:</span> Learn, Work, &
                         Certify Your Skills</h1>
                     <p class="mb-4"><span class="text-blue fw-600">Learn, work, and certify your skills in 6 months</span>
-                        with the best digital marketing courses in Bangalore. At BrandStory Academy, you’ll learn the A-Z of
+                        with the advanced digital marketing courses in Bangalore. At BrandStory Academy, you’ll learn the A-Z of
                         digital marketing, work on live projects, and become certified to launch your career in digital
                         marketing.</p>
                     <div class="d-lg-flex align-items-center">
@@ -118,13 +118,36 @@
         </div>
     </section>
 
+     <section class="aboutacademy-sec spt-100">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-md-6">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="mb-3 text-lg-start text-center">About BrandStory <span class="text-violet">Academy</span>
+                    </h2>
+                    <img class="w-100 d-lg-none d-block mb-3"
+                        src="{{asset('frontend/assets/images/home/about-academy-img.webp')}}">
+                    <p>BrandStory Academy, Bangalore, was founded in 2018 with a vision to train aspirants to become
+                        successful digital marketing professionals. Our goal is to offer a practical learning environment
+                        where students apply their knowledge to live projects, build skills, and grow into industry-ready
+                        experts. We have expert trainers with 10+ years of hands-on experience and proven expertise in the
+                        industry.</p>
+                    <p class="mb-0">BrandStory Academy is the only digital marketing training Institute in Bangalore that
+                        offers a modern, industry-relevant curriculum with hands-on live client projects. From learning to
+                        earning, our students modify into job-ready professionals and safeguard placements with 1000+ global
+                        companies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="dm-course-section spb-100">
         <div class="container">
-            <h2 class="text-center db">Best <span class="text-violet">Digital Marketing Training</span> Institute in
-                Bangalore for Certificate Courses</h2>
-            <p class="max-1000 text-center">BrandStory Academy is the top-rated digital marketing institute in Bangalore,
-                offering affordable digital marketing courses. You’ll learn everything, from the basics to advanced-level
+            <h2 class="text-center db">Best <span class="text-violet">Expert-Led</span> Digital Marketing Courses in Bangalore</h2>
+            <p class="max-1000 text-center">BrandStory Academy is the top-rated digital marketing institute,
+                offering most-advanced digital marketing courses in Bangalore. You’ll learn everything, from the basics to advanced-level
                 concepts, and gain practical experience through live projects at various stages of training. We offer the
                 best digital marketing course curriculum, top-tier faculty in the city, and industry-focused training that
                 equips students with real-world skills.</p>
@@ -301,35 +324,12 @@
         </div>
     </section>
 
-    <section class="aboutacademy-sec spt-100">
-        <div class="container position-relative">
-            <div class="row">
-                <div class="col-md-6">
-                </div>
-                <div class="col-lg-6">
-                    <h2 class="mb-3 text-lg-start text-center">About BrandStory <span class="text-violet">Academy</span>
-                    </h2>
-                    <img class="w-100 d-lg-none d-block mb-3"
-                        src="{{asset('frontend/assets/images/home/about-academy-img.webp')}}">
-                    <p>BrandStory Academy, Bangalore, was founded in 2018 with a vision to train aspirants to become
-                        successful digital marketing professionals. Our goal is to offer a practical learning environment
-                        where students apply their knowledge to live projects, build skills, and grow into industry-ready
-                        experts. We have expert trainers with 10+ years of hands-on experience and proven expertise in the
-                        industry.</p>
-                    <p class="mb-0">BrandStory Academy is the only digital marketing training Institute in Bangalore that
-                        offers a modern, industry-relevant curriculum with hands-on live client projects. From learning to
-                        earning, our students modify into job-ready professionals and safeguard placements with 1000+ global
-                        companies.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     <section class="tech-capital sp-100">
         <div class="container">
-            <h2 class="text-center mb-4">Learn <span class="text-violet">Digital Marketing</span> in India’s Tech Capital
-                City</h2>
-            <p class="mb-4 text-center">Bangalore, a hub for its innovation and tech culture, has some of the best digital
+            <h2 class="text-center mb-4">Learn <span class="text-violet">Digital Marketing</span> at BrandStory Academy</h2>
+            <p class="mb-4 text-center">BrandStory Academy, located at Bangalore is a hub for some of the best digital
                 <span class="db">marketing courses in India. If you are seeking to explore career opportunities in </span>
                 <span class="db">digital marketing, this is the place to start. Start here.</span>
             </p>
@@ -347,7 +347,7 @@
                                 <img class="me-2" src="{{asset('frontend/assets/images/home/tech-capital-icon1.svg')}}">
                                 <h3 class="text-green mb-0">Shape Your Career</h3>
                             </div>
-                            <p class="mb-0">This course will help a beginner to pro, grow, and land exciting roles in the
+                            <p class="mb-0">Our courses will help a beginner to become pro, grow skills, and land exciting roles in the
                                 fast-paced digital world.</p>
                         </div>
                     </div>
@@ -379,7 +379,7 @@
 
     <section class="spb-100">
         <div class="container">
-            <h2 class="text-center mb-lg-5 mb-4">Key <span class="text-violet">Highlights</span></h2>
+            <h2 class="text-center mb-lg-5 mb-4">BrandStory Academy <span class="text-violet">Digital Marketing Course Highlights</span></h2>
             <div class="row col-reverse">
                 <div class="col-lg-5">
                     <div class="key-highlight-main">
@@ -582,7 +582,7 @@
     <section class="spb-100">
         <div class="container">
             <h2 class="text-center mb-lg-5 mb-4">Learning Modes at Our <span class="text-violet">Digital
-                    <span class="db">Marketing Institute in Bangalore</span></span></h2>
+                    <span class="db">Marketing Institute</span></span></h2>
             <div class="learning-modes-main">
                 <div class="dm-course-main">
                     <ul class="nav nav-pills mb-lg-5 mb-4 d-flex justify-content-center" id="pills-tab" role="tablist">
@@ -773,7 +773,7 @@
 
     <section class="spb-100">
         <div class="container">
-            <h2 class="text-center mb-md-5 mb-4">Some Facts That You <span class="text-violet">Must Know</span></h2>
+            <h2 class="text-center mb-md-5 mb-4">Why Choose Digital Marketing <span class="text-violet">as Your Career Path</span></h2>
             <div class="row col-reverse">
                 <div class="col-md-6">
                     <div class="key-highlight-main facts">
@@ -807,7 +807,7 @@
                                     data-bs-parent="#accordionExample1">
                                     <div class="accordion-body">
                                         <p class="mb-0">Digital marketing is widely recognized as one of the top 10 most
-                                            in-demand career options today, both in India and globally. The demand for
+                                            in-demand career options in 2025, both in India and globally. The demand for
                                             qualified digital marketing professionals is also rising with time.</p>
                                     </div>
                                 </div>
@@ -905,7 +905,7 @@
                             <div class="ourstudent d-flex align-items-center">
                                 <img class="me-3" src="{{asset('frontend/assets/images/home/student-small3.webp')}}">
                                 <div class="ourstudent-cnt text-white">
-                                    <h4 class="mb-2">Shaun Moore</h4>
+                                    <h4 class="mb-2">Antony</h4>
                                     <p class="mb-0">360° Digital Marketing</p>
                                 </div>
                             </div>
@@ -1070,7 +1070,7 @@
 
     <section class="sp-100 bg-lightblue1">
         <div class="container">
-            <h2 class="mb-lg-5 mb-4 text-center">FAQ</h2>
+            <h2 class="mb-lg-5 mb-4 text-center">Course Related FAQs</h2>
             <div class="row gx-md-3">
                 <div class="col-lg-6">
                     <div class="faq-main mb-lg-0 mb-4">
@@ -1089,10 +1089,10 @@
                                 <div id="flush-collapseOne" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">The Brandstory Academy stands out for its practical approach.
-                                            Bringing in expert trainers, multiple courses, and real-time clients, the
-                                            students are equipped with skills needed to succeed in the fast-paced digital
-                                            world.</p>
+                                        <p class="mb-0 fs-16">At BrandStory Academy, we are proud to be among the top digital marketing 
+                                            institute in Bangalore, offering practical, industry-focused courses. Our students gain hands-on 
+                                            experience through real client projects, 6 month internships, and expert-led training. We also provide 
+                                            dedicated placement support to help them start successful careers in the digital marketing industry.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1108,11 +1108,11 @@
                                     aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <ul class="mb-0">
-                                            <li class="fs-16">At BrandStory, the courses taught by our instructors are
-                                                seasoned professionals. These instructors are passionate and aim to share
-                                                their knowledge and help learners like you succeed.</li>
-                                            <li class="fs-16">Our professionals are supportive, and learners can have access
-                                                to them directly throughout the course.</li>
+                                            <li class="fs-16">our digital marketing courses are led by seasoned industry 
+                                                professionals who bring years of real-world experience. Our trainers are passionate
+                                                 about guiding students and offer direct access with personalized 1-to-1 mentorship. 
+                                                 This ensures every learner receives tailored support, practical insights, and the 
+                                                 confidence to succeed.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1128,9 +1128,12 @@
                                 <div id="flush-collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">The digital marketing course at Brandstory Academy is open to
-                                            all. Either you want to try something new or are looking to upskill, we have no
-                                            restrictions in people enrolling.</p>
+                                        <p class="mb-0 fs-16">Anyone interested in building or advancing their career 
+                                            in digital marketing can enroll in our courses. Whether you’re a student exploring 
+                                            career options, a working professional looking to upskill, an entrepreneur wanting 
+                                            to grow your business, or someone seeking a career change, BrandStory Academy’s digital 
+                                            marketing course is designed to meet your needs. No prior experience is required—just a 
+                                            willingness to learn and grow.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1139,26 +1142,22 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapsefour" aria-expanded="false"
                                         aria-controls="flush-collapsefour">
-                                        How long is the Digital Marketing Academy program, and what can I expect during this
-                                        time?
+                                        What digital marketing courses do BrandStory Academy offer?
                                     </button>
                                 </h4>
                                 <div id="flush-collapsefour" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="fs-16">At BrandStory, our digital marketing program is a 6-month duration
-                                            designed to give you more than just theoretical knowledge. Over the course of
-                                            six months</p>
+                                        <p class="fs-16">At BrandStory Academy, we offer three specialized digital marketing courses designed to 
+                                            meet different career goals:</p>
                                         <ul>
-                                            <li class="fs-16">Work on real projects, gaining hands-on experience with actual
-                                                clients.</li>
-                                            <li class="fs-16">Experience what it’s like to work in an agency setting, as if
-                                                you’re an intern.</li>
-                                            <li class="fs-16">You’ll learn through practical tasks and challenges, building
-                                                skills you can directly apply to the digital marketing industry.</li>
+                                            <li class="fs-16">Digital Marketing MASTERY with Artificial Intelligence (AI) – 2.5 months training + 6 months internship</li>
+                                            <li class="fs-16">Advanced Digital Marketing Boot Camp – 3.5 months training + 6 months internship</li>
+                                            <li class="fs-16">360° Digital Marketing – 4 months training + 6 months internship</li>
                                         </ul>
-                                        <p class="mb-0 fs-16">By the end, you’ll have a strong portfolio to help you stand
-                                            out in your digital marketing career.</p>
+                                        <p class="mb-0 fs-16">Each program focuses on practical learning, real client projects, and agency-style training. By the end of your 
+                                            chosen course, you’ll gain hands-on experience, build a strong portfolio, and be career-ready for the fast-growing digital marketing 
+                                            industry.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1173,29 +1172,13 @@
                                 <div id="flush-collapsefive" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Our digital marketing academy runs on weekdays from 9.30 AM to
-                                            6 PM. During this timing, you’ll have a 30 mins lunch break and two short
-                                            15-minute breaks throughout the day to recharge.</p>
+                                        <p class="mb-0 fs-16">Our digital marketing academy in Bangalore runs Monday to Friday, from 9:30 
+                                            AM to 6:00 PM. The schedule includes a 30-minute lunch break and two short 15-minute breaks for 
+                                            a comfortable learning experience.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingsix">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapsesix" aria-expanded="false"
-                                        aria-controls="flush-collapsesix">
-                                        Who can enroll in the digital marketing course?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapsesix" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingsix" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">The digital marketing course at Brandstory Academy is open to
-                                            all. Either you want to try something new or are looking to upskill, we have no
-                                            restrictions in people enrolling.</p>
-                                    </div>
-                                </div>
-                            </div>
+
                             <div class="accordion-item">
                                 <h4 class="accordion-header" id="flush-headingseven">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -1207,9 +1190,8 @@
                                 <div id="flush-collapseseven" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingseven" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Absolutely. There's no restriction on anybody working. We
-                                            offer flexible class timings, including weekend and self-paced options, so you
-                                            can learn at your own convenience.</p>
+                                        <p class="mb-0 fs-16">Absolutely! We understand the needs of working professionals, so we offer a self-paced learning option 
+                                            that allows you to study at your own convenience.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1224,9 +1206,9 @@
                                 <div id="flush-collapseeight" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingeight" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">At BrandStory Academy, our digital marketing courses have no
-                                            restrictions based on time zones. You can attend the course at your own pace and
-                                            convenience, wherever you are in the world.</p>
+                                        <p class="mb-0 fs-16">Yes! At BrandStory Academy, we provide ongoing support even after you complete 
+                                            your course. Our team offers career guidance, mentorship, and access to updated resources to help 
+                                            you stay ahead in the ever-changing digital marketing industry.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1252,13 +1234,10 @@
                                     aria-labelledby="flush-headingnine" data-bs-parent="#accordionFlushExample1">
                                     <div class="accordion-body">
                                         <ul class="mb-0">
-                                            <li>Yes, you'll receive a digital marketing certificate upon completion.</li>
-                                            <li>This 6-month program goes beyond a traditional course – it’s like a real
-                                                internship.</li>
-                                            <li>You’ll gain hands-on experience working on live client projects, simulating
-                                                an agency environment.</li>
-                                            <li>By the end, you’ll have a portfolio to showcase to the world, proving you’ve
-                                                worked as an intern and gained valuable industry experience.</li>
+                                            <li>Yes, you will receive two industry-recognized certifications from BrandStory Academy: 
+                                                a Course Completion Certificate and an Internship Completion Certificate. These certifications 
+                                                validate your skills, hands-on experience, and readiness for a successful career in digital 
+                                                marketing.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1268,18 +1247,17 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapseten" aria-expanded="false"
                                         aria-controls="flush-collapseten">
-                                        Who will be teaching digital marketing courses in BrandStory Academy?
+                                        What placement support do you provide after completing the course?
                                     </button>
                                 </h4>
                                 <div id="flush-collapseten" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingten" data-bs-parent="#accordionFlushExample1">
                                     <div class="accordion-body">
                                         <ul class="mb-0">
-                                            <li class="fs-16">At BrandStory, the courses taught by our instructors are
-                                                seasoned professionals. These instructors are passionate and aim to share
-                                                their knowledge and help learners like you succeed.</li>
-                                            <li class="fs-16">Our professionals are supportive, and learners can have access
-                                                to them directly throughout the course.</li>
+                                            <li class="fs-16">We partner with 1,000+ global companies to offer strong placement 
+                                                opportunities for our students. Our dedicated team connects you with top employers 
+                                                and guides you through the hiring process, ensuring a smooth start to your digital 
+                                                marketing career.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1289,15 +1267,15 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapseeleven" aria-expanded="false"
                                         aria-controls="flush-collapseeleven">
-                                        Who can enroll in the digital marketing course?
+                                        How long is the internship after completing the course?
                                     </button>
                                 </h4>
                                 <div id="flush-collapseeleven" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingeleven" data-bs-parent="#accordionFlushExample1">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">The digital marketing course at Brandstory Academy is open to
-                                            all. Either you want to try something new or are looking to upskill, we have no
-                                            restrictions in people enrolling.</p>
+                                        <p class="mb-0 fs-16">We offer a 6-month paid internship after the course, providing hands-on experience 
+                                            with real client projects and agency-style training. This ensures you gain practical skills, industry 
+                                            exposure, and a strong portfolio to kick-start your career.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1349,15 +1327,16 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapsefourteen" aria-expanded="false"
                                         aria-controls="flush-collapsefourteen">
-                                        Who can enroll in the digital marketing course?
+                                        What are the course fees for each program?
                                     </button>
                                 </h4>
                                 <div id="flush-collapsefourteen" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingfourteen" data-bs-parent="#accordionFlushExample2">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">The digital marketing course at Brandstory Academy is open to
-                                            all. Either you want to try something new or are looking to upskill, we have no
-                                            restrictions in people enrolling.</p>
+                                        <p class="mb-0 fs-16">Our course fees vary depending on the program you choose. Please contact our admissions team 
+                                            for detailed pricing and current offers on Digital Marketing MASTERY with AI, Advanced Digital Marketing Boot Camp, 
+                                            and 360° Digital Marketing Program. We ensure our fees are competitive while offering maximum value with hands-on 
+                                            training, paid internships, and career support.</p>
                                     </div>
                                 </div>
                             </div>
