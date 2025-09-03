@@ -16,13 +16,13 @@
                             <a href="{{route('contact')}}">Enquire Now today!</a>
                         </div>
                         <div class="student-main mb-md-0 mb-5">
-                            <img class="mb-1" src="{{asset('frontend/assets/images/home/students.webp')}}">
+                            <img class="mb-1" src="{{asset('frontend/assets/images/home/students.webp')}}" alt="Our Students - BrandStory Academy">
                             <p class="mb-0 fs-12">Trusted by 1000+ Students</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-5">
-                    <img class="w-100" src="{{asset('frontend/assets/images/home/banner-img.webp')}}">
+                    <img class="w-100" src="{{asset('frontend/assets/images/home/banner-img.webp')}}" alt="Digital Marketing training Institute in Bangalore - BrandStory Academy">
                 </div>
             </div>
             <div class="container mt-5">
@@ -73,43 +73,43 @@
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand1.svg"
-                                class="img-fluid" alt="Our Partner Company">
+                                class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand2.svg"
-                                class="img-fluid" alt="Our Partner Company">
+                                class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand3.svg"
-                                class="img-fluid" alt="Our Partner Company">
+                                class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand4.svg"
-                                class="img-fluid" alt="Our Partner Company">
+                                class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand5.svg"
-                                class="img-fluid" alt="Our Partner Company">
+                                class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand6.svg"
-                                class="img-fluid" alt="Our Partner Company">
+                                class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand7.svg"
-                                class="img-fluid" alt="Our Partner Company">
+                                class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
         </div>
     </section>
 
-     <section class="aboutacademy-sec spt-100">
+     <section class="aboutacademy-sec spb-100">
         <div class="container position-relative">
             <div class="row">
                 <div class="col-md-6">
@@ -127,7 +127,7 @@
                     <h2 class="mb-3 text-lg-start text-center">About BrandStory <span class="text-violet">Academy</span>
                     </h2>
                     <img class="w-100 d-lg-none d-block mb-3"
-                        src="{{asset('frontend/assets/images/home/about-academy-img.webp')}}">
+                        src="{{asset('frontend/assets/images/home/about-academy-img.webp')}}" alt="Digital Marketing training Institute in Bangalore - BrandStory Academy">
                     <p>BrandStory Academy, Bangalore, was founded in 2018 with a vision to train aspirants to become
                         successful digital marketing professionals. Our goal is to offer a practical learning environment
                         where students apply their knowledge to live projects, build skills, and grow into industry-ready
@@ -145,7 +145,7 @@
 
     <section class="dm-course-section spb-100">
         <div class="container">
-            <h2 class="text-center db">Best <span class="text-violet">Expert-Led</span> Digital Marketing Courses in Bangalore</h2>
+            <h2 class="text-center db">#1<span class="text-violet">Expert-Led</span> Digital Marketing Courses in Bangalore</h2>
             <p class="max-1000 text-center">BrandStory Academy is the top-rated digital marketing institute,
                 offering most-advanced digital marketing courses in Bangalore. You’ll learn everything, from the basics to advanced-level
                 concepts, and gain practical experience through live projects at various stages of training. We offer the
@@ -176,7 +176,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-block d-none"
-                                    src="{{asset('frontend/assets/images/home/course1.webp')}}">
+                                    src="{{asset('frontend/assets/images/home/course1.webp')}}" alt="Digital Marketing Mastery with Artificial Intelligence(AI) Course - BrandStory Academy">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-none d-block"
                                     src="{{asset('frontend/assets/images/home/mbl-course1.webp')}}">
                             </div>
@@ -214,7 +214,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-block d-none"
-                                    src="{{asset('frontend/assets/images/home/course2.webp')}}">
+                                    src="{{asset('frontend/assets/images/home/course2.webp')}}" alt="Advanced Digital Marketing Boot Camp Course - BrandStory Academy">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-none d-block"
                                     src="{{asset('frontend/assets/images/home/mbl-course2.webp')}}">
                             </div>
@@ -258,7 +258,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-block d-none"
-                                    src="{{asset('frontend/assets/images/home/course3.webp')}}">
+                                    src="{{asset('frontend/assets/images/home/course3.webp')}}" alt="360° Digital Marketing Course - BrandStory Academy">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-none d-block"
                                     src="{{asset('frontend/assets/images/home/mbl-course3.webp')}}">
                             </div>
@@ -319,7 +319,7 @@
                 </div>
             </div>
             <div class="mentorship-img">
-                <img src="{{asset('frontend/assets/images/home/mentorship-img-newn.webp')}}">
+                <img src="{{asset('frontend/assets/images/home/mentorship-img-newn.webp')}}" alt="Expert-led mentorship by industry experts - BrandStory Academy">
             </div>
         </div>
     </section>
@@ -336,7 +336,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <img class="w-100 d-lg-block d-none mb-lg-0 mb-3"
-                        src="{{asset('frontend/assets/images/home/tech-capital-img.webp')}}">
+                        src="{{asset('frontend/assets/images/home/tech-capital-img.webp')}}" alt="BrandStory Academy is the best digital marketing institute in Bangalore">
                     <img class="w-100 d-lg-none d-block mb-lg-0 mb-3"
                         src="{{asset('frontend/assets/images/home/tech-capital-img-mbl.webp')}}">
                 </div>
@@ -379,7 +379,7 @@
 
     <section class="spb-100">
         <div class="container">
-            <h2 class="text-center mb-lg-5 mb-4">BrandStory Academy <span class="text-violet">Digital Marketing Course Highlights</span></h2>
+            <h2 class="text-center mb-lg-5 mb-4">BrandStory Academy -<span class="text-violet">Digital Marketing Course Highlights</span></h2>
             <div class="row col-reverse">
                 <div class="col-lg-5">
                     <div class="key-highlight-main">
@@ -459,7 +459,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <img class="w-100 mb-lg-0 mb-3" src="{{asset('frontend/assets/images/home/key-highlight-newn.webp')}}">
+                    <img class="w-100 mb-lg-0 mb-3" src="{{asset('frontend/assets/images/home/key-highlight-newn.webp')}}" alt="Best digital marketing courses in Bangalore - BrandStory Academy">
                 </div>
             </div>
         </div>
@@ -573,7 +573,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-6 align-self-center">
-                    <img class="w-100 mb-lg-0 mb-3" src="{{asset('frontend/assets/images/home/dm-help.webp')}}">
+                    <img class="w-100 mb-lg-0 mb-3" src="{{asset('frontend/assets/images/home/dm-help.webp')}}" alt="Best Marketing Course - BrandStory Academy">
                 </div>
             </div>
         </div>
@@ -604,7 +604,7 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <img class="w-100 d-lg-block d-none"
-                                        src="{{asset('frontend/assets/images/home/learning-modes.webp')}}">
+                                        src="{{asset('frontend/assets/images/home/learning-modes.webp')}}" alt="On-site classes at BrandStory Academy">
                                     <img class="w-100 d-lg-none d-block mb-3"
                                         src="{{asset('frontend/assets/images/home/learning-modes-mbl.webp')}}">
                                 </div>
@@ -641,7 +641,7 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <img class="w-100 d-lg-block d-none"
-                                        src="{{asset('frontend/assets/images/home/learning-modes2n.webp')}}">
+                                        src="{{asset('frontend/assets/images/home/learning-modes2n.webp')}}" alt="Self Paced Learning at BrandStory Academy">
                                     <img class="w-100 d-lg-none d-block"
                                         src="{{asset('frontend/assets/images/home/learning-modes-mbl2.webp')}}">
                                 </div>
@@ -687,12 +687,12 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="certificatemin">
-                                        <img class="w-100" src="{{asset('frontend/assets/images/home/certificate1.webp')}}">
+                                        <img class="w-100" src="{{asset('frontend/assets/images/home/certificate1.webp')}}" alt="industry recognized certficate for course completion- BrandStory Academy">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="certificatemin">
-                                        <img class="w-100" src="{{asset('frontend/assets/images/home/certificate2.webp')}}">
+                                        <img class="w-100" src="{{asset('frontend/assets/images/home/certificate2.webp')}}" alt="Industry recognized cerficate for internship completion - BrandStory Academy">
                                     </div>
                                 </div>
                             </div>
@@ -744,7 +744,7 @@
                 Bangalore. With our comprehensive digital marketing courses + internship, students will learn the
                 fundamentals, work on live projects, and become experts. Our hands-on approach to learning will help you
                 apply the knowledge in real-world projects, gain insights, and become a specialist.</p>
-            <img class="w-100 mb-4" src="{{asset('frontend/assets/images/home/institute.webp')}}">
+            <img class="w-100 mb-4" src="{{asset('frontend/assets/images/home/institute.webp')}}" alt="Best Digital marketing Training Institute in Bangalore  - BrandStory Academy">
             <ul class="d-lg-flex mb-0 list-unstyled p-0 justify-content-center">
                 <li class="mb-4 me-md-5 me-0"><img class="me-2"
                         src="{{asset('frontend/assets/images/home/institute-icon1.svg')}}">Fully hands-on practical sessions
@@ -853,7 +853,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="w-100" src="{{asset('frontend/assets/images/home/fast-img.webp')}}">
+                    <img class="w-100" src="{{asset('frontend/assets/images/home/fast-img.webp')}}" alt="Mentor taking classes at BrandStory Academy">
                 </div>
             </div>
         </div>
@@ -966,7 +966,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <img class="w-100 mb-lg-0 mb-3 d-lg-block d-none"
-                        src="{{asset('frontend/assets/images/home/form-imgn.webp')}}">
+                        src="{{asset('frontend/assets/images/home/form-imgn.webp')}}" alt="Enroll in the best digital marketing training instutute - BrandStory Academy">
                     <img class="w-100 mb-lg-0 mb-3 d-lg-none d-block"
                         src="{{asset('frontend/assets/images/home/form-img-mbl.webp')}}">
                 </div>
@@ -1108,11 +1108,11 @@
                                     aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <ul class="mb-0">
-                                            <li class="fs-16">our digital marketing courses are led by seasoned industry 
+                                            <p class="mb-0 fs-16">our digital marketing courses are led by seasoned industry 
                                                 professionals who bring years of real-world experience. Our trainers are passionate
                                                  about guiding students and offer direct access with personalized 1-to-1 mentorship. 
                                                  This ensures every learner receives tailored support, practical insights, and the 
-                                                 confidence to succeed.</li>
+                                                 confidence to succeed.</p>
                                         </ul>
                                     </div>
                                 </div>
@@ -1234,10 +1234,10 @@
                                     aria-labelledby="flush-headingnine" data-bs-parent="#accordionFlushExample1">
                                     <div class="accordion-body">
                                         <ul class="mb-0">
-                                            <li>Yes, you will receive two industry-recognized certifications from BrandStory Academy: 
+                                            <p class="mb-0 fs-16">Yes, you will receive two industry-recognized certifications from BrandStory Academy: 
                                                 a Course Completion Certificate and an Internship Completion Certificate. These certifications 
                                                 validate your skills, hands-on experience, and readiness for a successful career in digital 
-                                                marketing.</li>
+                                                marketing.</p>
                                         </ul>
                                     </div>
                                 </div>
@@ -1254,10 +1254,10 @@
                                     aria-labelledby="flush-headingten" data-bs-parent="#accordionFlushExample1">
                                     <div class="accordion-body">
                                         <ul class="mb-0">
-                                            <li class="fs-16">We partner with 1,000+ global companies to offer strong placement 
+                                            <p class="mb-0 fs-16">We partner with 1,000+ global companies to offer strong placement 
                                                 opportunities for our students. Our dedicated team connects you with top employers 
                                                 and guides you through the hiring process, ensuring a smooth start to your digital 
-                                                marketing career.</li>
+                                                marketing career.</p>
                                         </ul>
                                     </div>
                                 </div>
