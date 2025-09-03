@@ -128,15 +128,11 @@
                     </h2>
                     <img class="w-100 d-lg-none d-block mb-3"
                         src="{{asset('frontend/assets/images/home/about-academy-img.webp')}}" alt="Digital Marketing training Institute in Bangalore - BrandStory Academy">
-                    <p>BrandStory Academy, Bangalore, was founded in 2018 with a vision to train aspirants to become
-                        successful digital marketing professionals. Our goal is to offer a practical learning environment
-                        where students apply their knowledge to live projects, build skills, and grow into industry-ready
-                        experts. We have expert trainers with 10+ years of hands-on experience and proven expertise in the
-                        industry.</p>
-                    <p class="mb-0">BrandStory Academy is the only digital marketing training Institute in Bangalore that
-                        offers a modern, industry-relevant curriculum with hands-on live client projects. From learning to
-                        earning, our students modify into job-ready professionals and safeguard placements with 1000+ global
-                        companies.</p>
+                    <p>Founded in 2018, BrandStory Academy aims to empower aspiring professionals with the skills needed to excel in the digital marketing industry. We offer an 
+                        intuitive learning environment where students learn from very basics to advanced level, apply their knowledge to live projects, build skills, and grow into 
+                        industry-ready experts. We have expert trainers and mentors with 10+ years of proven expertise in the digital marketing industry.</p>
+                    <p class="mb-0">We are among the top-rated digital marketing training Institutes in Bangalore offering advanced and industry-relevant curriculum. From learning to 
+                        earning, our courses are designed to transform you into job-ready professionals and secure placements with 1,000+ global compan</p>
                 </div>
             </div>
         </div>
@@ -949,7 +945,7 @@
                         <p class="mb-4">I was a beginner, but Sparkly’s step-by-step courses made everything simple and easy
                             to grasp</p>
                         <div class="student-detailsmin">
-                            <h4 class="mb-2">Shaun Moore</h4>
+                            <h4 class="mb-2">Antony</h4>
                             <p class="mb-2">360° Digital Marketing</p>
                             <img src="{{asset('frontend/assets/images/home/student-review.webp')}}">
                         </div>
@@ -1067,7 +1063,7 @@
  'https://www.instagram.com/p/DNiDU0ExHZI',
   'https://www.instagram.com/p/DNk72CQRPXZ',
   'https://www.instagram.com/p/DNpgwppR5qy',
-  'https://www.instagram.com/p/DNk72CQRPXZ'
+  'https://www.instagram.com/p/DLsC-H9xQVg'
 ]" />
 
 <div class="pt-100">
