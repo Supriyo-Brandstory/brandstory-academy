@@ -674,6 +674,625 @@
         </div>
     </section>
 
+    <section class="pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <img class="w-100 d-lg-none d-block mb-3" src="{{asset('frontend/assets/images/adm-bootcamp/video-production-mbl.svg')}}">
+               <h2 class="mb-3 text-md-start text-center">Tools You <span class="text-violet">Will Learn</span></h2>
+                <p class="mb-4 text-md-start text-center">This course arms you with the latest tools and platforms used by leading agencies and startups worldwide:</p>
+                <div class="row">
+                    <div class="col-1"><img class="me-2 mt-1" src="{{asset('frontend/assets/images/digital-marketing-with-ai-j/image005.svg')}}"></div>
+                    <div class="col-11"><p><b>Digital Marketing Tools</b>: SEMrush, Ahrefs, Google Analytics, Surfer SEO, HubSpot CRM</p></div>
+                    <div class="col-1"><img class="me-2 mt-1" src="{{asset('frontend/assets/images/digital-marketing-with-ai-j/image005.svg')}}"></div>
+                    <div class="col-11"><p><b>Media Production Tools</b>: Adobe Premiere Pro, Final Cut Pro, Riverside.fm, SquadCast</p></div>
+                    <div class="col-1"><img class="me-2 mt-1" src="{{asset('frontend/assets/images/digital-marketing-with-ai-j/image006.svg')}}"></div>
+                    <div class="col-11"><p><b>AI Tools</b>: ChatGPT, Jasper, Copy.ai, Canva Pro, Zapier</p></div>
+                    <div class="col-1"><img class="me-2 mt-1" src="{{asset('frontend/assets/images/digital-marketing-with-ai-j/image007.svg')}}"></div>
+                    <div class="col-11"><p><b>eCommerce Growth Platforms</b>: Shopify, WooCommerce, Amazon Seller Central, Meta Commerce Manager</p></div>
+                    <div class="col-1"><img class="me-2 mt-1" src="{{asset('frontend/assets/images/digital-marketing-with-ai-j/image008.svg')}}"></div>
+                    <div class="col-11"><p><b>Ads & Performance Marketing</b>: Google Ads, Meta Ads Manager, LinkedIn Ads, Klaviyo, Email Automation Tools</p></div>
+                </div>
+            
+                <P>Learn to seamlessly integrate marketing, media, and eCommerce workflows — for faster, smarter, and more profitable results.</P>
+                <div class="violet-btn  d-flex justify-content-md-start justify-content-center" bis_skin_checked="1">
+                    <a class="text-decoration-none bg-violet" href="{{route('contact')}}">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-7" style="align-content: center;">
+                <img class="w-100 d-lg-block d-none  mb-3" src="{{asset('frontend/assets/images/digital-marketing-with-ai-j/image021.svg')}}">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="industry-experts-section sp-100">
+    <div class="container">
+        <div class="row mb-md-5 mb-4">
+            <div class="col-md-6">
+                <h3 class="mb-md-0 mb-3 text-md-start text-center">Digital Marketing Course Curriculum 
+                <span class="db text-violet">Vetted By Our Industry Experts</span></h3>
+            </div>
+            <div class="col-md-6 d-flex justify-content-md-end justify-content-center">
+                <div class="violet-btn  d-flex justify-content-md-start justify-content-center" bis_skin_checked="1">
+                    <a id="downloadCurriculumBtn" style="cursor: pointer;" class="text-decoration-none bg-violet d-flex align-items-center"  ><img class="me-2" src="{{asset('frontend/assets/images/adm-bootcamp/download-icon.svg')}}">Download Curriculum</a>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4" id="industryExpertsContainer">
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">INTRODUCTION TO DIGITAL MARKETING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">OPPORTUNITIES IN DIGITAL MARKETING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">BASICS OF INTERNET</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">GSUITE MASTERY</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">MARKETING FOUNDATION CONCEPTS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">WEBSITE GRAPHIC DESIGNING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">VIDEO CONTENT CREATIONS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">WEBSITE CREATION - WORDPRESS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">DIGITAL MARKETING ECOSYSTEM</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">INTRODUCTION TO SEO</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">KEYWORD RESEARCH</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">TECHNICAL SEO</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">OFFPAGE SEO</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">GOOGLE SEARCH CONSOLE</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">WEBSITE AUDITS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">LOCAL SEO</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">INTERNATIONAL SEO</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">CREATING LANDING PAGES</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">AFFILIATE MARKETING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">INTRODUCTION TO WEB ANALYTICS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">DIGITAL CONSUMER BEHAVIOUR</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">INTRODUCTION TO GOOGLE ADS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">GOOGLE SEARCH ADS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">GOOGLE DISPLAY ADS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">GOOGLE VIDEO ADS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">FACEBOOK PAGE OPTIMIZATION</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">FACEBOOK ADS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">INSTAGRAM ADS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">LINKEDIN ADS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">TWITTER ADS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">EMAIL MARKETING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">GOOGLE DISPLAY REMARKETING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">GOOGLE SHOPPING ADS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">QUORA MARKETING (PAID)</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">DIGITAL MARKETING STRATEGY</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">ONLINE REPUTATION MANAGEMENT</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">CONVERSION RATE OPTIMIZATION</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">GOOGLE ANALYTICS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">GOOGLE TAG MANAGER</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">GROWTH HACKING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">INTEGRATED MARKETING PLAN DEVELOPMENT</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">MARKETING AUTOMATION</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">INTRODUCTION TO SOCIAL MEDIA</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">INSTAGRAM MARKETING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">LINKEDIN OPTIMIZATION</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">TWITTER ACCOUNT OPTIMIZATION</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">YOUTUBE OPTIMIZATION AND MARKETING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">SOCIAL MEDIA STRATEGY</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">SOCIAL MEDIA MANAGEMENT</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">PINTEREST MARKETING (ORGANIC)</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">INTERVIEW PREPARATION</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">GENERATIVE AI FOR MARKETING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">CONTENT MARKETING IDEAS USING AI</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">VIDEO / IMAGE GENERATION TOOLS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">FREE AND PAID TOOLS OVERVIEW</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">AI FOR EMAIL MARKETING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Introduction to Video Marketing & Production</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Storytelling & Scripting for Video Content</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">AI-Powered Video Editing & Automation Tools</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Adobe Premiere Pro Essentials for Beginners</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Advanced Video Editing in Adobe Premiere Pro</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Motion Graphics & Special Effects in Video Editing</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">YouTube Growth & AI-Based Video SEO Strategies</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">AI-Powered Personalized Video Content for Ads</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">AI-Based A/B Testing for Video Engagement</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Instagram Reels & Short-Form Video Marketing</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">AI-Based Video Transcription & Auto-Captions</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Dynamic Video Ads & Personalized Content Targeting</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Live Streaming & Webinar Production for Businesses</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Video Analytics & AI-Based Performance Tracking</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Monetizing Video Content (YouTube Ads, Sponsorships, UGC)</p>
+                </div>
+            </div><div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Introduction to Podcasting & Audio Storytelling</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">AI-Powered Podcast Planning & Content Structuring</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Setting Up a Professional Podcast Studio & Equipment Guide</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">AI-Enhanced Audio Recording & Editing Techniques</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Best Software for Podcast Editing (Audacity, Descript, Adobe Audition)</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">AI-Based Background Noise Reduction & Sound Optimization</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Hosting & Distributing Podcasts Across Platforms</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">AI-Powered Podcast Marketing & Audience Growth Strategies</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">Monetizing Podcasts (Sponsorships, Ads, Premium Subscriptions)</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">AI-Based Podcast Transcription & SEO Optimization</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">YouTube Podcasting & Video-Based Podcasting Strategies</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">AI-Generated Podcast Voice Cloning & Automation</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">ECOMMERCE PERFORMANCE MARKETING - IDEATION</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">ECOMMERCE PERFORMANCE MARKETING - PLANNING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">ECOMMERCE PERFORMANCE MARKETING - STRATEGY</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">CAMPAIGN CREATION</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">AD OPTIMIZATION</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">REPORT CREATION</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">TRACKING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">DATA ANALYSIS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">MARKETPLACE SELLER ONBOARDING & ACCOUNT SETUP</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">NAVIGATING SELLER DASHBOARD</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">MARKETPLACE PACKAGING STRATEGIES</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">LEVERAGING SELLER SUPPORT</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">CATEGORY AND BRAND APPROVALS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">KEYWORD ANALYSIS FOR PRODUCT LISTINGS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">OPTIMIZING CONTENT FOR PRODUCT LISTINGS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">PRICING STRATEGIES</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">EFFICIENT ORDER FULFILMENT AND TRACKING</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">ENGAGING IN DEALS AND PROMOTIONS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">WAREHOUSE ONBOARDING(FBF & FBA)</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">CONSIGNMENT CREATION & INVENTORY MANAGEMENT</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">WAREHOUSE INVENTORY PLANNING AND MANAGEMENT</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">CUSTOMER EXPERIENCE & PERFORMANCE OVERVIEW</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">PAYMENTS AND FINANCIAL MANAGEMENT</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">GENERATING AND ANALYZING REPORTS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">TYPES OF REPORTS SELLER DASHBOARD</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">DATA MANAGEMENT AND ENTRY</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">FORMULAS AND FUNCTIONS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">DATA ANALYSIS TOOLS</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex industry-experts-container">
+                <div class="industry-experts-main d-flex align-items-center justify-content-center">
+                    <p class="mb-0 fs-16 text-center">INTERMEDIATE FORMULAS AND FUNCTIONS</p>
+                </div>
+            </div>
+        </div>
+
+<!-- Show More/Less Button -->
+<div class="d-flex justify-content-center mt-4">
+    <button id="toggleButtonb" class="btn fs-16 text-violet fw-500 industryexpertbtn d-flex align-items-center justify-content-center gap-2">
+        Load More <img src="{{asset('frontend/assets/images/adm-bootcamp/loadmore-icon.svg')}}" id="toggleIcon">
+    </button>
+</div>
+
+
+    </div>
+</section>
+
     <section class="sp-100 intern-section">
         <div class="container">
             <div class="row gx-md-5">
