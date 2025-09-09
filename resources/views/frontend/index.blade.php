@@ -674,7 +674,7 @@
         </div>
     </section>
 
-    <section class="pt-5">
+    <section class="pt-5 sp-100">
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
@@ -706,7 +706,7 @@
     </div>
 </section>
 
-<section class="industry-experts-section sp-100">
+<section class="industry-experts-section sp-100 ">
     <div class="container">
         <div class="row mb-md-5 mb-4">
             <div class="col-md-6">
@@ -1963,6 +1963,40 @@
         </div>
     </section>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    let items = document.querySelectorAll(".industry-experts-container");
+    let button = document.getElementById("toggleButtonb");
+    let visibleCount = 12; // Initial visible items
+    let totalItems = items.length; // Total items count
 
+    // Hide everything beyond the first 12 items
+    for (let i = visibleCount; i < totalItems; i++) {
+        items[i].classList.add("hiddenb");
+    }
+
+    button.addEventListener("click", function () {
+        if (visibleCount < totalItems) {
+            visibleCount += 12;
+
+            for (let i = 0; i < Math.min(visibleCount, totalItems); i++) {
+                items[i].classList.remove("hiddenb");
+            }
+
+            // Check if all items are visible, then change button text to "Show Less"
+            if (visibleCount >= totalItems) {
+                button.innerHTML = `Load Less <img src="{{asset('frontend/assets/images/adm-bootcamp/loadless-icon.svg')}}" id="toggleIcon">`;
+            }
+        } else {
+            // Reset to show only 12 items when "Show Less" is clicked
+            visibleCount = 12;
+            for (let i = visibleCount; i < totalItems; i++) {
+                items[i].classList.add("hiddenb");
+            }
+            button.innerHTML = `Load More <img src="{{asset('frontend/assets/images/adm-bootcamp/loadmore-icon.svg')}}" id="toggleIcon">`;
+        }
+    });
+});
+</script>
 
 @endsection
