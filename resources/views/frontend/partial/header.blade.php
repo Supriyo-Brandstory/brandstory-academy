@@ -15,6 +15,7 @@
         <li class="nav-item mb-lg-0 mb-3">
           <a class="nav-link" href="{{route('about')}}">About</a>
         </li>
+         
         <li class="nav-item dropdown mb-lg-0 mb-3">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 		  	Course
@@ -24,6 +25,12 @@
             <li><a class="dropdown-item" href="{{route('advanced_digital_marketing_boot_camp')}}">Advanced Digital Marketing Boot Camp</a></li>
             <li><a class="dropdown-item" href="{{route('course_360_degree_digital_marketing')}}">360 Degree Digital Marketing</a></li>
           </ul>
+        </li>
+        <li class="nav-item mb-lg-0 mb-3">
+          <a class="nav-link" href="{{route('gallery')}}">Gallery</a>
+        </li>
+        <li class="nav-item mb-lg-0 mb-3">
+          <a class="nav-link" href="{{route('reviews')}}">Reviews</a>
         </li>
 		<li class="nav-item mb-lg-0 mb-3">
           <a class="nav-link" href="{{route('blogs')}}">Blogs</a>
