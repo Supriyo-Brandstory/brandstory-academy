@@ -253,4 +253,12 @@ public function store_enquery(Request $request)
         ->withFragment('enquiryForm');
 }
 
+
+  public function gallery()
+    {
+        $currentRoute = request()->path();;
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.gallery', compact('seo'));
+    }
+
 }

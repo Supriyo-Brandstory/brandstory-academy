@@ -16,6 +16,7 @@ Route::get('/blogs/{slug?}', [WebsiteController::class, 'blogsVariation'])->name
 Route::get('sitemap.xml', [WebsiteController::class, 'sitemap'])->name('sitemap');
 
 Route::post('/enquiry', [WebsiteController::class, 'store_enquery'])->name('enquiry.store');
+Route::get('/gallery', [WebsiteController::class,'gallery'])->name('gallery');
 
 Auth::routes();
 
