@@ -260,5 +260,11 @@ public function store_enquery(Request $request)
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.gallery', compact('seo'));
     }
+      public function reviews()
+    {
+        $currentRoute = request()->path();;
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.reviews', compact('seo'));
+    }
 
 }

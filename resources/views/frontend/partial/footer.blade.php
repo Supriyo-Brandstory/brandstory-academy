@@ -28,6 +28,7 @@
                             <li class="mb-3"><a class="text-decoration-none text-white fs-14" href="{{route('about')}}">About Us</a></li>
                             <li class="mb-3"><a class="text-decoration-none text-white fs-14" href="#">Course</a></li>
                             <li class="mb-3"><a class="text-decoration-none text-white fs-14" href="{{route('contact')}}">Contact</a></li>
+                            <li class="mb-3"><a class="text-decoration-none text-white fs-14" href="{{route('gallery')}}">Gallery</a></li>
                         </ul>
                     </div>
                     <div class="col-md-5 mb-md-0 mb-4">
