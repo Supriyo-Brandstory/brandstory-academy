@@ -4,19 +4,16 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8 col-md-7 text-md-start text-center">
-                <h1 class="mb-3">Gallery - <span class="text-violet">BrandStory Academy</span></h1>
-                <p class="mb-4">Welcome to the BrandStory Academy Gallery, a showcase of our 
-                  <span class="db">state-of-the-art learning environment, inspiring moments, and the</span>
-                  <span class="db">success stories of our students. Know how we create a dynamic</span>
-                  <span class="db">space for aspiring professionals to build skills, gain confidence, and </span>
-                  <span class="db">shape their future in the digital era.</span>
+                <h1 class="mb-3">1000+ Students Launched <br>Their Careers with Top<br>Global Companies</h1>
                    
             </div>
             <div class="col-lg-4 col-md-5">
-                <img class="w-100" src="{{asset('frontend/assets/images/gallerybanner.webp')}}">
+                <img class="w-100" src="{{asset('frontend/assets/images/placement/placement-banner.webp')}}" alt="placement banner">
             </div>
         </div>
-      
+      <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 justify-content-md-start justify-content-center">
+            <a href="{{route('contact')}}">Enrol Now</a>
+        </div>
     </div>
 </section>
 <section class="placement-description-section container">
@@ -94,43 +91,6 @@
 </section>
 
 
-<!-- <section class="placement-partner-section container">
-    <div class="placement-partner">
-        <p>Our Placement </p>
-        <p style="color: #A184F9;">Partners</p>
-    </div>
-    <p>
-        We are proud to collaborate with some of the most respected names in the industry. Our network of placement partners includes technology leaders, global MNCs, creative agencies, eCommerce innovators, and consulting firms, all of whom trust the quality of talent nurtured at BrandStory Academy.
-    </p>
-
-    <div class="placement-logos">
-        <div class="logo-row">
-            <img src="{{asset('frontend/assets/images/placement/airbnb.png')}}" alt="airbnb logo">
-            <img src="{{asset('frontend/assets/images/placement/hubspot.png')}}" alt="hubspot logo">
-            <img src="{{asset('frontend/assets/images/placement/google.png')}}" alt="google logo">
-            <img src="{{asset('frontend/assets/images/placement/ms.png')}}" alt="ms logo">
-            <img src="{{asset('frontend/assets/images/placement/wallmart.png')}}" alt="walmart logo">
-            <img src="{{asset('frontend/assets/images/placement/fedex.png')}}" alt="fedex logo">
-        </div>
-        <div class="logo-row">
-            <img src="{{asset('frontend/assets/images/placement/airbnb.png')}}" alt="airbnb logo">
-            <img src="{{asset('frontend/assets/images/placement/hubspot.png')}}" alt="hubspot logo">
-            <img src="{{asset('frontend/assets/images/placement/google.png')}}" alt="google logo">
-            <img src="{{asset('frontend/assets/images/placement/ms.png')}}" alt="ms logo">
-            <img src="{{asset('frontend/assets/images/placement/wallmart.png')}}" alt="walmart logo">
-            <img src="{{asset('frontend/assets/images/placement/fedex.png')}}" alt="fedex logo">
-        </div>
-        <div class="logo-row">
-            <img src="{{asset('frontend/assets/images/placement/airbnb.png')}}" alt="airbnb logo">
-            <img src="{{asset('frontend/assets/images/placement/hubspot.png')}}" alt="hubspot logo">
-            <img src="{{asset('frontend/assets/images/placement/google.png')}}" alt="google logo">
-            <img src="{{asset('frontend/assets/images/placement/ms.png')}}" alt="ms logo">
-            <img src="{{asset('frontend/assets/images/placement/wallmart.png')}}" alt="walmart logo">
-            <img src="{{asset('frontend/assets/images/placement/fedex.png')}}" alt="fedex logo">
-        </div> 
-    </div>
-</section> -->
-
 <section class="sp-100">
         <div class="container">
             <div class="placement-partner">
@@ -141,43 +101,43 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand1.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand1.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand2.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand2.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand3.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand3.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand4.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand4.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand5.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand5.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand6.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand6.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand7.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand7.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>

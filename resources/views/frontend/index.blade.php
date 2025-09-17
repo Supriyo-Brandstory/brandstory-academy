@@ -70,43 +70,43 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand1.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand1.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand2.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand2.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand3.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand3.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand4.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand4.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand5.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand5.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand6.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand6.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand7.svg"
+                            <img src="{{asset('frontend/assets/images/placement/brand7.svg')}}"
                                 class="img-fluid" alt="Our Partner Company for Placements">
                         </div>
                     </div>
