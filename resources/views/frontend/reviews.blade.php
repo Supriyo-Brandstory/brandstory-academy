@@ -8,7 +8,7 @@
                     <p class="mb-4"><span class="text-blue fw-600">At BrandStory Academy, our success speaks louder than words. Through hands-on training, live projects, expert mentorship, and dedicated placement support, we have empowered countless learners to transform their careers. </p>
                     <div class="d-lg-flex align-items-center">
                         <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 justify-content-md-start justify-content-center">
-                            <a href="#testimony">See All Reviews</a>
+                            <a href="https://share.google/1e5xG9U7YYaTxRMFE">See All Reviews</a>
                         </div>
                         <div class="student-main mb-md-0 mb-5">
                             <img class="mb-1" src="{{asset('frontend/assets/images/home/students.webp')}}"
@@ -244,76 +244,5 @@
   'https://www.instagram.com/p/DLsC-H9xQVg'
 ]" />
     </div>
-    <style>
-        .profile {
-            background: #FFC700;
-            padding: 20px;
-            border-radius: 20px;
-            margin: 5px;
-        }
 
-        .testimonial-section {
-            overflow: hidden;
-            width: 100%;
-            background: #fff;
-            padding: 100px 0;
-        }
-
-        .testimonial-row {
-            display: flex;
-            gap: 20px;
-            width: max-content;
-            padding: 20px 0;
-        }
-
-        .testimonial {
-            min-width: 597px;
-            /* adjust card width */
-            min-height: 200px;
-            background: #f9f9f9;
-            border-radius: 12px;
-            padding: 20px;
-            max-width: 597px;
-            /* adjust card width */
-            box-shadow: 0px 0px 10px 0px #0000001A;
-            border: 1px solid #E8E8E8;
-
-
-        }
-
-        .testimonial p {
-            font-size: 14px;
-            color: #7F7796;
-        }
-
-        /* Animation left-to-right */
-        .left-to-right {
-            animation: scroll-left 20s linear infinite;
-        }
-
-        @keyframes scroll-left {
-            from {
-                transform: translateX(-50%);
-            }
-
-            to {
-                transform: translateX(0);
-            }
-        }
-
-        /* Animation right-to-left */
-        .right-to-left {
-            animation: scroll-right 20s linear infinite;
-        }
-
-        @keyframes scroll-right {
-            from {
-                transform: translateX(0);
-            }
-
-            to {
-                transform: translateX(-50%);
-            }
-        }
-    </style>
 @endsection

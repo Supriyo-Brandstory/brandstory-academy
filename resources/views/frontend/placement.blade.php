@@ -5,24 +5,26 @@
         <div class="row align-items-center">
             <div class="col-lg-8 col-md-7 text-md-start text-center">
                 <h1 class="mb-3">1000+ Students Launched <br>Their Careers with Top<br>Global Companies</h1>
-                   
+             <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 justify-content-md-start justify-content-center">
+                <a href="{{route('contact')}}">Enrol Now</a>
+             </div>      
             </div>
             <div class="col-lg-4 col-md-5">
                 <img class="w-100" src="{{asset('frontend/assets/images/placement/placement-banner.webp')}}" alt="placement banner">
             </div>
         </div>
-      <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 justify-content-md-start justify-content-center">
-            <a href="{{route('contact')}}">Enrol Now</a>
-        </div>
+      
     </div>
 </section>
-<section class="placement-description-section container">
+<section class="container">
+    <div class="placement-description-section">
     <!-- <img class="w-100 h-100" src="{{asset('frontend/assets/images/placement/placement-bg.webp')}}" alt="image"> -->
     <div class="placement-description-container">
         At BrandStory Academy, we believe that the true measure of our success lies in the achievements of our students. Over the years, more than 3,000 learners have secured rewarding careers with leading global corporations, regional enterprises, and fast-growing startups.
         <br><br>
         Our dedicated training, internship, and placement support is designed to prepare students for the competitive job market, ensuring that they not only find employment but also launch careers that align with their passions and skills.
     </div>
+</div> 
 </section>
 
 <section class="placement-alumini-section container">
