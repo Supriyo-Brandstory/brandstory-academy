@@ -32,6 +32,9 @@
         <li class="nav-item mb-lg-0 mb-3">
           <a class="nav-link" href="{{route('reviews')}}">Reviews</a>
         </li>
+        <li class="nav-item mb-lg-0 mb-3">
+          <a class="nav-link" href="{{route('placement')}}">Placement</a>
+        </li>
 		<li class="nav-item mb-lg-0 mb-3">
           <a class="nav-link" href="{{route('blogs')}}">Blogs</a>
         </li>

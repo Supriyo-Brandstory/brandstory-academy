@@ -1225,3 +1225,167 @@ section.youtubesec {
             font-size: 16px;
         }
     }
+
+    /* portfolio */
+
+    .placement-description-section{
+                padding: 50px 50px;
+                margin: 70px auto;
+                background: url('/frontend/assets/images/placement/description-bg.webp');
+                background-size: contain;
+                background-repeat: no-repeat;
+                border-radius: 20px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                display: flex;
+                flex-direction: row;
+                justify-content: right;
+                align-items: right;
+            }
+            .placement-description-container{
+                width: 50%;
+                color: #444242;
+            }
+            @media (max-width: 786px) {
+                .placement-description-section{
+                    background-size: 200%;
+                    padding: 0px 20px 20px 20px;
+                    /* margin-left: 10px; */
+                    width: calc(100% - 20px);
+                }
+                .placement-description-container{
+                    width: 100%;
+                    margin-top: 250px;
+                }
+            }
+
+            .placement-alumini-section {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+              gap: 20px;
+            }
+            .placement-alumini-container {
+              border: 1px solid #ddd;
+              border-radius: 20px;
+              text-align: center;
+              background: #fff;
+              width: 100%;
+              box-sizing: border-box;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 12px;
+            }
+
+            .placement-alumini-container img {
+              max-width: 100%;
+              border-radius: 20px;
+              height: auto;
+              object-fit: contain;
+              margin-bottom: 10px;
+            }
+
+            .placement-alumini-container p {
+              margin: 10px 0;
+              font-weight: 600;
+              font-size: 1.1rem;
+            }
+
+            .placement-logo{
+                border-radius: 0px !important;
+                width: 100px;
+                height: 25px !important;
+                object-fit: contain !important;
+            }
+            .placement-footer{
+                width: 100% ;
+                border-top: 1px solid #ddd;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                padding: 10px 0px;
+                margin: 0px 10px;
+            }
+
+            .placement-footer p{
+                font-size: 18px;
+                font-weight: normal;
+                margin: 0px 5px;
+            }
+
+
+            /* placement partner */
+            /* .placement-partner-section{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 50px;
+            }
+            .placement-partner-section p{
+                max-width: 885px;
+                font-size: 18px;
+                color: #444242;
+                text-align: center;
+                line-height: 1.3;
+            } */
+            .placement-partner{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+            .placement-partner p{
+                margin: 50px 4px;
+                font-size: 38px;
+                font-weight: 500;
+            }
+
+            @media (max-width: 786px) {
+                
+                .placement-partner p{
+                    font-size: 28px;
+                    margin: 20px 5px;
+                }                
+            }
+
+            /* .placement-logos {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 60px;
+                border-top: 1px solid #ddd;
+                border-bottom: 1px solid #ddd;
+                padding: 60px 0;
+                box-sizing: border-box;
+                margin-bottom: 100px;
+            }
+
+            .logo-row {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                width: 100%;
+            }
+
+            .logo-row img {
+                max-height: 30px;
+                width: auto;
+                object-fit: contain;
+                flex: 0 1 100px;
+            }
+
+            @media (max-width: 768px) {
+                .placement-logos {
+                    gap: 20px;
+                    padding: 10px 0;
+                }
+                .logo-row {
+                    gap: 15px;
+                }
+                .logo-row img {
+                    max-height: 24px;
+                    flex: 0 1 60px;
+                }
+            } */
