@@ -31,37 +31,37 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="brandsmain">
-                    <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand1.svg" class="img-fluid" alt="Video production Service">
+                    <img src="{{asset('frontend/assets/images/placement/brand1.svg')}}" class="img-fluid" alt="Our Placement Partners">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="brandsmain">
-                    <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand2.svg" class="img-fluid" alt="Video production Service">
+                    <img src="{{asset('frontend/assets/images/placement/brand2.svg')}}" class="img-fluid" alt="Our Placement Partners">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="brandsmain">
-                    <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand3.svg" class="img-fluid" alt="Video production Service">
+                    <img src="{{asset('frontend/assets/images/placement/brand3.svg')}}" class="img-fluid" alt="Our Placement Partners">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="brandsmain">
-                    <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand4.svg" class="img-fluid" alt="Video production Service">
+                    <img src="{{asset('frontend/assets/images/placement/brand4.svg')}}" class="img-fluid" alt="Our Placement Partners">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="brandsmain">
-                    <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand5.svg" class="img-fluid" alt="Video production Service">
+                    <img src="{{asset('frontend/assets/images/placement/brand5.svg')}}" class="img-fluid" alt="Our Placement Partners">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="brandsmain">
-                    <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand6.svg" class="img-fluid" alt="Video production Service">
+                    <img src="{{asset('frontend/assets/images/placement/brand6.svg')}}" class="img-fluid" alt="Our Placement Partners">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="brandsmain">
-                    <img src="https://brandstory.in/resources/digital/assets/images/video-production/brand7.svg" class="img-fluid" alt="Video production Service">
+                    <img src="{{asset('frontend/assets/images/placement/brand7.svg')}}" class="img-fluid" alt="Our Placement Partners">
                 </div>
             </div>
         </div>
