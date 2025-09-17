@@ -128,11 +128,11 @@
                         src="{{asset('frontend/assets/images/home/about-academy-img.webp')}}" alt="Digital Marketing training Institute in Bangalore - BrandStory Academy">
                     <p>Founded in 2018, BrandStory Academy aims to empower aspiring professionals with the skills needed to excel in the digital marketing industry. We offer an 
                         intuitive learning environment where students learn from very basics to advanced level, apply their knowledge to live projects, build skills, and grow into 
-                        industry-ready experts. We have expert trainers and mentors with 10+ years of proven expertise in the digital marketing industry.</p>
+                        industry-ready experts.</p>
                     <p class="mb-0">We are among the top-rated digital marketing training Institutes in Bangalore offering advanced and industry-relevant curriculum. From learning to 
                         earning, our courses are designed to transform you into job-ready professionals and secure placements with 1,000+ global companies.</p>
                     <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 mt-4 justify-content-md-start justify-content-center">
-                            <a href="{{route('contact')}}">Know About Us</a>
+                            <a href="{{route('about')}}">Know About Us</a>
                     </div>
                 </div>
             </div>

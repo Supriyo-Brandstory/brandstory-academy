@@ -20,7 +20,7 @@
     <div class="placement-description-section">
     <!-- <img class="w-100 h-100" src="{{asset('frontend/assets/images/placement/placement-bg.webp')}}" alt="image"> -->
     <div class="placement-description-container">
-        At BrandStory Academy, we believe that the true measure of our success lies in the achievements of our students. Over the years, more than 3,000 learners have secured rewarding careers with leading global corporations, regional enterprises, and fast-growing startups.
+        At BrandStory Academy, we believe that the true measure of our success lies in the achievements of our students. Over the years, more than 1,000 learners have secured rewarding careers with leading global corporations, regional enterprises, and fast-growing startups.
         <br><br>
         Our dedicated training, internship, and placement support is designed to prepare students for the competitive job market, ensuring that they not only find employment but also launch careers that align with their passions and skills.
     </div>
