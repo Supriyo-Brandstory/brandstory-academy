@@ -266,5 +266,11 @@ public function store_enquery(Request $request)
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.reviews', compact('seo'));
     }
+      public function placement()
+    {
+        $currentRoute = request()->path();;
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.placement', compact('seo'));
+    }
 
 }
