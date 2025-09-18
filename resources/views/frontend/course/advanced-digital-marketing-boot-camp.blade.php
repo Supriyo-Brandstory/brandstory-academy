@@ -115,7 +115,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
-                <img class="w-100 d-lg-none d-block mb-3" src="{{asset('frontend/assets/images/adm-bootcamp/video-production-mbl.svg')}}">
+                <img class="w-100 d-lg-none d-block mb-3" src="{{asset('frontend/assets/images/adm-bootcamp/video-production-mbl.webp')}}">
                 <h2 class="mb-3 text-md-start text-center">Tools: Digital Marketing and <span class="text-violet">Video Production</span></h2>
                 <p class="mb-4 text-md-start text-center">This course covers digital marketing and video production tools such as 
                     <span class="text-blue">

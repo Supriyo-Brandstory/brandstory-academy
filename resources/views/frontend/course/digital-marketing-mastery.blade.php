@@ -139,7 +139,7 @@
             <div class="row">
                 <div class="col-lg-5">
                     <img class="w-100 d-lg-none d-block mb-3"
-                        src="{{asset('frontend/assets/images/adm-bootcamp/video-production-mbl.svg')}}">
+                        src="{{asset('frontend/assets/images/adm-bootcamp/video-production-mbl.webp')}}">
                     <h2 class="mb-3 text-md-start text-center">Tools You <span class="text-violet">Will Learn</span></h2>
                     <p class="mb-4 text-md-start text-center">Stay ahead of the curve with industry-leading marketing and AI
                         tools, including:
@@ -175,7 +175,7 @@
                 </div>
                 <div class="col-lg-7">
                     <img class="w-100 d-lg-block d-none mb-3"
-                        src="{{asset('frontend/assets/images/digital-marketing-with-ai-j/image021.svg')}}">
+                        src="{{asset('frontend/assets/images/digital-marketing-with-ai-j/image021.webp')}}">
                 </div>
             </div>
         </div>
