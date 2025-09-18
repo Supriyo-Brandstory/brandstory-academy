@@ -5,12 +5,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-7 text-md-start text-center">
-                    <h1 class="mb-3">Best <span class="text-violet">Digital Marketing Institute in Bangalore:</span> Learn, Work, &
-                        Certify Your Skills</h1>
+                    <h1 class="mb-3">Best <span class="text-violet">Digital Marketing Institute in Bangalore</span> for Career-focused Courses</h1>
                     <p class="mb-4"><span class="text-blue fw-600">Learn, work, and certify your skills in 6 months</span>
-                        with the advanced digital marketing courses in Bangalore. At BrandStory Academy, you’ll learn the A-Z of
-                        digital marketing, work on live projects, and become certified to launch your career in digital
-                        marketing.</p>
+                        with the advanced digital marketing courses in Bangalore. At BrandStory Academy, you can learn the A-Z of
+                        digital marketing, work on live projects, and get certified to launch your career as a digital
+                        marketing expert.</p>
                     <div class="d-lg-flex align-items-center">
                         <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 justify-content-md-start justify-content-center">
                             <a href="{{route('contact')}}">Enquire Now today!</a>
@@ -126,11 +125,11 @@
                     </h2>
                     <img class="w-100 d-lg-none d-block mb-3"
                         src="{{asset('frontend/assets/images/home/about-academy-img.webp')}}" alt="Digital Marketing training Institute in Bangalore - BrandStory Academy">
-                    <p>Founded in 2018, BrandStory Academy aims to empower aspiring professionals with the skills needed to excel in the digital marketing industry. We offer an 
-                        intuitive learning environment where students learn from very basics to advanced level, apply their knowledge to live projects, build skills, and grow into 
-                        industry-ready experts.</p>
-                    <p class="mb-0">We are among the top-rated digital marketing training Institutes in Bangalore offering advanced and industry-relevant curriculum. From learning to 
-                        earning, our courses are designed to transform you into job-ready professionals and secure placements with 1,000+ global companies.</p>
+                    <p>BrandStory Academy was founded in 2018 with a simple vision to redefine how digital marketing is taught. As a leading digital marketing training institute in 
+                        Bangalore, we believe learning should spark curiosity, creativity, and confidence. Our classrooms are collaborative spaces where ideas can flow freely, challenges 
+                        are embraced, and innovation is celebratedp</p>
+                    <p class="mb-0">We are among the top-rated digital marketing Institutes in Bangalore offering advanced and industry-relevant course curriculum. Our digital marketing 
+                        courses are designed to transform you into job-ready professionals and secure placements with 1,000+ global companies.</p>
                     <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 mt-4 justify-content-md-start justify-content-center">
                             <a href="{{route('about')}}">Know About Us</a>
                     </div>
@@ -142,12 +141,10 @@
 
     <section class="dm-course-section spb-100">
         <div class="container">
-            <h2 class="text-center db">Best <span class="text-violet">Expert-Led</span> Digital Marketing Courses in Bangalore</h2>
-            <p class="max-1000 text-center">BrandStory Academy is the top-rated digital marketing institute,
-                offering most-advanced digital marketing courses in Bangalore. You’ll learn everything, from the basics to advanced-level
-                concepts, and gain practical experience through live projects at various stages of training. We offer the
-                best digital marketing course curriculum, top-tier faculty in the city, and industry-focused training that
-                equips students with real-world skills.</p>
+            <h2 class="text-center db"><span class="text-violet">Expert-Led</span> Digital Marketing Courses in Bangalore</h2>
+            <p class="max-1000 text-center">BrandStory Academy is a leading digital marketing institute, offering advanced-level digital 
+                marketing courses in Bangalore that cover everything from the fundamentals to expert-level strategies. We prepare aspiring 
+                professionals with a well-structured curriculum, experienced faculty, and industry-focused learning.</p>
             <div class="dm-course-main mt-5">
                 <ul class="nav nav-pills mb-md-5 mb-4 d-flex justify-content-center" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -328,7 +325,7 @@
             <h2 class="text-center mb-4">Learn <span class="text-violet">Digital Marketing</span> at BrandStory Academy</h2>
             <p class="mb-4 text-center">BrandStory Academy, located at Bangalore is a hub for some of the best digital
                 <span class="db">marketing courses in India. If you are seeking to explore career opportunities in </span>
-                <span class="db">digital marketing, this is the place to start. Start here.</span>
+                <span class="db">digital marketing, this is the place to start.</span>
             </p>
             <div class="row">
                 <div class="col-lg-6">
@@ -1487,7 +1484,7 @@
                             <div class="ourstudent d-flex align-items-center">
                                 <img class="me-3" src="{{asset('frontend/assets/images/home/student-small1.webp')}}">
                                 <div class="ourstudent-cnt text-white">
-                                    <h4 class="mb-2">Shaun Moore</h4>
+                                    <h4 class="mb-2">Gowtham AG</h4>
                                     <p class="mb-0">Digital Marketing Mastery With
                                         <span class="db">Artificial Intelligence (AI)</span>
                                     </p>
@@ -1504,7 +1501,7 @@
                             <div class="ourstudent d-flex align-items-center">
                                 <img class="me-3" src="{{asset('frontend/assets/images/home/student-small2.webp')}}">
                                 <div class="ourstudent-cnt text-white">
-                                    <h4 class="mb-2">James Lee</h4>
+                                    <h4 class="mb-2">Anand G</h4>
                                     <p class="mb-0">Advanced Digital Marketing
                                         <span class="db">Boot Camp</span>
                                     </p>
@@ -1521,8 +1518,10 @@
                             <div class="ourstudent d-flex align-items-center">
                                 <img class="me-3" src="{{asset('frontend/assets/images/home/student-small3.webp')}}">
                                 <div class="ourstudent-cnt text-white">
-                                    <h4 class="mb-2">Antony</h4>
-                                    <p class="mb-0">360° Digital Marketing</p>
+                                    <h4 class="mb-2">Stuart Nithin</h4>
+                                    <p class="mb-0">360° Digital Marketing
+                                        <span class="db">Course</span>
+                                    </p>
                                 </div>
                             </div>
                             <div class="student-rates">
@@ -1538,10 +1537,9 @@
                 <div class="col-md-6 align-self-center">
                     <div class="student-testi-main text-center" data-student="1">
                         <img class="mb-3" src="{{asset('frontend/assets/images/home/student-large1.webp')}}">
-                        <p class="mb-4">I was a beginner, but Sparkly’s step-by-step courses made everything simple and easy
-                            to grasp</p>
+                        <p class="mb-4">Enrolling at Brandstory Academy was an eye-opening experience. The course combines academic rigor with hands-on practice for the Indian market.</p>
                         <div class="student-detailsmin">
-                            <h4 class="mb-2">Shaun Moore</h4>
+                            <h4 class="mb-2"> Gowtham AG</h4>
                             <p class="mb-2">Digital Marketing Mastery With Artificial
                                 <span class="db">Intelligence (AI)</span>
                             </p>
@@ -1550,10 +1548,9 @@
                     </div>
                     <div class="student-testi-main text-center" data-student="2">
                         <img class="mb-3" src="{{asset('frontend/assets/images/home/student-large2.webp')}}">
-                        <p class="mb-4">I was a beginner, but Sparkly’s step-by-step courses made everything simple and easy
-                            to grasp</p>
+                        <p class="mb-4">Their digital marketing course combines theoretical knowledge with practical projects focused on the Indian market.</p>
                         <div class="student-detailsmin">
-                            <h4 class="mb-2">James Lee</h4>
+                            <h4 class="mb-2">Anand G</h4>
                             <p class="mb-2">Advanced Digital Marketing
                                 <span class="db">Boot Camp</span>
                             </p>
@@ -1562,10 +1559,9 @@
                     </div>
                     <div class="student-testi-main text-center" data-student="3">
                         <img class="mb-3" src="{{asset('frontend/assets/images/home/student-large3.webp')}}">
-                        <p class="mb-4">I was a beginner, but Sparkly’s step-by-step courses made everything simple and easy
-                            to grasp</p>
+                        <p class="mb-4">Brandstory Academy's 6-month internship was a pivotal moment in my career. I gained hands-on experience working on live projects with top brands.</p>
                         <div class="student-detailsmin">
-                            <h4 class="mb-2">Antony</h4>
+                            <h4 class="mb-2">Stuart Nithin</h4>
                             <p class="mb-2">360° Digital Marketing</p>
                             <img src="{{asset('frontend/assets/images/home/student-review.webp')}}">
                         </div>
