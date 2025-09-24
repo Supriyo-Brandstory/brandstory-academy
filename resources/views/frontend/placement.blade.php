@@ -31,7 +31,7 @@
     <div class="placement-alumini-container">
         <img src="{{asset('frontend/assets/images/placement/alumini-1.webp')}}" alt="alumini image">
         <p>
-            Namitha Nambi
+            Roshan Kumar
         </p>
         <img class="placement-logo" src="{{asset('frontend/assets/images/placement/airbnb.png')}}" alt="alumini image">
         <div class="placement-footer">
@@ -41,7 +41,7 @@
     </div>
     <div class="placement-alumini-container">
         <img src="{{asset('frontend/assets/images/placement/alumini-2.webp')}}" alt="alumini image">
-        <p>Namitha Nambi</p>
+        <p>Gowtham AG</p>
         <img class="placement-logo" src="{{asset('frontend/assets/images/placement/hubspot.png')}}" alt="hubspot logo">
         <div class="placement-footer">
             <p>Fresher</p>
@@ -61,7 +61,7 @@
 
     <div class="placement-alumini-container">
         <img src="{{asset('frontend/assets/images/placement/alumini-4.webp')}}" alt="alumini image">
-        <p>Namitha Nambi</p>
+        <p>Maria Sherly</p>
         <img class="placement-logo" src="{{asset('frontend/assets/images/placement/wallmart.png')}}" alt="walmart logo">
         <div class="placement-footer">
             <p>Fresher</p>
@@ -71,7 +71,7 @@
 
     <div class="placement-alumini-container">
         <img src="{{asset('frontend/assets/images/placement/alumini-5.webp')}}" alt="alumini image">
-        <p>Namitha Nambi</p>
+        <p>Harsha Srivastava</p>
         <img class="placement-logo" src="{{asset('frontend/assets/images/placement/ms.png')}}" alt="ms logo">
         <div class="placement-footer">
             <p>Fresher</p>
@@ -81,8 +81,8 @@
 
     <div class="placement-alumini-container">
         <img src="{{asset('frontend/assets/images/placement/alumini-6.webp')}}" alt="alumini image">
-        <p>Namitha Nambi</p>
-        <img class="placement-logo" src="{{asset('frontend/assets/images/placement/fedex.png')}}" alt="fedex logo">
+        <p>Lahasya Reddy</p>
+        <img class="placement-logo" src="{{asset('frontend/assets/images/placement/Fedex.png')}}" alt="fedex logo">
         <div class="placement-footer">
             <p>Fresher</p>
             <p style="color: #EA7D30;">Digital Marketing Executive</p>
