@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-7 text-md-start text-center">
                     <h1 class="mb-3">Best <span class="text-violet">Digital Marketing Institute in Bangalore</span> for Career-Ready Courses</h1>
-                    <p class="mb-4"><span class="text-blue fw-600">At BrandStory Academy, you can learn the A-Z of
+                    <p class="mb-4"><span >At BrandStory Academy, you can learn the A-Z of
                         digital marketing, work on live projects, and get certified to launch your career as a digital
                         marketing expert. Learn, work, and certify your skills in 6 months</span>
                         with the advanced digital marketing courses in Bangalore.</p>
