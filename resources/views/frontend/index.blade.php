@@ -1609,7 +1609,7 @@
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
                         <div class="col-md-4 text-center">
-                            <div class="placement-alumni-container">
+                            <div class="placement-alumini-container">
                                 <img src="{{asset('frontend/assets/images/placement/alumini-1.webp')}}" alt="alumni image" class="img-fluid mb-2">
                                 <p>Roshan Kumar</p>
                                 <img class="placement-logo mb-2" src="{{asset('frontend/assets/images/placement/airbnb.png')}}" alt="airbnb logo">
@@ -1620,7 +1620,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 text-center">
-                            <div class="placement-alumni-container">
+                            <div class="placement-alumini-container">
                                 <img src="{{asset('frontend/assets/images/placement/alumini-2.webp')}}" alt="alumni image" class="img-fluid mb-2">
                                 <p>Gowtham AG</p>
                                 <img class="placement-logo mb-2" src="{{asset('frontend/assets/images/placement/hubspot.png')}}" alt="hubspot logo">
@@ -1631,7 +1631,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 text-center">
-                            <div class="placement-alumni-container">
+                            <div class="placement-alumini-container">
                                 <img src="{{asset('frontend/assets/images/placement/alumini-3.webp')}}" alt="alumni image" class="img-fluid mb-2">
                                 <p>Namitha Nambi</p>
                                 <img class="placement-logo mb-2" src="{{asset('frontend/assets/images/placement/amazon.png')}}" alt="amazon logo">
@@ -1648,7 +1648,7 @@
                 <div class="carousel-item">
                     <div class="row justify-content-center">
                         <div class="col-md-4 text-center">
-                            <div class="placement-alumni-container">
+                            <div class="placement-alumini-container">
                                 <img src="{{asset('frontend/assets/images/placement/alumini-4.webp')}}" alt="alumni image" class="img-fluid mb-2">
                                 <p>Maria Sherly</p>
                                 <img class="placement-logo mb-2" src="{{asset('frontend/assets/images/placement/wallmart.png')}}" alt="walmart logo">
@@ -1659,7 +1659,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 text-center">
-                            <div class="placement-alumni-container">
+                            <div class="placement-alumini-container">
                                 <img src="{{asset('frontend/assets/images/placement/alumini-5.webp')}}" alt="alumni image" class="img-fluid mb-2">
                                 <p>Harsha Srivastava</p>
                                 <img class="placement-logo mb-2" src="{{asset('frontend/assets/images/placement/ms.png')}}" alt="ms logo">
@@ -1670,7 +1670,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 text-center">
-                            <div class="placement-alumni-container">
+                            <div class="placement-alumini-container">
                                 <img src="{{asset('frontend/assets/images/placement/alumini-6.webp')}}" alt="alumni image" class="img-fluid mb-2">
                                 <p>Lahasya Reddy</p>
                                 <img class="placement-logo mb-2" src="{{asset('frontend/assets/images/placement/Fedex.png')}}" alt="fedex logo">
@@ -1699,93 +1699,7 @@
 </section>
 
 
-    <section class="spb-100">
-        <div class="container">
-            <h2 class="text-center mb-md-5 mb-4">Why Digital Marketing is <span class="text-violet">The Best Career Choice</span></h2>
-            <div class="row col-reverse">
-                <div class="col-md-6">
-                    <div class="key-highlight-main facts">
-                        <div class="accordion" id="accordionExample1">
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="headingfOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsefOne" aria-expanded="true" aria-controls="collapsefOne">
-                                        <img class="me-2" src="{{asset('frontend/assets/images/home/fact-icon1.svg')}}">The
-                                        Industry
-                                    </button>
-                                </h4>
-                                <div id="collapsefOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingfOne" data-bs-parent="#accordionExample1">
-                                    <div class="accordion-body">
-                                        <p class="mb-0">Digital marketing is a booming industry with 25-30% annual growth.
-                                            The digital advertising industry alone is valued at over ₹30,000 crore in 2024,
-                                            and it is expected to double in the next 3–4 years.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="headingfTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsefTwo" aria-expanded="false" aria-controls="collapsefTwo">
-                                        <img class="me-2"
-                                            src="{{asset('frontend/assets/images/home/fact-icon2.svg')}}">Career Growth
-                                    </button>
-                                </h4>
-                                <div id="collapsefTwo" class="accordion-collapse collapse" aria-labelledby="headingfTwo"
-                                    data-bs-parent="#accordionExample1">
-                                    <div class="accordion-body">
-                                        <p class="mb-0">Digital marketing is widely recognized as one of the top 10 most
-                                            in-demand career options in 2025, both in India and globally. The demand for
-                                            qualified digital marketing professionals is also rising with time.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="headingfthree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsefthree" aria-expanded="false"
-                                        aria-controls="collapsefthree">
-                                        <img class="me-2"
-                                            src="{{asset('frontend/assets/images/home/fact-icon3.svg')}}">Skills to Learn
-                                    </button>
-                                </h4>
-                                <div id="collapsefthree" class="accordion-collapse collapse" aria-labelledby="headingfthree"
-                                    data-bs-parent="#accordionExample1">
-                                    <div class="accordion-body">
-                                        <p class="mb-0">The most demanding skills to learn in digital marketing are Search
-                                            Engine Optimization, Meta Ads, Google Ads, Video production, and E-commerce
-                                            marketing. These skills will help you land a successful career in digital
-                                            marketing.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="headingffour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseffour" aria-expanded="false" aria-controls="collapseffour">
-                                        <img class="me-2"
-                                            src="{{asset('frontend/assets/images/home/fact-icon4.svg')}}">Latest Trends
-                                    </button>
-                                </h4>
-                                <div id="collapseffour" class="accordion-collapse collapse" aria-labelledby="headingffour"
-                                    data-bs-parent="#accordionExample1">
-                                    <div class="accordion-body">
-                                        <p class="mb-0">A large proportion of consumers prefer buying from businesses that
-                                            have a good online presence. People now engage with more brands that have a
-                                            strong social media influence.</p>
-                                    </div>
-                                </div>
-                            </div>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <img class="w-100" src="{{asset('frontend/assets/images/home/fast-img.webp')}}" alt="Mentor taking classes at BrandStory Academy">
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!--<section class="ourstudents-sec">
         <div class="container">
@@ -1986,6 +1900,93 @@
 
 
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section class="spb-100">
+        <div class="container">
+            <h2 class="text-center mb-md-5 mb-4">Why Digital Marketing is <span class="text-violet">The Best Career Choice</span></h2>
+            <div class="row col-reverse">
+                <div class="col-md-6">
+                    <div class="key-highlight-main facts">
+                        <div class="accordion" id="accordionExample1">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingfOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsefOne" aria-expanded="true" aria-controls="collapsefOne">
+                                        <img class="me-2" src="{{asset('frontend/assets/images/home/fact-icon1.svg')}}">The
+                                        Industry
+                                    </button>
+                                </h4>
+                                <div id="collapsefOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingfOne" data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+                                        <p class="mb-0">Digital marketing is a booming industry with 25-30% annual growth.
+                                            The digital advertising industry alone is valued at over ₹30,000 crore in 2024,
+                                            and it is expected to double in the next 3–4 years.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingfTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsefTwo" aria-expanded="false" aria-controls="collapsefTwo">
+                                        <img class="me-2"
+                                            src="{{asset('frontend/assets/images/home/fact-icon2.svg')}}">Career Growth
+                                    </button>
+                                </h4>
+                                <div id="collapsefTwo" class="accordion-collapse collapse" aria-labelledby="headingfTwo"
+                                    data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+                                        <p class="mb-0">Digital marketing is widely recognized as one of the top 10 most
+                                            in-demand career options in 2025, both in India and globally. The demand for
+                                            qualified digital marketing professionals is also rising with time.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingfthree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsefthree" aria-expanded="false"
+                                        aria-controls="collapsefthree">
+                                        <img class="me-2"
+                                            src="{{asset('frontend/assets/images/home/fact-icon3.svg')}}">Skills to Learn
+                                    </button>
+                                </h4>
+                                <div id="collapsefthree" class="accordion-collapse collapse" aria-labelledby="headingfthree"
+                                    data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+                                        <p class="mb-0">The most demanding skills to learn in digital marketing are Search
+                                            Engine Optimization, Meta Ads, Google Ads, Video production, and E-commerce
+                                            marketing. These skills will help you land a successful career in digital
+                                            marketing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingffour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseffour" aria-expanded="false" aria-controls="collapseffour">
+                                        <img class="me-2"
+                                            src="{{asset('frontend/assets/images/home/fact-icon4.svg')}}">Latest Trends
+                                    </button>
+                                </h4>
+                                <div id="collapseffour" class="accordion-collapse collapse" aria-labelledby="headingffour"
+                                    data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+                                        <p class="mb-0">A large proportion of consumers prefer buying from businesses that
+                                            have a good online presence. People now engage with more brands that have a
+                                            strong social media influence.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="w-100" src="{{asset('frontend/assets/images/home/fast-img.webp')}}" alt="Mentor taking classes at BrandStory Academy">
                 </div>
             </div>
         </div>
