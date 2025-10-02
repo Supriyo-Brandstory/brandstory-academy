@@ -1383,9 +1383,9 @@
     </div>
 </section>
 
-<section class="ourstudents-sec">
+<section class="ourstudents-sec" style="background:#fff">
   <div class="container">
-    <h2 class="text-white mb-md-5 mb-4 text-md-start text-center">
+    <h2 class="text-black mb-md-5 mb-4 text-md-start text-center">
       What Our Students Say
       <span class="db">About Us</span>
     </h2>
