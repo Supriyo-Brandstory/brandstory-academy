@@ -1387,7 +1387,7 @@
   <div class="container">
     <h2 class="text-black mb-md-5 mb-4 text-md-start text-center">
       What Our Students Say
-      <span class="db">About Us</span>
+      <span class="text-violet"> About Us</span>
     </h2>
     <div>
       <script defer async src="https://cdn.trustindex.io/loader.js?8e9d3595587404137026dceee10"></script>
