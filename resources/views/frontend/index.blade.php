@@ -1383,20 +1383,7 @@
     </div>
 </section>
 
-<section class="ourstudents-sec" style="background:#fff">
-  <div class="container">
-    <h2 class="text-black mb-md-5 mb-4 text-md-start text-center">
-      What Our Students Say
-      <span class="db text-violet"> About Us</span>
-    </h2>
-    <div>
-      <script defer async src="https://cdn.trustindex.io/loader.js?8e9d3595587404137026dceee10"></script>
-    </div>
-  </div>
-</section>
-
-
-    <!--<section class="ourstudents-sec">
+    <section class="ourstudents-sec">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -1461,7 +1448,7 @@
                 <div class="col-md-6 align-self-center">
                     <div class="student-testi-main text-center" data-student="1">
                         <img class="mb-3" src="{{asset('frontend/assets/images/home/student-large1.webp')}}">
-                        <p class="mb-4">Enrolling at Brandstory Academy was an eye-opening experience. The course combines academic rigor with hands-on practice for the Indian market.</p>
+                        <p class="mb-4">Enrolling at Brandstory Academy was an eye-opening experience. The course combines academic rigor with hands-on practice on real-time projects.</p>
                         <div class="student-detailsmin">
                             <h4 class="mb-2"> Gowtham AG</h4>
                             <p class="mb-2">Digital Marketing Mastery With Artificial
@@ -1472,7 +1459,7 @@
                     </div>
                     <div class="student-testi-main text-center" data-student="2">
                         <img class="mb-3" src="{{asset('frontend/assets/images/home/student-large2.webp')}}">
-                        <p class="mb-4">Their digital marketing course combines theoretical knowledge with practical projects focused on the Indian market.</p>
+                        <p class="mb-4">Their digital marketing course combines theoretical knowledge with practical projects focused on the job market.</p>
                         <div class="student-detailsmin">
                             <h4 class="mb-2">Anand G</h4>
                             <p class="mb-2">Advanced Digital Marketing
@@ -1493,7 +1480,7 @@
                 </div>
             </div>
         </div>
-    </section>-->
+    </section>
 
 
 
