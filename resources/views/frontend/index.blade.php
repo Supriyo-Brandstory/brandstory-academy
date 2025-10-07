@@ -677,8 +677,8 @@
     <div class="container">
         <div class="row mb-md-5 mb-4">
             <div class="col-md-6">
-                <h3 class="mb-md-0 mb-3 text-md-start text-center">Digital Marketing Course Curriculum 
-                <span class="db text-violet">Vetted By Our Industry Experts</span></h3>
+                <h3 class="mb-md-0 mb-3 text-md-start text-center">Digital Marketing Curriculum 
+                <span class="db text-violet">Vetted By Our Expert Educators</span></h3>
             </div>
             <div class="col-md-6 d-flex justify-content-md-end justify-content-center">
                 <div class="violet-btn  d-flex justify-content-md-start justify-content-center" bis_skin_checked="1">
@@ -1442,7 +1442,7 @@
                         </div>
                     </div>
                     <div class="viewallbtn d-flex mt-5 mt-md-4 mb-md-0 mb-4">
-                        <a href="">View all</a>
+                        <a href="https://share.google/BADxZDIqjq23KozCl">View All Reviews</a>
                     </div>
                 </div>
                 <div class="col-md-6 align-self-center">
