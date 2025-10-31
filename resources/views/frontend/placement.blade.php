@@ -26,7 +26,7 @@
     </div>
 </div> 
 </section>
-
+ 
 <section class="placement-alumini-section container">
     <div class="placement-alumini-container">
         <img src="{{asset('frontend/assets/images/placement/alumini-1.webp')}}" alt="alumini image">
@@ -148,4 +148,10 @@
             </div>
         </div>
     </section>
+    <x-our-success-stories :videos="[
+  'https://www.instagram.com/p/DNiDU0ExHZI',
+  'https://www.instagram.com/p/DNk72CQRPXZ',
+  'https://www.instagram.com/p/DNpgwppR5qy',
+  'https://www.instagram.com/p/DLsC-H9xQVg'
+]" />
     @endsection
