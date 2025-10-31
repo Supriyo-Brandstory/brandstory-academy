@@ -12,11 +12,11 @@
                         with the advanced digital marketing courses in Bangalore.</p>
                     <div class="d-lg-flex align-items-center">
                         <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 justify-content-md-start justify-content-center">
-                            <a href="{{route('contact')}}">Enquire Now today!</a>
+                            <a href="{{route('contact')}}">Enquire Now!</a>
                         </div>
                         <div class="student-main mb-md-0 mb-5">
                             <img class="mb-1" src="{{asset('frontend/assets/images/home/students.webp')}}" alt="Our Students - BrandStory Academy">
-                            <p class="mb-0 fs-12">Trusted by 1000+ Students</p>
+                            <p class="mb-0 fs-12">Trusted by 10,000+ Students</p>
                         </div>
                     </div>
                 </div>
@@ -132,11 +132,22 @@
                         courses are designed to transform you into job-ready professionals and secure placements with 1,000+ global companies.</p>
                     <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 mt-4 justify-content-md-start justify-content-center">
                             <a href="{{route('about')}}">Know About Us</a>
+                            <a href="javascript:void(0)" class="mx-2" id="watchNowBtn">Watch Now</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+   <!-- ====== Modal Structure ====== -->
+    <div id="videoModal" class="video-modal">
+        <div class="video-modal-content">
+            <span class="video-close">&times;</span>
+            <iframe id="youtubeVideo" width="100%" height="400" src="" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
 
 
     <section class="dm-course-section spb-100">
@@ -1993,5 +2004,67 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 </script>
+    <!-- ====== CSS ====== -->
+    <style>
+        .video-modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+        }
 
+        .video-modal-content {
+            position: relative;
+            margin: 5% auto;
+            width: 80%;
+            max-width: 800px;
+            background: #000;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .video-close {
+            position: absolute;
+            right: 15px;
+            top: 10px;
+            color: #fff;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 2;
+        }
+    </style>
+
+    <!-- ====== JavaScript ====== -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const modal = document.getElementById('videoModal');
+            const btn = document.getElementById('watchNowBtn');
+            const span = document.querySelector('.video-close');
+            const iframe = document.getElementById('youtubeVideo');
+
+            const videoURL = "https://www.youtube.com/embed/6hQiwD0eLsw?autoplay=1";
+
+            btn.onclick = function () {
+                iframe.src = videoURL;
+                modal.style.display = "block";
+            }
+
+            span.onclick = function () {
+                iframe.src = ""; // Stop video
+                modal.style.display = "none";
+            }
+
+            window.onclick = function (event) {
+                if (event.target === modal) {
+                    iframe.src = "";
+                    modal.style.display = "none";
+                }
+            }
+        });
+    </script>
 @endsection
