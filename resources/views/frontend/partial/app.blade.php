@@ -218,72 +218,74 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   <!-- form validation code -->
-  <script>
-    document.getElementById('enquiryForm').addEventListener('submit', function (event) {
-      let firstName = document.getElementById('firstName').value;
-      let lastName = document.getElementById('lastName').value;
-      let phone = document.getElementById('phone').value;
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById('enquiryForm');
+  if (!form) return; // prevent error if form doesn't exist
 
-      // Validate First and Last Name (Only alphabets)
-      let namePattern = /^[A-Za-z]+$/;
-      if (!namePattern.test(firstName) || !namePattern.test(lastName)) {
-        alert("First Name and Last Name should contain only alphabets.");
-        event.preventDefault();
-        return;
-      }
+  form.addEventListener('submit', function (event) {
+    let firstName = document.getElementById('firstName').value;
+    let lastName = document.getElementById('lastName').value;
+    let phone = document.getElementById('phone').value;
 
-      // Validate Phone Number (Only digits)
-      let phonePattern = /^[0-9]+$/;
-      if (!phonePattern.test(phone)) {
-        alert("Phone Number should contain only numbers.");
-        event.preventDefault();
-        return;
-      }
-    });
-  </script>
+    let namePattern = /^[A-Za-z]+$/;
+    if (!namePattern.test(firstName) || !namePattern.test(lastName)) {
+      alert("First Name and Last Name should contain only alphabets.");
+      event.preventDefault();
+      return;
+    }
+
+    let phonePattern = /^[0-9]+$/;
+    if (!phonePattern.test(phone)) {
+      alert("Phone Number should contain only numbers.");
+      event.preventDefault();
+      return;
+    }
+  });
+});
+</script>
+
   <!-- Form validation code end -->
 
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      function initializeRadioButtons(container) {
-        const radioButtons = container.querySelectorAll(".form-check-input");
-
-        radioButtons.forEach((radio) => {
-          radio.addEventListener("change", function () {
-            // Remove .selected class from all parent .form-check elements in the same container
-            container.querySelectorAll(".form-check").forEach((div) => div.classList.remove("selected"));
-
-            // Add .selected class to the parent .form-check of the selected radio button
-            if (this.checked) {
-              this.closest(".form-check").classList.add("selected");
-            }
-          });
-        });
-      }
-
-      // Initialize radio buttons for the normal form
-      initializeRadioButtons(document);
-
-      // Function to open the popup and reinitialize radio buttons
-      function openPopup() {
-        const popup = document.querySelector("#internshipPopup");
-        popup.style.display = "block"; // Ensure the popup is shown
-        initializeRadioButtons(popup); // Reinitialize radio buttons inside the popup
-      }
-
-      // Attach event listener to the popup trigger button
-      document.querySelector(".your-popup-trigger-button").addEventListener("click", openPopup);
-
-      // Close the popup when clicking outside or on the close button
-      document.querySelector("#internshipPopup").addEventListener("click", function (event) {
-        if (event.target.classList.contains("popup-overlay") || event.target.classList.contains("close-btn")) {
-          this.style.display = "none";
-        }
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  function initializeRadioButtons(container) {
+    const radioButtons = container.querySelectorAll(".form-check-input");
+    radioButtons.forEach((radio) => {
+      radio.addEventListener("change", function () {
+        container.querySelectorAll(".form-check").forEach((div) => div.classList.remove("selected"));
+        if (this.checked) this.closest(".form-check").classList.add("selected");
       });
     });
-  </script>
+  }
 
+  // Initialize radio buttons for the normal form
+  initializeRadioButtons(document);
+
+  // Function to open the popup and reinitialize radio buttons
+  function openPopup() {
+    const popup = document.querySelector("#internshipPopup");
+    if (!popup) return;
+    popup.style.display = "block";
+    initializeRadioButtons(popup);
+  }
+
+  // ✅ Safely attach event listener only if button exists
+  const triggerBtn = document.querySelector(".your-popup-trigger-button");
+  if (triggerBtn) triggerBtn.addEventListener("click", openPopup);
+
+  // ✅ Safely attach event listener only if popup exists
+  const popupEl = document.querySelector("#internshipPopup");
+  if (popupEl) {
+    popupEl.addEventListener("click", function (event) {
+      if (event.target.classList.contains("popup-overlay") || event.target.classList.contains("close-btn")) {
+        this.style.display = "none";
+      }
+    });
+  }
+});
+</script>
 
   {{--
   <script>
@@ -358,18 +360,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       }
     });
   </script>
-  <script>
-    document.getElementById('enquiryForm').addEventListener('submit', function (e) {
-      e.preventDefault();
+ <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById('enquiryForm');
+  if (!form) return; // prevent error if form not found
 
-      grecaptcha.ready(function () {
-        grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', { action: 'submit' }).then(function (token) {
-          document.getElementById('recaptcha_response').value = token;
-          document.getElementById('enquiryForm').submit();
-        });
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    // Ensure grecaptcha is available
+    if (typeof grecaptcha === 'undefined') {
+      console.error("reCAPTCHA not loaded properly.");
+      form.submit(); // fallback submit
+      return;
+    }
+
+    grecaptcha.ready(function () {
+      grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', { action: 'submit' }).then(function (token) {
+        const recaptchaInput = document.getElementById('recaptcha_response');
+        if (recaptchaInput) recaptchaInput.value = token;
+        form.submit();
       });
     });
-  </script>
+  });
+});
+</script>
+
   <script>
   document.querySelectorAll('.enquiryFormalternative').forEach(function(form) {
     form.addEventListener('submit', function(e) {

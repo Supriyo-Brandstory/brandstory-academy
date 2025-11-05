@@ -127,19 +127,40 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Show popup after 10 seconds
-    setTimeout(function () {
-        document.getElementById("custom-popup").style.display = "block";
-    }, 10000);
+  function attachHandlersIfReady() {
+    const popup = document.getElementById("custom-popup");
+    const closeBtn = document.querySelector(".close-popup-custom");
+    const downloadBtn = document.getElementById("downloadCurriculumBtn");
 
-    // Close popup
-    document.querySelector(".close-popup-custom").addEventListener("click", function () {
-        document.getElementById("custom-popup").style.display = "none";
+    if (popup) {
+      // show after 10s (only once)
+      setTimeout(() => { if (document.getElementById("custom-popup")) popup.style.display = "block"; }, 10000);
+    }
+
+    if (popup && closeBtn) {
+      // remove any previous handlers to avoid duplicates
+      closeBtn.addEventListener("click", () => { popup.style.display = "none"; }, { once: false });
+    }
+
+    if (popup && downloadBtn) {
+      downloadBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        popup.style.display = "block";
+      }, { once: false });
+    }
+
+    return !!popup;
+  }
+
+  // Try immediate attach
+  if (!attachHandlersIfReady()) {
+    // Watch the DOM for added nodes (stop after popup found)
+    const mo = new MutationObserver((mutations, observer) => {
+      if (attachHandlersIfReady()) {
+        observer.disconnect();
+      }
     });
 
-    // Show popup when "Download Curriculum" is clicked
-    document.getElementById("downloadCurriculumBtn").addEventListener("click", function (e) {
-        e.preventDefault(); // Prevent default PDF download
-        document.getElementById("custom-popup").style.display = "block";
-    });
+    mo.observe(document.body, { childList: true, subtree: true });
+  }
 });

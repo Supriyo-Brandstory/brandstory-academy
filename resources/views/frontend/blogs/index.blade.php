@@ -132,10 +132,16 @@
 
 {{-- Dropdown Hover Fix --}}
 <script>
+document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll('.nav-item.dropdown').forEach(item => {
-        item.addEventListener('mouseover', () => item.querySelector('.dropdown-menu')?.classList.add('show'));
-        item.addEventListener('mouseleave', () => item.querySelector('.dropdown-menu')?.classList.remove('show'));
+        const dropdown = item.querySelector('.dropdown-menu');
+        if (!dropdown) return; // ✅ safety check
+
+        item.addEventListener('mouseover', () => dropdown.classList.add('show'));
+        item.addEventListener('mouseleave', () => dropdown.classList.remove('show'));
     });
+});
 </script>
+
 
 @endsection
