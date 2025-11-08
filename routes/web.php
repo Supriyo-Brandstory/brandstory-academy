@@ -19,6 +19,7 @@ Route::post('/enquiry', [WebsiteController::class, 'store_enquery'])->name('enqu
 Route::get('/gallery', [WebsiteController::class,'gallery'])->name('gallery');
 Route::get('/reviews',[WebsiteController::class,'reviews'])->name('reviews');
 Route::get('/placement',[WebsiteController::class,'placement'])->name('placement');
+Route::get('/courses',[WebsiteController::class,'courseList'])->name('course.list');
 
 Auth::routes();
 

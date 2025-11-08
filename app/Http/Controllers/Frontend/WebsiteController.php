@@ -272,5 +272,11 @@ public function store_enquery(Request $request)
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.placement', compact('seo'));
     }
+    public function courseList()
+    {
+        $currentRoute = request()->path();;
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.course.course-list', compact('seo'));
 
+}
 }
