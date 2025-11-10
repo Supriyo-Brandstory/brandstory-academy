@@ -279,4 +279,9 @@ public function store_enquery(Request $request)
         return view('frontend.course.course-list', compact('seo'));
 
 }
+public function new_digital_marketing(){
+    $currentRoute = request()->path();;
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.course.new-digital-marketing', compact('seo'));
+}
 }

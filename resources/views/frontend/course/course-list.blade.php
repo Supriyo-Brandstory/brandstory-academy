@@ -30,7 +30,7 @@
                         src="{{ asset('frontend/assets/images/courses/Digital-Marketing-Executive-banner.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
-                        <h3>Digital Marketing Executive</h3>
+                        <h3>Digital Marketing Mastery</h3>
 
                         <div class="badge-bg">
                             <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">2.5 Months + 6 Months
@@ -52,7 +52,7 @@
 
                 <div class="grid_box">
                     <img class="main-bg-img"
-                        src="{{ asset('frontend/assets/images/courses/Digital-Marketing-Executive-banner.webp') }}"
+                        src="{{ asset('frontend/assets/images/courses/Advanced-Digital-Marketing-Boot-Camp.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
                         <h3>Advanced Digital Marketing Boot Camp</h3>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="grid_box">
                     <img class="main-bg-img"
-                        src="{{ asset('frontend/assets/images/courses/Digital-Marketing-Executive-banner.webp') }}"
+                        src="{{ asset('frontend/assets/images/courses/360-Degree-Digital-Marketing-Course.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
                         <h3>360 Degree Digital Marketing Course</h3>
@@ -105,13 +105,13 @@
     </section>
     <section class="course_list">
         <div class="container">
-            <h2 class="text-center db">Category 1: <span class="text-violet">Subject-Specific Courses</span></h2>
+            <h2 class="text-center db">Category 2: <span class="text-violet">Subject-Specific Courses</span></h2>
             <div class="course_grid">
                 <div class="grid_box">
                     <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Digital-Marketing.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
-                        <h3>Digital Marketing</h3>
+                        <h3>Digital Marketing </h3>
 
                         <div class="badge-bg">
                             <div>
@@ -133,7 +133,8 @@
                     </div>
                 </div>
                 <div class="grid_box">
-                    <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Search-Engine-Optimization.webp') }}"
+                    <img class="main-bg-img"
+                        src="{{ asset('frontend/assets/images/courses/Search-Engine-Optimization.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
                         <h3>Search Engine Optimization (SEO)</h3>
@@ -174,7 +175,157 @@
                             </div>
                         </div>
                         <ul>
-                            <li>Build Strategy and Launch High-impact PPC Campaigns  </li>
+                            <li>Build Strategy and Launch High-impact PPC Campaigns </li>
+                        </ul>
+                        <div class="btn-grup">
+                            <a href="#" class="outline-btn">Talk To Expert</a>
+                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_box">
+                    <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Social-Media-Marketing.webp') }}"
+                        alt="Digital Marketing Executive">
+                    <div class="content">
+                        <h3>Social Media Marketing</h3>
+
+                        <div class="badge-bg">
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">Duration - 2 Months
+
+                            </div>
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 12,000
+
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Learn Proven Social Media Growth Tactics</li>
+                        </ul>
+                        <div class="btn-grup">
+                            <a href="#" class="outline-btn">Talk To Expert</a>
+                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_box">
+                    <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/UX-UI-Design.webp') }}"
+                        alt="Digital Marketing Executive">
+                    <div class="content">
+                        <h3>UX/UI Design</h3>
+
+                        <div class="badge-bg">
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">Duration - 3 Months
+
+                            </div>
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 49,999
+
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Master user-focused design through practical UX/UI training</li>
+                        </ul>
+                        <div class="btn-grup">
+                            <a href="#" class="outline-btn">Talk To Expert</a>
+                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_box">
+                    <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Web-Design.webp') }}"
+                        alt="Digital Marketing Executive">
+                    <div class="content">
+                        <h3>Web Design</h3>
+
+                        <div class="badge-bg">
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">Duration - 3 Months
+
+                            </div>
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 29,000
+
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Create impactful websites with hands-on web design training</li>
+                        </ul>
+                        <div class="btn-grup">
+                            <a href="#" class="outline-btn">Talk To Expert</a>
+                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_box">
+                    <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Graphic-Design.webp') }}"
+                        alt="Digital Marketing Executive">
+                    <div class="content">
+                        <h3>Graphic Design</h3>
+
+                        <div class="badge-bg">
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">Duration - 3 Months
+
+                            </div>
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 21,000
+
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Design creative visuals with practical graphic design training</li>
+                        </ul>
+                        <div class="btn-grup">
+                            <a href="#" class="outline-btn">Talk To Expert</a>
+                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_box">
+                    <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/video-editing.webp') }}"
+                        alt="Digital Marketing Executive">
+                    <div class="content">
+                        <h3>Video Editing</h3>
+
+                        <div class="badge-bg">
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">Duration - 3 Months
+
+                            </div>
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 31,500
+
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Master video creation using professional editing tools</li>
+                        </ul>
+                        <div class="btn-grup">
+                            <a href="#" class="outline-btn">Talk To Expert</a>
+                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_box">
+                    <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Free-1-Day-Session.webp') }}"
+                        alt="Digital Marketing Executive">
+                    <div class="content">
+                        <h3>Free 1 Day Session</h3>
+
+                        <div class="badge-bg">
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">Free 1 Day Session
+
+                            </div>
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Nil
+
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Join Our Free 1-day Demo Session to Start Your Journey</li>
                         </ul>
                         <div class="btn-grup">
                             <a href="#" class="outline-btn">Talk To Expert</a>
@@ -343,7 +494,7 @@
         <div class="container">
             <h2 class="mb-lg-5 mb-4 text-center">Course Related FAQs</h2>
             <div class="d-flex gx-md-3 align-items-center justify-content-center w-100">
-                <div class="w-50">
+                <div class="w-100 w-lg-50">
                     <div class="faq-main mb-lg-0 mb-4">
                         <div class="faq-head">
                             <p class="text-violet mb-0 fw-500 fs-16">Course/Content</p>
@@ -530,6 +681,8 @@
 
                 .main-bg-img {
                     width: 100%;
+                    height: 390px;
+                    object-fit: cover;
                 }
 
                 .content {
@@ -537,6 +690,7 @@
                     flex-direction: column;
                     padding: 20px;
                     gap: 16px;
+                    min-height: 283px;
 
                     h3 {
                         font-size: 20px;
@@ -556,7 +710,8 @@
                         img {
                             width: 18px;
                         }
-                        div{
+
+                        div {
                             display: flex;
                             align-items: center;
                             gap: 5px;
@@ -702,6 +857,31 @@
                 max-width: 360px;
                 height: auto;
                 object-fit: contain;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .course_list {
+                .course_grid {
+                    grid-template-columns: repeat(1, 1fr);
+                }
+            }
+
+            .coursecta.course-banner {
+                background-size: 100% 45.3%;
+                .banner-content {
+                    flex-direction: column-reverse;
+                    padding: 10px;
+                }
+                .text-section{
+                    width: 100%;
+
+                }
+                .image-section{
+                    width: 100%;
+                    margin-bottom: 10px;
+
+                }
             }
         }
     </style>

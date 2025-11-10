@@ -21,6 +21,8 @@ Route::get('/reviews',[WebsiteController::class,'reviews'])->name('reviews');
 Route::get('/placement',[WebsiteController::class,'placement'])->name('placement');
 Route::get('/courses',[WebsiteController::class,'courseList'])->name('course.list');
 
+Route::get('/courses/new-digital-marketing',[WebsiteController::class,'new_digital_marketing'])->name('new_digital_marketing');
+
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

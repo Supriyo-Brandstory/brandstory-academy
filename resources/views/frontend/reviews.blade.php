@@ -127,7 +127,7 @@
                 </div>
             </div>
         </div>
-
+{{-- 
         <div class="testimonial-row right-to-left">
             <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
@@ -234,7 +234,7 @@
                     Ayesha Ms
                 </div>
             </div>
-        </div>
+        </div> --}}
     </section>
     <div class="spb-100">
        <x-our-success-stories :videos="[
