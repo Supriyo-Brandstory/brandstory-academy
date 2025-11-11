@@ -9,12 +9,12 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-2 col-6">
                         <img class="w-100 mb-1" src="{{asset('frontend/assets/images/ft-google1.png')}}">
-                        <p class="text-white fs-12">GOOGLE ADS SEARCH CERTIFITED</p>
+                        <p class="text-white fs-12">Google Ads Search Certified</p>
                     </div>
                     <div class="col-md-1 d-md-block d-none"></div>
                     <div class="col-lg-3 col-md-2 col-6">
                         <img class="w-100 mb-1" src="{{asset('frontend/assets/images/ft-google2.png')}}">
-                        <p class="text-white fs-12">GOOGLE PARTNER AGENCY</p> 
+                        <p class="text-white fs-12">Google Partner Agency</p> 
                     </div>
                 </div>
             </div>
@@ -26,9 +26,10 @@
                         <ul class="list-unstyled p-0 mb-0">
                             <li class="mb-3"><a class="text-decoration-none text-white fs-14" href="{{route('home')}}">Home</a></li>
                             <li class="mb-3"><a class="text-decoration-none text-white fs-14" href="{{route('about')}}">About Us</a></li>
-                            <li class="mb-3"><a class="text-decoration-none text-white fs-14" href="#">Course</a></li>
+                            <li class="mb-3"><a class="text-decoration-none text-white fs-14" href="{{route('course.list')}}">All Courses</a></li>
                             <li class="mb-3"><a class="text-decoration-none text-white fs-14" href="{{route('contact')}}">Contact</a></li>
                             <li class="mb-3"><a class="text-decoration-none text-white fs-14" href="{{route('gallery')}}">Gallery</a></li>
+                            <li class="mb-3"><a class="text-decoration-none text-white fs-14" href="{{route('reviews')}}">Reviews</a></li>
                         </ul>
                     </div>
                     <div class="col-md-5 mb-md-0 mb-4">

@@ -22,6 +22,7 @@ Route::get('/placement',[WebsiteController::class,'placement'])->name('placement
 Route::get('/courses',[WebsiteController::class,'courseList'])->name('course.list');
 
 Route::get('/digital-marketing-course-in-bangalore',[WebsiteController::class,'new_digital_marketing'])->name('new_digital_marketing');
+Route::get('/seo-course-in-bangalore',[WebsiteController::class,'seo_course_in_bangalore'])->name('seo_course_in_bangalore');
 
 Auth::routes();
 

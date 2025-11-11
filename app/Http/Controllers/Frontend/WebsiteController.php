@@ -284,4 +284,9 @@ public function new_digital_marketing(){
     $seo = SEO::where('page_url', $currentRoute)->first();
     return view('frontend.course.new-digital-marketing', compact('seo'));
 }
+public function seo_course_in_bangalore(){
+    $currentRoute = request()->path();;
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.course.seo-course-in-bangalore', compact('seo'));
+}
 }
