@@ -989,7 +989,7 @@
                                 <div class="user-card">
                                     <div class="imgbox">
 
-                                        <img src="{{ asset('frontend/assets/images/courses/Startup.png')}}"
+                                        <img src="{{ asset('frontend/assets/images/courses/jobseeker.png')}}"
                                             alt="Digital Marketing Course in Bangalore for Job Seekers">
                                     </div>
 
@@ -1037,7 +1037,7 @@
             <h2 class="text-center mb-4 frame-800">Professional Digital Marketing Training in Bangalore at <span
                     class="text-violet">Affordable Costs</span></h2>
             <p class="text-center frame-800 mb-5">At BrandStory Academy, we provide the most affordable digital marketing
-                training in Kolkata. You can avail easy EMI and part payment options along with industry-grade
+                training in Bangalore. You can avail easy EMI and part payment options along with industry-grade
                 certifications and a placement guarantee. </p>
             <div class="row">
                 <div class="col-12 col-lg-6">
@@ -1045,33 +1045,33 @@
                         <div class="col-8 px-0">
                             <div class="grid-two">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="">
-                                    <p>30+ Modules Covered</p>
+                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="Digital Marketing Course in Bangalore Details">
+                                    <p>30+ Modules</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="">
+                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="Digital Marketing Course in Bangalore Details">
                                     <p>14+ Certifications</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="">
-                                    <p>Work on Live Projects</p>
+                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="Digital Marketing Course in Bangalore Details">
+                                    <p>20+ Live Projects</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="">
-                                    <p>6 Months Program</p>
+                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="Digital Marketing Course in Bangalore Details">
+                                    <p>6 Month Course</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="">
+                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="Digital Marketing Course in Bangalore Details">
                                     <p>10+ Case Studies</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="">
-                                    <p>30+ Industry Tools </p>
+                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="Digital Marketing Course in Bangalore Details">
+                                    <p>30+ Tools </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-4 px-0">
-                            <img src="{{ asset('frontend/assets/images/courses/classroom.webp')}}" class="img-fluid msm">
+                            <img src="{{ asset('frontend/assets/images/courses/classroom-learning.png')}}" class="img-fluid msm">
 
                         </div>
                     </div>
@@ -1081,33 +1081,33 @@
                         <div class="col-8 px-0">
                             <div class="grid-two">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="">
-                                    <p>30+ Modules Covered</p>
+                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}" alt="">
+                                    <p>30+ Modules</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="">
+                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}" alt="Self-paced Digital Marketing Course in Bangalore Details">
                                     <p>14+ Certifications</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="">
-                                    <p>Work on Live Projects</p>
+                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}" alt="Self-paced Digital Marketing Course in Bangalore Details">
+                                    <p>20+ Live Projects</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="">
-                                    <p>6 Months Program</p>
+                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}" alt="Self-paced Digital Marketing Course in Bangalore Details">
+                                    <p>6 Month Course</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="">
+                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}" alt="Self-paced Digital Marketing Course in Bangalore Details">
                                     <p>10+ Case Studies</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="">
-                                    <p>30+ Industry Tools </p>
+                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}" alt="Self-paced Digital Marketing Course in Bangalore Details">
+                                    <p>30+ Tools </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-4 px-0">
-                            <img src="{{ asset('frontend/assets/images/courses/classroom.webp')}}" class="img-fluid msm">
+                            <img src="{{ asset('frontend/assets/images/courses/self-paced-learning.png')}}" class="img-fluid msm">
 
                         </div>
                     </div>
@@ -1170,45 +1170,172 @@
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="{{asset('frontend/assets/images/tools/g-analytics.png')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Google Analytics 4">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="{{asset('frontend/assets/images/tools/ahrefs.png')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Ahrefs">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="{{asset('frontend/assets/images/tools/surfer.png')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Surfer SEO">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="{{asset('frontend/assets/images/tools/rivierside.png')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - RivierSide">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/placement/brand5.svg')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                            <img src="{{asset('frontend/assets/images/tools/active-campaign.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Active Campaign">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
                             <img src="{{asset('frontend/assets/images/tools/semrush.png')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - SEMrush">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/placement/brand7.svg')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                            <img src="{{asset('frontend/assets/images/tools/adcreativeai.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Ad Creative AI">
                         </div>
                     </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/buzzsumo.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Buzzsumo">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/canva.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Canva">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/chatgpt.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - ChatGPT">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/gmbeverywhere.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - GMB Everywhere">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/google-ads.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Google Ads">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/google-business-profile.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Google Business Profile">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/google-search-console.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Google Search Console">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/grammarly.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Grammarly">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/hootsuite.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Hootsuite">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/hubspot.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Hubspot">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/mailchimp.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - MailChimp">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/meta.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Meta Ads Manager">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/microsoft-clarity.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Microsoft Clarity">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/moz-pro.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Moz Pro">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/screaming-frog.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Screaming Frog">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/socialbee.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Social Bee">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/spyfu.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - SpyFu">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/wordstream.png')}}"
+                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - WordStream">
+                        </div>
+                    </div>
+
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
