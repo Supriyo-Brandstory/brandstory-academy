@@ -89,6 +89,7 @@
     .blog-content a{
         color: #000;
         text-decoration: none;
+        text-decoration: underline;
         font-size: 18px;
     }
 </style>
