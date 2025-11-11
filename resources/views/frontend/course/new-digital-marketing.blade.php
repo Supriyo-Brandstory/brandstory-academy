@@ -151,8 +151,8 @@
             <p class="frame-1100 text-center">
                 Our digital marketing course curriculum covers 30 industry-oriented modules. Among the best digital
                 marketing institutes in Bangalore, we provide the most advanced digital marketing courses with 100%
-                placement support. We offer the most affordable digital marketing coaching in Bangalore backed by 10+ 
-                years of digital marketing expertise.  
+                placement support. We offer the most affordable digital marketing coaching in Bangalore backed by 10+
+                years of digital marketing expertise.
             </p>
 
             <div class="curriculum-grid">
@@ -1045,33 +1045,40 @@
                         <div class="col-lg-8 col-6 px-0">
                             <div class="grid-two">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="Digital Marketing Course in Bangalore Details">
+                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}"
+                                        alt="Digital Marketing Course in Bangalore Details">
                                     <p>30+ Modules</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="Digital Marketing Course in Bangalore Details">
+                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}"
+                                        alt="Digital Marketing Course in Bangalore Details">
                                     <p>14+ Certifications</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="Digital Marketing Course in Bangalore Details">
+                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}"
+                                        alt="Digital Marketing Course in Bangalore Details">
                                     <p>20+ Live Projects</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="Digital Marketing Course in Bangalore Details">
+                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}"
+                                        alt="Digital Marketing Course in Bangalore Details">
                                     <p>6 Month Course</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="Digital Marketing Course in Bangalore Details">
+                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}"
+                                        alt="Digital Marketing Course in Bangalore Details">
                                     <p>10+ Case Studies</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}" alt="Digital Marketing Course in Bangalore Details">
+                                    <img src="{{ asset('frontend/assets/images/courses/g-w.svg')}}"
+                                        alt="Digital Marketing Course in Bangalore Details">
                                     <p>30+ Tools </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-6 px-0">
-                            <img src="{{ asset('frontend/assets/images/courses/classroom-learning.png')}}" class="img-fluid msm">
+                            <img src="{{ asset('frontend/assets/images/courses/classroom-learning.png')}}"
+                                class="img-fluid msm">
 
                         </div>
                     </div>
@@ -1085,29 +1092,35 @@
                                     <p>30+ Modules</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}" alt="Self-paced Digital Marketing Course in Bangalore Details">
+                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}"
+                                        alt="Self-paced Digital Marketing Course in Bangalore Details">
                                     <p>14+ Certifications</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}" alt="Self-paced Digital Marketing Course in Bangalore Details">
+                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}"
+                                        alt="Self-paced Digital Marketing Course in Bangalore Details">
                                     <p>20+ Live Projects</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}" alt="Self-paced Digital Marketing Course in Bangalore Details">
+                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}"
+                                        alt="Self-paced Digital Marketing Course in Bangalore Details">
                                     <p>6 Month Course</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}" alt="Self-paced Digital Marketing Course in Bangalore Details">
+                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}"
+                                        alt="Self-paced Digital Marketing Course in Bangalore Details">
                                     <p>10+ Case Studies</p>
                                 </div>
                                 <div class="d-flex align-items-center gap-2">
-                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}" alt="Self-paced Digital Marketing Course in Bangalore Details">
+                                    <img src="{{ asset('frontend/assets/images/courses/self.svg')}}"
+                                        alt="Self-paced Digital Marketing Course in Bangalore Details">
                                     <p>30+ Tools </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-6 px-0">
-                            <img src="{{ asset('frontend/assets/images/courses/self-paced-learning.png')}}" class="img-fluid msm">
+                            <img src="{{ asset('frontend/assets/images/courses/self-paced-learning.png')}}"
+                                class="img-fluid msm">
 
                         </div>
                     </div>
@@ -1161,87 +1174,88 @@
     </section>
 
 
-<section class="sp-100 Marketing-Tools-coursepage">
+    <section class="sp-100 Marketing-Tools-coursepage">
         <div class="container">
-            <h2 class="text-center ">Learn Latest AI Automation & <span class="text-violet">Digital <br>Marketing Tools</span></h2>
+            <h2 class="text-center ">Learn Latest AI Automation & <span class="text-violet">Digital <br>Marketing
+                    Tools</span></h2>
             <p class="text-center mb-5">Get hands-on experience of 30+ advanced marketing tools</p>
             <div class="swiper brandlogo1" data-aos="fade-up">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/g-analytics.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Google Analytics 4">
+                            <img src="{{asset('frontend/assets/images/tools/g-analytics.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Google Analytics 4">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/ahrefs.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Ahrefs">
+                            <img src="{{asset('frontend/assets/images/tools/ahrefs.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Ahrefs">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/surfer.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Surfer SEO">
+                            <img src="{{asset('frontend/assets/images/tools/surfer.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Surfer SEO">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/rivierside.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - RivierSide">
+                            <img src="{{asset('frontend/assets/images/tools/rivierside.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - RivierSide">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/active-campaign.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Active Campaign">
+                            <img src="{{asset('frontend/assets/images/tools/active-campaign.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Active Campaign">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/semrush.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - SEMrush">
+                            <img src="{{asset('frontend/assets/images/tools/semrush.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - SEMrush">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/adcreativeai.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Ad Creative AI">
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/buzzsumo.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Buzzsumo">
+                            <img src="{{asset('frontend/assets/images/tools/adcreativeai.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Ad Creative AI">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/canva.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Canva">
+                            <img src="{{asset('frontend/assets/images/tools/buzzsumo.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Buzzsumo">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/chatgpt.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - ChatGPT">
+                            <img src="{{asset('frontend/assets/images/tools/canva.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Canva">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/gmbeverywhere.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - GMB Everywhere">
+                            <img src="{{asset('frontend/assets/images/tools/chatgpt.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - ChatGPT">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/google-ads.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Google Ads">
+                            <img src="{{asset('frontend/assets/images/tools/gmbeverywhere.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - GMB Everywhere">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brandsmain">
+                            <img src="{{asset('frontend/assets/images/tools/google-ads.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Google Ads">
                         </div>
                     </div>
 
@@ -1254,85 +1268,85 @@
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/google-search-console.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Google Search Console">
+                            <img src="{{asset('frontend/assets/images/tools/google-search-console.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Google Search Console">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/grammarly.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Grammarly">
+                            <img src="{{asset('frontend/assets/images/tools/grammarly.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Grammarly">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/hootsuite.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Hootsuite">
+                            <img src="{{asset('frontend/assets/images/tools/hootsuite.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Hootsuite">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/hubspot.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Hubspot">
+                            <img src="{{asset('frontend/assets/images/tools/hubspot.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Hubspot">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/mailchimp.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - MailChimp">
+                            <img src="{{asset('frontend/assets/images/tools/mailchimp.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - MailChimp">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/meta.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Meta Ads Manager">
+                            <img src="{{asset('frontend/assets/images/tools/meta.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Meta Ads Manager">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/microsoft-clarity.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Microsoft Clarity">
+                            <img src="{{asset('frontend/assets/images/tools/microsoft-clarity.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Microsoft Clarity">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/moz-pro.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Moz Pro">
+                            <img src="{{asset('frontend/assets/images/tools/moz-pro.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Moz Pro">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/screaming-frog.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Screaming Frog">
+                            <img src="{{asset('frontend/assets/images/tools/screaming-frog.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Screaming Frog">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/socialbee.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - Social Bee">
+                            <img src="{{asset('frontend/assets/images/tools/socialbee.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - Social Bee">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/spyfu.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - SpyFu">
+                            <img src="{{asset('frontend/assets/images/tools/spyfu.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - SpyFu">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/tools/wordstream.png')}}"
-                                class="img-fluid" alt="Digital Marketing Course Curriculum Tools - WordStream">
+                            <img src="{{asset('frontend/assets/images/tools/wordstream.png')}}" class="img-fluid"
+                                alt="Digital Marketing Course Curriculum Tools - WordStream">
                         </div>
                     </div>
 
@@ -1342,7 +1356,7 @@
         </div>
     </section>
 
-<section class="spb-100 bg-lightblue1">
+    <section class="spb-100 bg-lightblue1">
         <div class="container">
             <div class="placement-partner">
                 <p>Our Placement </p>
@@ -1352,44 +1366,44 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/placement/brand1.svg')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                            <img src="{{asset('frontend/assets/images/placement/brand1.svg')}}" class="img-fluid"
+                                alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/placement/brand2.svg')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                            <img src="{{asset('frontend/assets/images/placement/brand2.svg')}}" class="img-fluid"
+                                alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/placement/brand3.svg')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                            <img src="{{asset('frontend/assets/images/placement/brand3.svg')}}" class="img-fluid"
+                                alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/placement/brand4.svg')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                            <img src="{{asset('frontend/assets/images/placement/brand4.svg')}}" class="img-fluid"
+                                alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/placement/brand5.svg')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                            <img src="{{asset('frontend/assets/images/placement/brand5.svg')}}" class="img-fluid"
+                                alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/placement/brand6.svg')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                            <img src="{{asset('frontend/assets/images/placement/brand6.svg')}}" class="img-fluid"
+                                alt="Our Partner Company for Placements">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brandsmain">
-                            <img src="{{asset('frontend/assets/images/placement/brand7.svg')}}"
-                                class="img-fluid" alt="Our Partner Company for Placements">
+                            <img src="{{asset('frontend/assets/images/placement/brand7.svg')}}" class="img-fluid"
+                                alt="Our Partner Company for Placements">
                         </div>
                     </div>
                 </div>
@@ -1402,154 +1416,198 @@
         <div class="testimonial-row left-to-right">
             <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>Recently had the pleasure of experiencing BrandStory Academy, and I must say, it exceeded my expectations. From the moment I enrolled, the academy’s dedication to nurturing professional growth and providing high-quality education was evident.</p>
+                <p>Recently had the pleasure of experiencing BrandStory Academy, and I must say, it exceeded my
+                    expectations. From the moment I enrolled, the academy’s dedication to nurturing professional growth and
+                    providing high-quality education was evident.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Jerophin Jeevitha
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>BrandStory Academy offers a strong foundation in digital marketing through a hands-on approach. Right from the start, I worked on real agency projects, gaining practical experience that many other courses lack. The six-month internship following the course was a transformative experience, allowing me to refine my skills in a real work environment.</p>
+                <p>BrandStory Academy offers a strong foundation in digital marketing through a hands-on approach. Right
+                    from the start, I worked on real agency projects, gaining practical experience that many other courses
+                    lack. The six-month internship following the course was a transformative experience, allowing me to
+                    refine my skills in a real work environment.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Sandra R
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice for my professional growth. The program was structured effectively, addressing all the key components of digital marketing. What impressed me the most was the 6-month internship offered with Brandstory Digital Marketing company.</p>
+                <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
+                    for my professional growth. The program was structured effectively, addressing all the key components of
+                    digital marketing. What impressed me the most was the 6-month internship offered with Brandstory Digital
+                    Marketing company.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Ayesha Ms
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>BrandStory Academy stands out for its focus on practical training, engaging students with real client projects from day one for an immersive learning experience. The trainers are both knowledgeable and approachable, and the extended six-month internship offers valuable industry exposure. It’s an excellent place to start a career in digital marketing!</p>
+                <p>BrandStory Academy stands out for its focus on practical training, engaging students with real client
+                    projects from day one for an immersive learning experience. The trainers are both knowledgeable and
+                    approachable, and the extended six-month internship offers valuable industry exposure. It’s an excellent
+                    place to start a career in digital marketing!</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Maria Sherly
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>Enrolling at Brandstory Academy was an eye-opening experience. The course combines academic rigor with hands-on practice for the Indian market. With dedicated mentors and real projects, my digital marketing skills have flourished, inspiring my ambitions.</p>
+                <p>Enrolling at Brandstory Academy was an eye-opening experience. The course combines academic rigor with
+                    hands-on practice for the Indian market. With dedicated mentors and real projects, my digital marketing
+                    skills have flourished, inspiring my ambitions.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Gowtham AG
                 </div>
-            </div> 
+            </div>
             <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>Brandstory Academy is a leading digital marketing institute with a practical curriculum. They teach the fundamentals of digital marketing, offer a 6-month internship, and assist with placements. Joining is a decision you won’t regret.</p>
+                <p>Brandstory Academy is a leading digital marketing institute with a practical curriculum. They teach the
+                    fundamentals of digital marketing, offer a 6-month internship, and assist with placements. Joining is a
+                    decision you won’t regret.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Shobika Akilan
                 </div>
             </div>
-            
+
             <!-- duplicate for smooth infinite loop -->
             <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>Recently had the pleasure of experiencing BrandStory Academy, and I must say, it exceeded my expectations. From the moment I enrolled, the academy’s dedication to nurturing professional growth and providing high-quality education was evident.</p>
+                <p>Recently had the pleasure of experiencing BrandStory Academy, and I must say, it exceeded my
+                    expectations. From the moment I enrolled, the academy’s dedication to nurturing professional growth and
+                    providing high-quality education was evident.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Jerophin Jeevitha
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>BrandStory Academy offers a strong foundation in digital marketing through a hands-on approach. Right from the start, I worked on real agency projects, gaining practical experience that many other courses lack. The six-month internship following the course was a transformative experience, allowing me to refine my skills in a real work environment.</p>
+                <p>BrandStory Academy offers a strong foundation in digital marketing through a hands-on approach. Right
+                    from the start, I worked on real agency projects, gaining practical experience that many other courses
+                    lack. The six-month internship following the course was a transformative experience, allowing me to
+                    refine my skills in a real work environment.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Sandra R
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice for my professional growth. The program was structured effectively, addressing all the key components of digital marketing. What impressed me the most was the 6-month internship offered with Brandstory Digital Marketing company.</p>
+                <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
+                    for my professional growth. The program was structured effectively, addressing all the key components of
+                    digital marketing. What impressed me the most was the 6-month internship offered with Brandstory Digital
+                    Marketing company.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Ayesha Ms
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>BrandStory Academy stands out for its focus on practical training, engaging students with real client projects from day one for an immersive learning experience. The trainers are both knowledgeable and approachable, and the extended six-month internship offers valuable industry exposure. It’s an excellent place to start a career in digital marketing!</p>
+                <p>BrandStory Academy stands out for its focus on practical training, engaging students with real client
+                    projects from day one for an immersive learning experience. The trainers are both knowledgeable and
+                    approachable, and the extended six-month internship offers valuable industry exposure. It’s an excellent
+                    place to start a career in digital marketing!</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Maria Sherly
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>Enrolling at Brandstory Academy was an eye-opening experience. The course combines academic rigor with hands-on practice for the Indian market. With dedicated mentors and real projects, my digital marketing skills have flourished, inspiring my ambitions.</p>
+                <p>Enrolling at Brandstory Academy was an eye-opening experience. The course combines academic rigor with
+                    hands-on practice for the Indian market. With dedicated mentors and real projects, my digital marketing
+                    skills have flourished, inspiring my ambitions.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Gowtham AG
                 </div>
-            </div> 
+            </div>
             <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>Brandstory Academy is a leading digital marketing institute with a practical curriculum. They teach the fundamentals of digital marketing, offer a 6-month internship, and assist with placements. Joining is a decision you won’t regret.</p>
+                <p>Brandstory Academy is a leading digital marketing institute with a practical curriculum. They teach the
+                    fundamentals of digital marketing, offer a 6-month internship, and assist with placements. Joining is a
+                    decision you won’t regret.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Shobika Akilan
                 </div>
             </div>
         </div>
-{{-- 
+        {{--
         <div class="testimonial-row right-to-left">
             <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>Brandstory Academy has greatly enhanced my career. Their digital marketing course combines theoretical knowledge with practical projects focused on the Indian market. With their expert guidance, I now feel ready to excel in the digital world.</p>
+                <p>Brandstory Academy has greatly enhanced my career. Their digital marketing course combines theoretical
+                    knowledge with practical projects focused on the Indian market. With their expert guidance, I now feel
+                    ready to excel in the digital world.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Anand G
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>Brandstory Academy's 6-month internship was a pivotal moment in my career. I gained hands-on experience working on live projects with top brands, and the expert mentorship helped me excel in digital marketing and secure my future.</p>
+                <p>Brandstory Academy's 6-month internship was a pivotal moment in my career. I gained hands-on experience
+                    working on live projects with top brands, and the expert mentorship helped me excel in digital marketing
+                    and secure my future.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Stuart Nithin
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>Brandstory's digital marketing course reflected their years of experience in the field. Instead of opting a course in an educational institution, acquiring practical knowledge and skills from an agency with inhand experience, helped me to experience the real world of digital marketing. The course stood by its advertisements and its name.</p>
+                <p>Brandstory's digital marketing course reflected their years of experience in the field. Instead of opting
+                    a course in an educational institution, acquiring practical knowledge and skills from an agency with
+                    inhand experience, helped me to experience the real world of digital marketing. The course stood by its
+                    advertisements and its name.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Nicholina Sandra
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>This academy in Bangalore is one of the best, featuring a supportive culture and passionate, dedicated trainers. The up-to-date curriculum, combined with a 6-month internship, greatly aids in skill development and securing the right job. Their placement support from the very beginning makes the journey even smoother.</p>
+                <p>This academy in Bangalore is one of the best, featuring a supportive culture and passionate, dedicated
+                    trainers. The up-to-date curriculum, combined with a 6-month internship, greatly aids in skill
+                    development and securing the right job. Their placement support from the very beginning makes the
+                    journey even smoother.</p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Vishnu Vijayakumar
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>I recently completed my digital marketing course at this institution and I am very satisfied. I highly recommend them if you are a fresher because they are providing a 6-month internship with Brandstory company.  </p>
+                <p>I recently completed my digital marketing course at this institution and I am very satisfied. I highly
+                    recommend them if you are a fresher because they are providing a 6-month internship with Brandstory
+                    company. </p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Jachin Bakhtsingh
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>One of the best digital marketing course provider in bangalore. They cover all areas of digital marketing and start the courses from the beginner levels as well as advanced levels. It was really fun learning from Brandstory academy. </p>
+                <p>One of the best digital marketing course provider in bangalore. They cover all areas of digital marketing
+                    and start the courses from the beginner levels as well as advanced levels. It was really fun learning
+                    from Brandstory academy. </p>
                 <div class="d-flex align-items-center g-4">
                     <div class="profile"></div>
                     Prethasha K.R
                 </div>
             </div>
-         
+
             <!-- duplicate -->
             <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
@@ -1573,7 +1631,7 @@
                     Ayesha Ms
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
                 <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
                     for my professional growth. The program was structured effectively, addressing all the key components of
@@ -1584,7 +1642,7 @@
                     Ayesha Ms
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
                 <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
                     for my professional growth. The program was structured effectively, addressing all the key components of
@@ -1595,7 +1653,7 @@
                     Ayesha Ms
                 </div>
             </div>
-             <div class="testimonial">
+            <div class="testimonial">
                 <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
                 <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
                     for my professional growth. The program was structured effectively, addressing all the key components of
@@ -1609,16 +1667,16 @@
         </div> --}}
     </section>
     <div class="spb-100">
-       <x-our-success-stories :videos="[
-  'https://www.instagram.com/p/DNiDU0ExHZI',
-  'https://www.instagram.com/p/DNk72CQRPXZ',
-  'https://www.instagram.com/p/DNpgwppR5qy',
-  'https://www.instagram.com/p/DLsC-H9xQVg'
-]" />
+        <x-our-success-stories :videos="[
+            'https://www.instagram.com/p/DNiDU0ExHZI',
+            'https://www.instagram.com/p/DNk72CQRPXZ',
+            'https://www.instagram.com/p/DNpgwppR5qy',
+            'https://www.instagram.com/p/DLsC-H9xQVg'
+        ]" />
     </div>
     <div class="pt-100">
-    <x-blog-component />
-</div>
+        <x-blog-component />
+    </div>
     <section class="sp-100 ">
         <div class="container">
             <h2 class="mb-lg-5 mb-4 text-center">Course Related FAQs</h2>
@@ -1640,10 +1698,14 @@
                                 <div id="flush-collapseOne" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">At BrandStory Academy, we are proud to be among the top digital marketing 
-                                            institute in Bangalore, offering practical, industry-focused courses. Our students gain hands-on 
-                                            experience through real client projects, 6 month internships, and expert-led training. We also provide 
-                                            dedicated placement support to help them start successful careers in the digital marketing industry.</p>
+                                        <p class="mb-0 fs-16">At BrandStory Academy, we are proud to be among the top
+                                            digital marketing
+                                            institute in Bangalore, offering practical, industry-focused courses. Our
+                                            students gain hands-on
+                                            experience through real client projects, 6 month internships, and expert-led
+                                            training. We also provide
+                                            dedicated placement support to help them start successful careers in the digital
+                                            marketing industry.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1659,11 +1721,14 @@
                                     aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <ul class="mb-0">
-                                            <p class="mb-0 fs-16">our digital marketing courses are led by seasoned industry 
-                                                professionals who bring years of real-world experience. Our trainers are passionate
-                                                 about guiding students and offer direct access with personalized 1-to-1 mentorship. 
-                                                 This ensures every learner receives tailored support, practical insights, and the 
-                                                 confidence to succeed.</p>
+                                            <p class="mb-0 fs-16">our digital marketing courses are led by seasoned industry
+                                                professionals who bring years of real-world experience. Our trainers are
+                                                passionate
+                                                about guiding students and offer direct access with personalized 1-to-1
+                                                mentorship.
+                                                This ensures every learner receives tailored support, practical insights,
+                                                and the
+                                                confidence to succeed.</p>
                                         </ul>
                                     </div>
                                 </div>
@@ -1679,11 +1744,15 @@
                                 <div id="flush-collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Anyone interested in building or advancing their career 
-                                            in digital marketing can enroll in our courses. Whether you’re a student exploring 
-                                            career options, a working professional looking to upskill, an entrepreneur wanting 
-                                            to grow your business, or someone seeking a career change, BrandStory Academy’s digital 
-                                            marketing course is designed to meet your needs. No prior experience is required—just a 
+                                        <p class="mb-0 fs-16">Anyone interested in building or advancing their career
+                                            in digital marketing can enroll in our courses. Whether you’re a student
+                                            exploring
+                                            career options, a working professional looking to upskill, an entrepreneur
+                                            wanting
+                                            to grow your business, or someone seeking a career change, BrandStory Academy’s
+                                            digital
+                                            marketing course is designed to meet your needs. No prior experience is
+                                            required—just a
                                             willingness to learn and grow.</p>
                                     </div>
                                 </div>
@@ -1699,15 +1768,21 @@
                                 <div id="flush-collapsefour" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="fs-16">At BrandStory Academy, we offer three specialized digital marketing courses designed to 
+                                        <p class="fs-16">At BrandStory Academy, we offer three specialized digital marketing
+                                            courses designed to
                                             meet different career goals:</p>
                                         <ul>
-                                            <li class="fs-16">Digital Marketing MASTERY with Artificial Intelligence (AI) – 2.5 months training + 6 months internship</li>
-                                            <li class="fs-16">Advanced Digital Marketing Boot Camp – 3.5 months training + 6 months internship</li>
-                                            <li class="fs-16">360° Digital Marketing – 4 months training + 6 months internship</li>
+                                            <li class="fs-16">Digital Marketing MASTERY with Artificial Intelligence (AI) –
+                                                2.5 months training + 6 months internship</li>
+                                            <li class="fs-16">Advanced Digital Marketing Boot Camp – 3.5 months training + 6
+                                                months internship</li>
+                                            <li class="fs-16">360° Digital Marketing – 4 months training + 6 months
+                                                internship</li>
                                         </ul>
-                                        <p class="mb-0 fs-16">Each program focuses on practical learning, real client projects, and agency-style training. By the end of your 
-                                            chosen course, you’ll gain hands-on experience, build a strong portfolio, and be career-ready for the fast-growing digital marketing 
+                                        <p class="mb-0 fs-16">Each program focuses on practical learning, real client
+                                            projects, and agency-style training. By the end of your
+                                            chosen course, you’ll gain hands-on experience, build a strong portfolio, and be
+                                            career-ready for the fast-growing digital marketing
                                             industry.</p>
                                     </div>
                                 </div>
@@ -1723,8 +1798,10 @@
                                 <div id="flush-collapsefive" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Our digital marketing academy in Bangalore runs Monday to Friday, from 9:30 
-                                            AM to 6:00 PM. The schedule includes a 30-minute lunch break and two short 15-minute breaks for 
+                                        <p class="mb-0 fs-16">Our digital marketing academy in Bangalore runs Monday to
+                                            Friday, from 9:30
+                                            AM to 6:00 PM. The schedule includes a 30-minute lunch break and two short
+                                            15-minute breaks for
                                             a comfortable learning experience.</p>
                                     </div>
                                 </div>
@@ -1741,7 +1818,8 @@
                                 <div id="flush-collapseseven" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingseven" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Absolutely! We understand the needs of working professionals, so we offer a self-paced learning option 
+                                        <p class="mb-0 fs-16">Absolutely! We understand the needs of working professionals,
+                                            so we offer a self-paced learning option
                                             that allows you to study at your own convenience.</p>
                                     </div>
                                 </div>
@@ -1757,8 +1835,10 @@
                                 <div id="flush-collapseeight" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingeight" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Yes! At BrandStory Academy, we provide ongoing support even after you complete 
-                                            your course. Our team offers career guidance, mentorship, and access to updated resources to help 
+                                        <p class="mb-0 fs-16">Yes! At BrandStory Academy, we provide ongoing support even
+                                            after you complete
+                                            your course. Our team offers career guidance, mentorship, and access to updated
+                                            resources to help
                                             you stay ahead in the ever-changing digital marketing industry.</p>
                                     </div>
                                 </div>
@@ -1785,9 +1865,12 @@
                                     aria-labelledby="flush-headingnine" data-bs-parent="#accordionFlushExample1">
                                     <div class="accordion-body">
                                         <ul class="mb-0">
-                                            <p class="mb-0 fs-16">Yes, you will receive two industry-recognized certifications from BrandStory Academy: 
-                                                a Course Completion Certificate and an Internship Completion Certificate. These certifications 
-                                                validate your skills, hands-on experience, and readiness for a successful career in digital 
+                                            <p class="mb-0 fs-16">Yes, you will receive two industry-recognized
+                                                certifications from BrandStory Academy:
+                                                a Course Completion Certificate and an Internship Completion Certificate.
+                                                These certifications
+                                                validate your skills, hands-on experience, and readiness for a successful
+                                                career in digital
                                                 marketing.</p>
                                         </ul>
                                     </div>
@@ -1805,9 +1888,12 @@
                                     aria-labelledby="flush-headingten" data-bs-parent="#accordionFlushExample1">
                                     <div class="accordion-body">
                                         <ul class="mb-0">
-                                            <p class="mb-0 fs-16">We partner with 1,000+ global companies to offer strong placement 
-                                                opportunities for our students. Our dedicated team connects you with top employers 
-                                                and guides you through the hiring process, ensuring a smooth start to your digital 
+                                            <p class="mb-0 fs-16">We partner with 1,000+ global companies to offer strong
+                                                placement
+                                                opportunities for our students. Our dedicated team connects you with top
+                                                employers
+                                                and guides you through the hiring process, ensuring a smooth start to your
+                                                digital
                                                 marketing career.</p>
                                         </ul>
                                     </div>
@@ -1824,8 +1910,10 @@
                                 <div id="flush-collapseeleven" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingeleven" data-bs-parent="#accordionFlushExample1">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">We offer a 6-month paid internship after the course, providing hands-on experience 
-                                            with real client projects and agency-style training. This ensures you gain practical skills, industry 
+                                        <p class="mb-0 fs-16">We offer a 6-month paid internship after the course, providing
+                                            hands-on experience
+                                            with real client projects and agency-style training. This ensures you gain
+                                            practical skills, industry
                                             exposure, and a strong portfolio to kick-start your career.</p>
                                     </div>
                                 </div>
@@ -1884,9 +1972,12 @@
                                 <div id="flush-collapsefourteen" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingfourteen" data-bs-parent="#accordionFlushExample2">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Our course fees vary depending on the program you choose. Please contact our admissions team 
-                                            for detailed pricing and current offers on Digital Marketing MASTERY with AI, Advanced Digital Marketing Boot Camp, 
-                                            and 360° Digital Marketing Program. We ensure our fees are competitive while offering maximum value with hands-on 
+                                        <p class="mb-0 fs-16">Our course fees vary depending on the program you choose.
+                                            Please contact our admissions team
+                                            for detailed pricing and current offers on Digital Marketing MASTERY with AI,
+                                            Advanced Digital Marketing Boot Camp,
+                                            and 360° Digital Marketing Program. We ensure our fees are competitive while
+                                            offering maximum value with hands-on
                                             training, paid internships, and career support.</p>
                                     </div>
                                 </div>
