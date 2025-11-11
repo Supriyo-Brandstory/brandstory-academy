@@ -86,6 +86,11 @@
     img {
         max-width: 100%;
     }
+    .blog-content a{
+        color: #000;
+        text-decoration: none;
+        font-size: 18px;
+    }
 </style>
 
 <section class="container blog-section">

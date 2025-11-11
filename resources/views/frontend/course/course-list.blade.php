@@ -44,8 +44,8 @@
                             <li>6 Months Internship</li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="#" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{route('contact')}}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{route('course_digital_marketing')}}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
@@ -69,8 +69,8 @@
                             <li>10+ Live Projects</li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="#" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{route('contact')}}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{route('advanced_digital_marketing_boot_camp')}}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
@@ -93,8 +93,8 @@
 
                         </ul>
                         <div class="btn-grup">
-                            <a href="#" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{route('contact')}}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{route('course_360_degree_digital_marketing')}}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
@@ -109,9 +109,9 @@
             <div class="course_grid">
                 <div class="grid_box">
                     <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Digital-Marketing.webp') }}"
-                        alt="Digital Marketing Executive">
+                        alt="Digital Marketing">
                     <div class="content">
-                        <h3>Digital Marketing </h3>
+                        <h3>Digital Marketing</h3>
 
                         <div class="badge-bg">
                             <div>
@@ -127,8 +127,8 @@
                             <li>Become Zero to Hero in Digital Marketing </li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="#" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{route('contact')}}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{route('new_digital_marketing')}}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
@@ -153,8 +153,8 @@
                             <li>Gain Real-world Experience by Working on Live SEO Projects </li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="#" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{route('contact')}}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{route('seo_course_in_bangalore')}}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
