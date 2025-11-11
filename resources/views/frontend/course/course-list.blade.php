@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-7 text-md-start text-center align-self-center">
-                    <h1 class="mb-3 text-blue">Expert-led Digital Marketing Courses</h1>
+                    <h1 class="mb-3 text-blue">Digital Marketing Courses</h1>
                     <p class="mb-2">We Have Placed 1000+ Learners in Global Agencies</p>
                     <div class="d-md-flex align-items-center">
                         <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 justify-content-md-start justify-content-center">
