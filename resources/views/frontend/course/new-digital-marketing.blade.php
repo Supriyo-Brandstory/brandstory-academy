@@ -5,7 +5,7 @@
     <section class="banner-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 order-2 order-lg-1 col-md-7 text-md-start text-center align-self-center">
+                <div class="col-lg-6 order-2 order-lg-1 col-md-7 text-md-start text-center align-self-center mt-3">
                     <h1 class="mb-3 text-blue">Best Digital Marketing Course in Bangalore for Job-ready Learning</h1>
                     <p class="mb-2">Job-ready digital marketing course in Bangalore with 30+ learning modules, 50+
                         AI-powered tools, and industry certifications. We are the best digital marketing institute in
