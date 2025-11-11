@@ -1754,6 +1754,11 @@
             background: #fff;
             transition: all 0.3s ease;
         }
+        .grup-col{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
 
         .curr-header {
             display: flex;

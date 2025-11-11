@@ -156,753 +156,755 @@
             </p>
 
             <div class="curriculum-grid">
-                <!-- Item 1 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Website Architecture Planning</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Website Structure and Hierarchy</li>
-                            <li>UX/UI Design Fundamentals</li>
-                            <li>Landing Page Design Strategy</li>
-                            <li>Mobile Responsiveness and User Journey</li>
-                            <li>Conversion-focused Layout Design</li>
-                            <li>WordPress Website Setup</li>
-                            <li>Domain Name Setup</li>
-                            <li>Website On-page Basics</li>
-                        </ul>
+                <div class="grup-col">
+                    <!-- Item 1 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Website Architecture Planning</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Website Structure and Hierarchy</li>
+                                <li>UX/UI Design Fundamentals</li>
+                                <li>Landing Page Design Strategy</li>
+                                <li>Mobile Responsiveness and User Journey</li>
+                                <li>Conversion-focused Layout Design</li>
+                                <li>WordPress Website Setup</li>
+                                <li>Domain Name Setup</li>
+                                <li>Website On-page Basics</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Pay Per Click Ads (PPC)</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Google Ads</li>
+                                <li>Set up Google Ads Account</li>
+                                <li>Launch Initial Search Campaign</li>
+                                <li>Create Ad Groups</li>
+                                <li>Advanced keyword Research</li>
+                                <li>Create Engaging Ads Content</li>
+                                <li>Events & Conversion Tracking</li>
+                                <li>Budget Alocation for Campaigns</li>
+                                <li>Smart Bidding & Automation Strategy</li>
+                                <li>Campaign Optimization for better ROI</li>
+                                <li>Create Remarketing Campaigns</li>
+                                <li>Product-Based Shopping Campaigns</li>
+                                <li>Google Display Network Ads</li>
+                                <li>YouTube Video Ads</li>
+                                <li>App Promotion on Play Store</li>
+                                <li>Google Discovery Ads Setup</li>
+                                <li>Competitor Campaign Insights</li>
+                                <li>Use Spy Tools- SpyFu & Semrush</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Search Engine Optimization (SEO)</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Understanding Search Engine Optimization</li>
+                                <li>Strategic Keyword Research & Discovery</li>
+                                <li>Planning & Executing SEO Campaigns</li>
+                                <li>Technical SEO Mastery</li>
+                                <li>User-focused Content Creation</li>
+                                <li>Quality Backlink Acquisition</li>
+                                <li>Competitor SEO Benchmarking</li>
+                                <li>Preventing Harmful SEO Practices</li>
+                                <li>Website Audit & Analysis</li>
+                                <li>Google Ranking System & Algorithms</li>
+                                <li>Tracking SEO Success</li>
+                                <li>Explore SEO Tools (Ahrefs, Semrush, Moz, and More)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Google Business Profile (GBP)</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Local SEO & Google Business Profile</li>
+                                <li>Map Pack vs Organic Lisiting</li>
+                                <li>Optimize GBP Profile for Visibility</li>
+                                <li>Importance of Customer Reviews</li>
+                                <li>Building Local Citations</li>
+                                <li>GMB Posting & Product Feature</li>
+                                <li>Tracking Local Search Rankings</li>
+                                <li>Using GMB Insights & Analytics</li>
+                                <li>Setting Up Local Google Ads</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Google Search Console</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Google Search Console Dashboard</li>
+                                <li>Performance: Clicks, Impressions, CTR & Position</li>
+                                <li>Identifying SEO Improvements</li>
+                                <li>Finding Indexing & Crawling Issues</li>
+                                <li>Checking Mobile Usability & Site Experience</li>
+                                <li>Finding keyword Opportunities from Queries</li>
+                                <li>Monitor Page Speed and Core Web Vitals</li>
+                                <li>Inspecting URLs & Submit Indexing</li>
+                                <li>Tracking Coverage & Error Fixation</li>
+                                <li>Integrate with Google Analytics</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 6 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Google Analytics (GA4)</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Google Analytics 4</li>
+                                <li>Setup & Configure GA4 Account</li>
+                                <li>Understanding Dimensions & Metrics</li>
+                                <li>Tracking Traffic & User Behavior</li>
+                                <li>Audience, Acquisition, and Behavior Reports</li>
+                                <li>Set Up Goals and Conversion Tracking</li>
+                                <li>Monitor Traffic Sources and Campaigns</li>
+                                <li>Measuring ROI and Traffic Performance</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 7 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Google Tag Manager (GTM)</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Google Tag Manager (GTM)</li>
+                                <li>Set Up Your GTM Account & Containers</li>
+                                <li>Understanding Tags, Triggers, and Variables</li>
+                                <li>Installing GTM on Website</li>
+                                <li>Creating and Managing Custom Tags</li>
+                                <li>Tracking Events, Clicks, and Form Submissions</li>
+                                <li>Integrating GTM with Google Analytics & Ads</li>
+                                <li>Setting Up Conversion Tracking</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 8 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Facebook Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Facebook Marketing</li>
+                                <li>Create & Optimizing Facebook Page</li>
+                                <li>Introduction to Meta Ads Manager</li>
+                                <li>Creating & Managing Meta Ad Campaigns</li>
+                                <li>Audience Targeting & Custom Audiences</li>
+                                <li>Budgeting and Bidding Strategies</li>
+                                <li>Crafting Engaging Ad Creatives</li>
+                                <li>Facebook Pixel Setup and Tracking</li>
+                                <li>A/B Testing for Ads Performance</li>
+                                <li>Measuring Campaign Insights and ROI</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 9 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Facebook Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Facebook Marketing</li>
+                                <li>Create & Optimizing Facebook Page</li>
+                                <li>Content Strategy: Posts, Stories, and Reels</li>
+                                <li>Introduction to Meta Ads Manager</li>
+                                <li>Creating & Managing Meta Ad Campaigns</li>
+                                <li>Audience Targeting & Custom Audiences</li>
+                                <li>Budgeting and Bidding Strategies</li>
+                                <li>Crafting Engaging Ad Creatives</li>
+                                <li>Facebook Pixel Setup and Tracking</li>
+                                <li>A/B Testing for Ads Performance</li>
+                                <li>Measuring Campaign Insights and ROI</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 10 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Instagram Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Instagram for Business</li>
+                                <li>Set Up and Optimize Business Profiles</li>
+                                <li>Content Strategy: Posts, Stories, and Reels</li>
+                                <li>Hashtag Research and Best Practices</li>
+                                <li>Influencer Collaborations & Partnerships</li>
+                                <li>Instagram Ad Campaigns (Meta Ads)</li>
+                                <li>Audience Engagement Tactics</li>
+                                <li>Tracking Insights and Analytics</li>
+                                <li>Converting Followers into Customers</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 11 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>LinkedIn Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to LinkedIn for Business</li>
+                                <li>Optimizing Personal & Company Profiles</li>
+                                <li>Building a Strong Professional Network</li>
+                                <li>Content Strategy: Posts, Articles, and Videos</li>
+                                <li>LinkedIn Groups for Engagement</li>
+                                <li>Sponsored Content and InMail Campaigns</li>
+                                <li>Targeting Decision Makers and B2B Audiences</li>
+                                <li>Generating Leads through LinkedIn Ads</li>
+                                <li>Analytics and Performance Tracking</li>
+                                <li>Building Thought Leadership on LinkedIn</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 12 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Twitter (X) Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Twitter (X)</li>
+                                <li>Set Up & Optimizing Business Profiles</li>
+                                <li>Understanding the Twitter Algorithm</li>
+                                <li>Crafting Engaging Tweets & Threads</li>
+                                <li>Hashtag Research & Trending Topics</li>
+                                <li>Audience Engagement & Community Building</li>
+                                <li>Running Twitter Ad Campaigns</li>
+                                <li>Using Twitter Analytics for Insights</li>
+                                <li>Collaborations & Influencer Marketing</li>
+                                <li>Measuring Performance and ROI</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 13 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Pinterest Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Pinterest for Business</li>
+                                <li>Set Up and Optimizing Business Accounts</li>
+                                <li>Understanding Pinterest Algorithms</li>
+                                <li>Creating Eye-Catching Pins and Boards</li>
+                                <li>Keyword Research for Pinterest SEO</li>
+                                <li>Driving Traffic through Rich Pins</li>
+                                <li>Running Pinterest Ad Campaigns</li>
+                                <li>Analytics to Measure Performance</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 14 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>WhatsApp Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to WhatsApp Business</li>
+                                <li>Set Up & Optimizing Business Profiles</li>
+                                <li>Understanding WhatsApp Business Tools</li>
+                                <li>Creating Broadcast Lists & Groups for Engagement</li>
+                                <li>Using Catalogs to Showcase Products or Services</li>
+                                <li>Responses with Quick Replies & Chatbots</li>
+                                <li>Integrating WhatsApp with Facebook & Instagram</li>
+                                <li>Running Click-to-WhatsApp Ad Campaigns</li>
+                                <li>Tracking Engagement and Measuring Results</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 15 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Performance Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Performance Marketing</li>
+                                <li>Key Metrics: CPC, CPA, CTR, and ROI</li>
+                                <li>Set Up Multi-Channel Campaigns</li>
+                                <li>Audience Targeting & Segmentation</li>
+                                <li>Budget Planning & Bid Management</li>
+                                <li>Conversion Tracking & Attribution</li>
+                                <li>Retargeting and Remarketing Strategies</li>
+                                <li>Optimizing Campaigns for Better ROI</li>
+                                <li>Tools for Performance Analysis & Reporting</li>
+                                <li>Scaling Successful Campaigns</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Item 2 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Pay Per Click Ads (PPC)</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Google Ads</li>
-                            <li>Set up Google Ads Account</li>
-                            <li>Launch Initial Search Campaign</li>
-                            <li>Create Ad Groups</li>
-                            <li>Advanced keyword Research</li>
-                            <li>Create Engaging Ads Content</li>
-                            <li>Events & Conversion Tracking</li>
-                            <li>Budget Alocation for Campaigns</li>
-                            <li>Smart Bidding & Automation Strategy</li>
-                            <li>Campaign Optimization for better ROI</li>
-                            <li>Create Remarketing Campaigns</li>
-                            <li>Product-Based Shopping Campaigns</li>
-                            <li>Google Display Network Ads</li>
-                            <li>YouTube Video Ads</li>
-                            <li>App Promotion on Play Store</li>
-                            <li>Google Discovery Ads Setup</li>
-                            <li>Competitor Campaign Insights</li>
-                            <li>Use Spy Tools- SpyFu & Semrush</li>
-                        </ul>
+                <div class="grup-col">
+                    <!-- Item 16 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>YouTube Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to YouTube for Business</li>
+                                <li>Set Up and Optimize a YouTube Channel</li>
+                                <li>Understanding YouTube SEO</li>
+                                <li>Creating Engaging Video Content</li>
+                                <li>Keyword Research for Video Titles & Tags</li>
+                                <li>Eye-Catching Thumbnails & Descriptions</li>
+                                <li>Running YouTube Ad Campaigns</li>
+                                <li>Building Subscribers & Audience Engagement</li>
+                                <li>YouTube Analytics and Insights</li>
+                                <li>Monetization & Collaboration Strategies</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 3 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Search Engine Optimization (SEO)</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Understanding Search Engine Optimization</li>
-                            <li>Strategic Keyword Research & Discovery</li>
-                            <li>Planning & Executing SEO Campaigns</li>
-                            <li>Technical SEO Mastery</li>
-                            <li>User-focused Content Creation</li>
-                            <li>Quality Backlink Acquisition</li>
-                            <li>Competitor SEO Benchmarking</li>
-                            <li>Preventing Harmful SEO Practices</li>
-                            <li>Website Audit & Analysis</li>
-                            <li>Google Ranking System & Algorithms</li>
-                            <li>Tracking SEO Success</li>
-                            <li>Explore SEO Tools (Ahrefs, Semrush, Moz, and More)</li>
-                        </ul>
+                    <!-- Item 17 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Canva & Adobe Photoshop</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Visual Design Principles</li>
+                                <li>Overview of Canva and Adobe Photoshop</li>
+                                <li>Designing Social Media Graphics & Creatives</li>
+                                <li>Professional Banners, Posters, and Thumbnails</li>
+                                <li>Using Templates & Layers Effectively</li>
+                                <li>Photo Editing and Background Removal</li>
+                                <li>Typography, Color Theory, and Brand Consistency</li>
+                                <li>Designing for Digital Campaigns & Websites</li>
+                                <li>Best Practices for Visual Branding</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 4 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Google Business Profile (GBP)</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Local SEO & Google Business Profile</li>
-                            <li>Map Pack vs Organic Lisiting</li>
-                            <li>Optimize GBP Profile for Visibility</li>
-                            <li>Importance of Customer Reviews</li>
-                            <li>Building Local Citations</li>
-                            <li>GMB Posting & Product Feature</li>
-                            <li>Tracking Local Search Rankings</li>
-                            <li>Using GMB Insights & Analytics</li>
-                            <li>Setting Up Local Google Ads</li>
-                        </ul>
+                    <!-- Item 18 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Blogging</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Blogging and Its Importance</li>
+                                <li>Choosing the Right Niche & Audience</li>
+                                <li>Keyword Research for Blog Topics</li>
+                                <li>Structuring Blog Posts for SEO and Readability</li>
+                                <li>Write Engaging and Valuable Content</li>
+                                <li>Optimizing Titles, Meta Tags, & Internal Links</li>
+                                <li>Adding Visuals & Multimedia for Engagement</li>
+                                <li>Promoting Blogs Through Social Media</li>
+                                <li>Measuring Blog Performance with Analytics</li>
+                                <li>Monetization and Content Scaling Strategies</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 5 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Google Search Console</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Google Search Console Dashboard</li>
-                            <li>Performance: Clicks, Impressions, CTR & Position</li>
-                            <li>Identifying SEO Improvements</li>
-                            <li>Finding Indexing & Crawling Issues</li>
-                            <li>Checking Mobile Usability & Site Experience</li>
-                            <li>Finding keyword Opportunities from Queries</li>
-                            <li>Monitor Page Speed and Core Web Vitals</li>
-                            <li>Inspecting URLs & Submit Indexing</li>
-                            <li>Tracking Coverage & Error Fixation</li>
-                            <li>Integrate with Google Analytics</li>
-                        </ul>
+                    <!-- Item 19 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Video Editing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Video Editing and Storytelling</li>
+                                <li>Editing Software (Premiere Pro, Final Cut, CapCut, etc.)</li>
+                                <li>Importing, Trimming, & Organizing Footage</li>
+                                <li>Adding Transitions, Effects, and Soundtracks</li>
+                                <li>Color Correction and Audio Balancing</li>
+                                <li>Creating Intros, Outros, and Lower Thirds</li>
+                                <li>Editing for Different Platforms (YouTube, Instagram, Ads)</li>
+                                <li>Exporting Videos in Optimal Formats and Resolutions</li>
+                                <li>Adding Captions and Subtitles for Accessibility</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 6 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Google Analytics (GA4)</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Google Analytics 4</li>
-                            <li>Setup & Configure GA4 Account</li>
-                            <li>Understanding Dimensions & Metrics</li>
-                            <li>Tracking Traffic & User Behavior</li>
-                            <li>Audience, Acquisition, and Behavior Reports</li>
-                            <li>Set Up Goals and Conversion Tracking</li>
-                            <li>Monitor Traffic Sources and Campaigns</li>
-                            <li>Measuring ROI and Traffic Performance</li>
-                        </ul>
+                    <!-- Item 20 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Influencer Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Influencer Marketing</li>
+                                <li>Understanding the Role of Influencers</li>
+                                <li>Identifying & Selecting the Right Influencers</li>
+                                <li>Negotiation & Collaboration Strategies</li>
+                                <li>Planning & Executing Influencer Campaigns</li>
+                                <li>Content Co-Creation & Brand Messaging</li>
+                                <li>Measuring Reach, Engagement, & ROI</li>
+                                <li>Legal & Ethical Aspects of Influencer Marketing</li>
+                                <li>Building Long-Term Influencer Partnerships</li>
+                                <li>Case Studies & Campaign Optimization</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 7 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Google Tag Manager (GTM)</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Google Tag Manager (GTM)</li>
-                            <li>Set Up Your GTM Account & Containers</li>
-                            <li>Understanding Tags, Triggers, and Variables</li>
-                            <li>Installing GTM on Website</li>
-                            <li>Creating and Managing Custom Tags</li>
-                            <li>Tracking Events, Clicks, and Form Submissions</li>
-                            <li>Integrating GTM with Google Analytics & Ads</li>
-                            <li>Setting Up Conversion Tracking</li>
-                        </ul>
+                    <!-- Item 21 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Affiliate Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Affiliate Marketing</li>
+                                <li>How Affiliate Programs Work</li>
+                                <li>Choosing Affiliate Networks and Partners</li>
+                                <li>Set Up an Affiliate Program for Your Brand</li>
+                                <li>Strategies to Promote Affiliate Links Effectively</li>
+                                <li>Tracking Clicks, Conversions, and Commissions</li>
+                                <li>Optimizing Landing Pages for Better Results</li>
+                                <li>Understanding Cookies and Attribution</li>
+                                <li>Compliance & Ethical Best Practices</li>
+                                <li>Scaling and Managing Affiliate Relationships</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 8 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Facebook Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Facebook Marketing</li>
-                            <li>Create & Optimizing Facebook Page</li>
-                            <li>Introduction to Meta Ads Manager</li>
-                            <li>Creating & Managing Meta Ad Campaigns</li>
-                            <li>Audience Targeting & Custom Audiences</li>
-                            <li>Budgeting and Bidding Strategies</li>
-                            <li>Crafting Engaging Ad Creatives</li>
-                            <li>Facebook Pixel Setup and Tracking</li>
-                            <li>A/B Testing for Ads Performance</li>
-                            <li>Measuring Campaign Insights and ROI</li>
-                        </ul>
+                    <!-- Item 22 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Meta Ads Manager</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Meta Advertising (Facebook & Instagram)</li>
+                                <li>Understanding Meta Ads Manager Interface</li>
+                                <li>Setting Up Business Manager and Ad Accounts</li>
+                                <li>Creating Target Audiences Using Custom & Lookalike Options</li>
+                                <li>Crafting High-Converting Ad Creatives & Copy</li>
+                                <li>Setting Campaign Objectives (Awareness, Traffic, Conversions, etc.)</li>
+                                <li>A/B Testing for Ad Optimization</li>
+                                <li>Understanding Pixel Integration & Tracking</li>
+                                <li>Analyzing Campaign Performance</li>
+                                <li>Retargeting Strategies for Maximum ROI</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 9 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Facebook Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Facebook Marketing</li>
-                            <li>Create & Optimizing Facebook Page</li>
-                            <li>Content Strategy: Posts, Stories, and Reels</li>
-                            <li>Introduction to Meta Ads Manager</li>
-                            <li>Creating & Managing Meta Ad Campaigns</li>
-                            <li>Audience Targeting & Custom Audiences</li>
-                            <li>Budgeting and Bidding Strategies</li>
-                            <li>Crafting Engaging Ad Creatives</li>
-                            <li>Facebook Pixel Setup and Tracking</li>
-                            <li>A/B Testing for Ads Performance</li>
-                            <li>Measuring Campaign Insights and ROI</li>
-                        </ul>
+                    <!-- Item 23 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Google Adsense</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Google AdSense</li>
+                                <li>Set Up and Verify AdSense Account</li>
+                                <li>Choosing the Right Website Niche</li>
+                                <li>Ad Placement Strategies for Maximum Revenue</li>
+                                <li>Ad Types: Display, In-feed, and In-article</li>
+                                <li>Policies & Guidelines for AdSense Approval</li>
+                                <li>Tracking Earnings & Performance Reports</li>
+                                <li>Optimizing CTR and RPM for Higher Returns</li>
+                                <li>Best Practices for AdSense Account</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 10 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Instagram Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Instagram for Business</li>
-                            <li>Set Up and Optimize Business Profiles</li>
-                            <li>Content Strategy: Posts, Stories, and Reels</li>
-                            <li>Hashtag Research and Best Practices</li>
-                            <li>Influencer Collaborations & Partnerships</li>
-                            <li>Instagram Ad Campaigns (Meta Ads)</li>
-                            <li>Audience Engagement Tactics</li>
-                            <li>Tracking Insights and Analytics</li>
-                            <li>Converting Followers into Customers</li>
-                        </ul>
+                    <!-- Item 24 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>E-mail Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Email Marketing</li>
+                                <li>Building & Segmenting an Email List</li>
+                                <li>Email Campaign Types (Newsletters, Promotions, Drip Campaigns)</li>
+                                <li>Crafting Compelling Subject Lines & Email Copy</li>
+                                <li>Designing Responsive Email Templates</li>
+                                <li>Setting Up Automation Workflows & Triggers</li>
+                                <li>Personalization & Dynamic Content Strategies</li>
+                                <li>Campaign Performance (Open Rate, CTR, Conversions)</li>
+                                <li>Avoiding Spam Filters & Ensuring Deliverability</li>
+                                <li>Email Marketing Tools: Mailchimp, HubSpot, and Others</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 11 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>LinkedIn Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to LinkedIn for Business</li>
-                            <li>Optimizing Personal & Company Profiles</li>
-                            <li>Building a Strong Professional Network</li>
-                            <li>Content Strategy: Posts, Articles, and Videos</li>
-                            <li>LinkedIn Groups for Engagement</li>
-                            <li>Sponsored Content and InMail Campaigns</li>
-                            <li>Targeting Decision Makers and B2B Audiences</li>
-                            <li>Generating Leads through LinkedIn Ads</li>
-                            <li>Analytics and Performance Tracking</li>
-                            <li>Building Thought Leadership on LinkedIn</li>
-                        </ul>
+                    <!-- Item 25 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Content Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Content Marketing</li>
+                                <li>Audience Personas and Content Intent</li>
+                                <li>Planning & Creating a Content Calendar</li>
+                                <li>Blogs, Videos, Infographics, & Case Studies</li>
+                                <li>Crafting Engaging & SEO-Optimized Content</li>
+                                <li>Storytelling Techniques for Brand Connection</li>
+                                <li>Content Distribution & Promotion Strategies</li>
+                                <li>Repurposing Content for Multiple Platforms</li>
+                                <li>Measuring Content Performance and ROI</li>
+                                <li>Tools for Content Creation & Management</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 12 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Twitter (X) Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Twitter (X)</li>
-                            <li>Set Up & Optimizing Business Profiles</li>
-                            <li>Understanding the Twitter Algorithm</li>
-                            <li>Crafting Engaging Tweets & Threads</li>
-                            <li>Hashtag Research & Trending Topics</li>
-                            <li>Audience Engagement & Community Building</li>
-                            <li>Running Twitter Ad Campaigns</li>
-                            <li>Using Twitter Analytics for Insights</li>
-                            <li>Collaborations & Influencer Marketing</li>
-                            <li>Measuring Performance and ROI</li>
-                        </ul>
+                    <!-- Item 26 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Digital Marketing Tools</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Digital Marketing Tools</li>
+                                <li>SEO Tools: SEMrush, Ahrefs, Moz, and Ubersuggest</li>
+                                <li>PPC Tools: Google Ads Editor, SpyFu, and Optmyzr</li>
+                                <li>Social Media Tools: Buffer, Hootsuite, and Meta Business Suite</li>
+                                <li>Analytics Tools: Google Analytics, Microsoft Clarity, and Hotjar</li>
+                                <li>Email Marketing Tools: Mailchimp, HubSpot, and Sendinblue</li>
+                                <li>Conversion Optimization Tools: Crazy Egg and Optimizely</li>
+                                <li>Competitor Analysis and Benchmarking Tools</li>
+                                <li>AI-Powered Marketing Tools and Automation Platforms</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 13 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Pinterest Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Pinterest for Business</li>
-                            <li>Set Up and Optimizing Business Accounts</li>
-                            <li>Understanding Pinterest Algorithms</li>
-                            <li>Creating Eye-Catching Pins and Boards</li>
-                            <li>Keyword Research for Pinterest SEO</li>
-                            <li>Driving Traffic through Rich Pins</li>
-                            <li>Running Pinterest Ad Campaigns</li>
-                            <li>Analytics to Measure Performance</li>
-                        </ul>
+                    <!-- Item 28 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Conversion Rate Optimization (CRO)</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Conversion Rate Optimization</li>
+                                <li>Understanding User Behavior and Conversion</li>
+                                <li>Conversion Barriers Using Analytics Tools</li>
+                                <li>Effective Landing Pages for Higher Conversions</li>
+                                <li>A/B Testing and Multivariate Testing</li>
+                                <li>Crafting Persuasive CTAs and Page Copy</li>
+                                <li>Using Heatmaps and Session Recordings</li>
+                                <li>Mobile Optimization for Better Conversions</li>
+                                <li>Tracking and Measuring CRO Metrics</li>
+                                <li>Continuous Improvement Strategies</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 14 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>WhatsApp Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to WhatsApp Business</li>
-                            <li>Set Up & Optimizing Business Profiles</li>
-                            <li>Understanding WhatsApp Business Tools</li>
-                            <li>Creating Broadcast Lists & Groups for Engagement</li>
-                            <li>Using Catalogs to Showcase Products or Services</li>
-                            <li>Responses with Quick Replies & Chatbots</li>
-                            <li>Integrating WhatsApp with Facebook & Instagram</li>
-                            <li>Running Click-to-WhatsApp Ad Campaigns</li>
-                            <li>Tracking Engagement and Measuring Results</li>
-                        </ul>
+                    <!-- Item 29 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>E-commerce Marketing</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to E-commerce Marketing</li>
+                                <li>Online Buyer’s Journey</li>
+                                <li>Set Up & Optimize Product Listings</li>
+                                <li>SEO for E-commerce Websites (Product & Category Pages)</li>
+                                <li>Running Google Shopping and Meta Ads for Products</li>
+                                <li>Email Automation for Cart Recovery</li>
+                                <li>Conversion Rate Optimization for Stores</li>
+                                <li>Integrating Payment Gateways and Trust Signals</li>
+                                <li>Analytics and Tracking for Performance</li>
+                                <li>Scaling Sales Through Affiliate Marketing</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 15 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Performance Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Performance Marketing</li>
-                            <li>Key Metrics: CPC, CPA, CTR, and ROI</li>
-                            <li>Set Up Multi-Channel Campaigns</li>
-                            <li>Audience Targeting & Segmentation</li>
-                            <li>Budget Planning & Bid Management</li>
-                            <li>Conversion Tracking & Attribution</li>
-                            <li>Retargeting and Remarketing Strategies</li>
-                            <li>Optimizing Campaigns for Better ROI</li>
-                            <li>Tools for Performance Analysis & Reporting</li>
-                            <li>Scaling Successful Campaigns</li>
-                        </ul>
+                    <!-- Item 30 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Sales Funnel</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Sales Funnels & Their Importance</li>
+                                <li>Understanding Stages: Awareness, Interest, Decision & Action</li>
+                                <li>Mapping Customer Journeys</li>
+                                <li>Create Lead Magnets and Landing Pages</li>
+                                <li>Email Nurturing Sequences</li>
+                                <li>Retargeting Strategies to Re-engage Prospects</li>
+                                <li>Optimizing Each Funnel for Maximum Conversions</li>
+                                <li>Tracking Funnel Performance Using Analytics</li>
+                                <li>Automating Funnels with CRM and Marketing</li>
+                                <li>Scaling and Refining Funnels Based on Data</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Item 16 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>YouTube Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to YouTube for Business</li>
-                            <li>Set Up and Optimize a YouTube Channel</li>
-                            <li>Understanding YouTube SEO</li>
-                            <li>Creating Engaging Video Content</li>
-                            <li>Keyword Research for Video Titles & Tags</li>
-                            <li>Eye-Catching Thumbnails & Descriptions</li>
-                            <li>Running YouTube Ad Campaigns</li>
-                            <li>Building Subscribers & Audience Engagement</li>
-                            <li>YouTube Analytics and Insights</li>
-                            <li>Monetization & Collaboration Strategies</li>
-                        </ul>
+                    <!-- Item 30 -->
+                    <div class="curr-item">
+                        <button class="curr-header" aria-expanded="false">
+                            <span>Microsoft Clarity</span>
+                            <svg class="chev" viewBox="0 0 24 24">
+                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="curr-content">
+                            <ul>
+                                <li>Introduction to Microsoft Clarity</li>
+                                <li>Set Up Clarity on Your Website</li>
+                                <li>Understanding Heatmaps & Click Tracking</li>
+                                <li>Session Recordings: Analyzing User Behavior</li>
+                                <li>Identifying Rage Clicks, Dead Clicks, and Issues</li>
+                                <li>Integrating Clarity with Google Analytics Insights</li>
+                                <li>Using Filters to Segment and Analyze User Data</li>
+                                <li>Tracking Conversions & User Journeys</li>
+                                <li>Leveraging Insights to Improve UX</li>
+                                <li>Best Practices for Website Optimization</li>
+                            </ul>
+                        </div>
                     </div>
+
                 </div>
-
-                <!-- Item 17 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Canva & Adobe Photoshop</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Visual Design Principles</li>
-                            <li>Overview of Canva and Adobe Photoshop</li>
-                            <li>Designing Social Media Graphics & Creatives</li>
-                            <li>Professional Banners, Posters, and Thumbnails</li>
-                            <li>Using Templates & Layers Effectively</li>
-                            <li>Photo Editing and Background Removal</li>
-                            <li>Typography, Color Theory, and Brand Consistency</li>
-                            <li>Designing for Digital Campaigns & Websites</li>
-                            <li>Best Practices for Visual Branding</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Item 18 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Blogging</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Blogging and Its Importance</li>
-                            <li>Choosing the Right Niche & Audience</li>
-                            <li>Keyword Research for Blog Topics</li>
-                            <li>Structuring Blog Posts for SEO and Readability</li>
-                            <li>Write Engaging and Valuable Content</li>
-                            <li>Optimizing Titles, Meta Tags, & Internal Links</li>
-                            <li>Adding Visuals & Multimedia for Engagement</li>
-                            <li>Promoting Blogs Through Social Media</li>
-                            <li>Measuring Blog Performance with Analytics</li>
-                            <li>Monetization and Content Scaling Strategies</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Item 19 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Video Editing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Video Editing and Storytelling</li>
-                            <li>Editing Software (Premiere Pro, Final Cut, CapCut, etc.)</li>
-                            <li>Importing, Trimming, & Organizing Footage</li>
-                            <li>Adding Transitions, Effects, and Soundtracks</li>
-                            <li>Color Correction and Audio Balancing</li>
-                            <li>Creating Intros, Outros, and Lower Thirds</li>
-                            <li>Editing for Different Platforms (YouTube, Instagram, Ads)</li>
-                            <li>Exporting Videos in Optimal Formats and Resolutions</li>
-                            <li>Adding Captions and Subtitles for Accessibility</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Item 20 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Influencer Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Influencer Marketing</li>
-                            <li>Understanding the Role of Influencers</li>
-                            <li>Identifying & Selecting the Right Influencers</li>
-                            <li>Negotiation & Collaboration Strategies</li>
-                            <li>Planning & Executing Influencer Campaigns</li>
-                            <li>Content Co-Creation & Brand Messaging</li>
-                            <li>Measuring Reach, Engagement, & ROI</li>
-                            <li>Legal & Ethical Aspects of Influencer Marketing</li>
-                            <li>Building Long-Term Influencer Partnerships</li>
-                            <li>Case Studies & Campaign Optimization</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Item 21 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Affiliate Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Affiliate Marketing</li>
-                            <li>How Affiliate Programs Work</li>
-                            <li>Choosing Affiliate Networks and Partners</li>
-                            <li>Set Up an Affiliate Program for Your Brand</li>
-                            <li>Strategies to Promote Affiliate Links Effectively</li>
-                            <li>Tracking Clicks, Conversions, and Commissions</li>
-                            <li>Optimizing Landing Pages for Better Results</li>
-                            <li>Understanding Cookies and Attribution</li>
-                            <li>Compliance & Ethical Best Practices</li>
-                            <li>Scaling and Managing Affiliate Relationships</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Item 22 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Meta Ads Manager</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Meta Advertising (Facebook & Instagram)</li>
-                            <li>Understanding Meta Ads Manager Interface</li>
-                            <li>Setting Up Business Manager and Ad Accounts</li>
-                            <li>Creating Target Audiences Using Custom & Lookalike Options</li>
-                            <li>Crafting High-Converting Ad Creatives & Copy</li>
-                            <li>Setting Campaign Objectives (Awareness, Traffic, Conversions, etc.)</li>
-                            <li>A/B Testing for Ad Optimization</li>
-                            <li>Understanding Pixel Integration & Tracking</li>
-                            <li>Analyzing Campaign Performance</li>
-                            <li>Retargeting Strategies for Maximum ROI</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Item 23 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Google Adsense</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Google AdSense</li>
-                            <li>Set Up and Verify AdSense Account</li>
-                            <li>Choosing the Right Website Niche</li>
-                            <li>Ad Placement Strategies for Maximum Revenue</li>
-                            <li>Ad Types: Display, In-feed, and In-article</li>
-                            <li>Policies & Guidelines for AdSense Approval</li>
-                            <li>Tracking Earnings & Performance Reports</li>
-                            <li>Optimizing CTR and RPM for Higher Returns</li>
-                            <li>Best Practices for AdSense Account</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Item 24 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>E-mail Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Email Marketing</li>
-                            <li>Building & Segmenting an Email List</li>
-                            <li>Email Campaign Types (Newsletters, Promotions, Drip Campaigns)</li>
-                            <li>Crafting Compelling Subject Lines & Email Copy</li>
-                            <li>Designing Responsive Email Templates</li>
-                            <li>Setting Up Automation Workflows & Triggers</li>
-                            <li>Personalization & Dynamic Content Strategies</li>
-                            <li>Campaign Performance (Open Rate, CTR, Conversions)</li>
-                            <li>Avoiding Spam Filters & Ensuring Deliverability</li>
-                            <li>Email Marketing Tools: Mailchimp, HubSpot, and Others</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Item 25 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Content Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Content Marketing</li>
-                            <li>Audience Personas and Content Intent</li>
-                            <li>Planning & Creating a Content Calendar</li>
-                            <li>Blogs, Videos, Infographics, & Case Studies</li>
-                            <li>Crafting Engaging & SEO-Optimized Content</li>
-                            <li>Storytelling Techniques for Brand Connection</li>
-                            <li>Content Distribution & Promotion Strategies</li>
-                            <li>Repurposing Content for Multiple Platforms</li>
-                            <li>Measuring Content Performance and ROI</li>
-                            <li>Tools for Content Creation & Management</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Item 26 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Digital Marketing Tools</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Digital Marketing Tools</li>
-                            <li>SEO Tools: SEMrush, Ahrefs, Moz, and Ubersuggest</li>
-                            <li>PPC Tools: Google Ads Editor, SpyFu, and Optmyzr</li>
-                            <li>Social Media Tools: Buffer, Hootsuite, and Meta Business Suite</li>
-                            <li>Analytics Tools: Google Analytics, Microsoft Clarity, and Hotjar</li>
-                            <li>Email Marketing Tools: Mailchimp, HubSpot, and Sendinblue</li>
-                            <li>Conversion Optimization Tools: Crazy Egg and Optimizely</li>
-                            <li>Competitor Analysis and Benchmarking Tools</li>
-                            <li>AI-Powered Marketing Tools and Automation Platforms</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Item 28 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Conversion Rate Optimization (CRO)</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Conversion Rate Optimization</li>
-                            <li>Understanding User Behavior and Conversion</li>
-                            <li>Conversion Barriers Using Analytics Tools</li>
-                            <li>Effective Landing Pages for Higher Conversions</li>
-                            <li>A/B Testing and Multivariate Testing</li>
-                            <li>Crafting Persuasive CTAs and Page Copy</li>
-                            <li>Using Heatmaps and Session Recordings</li>
-                            <li>Mobile Optimization for Better Conversions</li>
-                            <li>Tracking and Measuring CRO Metrics</li>
-                            <li>Continuous Improvement Strategies</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Item 29 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>E-commerce Marketing</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to E-commerce Marketing</li>
-                            <li>Online Buyer’s Journey</li>
-                            <li>Set Up & Optimize Product Listings</li>
-                            <li>SEO for E-commerce Websites (Product & Category Pages)</li>
-                            <li>Running Google Shopping and Meta Ads for Products</li>
-                            <li>Email Automation for Cart Recovery</li>
-                            <li>Conversion Rate Optimization for Stores</li>
-                            <li>Integrating Payment Gateways and Trust Signals</li>
-                            <li>Analytics and Tracking for Performance</li>
-                            <li>Scaling Sales Through Affiliate Marketing</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Item 30 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Sales Funnel</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Sales Funnels & Their Importance</li>
-                            <li>Understanding Stages: Awareness, Interest, Decision & Action</li>
-                            <li>Mapping Customer Journeys</li>
-                            <li>Create Lead Magnets and Landing Pages</li>
-                            <li>Email Nurturing Sequences</li>
-                            <li>Retargeting Strategies to Re-engage Prospects</li>
-                            <li>Optimizing Each Funnel for Maximum Conversions</li>
-                            <li>Tracking Funnel Performance Using Analytics</li>
-                            <li>Automating Funnels with CRM and Marketing</li>
-                            <li>Scaling and Refining Funnels Based on Data</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Item 30 -->
-                <div class="curr-item">
-                    <button class="curr-header" aria-expanded="false">
-                        <span>Microsoft Clarity</span>
-                        <svg class="chev" viewBox="0 0 24 24">
-                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="curr-content">
-                        <ul>
-                            <li>Introduction to Microsoft Clarity</li>
-                            <li>Set Up Clarity on Your Website</li>
-                            <li>Understanding Heatmaps & Click Tracking</li>
-                            <li>Session Recordings: Analyzing User Behavior</li>
-                            <li>Identifying Rage Clicks, Dead Clicks, and Issues</li>
-                            <li>Integrating Clarity with Google Analytics Insights</li>
-                            <li>Using Filters to Segment and Analyze User Data</li>
-                            <li>Tracking Conversions & User Journeys</li>
-                            <li>Leveraging Insights to Improve UX</li>
-                            <li>Best Practices for Website Optimization</li>
-                        </ul>
-                    </div>
-                </div>
-
-
                 <!-- Continue same structure for all remaining items -->
                 <!-- LinkedIn, Twitter, Pinterest, WhatsApp, Performance, YouTube, Canva, Blogging, Video Editing, Influencer, Affiliate, Meta Ads, AdSense, Email, Content, Advanced Tools, Tag Manager, CRO, E-commerce, Sales Funnel, Microsoft Clarity -->
             </div>
@@ -1001,11 +1003,22 @@
                                 <div class="user-card">
                                     <div class="imgbox">
 
-                                        <img src="{{ asset('frontend/assets/images/courses/Startup.png')}}"
+                                        <img src="{{ asset('frontend/assets/images/courses/Career.png')}}"
                                             alt="Digital Marketing Course in Bangalore for Career Changers">
                                     </div>
 
                                     <h4>Career Changers</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="user-card">
+                                    <div class="imgbox">
+
+                                        <img src="{{ asset('frontend/assets/images/courses/Freelancers.png')}}"
+                                            alt="Digital Marketing Course in Bangalore for Freelancers">
+                                    </div>
+
+                                    <h4>Freelancers</h4>
                                 </div>
                             </div>
 
@@ -1013,7 +1026,7 @@
                                 <div class="user-card">
                                     <div class="imgbox">
 
-                                        <img src="{{ asset('frontend/assets/images/courses/Startup.png')}}"
+                                        <img src="{{ asset('frontend/assets/images/courses/Homemakers.png')}}"
                                             alt="Digital Marketing Course in Bangalore for Homemakers">
                                     </div>
 
@@ -1543,137 +1556,45 @@
                 </div>
             </div>
         </div>
-        {{--
-        <div class="testimonial-row right-to-left">
-            <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>Brandstory Academy has greatly enhanced my career. Their digital marketing course combines theoretical
-                    knowledge with practical projects focused on the Indian market. With their expert guidance, I now feel
-                    ready to excel in the digital world.</p>
-                <div class="d-flex align-items-center g-4">
-                    <div class="profile"></div>
-                    Anand G
-                </div>
-            </div>
-            <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>Brandstory Academy's 6-month internship was a pivotal moment in my career. I gained hands-on experience
-                    working on live projects with top brands, and the expert mentorship helped me excel in digital marketing
-                    and secure my future.</p>
-                <div class="d-flex align-items-center g-4">
-                    <div class="profile"></div>
-                    Stuart Nithin
-                </div>
-            </div>
-            <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>Brandstory's digital marketing course reflected their years of experience in the field. Instead of opting
-                    a course in an educational institution, acquiring practical knowledge and skills from an agency with
-                    inhand experience, helped me to experience the real world of digital marketing. The course stood by its
-                    advertisements and its name.</p>
-                <div class="d-flex align-items-center g-4">
-                    <div class="profile"></div>
-                    Nicholina Sandra
-                </div>
-            </div>
-            <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>This academy in Bangalore is one of the best, featuring a supportive culture and passionate, dedicated
-                    trainers. The up-to-date curriculum, combined with a 6-month internship, greatly aids in skill
-                    development and securing the right job. Their placement support from the very beginning makes the
-                    journey even smoother.</p>
-                <div class="d-flex align-items-center g-4">
-                    <div class="profile"></div>
-                    Vishnu Vijayakumar
-                </div>
-            </div>
-            <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>I recently completed my digital marketing course at this institution and I am very satisfied. I highly
-                    recommend them if you are a fresher because they are providing a 6-month internship with Brandstory
-                    company. </p>
-                <div class="d-flex align-items-center g-4">
-                    <div class="profile"></div>
-                    Jachin Bakhtsingh
-                </div>
-            </div>
-            <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>One of the best digital marketing course provider in bangalore. They cover all areas of digital marketing
-                    and start the courses from the beginner levels as well as advanced levels. It was really fun learning
-                    from Brandstory academy. </p>
-                <div class="d-flex align-items-center g-4">
-                    <div class="profile"></div>
-                    Prethasha K.R
-                </div>
-            </div>
-
-            <!-- duplicate -->
-            <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
-                    for my professional growth. The program was structured effectively, addressing all the key components of
-                    digital marketing. What impressed me the most was the 6-month internship offered with Brandstory Digital
-                    Marketing company.</p>
-                <div class="d-flex align-items-center g-4">
-                    <div class="profile"></div>
-                    Ayesha Ms
-                </div>
-            </div>
-            <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
-                    for my professional growth. The program was structured effectively, addressing all the key components of
-                    digital marketing. What impressed me the most was the 6-month internship offered with Brandstory Digital
-                    Marketing company.</p>
-                <div class="d-flex align-items-center g-4">
-                    <div class="profile"></div>
-                    Ayesha Ms
-                </div>
-            </div>
-            <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
-                    for my professional growth. The program was structured effectively, addressing all the key components of
-                    digital marketing. What impressed me the most was the 6-month internship offered with Brandstory Digital
-                    Marketing company.</p>
-                <div class="d-flex align-items-center g-4">
-                    <div class="profile"></div>
-                    Ayesha Ms
-                </div>
-            </div>
-            <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
-                    for my professional growth. The program was structured effectively, addressing all the key components of
-                    digital marketing. What impressed me the most was the 6-month internship offered with Brandstory Digital
-                    Marketing company.</p>
-                <div class="d-flex align-items-center g-4">
-                    <div class="profile"></div>
-                    Ayesha Ms
-                </div>
-            </div>
-            <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
-                <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
-                    for my professional growth. The program was structured effectively, addressing all the key components of
-                    digital marketing. What impressed me the most was the 6-month internship offered with Brandstory Digital
-                    Marketing company.</p>
-                <div class="d-flex align-items-center g-4">
-                    <div class="profile"></div>
-                    Ayesha Ms
-                </div>
-            </div>
-        </div> --}}
     </section>
-    <div class="spb-100">
-        <x-our-success-stories :videos="[
-            'https://www.instagram.com/p/DNiDU0ExHZI',
-            'https://www.instagram.com/p/DNk72CQRPXZ',
-            'https://www.instagram.com/p/DNpgwppR5qy',
-            'https://www.instagram.com/p/DLsC-H9xQVg'
-        ]" />
-    </div>
+    <section class="spb-100 mbl-spt-0">
+        <div class="container">
+            <h2 class="text-center db">Learning in Action - <span class="text-violet">Classroom</span></h2>
+            <p class="max-1000 text-center my-5">
+                At <span class="fw-600">BrandStory Academy</span>, our classrooms are designed to foster collaboration and
+                hands-on experience. From interactive lectures to real-world projects, our gallery captures the energy and
+                enthusiasm that define every session at BrandStory Academy.
+            </p>
+
+            <div class="tab-content" id="pills-tabContent">
+                <!-- Course 1 start -->
+                <div class="tab-pane fade show active" id="pills-course1" role="tabpanel"
+                    aria-labelledby="pills-course1-tab">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="{{asset('frontend/assets/images/gallery/gallery-1.webp')}}" class="img-fluid"
+                                alt="Classroom Image 1" />
+                            <img src="{{asset('frontend/assets/images/gallery/gallery-2.webp')}}" class="img-fluid mt-4"
+                                alt="Classroom Image 2" />
+                        </div>
+                        <div class="col-4">
+                            <img src="{{asset('frontend/assets/images/gallery/gallery-3.webp')}}" class="img-fluid"
+                                alt="Classroom Image 3" />
+                            <img src="{{asset('frontend/assets/images/gallery/gallery-4.webp')}}" class="img-fluid mt-4"
+                                alt="Classroom Image 4" />
+                        </div>
+                        <div class="col-4">
+                            <img src="{{asset('frontend/assets/images/gallery/gallery-5.webp')}}" class="img-fluid"
+                                alt="Classroom Image 5" />
+                            <img src="{{asset('frontend/assets/images/gallery/gallery-6.webp')}}" class="img-fluid mt-4"
+                                alt="Classroom Image 6" />
+                        </div>
+                    </div>
+                </div>
+                <!-- Course 1 end -->
+            </div>
+        </div>
+    </section>
     <div class="pt-100">
         <x-blog-component />
     </div>
