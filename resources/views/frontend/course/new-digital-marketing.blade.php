@@ -1917,6 +1917,10 @@
                 el: ".swiper-pagination",
                 clickable: true,
             },
+            autoplay: {
+            delay: 2500, // time between slides in ms (2.5 seconds)
+            disableOnInteraction: false, // keeps autoplay running after user interaction
+        },
             breakpoints: {
                 0: { slidesPerView: 1 },
                 768: { slidesPerView: 2 },
