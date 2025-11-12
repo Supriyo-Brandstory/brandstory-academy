@@ -14,7 +14,7 @@
                     <div class="d-md-flex align-items-center">
                         <div
                             class="outline-btn d-flex me-lg-5 mb-lg-0 my-4 justify-content-md-start justify-content-center">
-                            <a href="{{route('about')}}">About Academy</a>
+                            <a href="{{route('about')}}"><strong>About Academy</strong></a>
                         </div>
                         <div class="violet-btn d-flex me-lg-5 mb-lg-0 my-4 justify-content-md-start justify-content-center">
                             <a href="{{route('contact')}}">Contact Us</a>
@@ -1888,13 +1888,10 @@
                                 <div id="flush-collapsefourteen" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingfourteen" data-bs-parent="#accordionFlushExample2">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Our course fees vary depending on the program you choose.
-                                            Please contact our admissions team
-                                            for detailed pricing and current offers on Digital Marketing MASTERY with AI,
-                                            Advanced Digital Marketing Boot Camp,
-                                            and 360° Digital Marketing Program. We ensure our fees are competitive while
-                                            offering maximum value with hands-on
-                                            training, paid internships, and career support.</p>
+                                        <p class="mb-0 fs-16">The Digital Marketing Course at BrandStory Academy is <b>priced at ₹40,000</b>, offering 
+                                            comprehensive training that covers SEO, social media marketing, Google Ads, email marketing, and analytics. 
+                                            The program includes hands-on live projects, a 6-month internship, and 100% placement assistance, making it 
+                                            one of the most valuable and career-focused digital marketing courses in Bangalore.</p>
                                     </div>
                                 </div>
                             </div>

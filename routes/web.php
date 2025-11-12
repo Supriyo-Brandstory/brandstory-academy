@@ -23,6 +23,7 @@ Route::get('/courses',[WebsiteController::class,'courseList'])->name('course.lis
 
 Route::get('/digital-marketing-course-in-bangalore',[WebsiteController::class,'new_digital_marketing'])->name('new_digital_marketing');
 Route::get('/seo-course-in-bangalore',[WebsiteController::class,'seo_course_in_bangalore'])->name('seo_course_in_bangalore');
+Route::get('/ppc-course-in-bangalore',[WebsiteController::class,'ppc_course_in_bangalore'])->name('ppc_course_in_bangalore');
 
 Auth::routes();
 

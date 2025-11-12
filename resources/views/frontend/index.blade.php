@@ -9,7 +9,7 @@
                     <p class="mb-4"><span >At BrandStory Academy, you can learn the A-Z of
                         digital marketing, work on live projects, and get certified to launch your career as a digital
                         marketing expert. Learn, work, and certify your skills in 6 months</span>
-                        with the advanced digital marketing courses in Bangalore.</p>
+                        with digital marketing, SEO, PPC courses in Bangalore.</p>
                     <div class="d-lg-flex align-items-center">
                         <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 justify-content-md-start justify-content-center">
                             <a href="{{route('contact')}}">Enquire Now!</a>
@@ -125,14 +125,13 @@
                     </h2>
                     <img class="w-100 d-lg-none d-block mb-3"
                         src="{{asset('frontend/assets/images/home/about-academy-img.webp')}}" alt="Digital Marketing training Institute in Bangalore - BrandStory Academy">
-                    <p>BrandStory Academy was founded in 2018 with a vision to redefine how digital marketing is taught. As a leading digital marketing training institute in 
+                    <p><b>BrandStory Academy</b> was founded in 2018 with a vision to redefine how digital marketing is taught. As a leading digital marketing training institute in 
                         Bangalore, we believe learning should spark curiosity, creativity, and confidence. Our classrooms are collaborative spaces where ideas can flow freely, challenges 
                         are embraced, and innovation is celebratedp</p>
-                    <p class="mb-0">We are among the top-rated digital marketing Institutes in Bangalore offering advanced and industry-relevant course curriculum. Our digital marketing 
-                        courses are designed to transform you into job-ready professionals and secure placements with 1,000+ global companies.</p>
+                    <p class="mb-0">We are among the <b>top-rated digital marketing Institutes</b> in Bangalore offering advanced and industry-relevant course curriculum. Our digital marketing 
+                        courses are designed to transform you into job-ready professionals and secure placements with <b>1,000+ global companies</b>.</p>
                     <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 mt-4 justify-content-md-start justify-content-center">
                             <a href="{{route('about')}}">Know About Us</a>
-                            <a href="javascript:void(0)" class="mx-2" id="watchNowBtn">Watch Now</a>
                     </div>
                 </div>
             </div>
@@ -152,9 +151,9 @@
 
     <section class="dm-course-section spb-100">
         <div class="container">
-            <h2 class="text-center db"><span class="text-violet">Expert-Led</span> Digital Marketing Courses in Bangalore</h2>
-            <p class="max-1000 text-center">BrandStory Academy offering most advanced digital 
-                marketing courses in Bangalore that cover everything from the fundamentals to expert-level learning. We prepare aspiring 
+            <h2 class="text-center db"><span class="text-violet">Best</span> Digital Marketing Institute in Bangalore</h2>
+            <p class="max-1000 text-center">BrandStory Academy, the best digital marketing training institute in Bangalore is offering most affordable and advanced 
+                <a href="https://www.brandstoryacademy.com/courses" style="color: black; font-size: 18px; text-decoration: underline;"><b>digital marketing courses</b></a> in Bangalore that cover everything from the fundamentals to expert-level learning. We prepare aspiring 
                 professionals with a well-structured curriculum, experienced faculty, and practical learning.</p>
             <div class="dm-course-main mt-5">
                 <ul class="nav nav-pills mb-md-5 mb-4 d-flex justify-content-center" id="pills-tab" role="tablist">
@@ -171,7 +170,7 @@
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="pills-course3-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-course3" type="button" role="tab" aria-controls="pills-course3"
-                            aria-selected="false">360 Degree</button>
+                            aria-selected="false">Expert</button>
                     </li>
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
@@ -206,7 +205,7 @@
                                     </ul>
                                     <div class="coursebtns one mt-auto">
                                         <a class="text-decoration-none d-block w-100 text-center bg-violet"
-                                            href="{{route('course_digital_marketing')}}">Learn More</a>
+                                            href="{{route('course_digital_marketing')}}">Enroll Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -250,7 +249,7 @@
                                     </ul>
                                     <div class="coursebtns one mt-auto">
                                         <a class="text-decoration-none d-block w-100 text-center bg-violet"
-                                            href="{{route('advanced_digital_marketing_boot_camp')}}">Learn More</a>
+                                            href="{{route('advanced_digital_marketing_boot_camp')}}">Enroll Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -263,13 +262,13 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-block d-none"
-                                    src="{{asset('frontend/assets/images/home/course3.webp')}}" alt="360° Digital Marketing Course - BrandStory Academy">
+                                    src="{{asset('frontend/assets/images/home/course3.webp')}}" alt="Digital Marketing Course in Bangalore - BrandStory Academy">
                                 <img class="w-100 mb-lg-0 mb-3 d-lg-none d-block"
                                     src="{{asset('frontend/assets/images/home/mbl-course3.webp')}}">
                             </div>
                             <div class="col-lg-6 d-flex">
                                 <div class="course-main d-flex flex-column w-100">
-                                    <h4 class="mb-3 text-blue">360° Digital <span class="text-yellow">Marketing</span></h4>
+                                    <h4 class="mb-3 text-blue">Expert-Level Digital <span class="text-yellow">Marketing Course</span></h4>
                                     <p class="mb-lg-5 mb-4 fw-500 fs-16">Duration: 4 Months + 6 Months Internship</p>
                                     <ul class="mb-0 list-unstyled p-0">
                                         <li class="mb-4"><img class="me-2"
@@ -282,21 +281,19 @@
                                                 src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">Full-Stack
                                             Digital Marketing</li>
                                         <li class="mb-4"><img class="me-2"
-                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">AI & Data
-                                            Analytics</li>
+                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">SEO & Google Ads</li>
                                         <li class="mb-4"><img class="me-2"
-                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">Content
-                                            Production</li>
+                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">Content Production & Social Media
+                                            </li>
                                         <li class="mb-4"><img class="me-2"
-                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">Excel for
-                                            E-Commerce</li>
+                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">E-mail Marketing & Perf. Marketing</li>
                                         <li class="mb-4"><img class="me-2"
-                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">10+ Live
+                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">20+ Live
                                             Projects</li>
                                     </ul>
                                     <div class="coursebtns one mt-auto">
                                         <a class="text-decoration-none d-block w-100 text-center bg-violet"
-                                            href="{{route('course_360_degree_digital_marketing')}}">Learn More</a>
+                                            href="{{route('new_digital_marketing')}}">Enroll Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -1333,8 +1330,8 @@
             <h2 class="text-center mb-3">Benefits of Joining BrandStory Academy for
                 <span class="db">Digital <span class="text-violet">Marketing Courses</span></span>
             </h2>
-            <p class="text-center mb-4 max-1000">Brandstory Academy gives you more than just digital marketing courses in
-                Bangalore. With our comprehensive digital marketing courses + internship, students will learn the
+            <p class="text-center mb-4 max-1000">Brandstory Academy gives you more than just <a href="https://brandstoryacademy.com/digital-marketing-course-in-bangalore" style="color: black; font-size: 18px; text-decoration: underline;"><b>digital marketing courses in
+                Bangalore</b></a>. With our comprehensive digital marketing courses + internship, students will learn the
                 fundamentals, work on live projects, and become experts. Our hands-on approach to learning will help you
                 apply the knowledge in real-world projects, gain insights, and become a specialist.</p>
             <img class="w-100 mb-4" src="{{asset('frontend/assets/images/home/institute.webp')}}" alt="Best Digital marketing Training Institute in Bangalore  - BrandStory Academy">
@@ -1773,13 +1770,21 @@
                                         <p class="fs-16">At BrandStory Academy, we offer three specialized digital marketing courses designed to 
                                             meet different career goals:</p>
                                         <ul>
-                                            <li class="fs-16">Digital Marketing MASTERY with Artificial Intelligence (AI) – 2.5 months training + 6 months internship</li>
-                                            <li class="fs-16">Advanced Digital Marketing Boot Camp – 3.5 months training + 6 months internship</li>
-                                            <li class="fs-16">360° Digital Marketing – 4 months training + 6 months internship</li>
+                                            <li class="fs-16"><a href="https://brandstoryacademy.com/digital-marketing-course-in-bangalore" style="color: black; font-size: 16px; text-decoration: underline;">Digital Marketing Course</a></li>
+                                            <li class="fs-16"><a href="https://brandstoryacademy.com/seo-course-in-bangalore" style="color: black; font-size: 16px; text-decoration: underline;">SEO Course</a></li>
+                                            <li class="fs-16"><a href="https://brandstoryacademy.com/ppc-course-in-bangalore" style="color: black; font-size: 16px; text-decoration: underline;">PPC (Pay-Per-Click) Course</a></li>
+                                            <li class="fs-16">Social Media Marketing Course</li>
+                                            <li class="fs-16">UI/UX Design Course</li>
+                                            <li class="fs-16">Web Design Course</li>
+                                            <li class="fs-16">Graphics Design Course</li>
+                                            <li class="fs-16">Video Editing</li>
+                                            <li class="fs-16"><a href="https://brandstoryacademy.com/digital-marketing-mastery-with-artificial-intelligence" style="color: black; font-size: 16px; text-decoration: underline;">Digital Marketing MASTERY with AI</a></li>
+                                            <li class="fs-16"><a href="https://brandstoryacademy.com/advanced-digital-marketing-boot-camp" style="color: black; font-size: 16px; text-decoration: underline;">Advanced Digital Marketing Boot Camp</a></li>
+                                            <li class="fs-16"><a href="https://brandstoryacademy.com/360-degree-digital-marketing-course" style="color: black; font-size: 16px; text-decoration: underline;">360° Digital Marketing Course</a></li>
                                         </ul>
-                                        <p class="mb-0 fs-16">Each program focuses on practical learning, real client projects, and agency-style training. By the end of your 
-                                            chosen course, you’ll gain hands-on experience, build a strong portfolio, and be career-ready for the fast-growing digital marketing 
-                                            industry.</p>
+                                        <p class="mb-0 fs-16">Each course is designed to provide hands-on learning, live project experience, and the 
+                                            latest marketing strategies to help you excel in the digital world.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -1955,10 +1960,11 @@
                                 <div id="flush-collapsefourteen" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingfourteen" data-bs-parent="#accordionFlushExample2">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Our course fees vary depending on the program you choose. Please contact our admissions team 
-                                            for detailed pricing and current offers on Digital Marketing MASTERY with AI, Advanced Digital Marketing Boot Camp, 
-                                            and 360° Digital Marketing Program. We ensure our fees are competitive while offering maximum value with hands-on 
-                                            training, paid internships, and career support.</p>
+                                        <p class="mb-0 fs-16">Our course fees vary depending on the program you choose. For detailed pricing, current offers, 
+                                            and exclusive discounts on our <b>Digital Marketing, SEO, PPC, Social Media, etc.</b>, please visit our <a href="https://brandstoryacademy.com/courses" style="color: black; font-size: 16px; text-decoration: underline;"><b>course details page</b></a> or contact 
+                                            our admissions team. We ensure our fee structure remains competitive while providing hands-on training, paid internships, 
+                                            and complete career support to help you succeed in the digital marketing industry.
+                                        </p>
                                     </div>
                                 </div>
                             </div>

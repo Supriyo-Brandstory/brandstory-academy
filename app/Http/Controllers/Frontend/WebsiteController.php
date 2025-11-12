@@ -289,4 +289,9 @@ public function seo_course_in_bangalore(){
     $seo = SEO::where('page_url', $currentRoute)->first();
     return view('frontend.course.seo-course-in-bangalore', compact('seo'));
 }
+public function ppc_course_in_bangalore(){
+    $currentRoute = request()->path();;
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.course.ppc-course-in-bangalore', compact('seo'));
+}
 }

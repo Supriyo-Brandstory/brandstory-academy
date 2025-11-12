@@ -31,8 +31,8 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="{{route('course.list')}}">All Courses</a></li>
             <li><a class="dropdown-item" href="{{route('new_digital_marketing')}}">Digital Marketing</a></li>
-            <!--<li><a class="dropdown-item" href="{{route('advanced_digital_marketing_boot_camp')}}">Advanced Digital Marketing Boot Camp</a></li>
-            <li><a class="dropdown-item" href="{{route('course_360_degree_digital_marketing')}}">360 Degree Digital Marketing</a></li>-->
+            <a class="dropdown-item" href="{{route('seo_course_in_bangalore')}}">Search Engine Optimization</a></li>
+            <li><a class="dropdown-item" href="{{route('ppc_course_in_bangalore')}}">Pay Per Click</a></li>
           </ul>
         </li>
         <li class="nav-item mb-lg-0 mb-3">

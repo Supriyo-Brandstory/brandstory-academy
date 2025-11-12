@@ -119,7 +119,7 @@
 
                             </div>
                             <div>
-                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 30,000
+                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 40,000
 
                             </div>
                         </div>
@@ -145,7 +145,7 @@
 
                             </div>
                             <div>
-                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 11,000
+                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 30,000
 
                             </div>
                         </div>
@@ -170,7 +170,7 @@
 
                             </div>
                             <div>
-                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 15,000
+                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 25,000
 
                             </div>
                         </div>
@@ -178,8 +178,8 @@
                             <li>Build Strategy and Launch High-impact PPC Campaigns </li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="#" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{route('contact')}}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{route('ppc_course_in_bangalore')}}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
