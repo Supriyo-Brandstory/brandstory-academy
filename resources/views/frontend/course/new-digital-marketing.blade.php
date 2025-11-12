@@ -1364,10 +1364,8 @@
 
     <section class="spb-100 bg-lightblue1">
         <div class="container">
-            <div class="placement-partner">
-                <p>Our Premium Placement </p>
-                <p style="color: #A184F9;">Partners</p>
-            </div>
+            <h2 class="text-center pt-4">Our Premium Placement <span class="text-violet"><br>Partners</span></h2>
+           
             <div class="swiper brandlogo1" data-aos="fade-up">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">

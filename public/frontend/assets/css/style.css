@@ -1620,6 +1620,9 @@
     .right-to-left {
         animation: scroll-right 30s linear infinite;
     }
+    .testimonial-section:hover .left-to-right {
+    animation-play-state: paused;
+}
 
     @keyframes scroll-right {
         from {
@@ -1632,7 +1635,12 @@
     }
 
 
-
+@media (max-width: 768px) {
+      .testimonial {
+         max-width: 300px;
+                 min-width: 200px;
+      }
+}
 
 
 
