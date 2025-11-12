@@ -1620,7 +1620,9 @@
     .right-to-left {
         animation: scroll-right 30s linear infinite;
     }
-    .testimonial-section:hover .left-to-right {
+.testimonial:hover ~ .left-to-right,
+.testimonial:hover,
+.testimonial-row:hover {
     animation-play-state: paused;
 }
 
