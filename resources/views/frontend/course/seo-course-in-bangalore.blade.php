@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 col-md-5">
-                    <img class="w-100" src="{{asset('frontend/assets/images/courses/Digital-Marketing.webp')}}" alt="Digital Marketing Course in Bangalore by BrandStory Academy">
+                    <img class="w-100" src="{{asset('frontend/assets/images/courses/seo-course-in-bangalore.webp')}}" alt="SEO Course in Bangalore by BrandStory Academy">
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@
 
                 </div>
                 <div class="col-12 col-lg-6  order-1 order-lg-2">
-                    <img src="{{asset('frontend/assets/images/courses/certificate.webp')}}" class="img-fluid" alt="Digital Marketing Course Completion Certificate by BrandStory Academy"/>
+                    <img src="{{asset('frontend/assets/images/courses/certificate.webp')}}" class="img-fluid" alt="SEO Course Completion Certificate by BrandStory Academy"/>
                 </div>
             </div>
         </div>
@@ -109,13 +109,13 @@
             <div class="mt-5">
                 <div class="row g-4">
                     <div class="col-12 col-lg-4">
-                        <img src="{{ asset('frontend/assets/images/courses/placement1.webp') }}" class="img-fluid" alt="Our Student Placement - Lahasya Reddy placed at FedEx"/>
+                        <img src="{{ asset('frontend/assets/images/courses/placed-student-1.webp') }}" class="img-fluid" alt="Our Student Placement - Harsha placed at FedEx"/>
                     </div>
                     <div class="col-12 col-lg-4">
-                        <img src="{{ asset('frontend/assets/images/courses/placement2.webp') }}" class="img-fluid" lt="Our Student Placement - Namitha Nambi placed at Amazon"/>
+                        <img src="{{ asset('frontend/assets/images/courses/placed-student-2.webp') }}" class="img-fluid" lt="Our Student Placement - Roshan placed at Amazon"/>
                     </div>
                     <div class="col-12 col-lg-4">
-                        <img src="{{ asset('frontend/assets/images/courses/placement3.webp') }}" class="img-fluid" lt="Our Student Placement - Maria Sherly placed at Wallmart"/>
+                        <img src="{{ asset('frontend/assets/images/courses/placed-student-3.webp') }}" class="img-fluid" lt="Our Student Placement - Maria Sherly placed at Wallmart"/>
                     </div>
                 </div>
                 <div class="text-center ">
@@ -131,7 +131,7 @@
         <div class="container">
             <h2 class="text-center frame-700">Map Your Journey from Beginner to <span class="text-violet">Successful
                     Marketer </span></h2>
-            <img src="{{ asset('frontend/assets/images/courses/journy.webp') }}" class="img-fluid mt-5" alt="Your Digital Marketing Learning Journey at BrandStory Academy"/>
+            <img src="{{ asset('frontend/assets/images/courses/journy.webp') }}" class="img-fluid mt-5" alt="Your SEO Learning Journey at BrandStory Academy"/>
         </div>
     </section>
     <section class="curicullmn-coursepage spb-100">

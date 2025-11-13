@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 col-md-5">
-                    <img class="w-100" src="{{asset('frontend/assets/images/courses/Digital-Marketing.webp')}}" alt="Digital Marketing Course in Bangalore by BrandStory Academy">
+                    <img class="w-100" src="{{asset('frontend/assets/images/courses/PPC-course-in-bangalore.webp')}}" alt="PPC Course in Bangalore by BrandStory Academy">
                 </div>
             </div>
         </div>
@@ -118,13 +118,13 @@
             <div class="mt-5">
                 <div class="row g-4">
                     <div class="col-12 col-lg-4">
-                        <img src="{{ asset('frontend/assets/images/courses/placement1.webp') }}" class="img-fluid" alt="Our Student Placement - Lahasya Reddy placed at FedEx"/>
+                        <img src="{{ asset('frontend/assets/images/courses/placement-student-1.webp') }}" class="img-fluid" alt="Our Student Placement - Sandra R placed at FedEx"/>
                     </div>
                     <div class="col-12 col-lg-4">
-                        <img src="{{ asset('frontend/assets/images/courses/placement2.webp') }}" class="img-fluid" lt="Our Student Placement - Namitha Nambi placed at Amazon"/>
+                        <img src="{{ asset('frontend/assets/images/courses/placement-student-2.webp') }}" class="img-fluid" lt="Our Student Placement - Gautham AG placed at Amazon"/>
                     </div>
                     <div class="col-12 col-lg-4">
-                        <img src="{{ asset('frontend/assets/images/courses/placement3.webp') }}" class="img-fluid" lt="Our Student Placement - Maria Sherly placed at Wallmart"/>
+                        <img src="{{ asset('frontend/assets/images/courses/placement-student-3.webp') }}" class="img-fluid" lt="Our Student Placement - Nithin Reddy placed at Wallmart"/>
                     </div>
                 </div>
                 <div class="text-center ">
