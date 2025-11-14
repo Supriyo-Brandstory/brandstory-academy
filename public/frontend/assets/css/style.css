@@ -1125,7 +1125,7 @@
         }
 
         .agency-experience-section {
-            background-position: left;
+            background-position: right;
         }
 
         .inter-main {
@@ -2054,3 +2054,225 @@
     }
 }
     }
+
+
+    .course_list {
+            .course_grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+                align-items: center;
+                margin-top: 40px;
+                overflow: hidden;
+            }
+
+            .grid_box {
+                display: flex;
+                flex-direction: column;
+                border: 1px solid #1B1B1B26;
+
+                .main-bg-img {
+                    width: 100%;
+                    height: 390px;
+                    object-fit: cover;
+                }
+
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 20px;
+                    gap: 16px;
+                    min-height: 283px;
+
+                    h3 {
+                        font-size: 20px;
+                        margin: 0px;
+                    }
+
+                    .badge-bg {
+                        background: #1BC6AF1A;
+                        border-radius: 8px;
+                        padding: 8px 8px;
+                        display: inline-flex;
+                        align-items: center;
+                        gap: 8px;
+                        color: #000;
+                        width: 100%;
+
+                        img {
+                            width: 18px;
+                        }
+
+                        div {
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                        }
+                    }
+
+                    ul {
+                        list-style: none;
+                        padding: 0;
+                        margin: 0 0 0px 0;
+
+                        li {
+                            position: relative;
+                            color: #1B1B1B80;
+                            font-size: 16px;
+                            margin-bottom: 10px;
+                        }
+
+                        li:last-child {
+                            margin-bottom: 0px;
+                        }
+                    }
+
+                    .btn-grup {
+                        display: flex;
+                        gap: 12px;
+                        border: solid #1B1B1B1A;
+                        border-width: 1px 0 0 0;
+                        padding-top: 18px;
+                        justify-content: space-between;
+
+                        a.outline-btn {
+                            border: 1px solid #845EF7;
+                            color: #845EF7;
+                            border-radius: 218px;
+                            text-decoration: none;
+                            width: 100%;
+                            align-items: center;
+                            display: flex;
+                            justify-content: center;
+                            height: 48px;
+                        }
+
+                        a.outline-btn:hover {
+                            background: #845EF7;
+                            color: #fff;
+                        }
+
+                        a.violet-btn {
+                            background: #845EF7;
+                            color: #fff;
+                            border-radius: 218px;
+                            text-decoration: none;
+                            width: 100%;
+                            align-items: center;
+                            display: flex;
+                            justify-content: center;
+                            height: 48px;
+                        }
+
+                        a.violet-btn:hover {
+                            background: #fff;
+                            color: #845EF7;
+                            border: 1px solid #845EF7;
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+        .coursecta.course-banner {
+            background: url('/frontend/assets/images/courses/Professional-bg.png');
+            background-size: 100% 76%;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+
+
+            .banner-content {
+                display: flex;
+                align-items: end;
+                justify-content: space-between;
+                max-width: 1200px;
+                width: 100%;
+            }
+
+            .text-section {
+                width: 55%;
+                margin-bottom: 50px;
+            }
+
+            .text-section h2 {
+                font-size: 38px;
+                font-weight: 600;
+                color: #111;
+                margin-bottom: 20px;
+                line-height: 1.3;
+            }
+
+            .text-section h2 span {
+                color: #00b59c;
+            }
+
+            .text-section p {
+                font-size: 18px;
+                color: #333;
+                margin-bottom: 35px;
+                line-height: 1.6;
+            }
+
+            .btn-join {
+                display: inline-block;
+                background-color: #1cc6ae;
+                color: #fff;
+                font-weight: 600;
+                padding: 14px 36px;
+                border-radius: 50px;
+                font-size: 18px;
+                text-decoration: none;
+                border: 10px solid #a6ede5;
+                transition: all 0.3s ease;
+            }
+
+            .btn-join:hover {
+                background-color: #00a28a;
+                box-shadow: 0px 4px 0px #80e3d9;
+            }
+
+            .image-section {
+                width: 40%;
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .image-section img {
+                width: 100%;
+                max-width: 360px;
+                height: auto;
+                object-fit: contain;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .course_list {
+                .course_grid {
+                    grid-template-columns: repeat(1, 1fr);
+                }
+            }
+
+            .coursecta.course-banner {
+                background-size: 100% 45.3%;
+                .banner-content {
+                    flex-direction: column-reverse;
+                    padding: 10px;
+                }
+                .text-section{
+                    width: 100%;
+
+                }
+                .image-section{
+                    width: 100%;
+                    margin-bottom: 10px;
+
+                }
+            }
+        }

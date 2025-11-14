@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-7 text-md-start text-center">
-                    <h1 class="mb-3">Best <span class="text-violet">Digital Marketing Institute in Bangalore</span> for Career-Ready Courses</h1>
+                    <h1 class="mb-3">Best <span class="text-violet">Digital Marketing Institute in Bangalore</span> for Career-focused Courses</h1>
                     <p class="mb-4"><span >At BrandStory Academy, you can learn the A-Z of
                         digital marketing, work on live projects, and get certified to launch your career as a digital
                         marketing expert. Learn, work, and certify your skills in 6 months</span>
@@ -28,7 +28,7 @@
                 <div class="bannerform">
                     <div class="row align-items-center">
                         <div class="col-lg-2">
-                            <p class="mb-0 fw-600 fs-16 text-lg-start text-center mb-lg-0 mb-4">Join the internship now</p>
+                            <p class="mb-0 fw-600 fs-16 text-lg-start text-center mb-lg-0 mb-4">Enroll for Courses</p>
                         </div>
                         <div class="col-lg-10">
                             <div class="banner-form-main">
@@ -268,7 +268,7 @@
                             </div>
                             <div class="col-lg-6 d-flex">
                                 <div class="course-main d-flex flex-column w-100">
-                                    <h4 class="mb-3 text-blue">Expert-Level Digital <span class="text-yellow">Marketing Course</span></h4>
+                                    <h4 class="mb-3 text-blue">360° Digital <span class="text-yellow">Marketing Course</span></h4>
                                     <p class="mb-lg-5 mb-4 fw-500 fs-16">Duration: 4 Months + 6 Months Internship</p>
                                     <ul class="mb-0 list-unstyled p-0">
                                         <li class="mb-4"><img class="me-2"
@@ -293,7 +293,7 @@
                                     </ul>
                                     <div class="coursebtns one mt-auto">
                                         <a class="text-decoration-none d-block w-100 text-center bg-violet"
-                                            href="{{route('new_digital_marketing')}}">Enroll Now</a>
+                                            href="{{route('course_360_degree_digital_marketing')}}">Enroll Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -305,18 +305,106 @@
         </div>
     </section>
 
+        <section class="course_list spb-100">
+        <div class="container">
+            <h2 class="text-center db">Digital Marketing <span class="text-violet">Certificate Courses</span></h2>
+                        <p class="max-1000 text-center">Dive Deep into Core Marketing Concepts and Transform Your Skillset</p>
+            <div class="course_grid">
+                <div class="grid_box">
+                    <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Digital-Marketing.webp') }}"
+                        alt="Digital Marketing">
+                    <div class="content">
+                        <h3>Digital Marketing</h3>
+
+                        <div class="badge-bg">
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">Duration - 4 Months
+
+                            </div>
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 40,000
+
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Become Zero to Hero in Digital Marketing </li>
+                        </ul>
+                        <div class="btn-grup">
+                            <a href="{{route('contact')}}" class="outline-btn">Talk To Mentor</a>
+                            <a href="{{route('new_digital_marketing')}}" class="violet-btn">Explore Details </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_box">
+                    <img class="main-bg-img"
+                        src="{{ asset('frontend/assets/images/courses/Search-Engine-Optimization.webp') }}"
+                        alt="Digital Marketing Executive">
+                    <div class="content">
+                        <h3>Search Engine Optimization (SEO)</h3>
+
+                        <div class="badge-bg">
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">Duration - 2 Months
+
+                            </div>
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 30,000
+
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Gain Real-world Experience by Working on Live SEO Projects </li>
+                        </ul>
+                        <div class="btn-grup">
+                            <a href="{{route('contact')}}" class="outline-btn">Talk To Mentor</a>
+                            <a href="{{route('seo_course_in_bangalore')}}" class="violet-btn">Explore Details </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid_box">
+                    <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Pay-Per-Click-PPC).webp') }}"
+                        alt="Digital Marketing Executive">
+                    <div class="content">
+                        <h3>Pay Per Click (PPC)</h3>
+
+                        <div class="badge-bg">
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">Duration - 2 Months
+
+                            </div>
+                            <div>
+                                <img src="{{ asset('frontend/assets/images/courses/mony.svg') }}">Course Fees - 25,000
+
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Build Strategy and Launch High-impact PPC Campaigns </li>
+                        </ul>
+                        <div class="btn-grup">
+                            <a href="{{route('contact')}}" class="outline-btn">Talk To Mentor</a>
+                            <a href="{{route('ppc_course_in_bangalore')}}" class="violet-btn">Explore Details </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
     <section class="mentorship-section">
         <div class="container position-relative">
             <div class="row">
                 <div class="col-lg-12 col-md-8">
-                    <h3 class="mb-md-4 mb-3 fw-600 text-md-start text-center">Book Free <span
-                            class="text-lightblue">Mentorship Session</span></h3>
-                    <p class="fs-20 mbl-fs-16 fw-500 mb-4 text-md-start text-center">Get in touch with your digital
-                        marketing mentor to
-                        <span class="db">know more about course</span>
+                    <h3 class="mb-md-4 mb-3 fw-600 text-md-start text-center">Courses Designed<span
+                            class="text-lightblue"> for Your Success</span></h3>
+                    <p class="fs-20 mbl-fs-16 fw-500 mb-4 text-md-start text-center">Explore our digital marketing courses at the best digital 
+                        <span class="db">marketing traning institute in Bangalore, designed to</span> <span class="db">equip you with the expert-level skills and knowledge.</span>
                     </p>
                     <div class="mentorship-btn d-flex justify-content-md-start justify-content-center">
-                        <a class="btn-font" href="{{route('contact')}}">Contact Us</a>
+                        <a class="btn-font" href="{{route('course.list')}}">Explore Our Courses</a>
                     </div>
                 </div>
             </div>
@@ -326,7 +414,39 @@
         </div>
     </section>
 
-   
+    <section class="placement-coursepage">
+        <div class="container">
+            <h2 class="text-center">Proud Achievements of <span class="text-violet">Our Alumni</span></h2>
+            <div class="mt-5">
+                <div class="row g-4">
+                    <div class="col-12 col-lg-4">
+                        <img src="{{ asset('frontend/assets/images/courses/placement1.webp') }}" class="img-fluid" alt="Our Student Placement - Lahasya Reddy placed at FedEx"/>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img src="{{ asset('frontend/assets/images/courses/placement2.webp') }}" class="img-fluid" lt="Our Student Placement - Namitha Nambi placed at Amazon"/>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img src="{{ asset('frontend/assets/images/courses/placement3.webp') }}" class="img-fluid" lt="Our Student Placement - Maria Sherly placed at Wallmart"/>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img src="{{ asset('frontend/assets/images/courses/placement-student-1.webp') }}" class="img-fluid" alt="Our Student Placement - Sandra R placed at FedEx"/>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img src="{{ asset('frontend/assets/images/courses/placement-student-2.webp') }}" class="img-fluid" lt="Our Student Placement - Gautham AG placed at Amazon"/>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img src="{{ asset('frontend/assets/images/courses/placement-student-3.webp') }}" class="img-fluid" lt="Our Student Placement - Nithin Reddy placed at Wallmart"/>
+                    </div>
+                </div>
+                <div class="text-center ">
+                    <div class="violet-btn">
+                        <a href="https://brandstoryacademy.com/placement">Explore Placements</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <section class="tech-capital sp-100">
         <div class="container">
@@ -381,7 +501,7 @@
 
     <section class="spb-100">
         <div class="container">
-            <h2 class="text-center mb-lg-5 mb-4">BrandStory Academy -<span class="text-violet">Digital Marketing Course Highlights</span></h2>
+            <h2 class="text-center mb-lg-5 mb-4">BrandStory Academy -<span class="text-violet">Digital Marketing Institute Highlights</span></h2>
             <div class="row col-reverse">
                 <div class="col-lg-5">
                     <div class="key-highlight-main">
@@ -485,8 +605,8 @@
 
     <section class="sp-100">
         <div class="container">
-            <h2 class="text-center mb-lg-5 mb-4">Anyone can enroll and start their digital marketing
-                <span class="db">career with us - <span class="text-violet">open to all!</span></span>
+            <h2 class="text-center mb-lg-5 mb-4">Anyone Can Enroll & Start Their Digital Marketing
+                <span class="db">Career with Us - <span class="text-violet">Digital Marketing Academy</span></span>
             </h2>
             <div class="position-relative">
                 <div class="swiper dmcareersld">
@@ -546,8 +666,8 @@
         <div class="container">
             <div class="row col-reverse">
                 <div class="col-lg-6">
-                    <h2 class="mb-4">Learning from Bangalore's top digital marketing training institute <span
-                            class="text-violet">will help you</span></h2>
+                    <h2 class="mb-4">Learning from Top Digital Marketing Institute <span
+                            class="text-violet">Will Help You</span></h2>
                     <ul class="list-unstyled p-0 mb-0 pt-2">
                         <li class="mb-4 fs-20 mbl-fs-16"><img class="me-2"
                                 src="{{asset('frontend/assets/images/home/help-icon1.svg')}}">Run ads that boost sales.</li>
@@ -681,7 +801,7 @@
     </section>
 
 
-<section class="industry-experts-section sp-100 ">
+<!--<section class="industry-experts-section sp-100 ">
     <div class="container">
         <div class="row mb-md-5 mb-4">
             <div class="col-md-6">
@@ -1257,7 +1377,7 @@
             </div>
         </div>
 
-<!-- Show More/Less Button -->
+Show More/Less Button
 <div class="d-flex justify-content-center mt-4">
     <button id="toggleButtonb" class="btn fs-16 text-violet fw-500 industryexpertbtn d-flex align-items-center justify-content-center gap-2">
         Load More <img src="{{asset('frontend/assets/images/adm-bootcamp/loadmore-icon.svg')}}" id="toggleIcon">
@@ -1266,7 +1386,7 @@
 
 
     </div>
-</section>
+</section>-->
 
     <section class="sp-100 intern-section">
         <div class="container">
@@ -1325,9 +1445,33 @@
         </div>
     </section>
 
+        <section class="Tools-coursepage">
+        <div class="container">
+            <h2 class="text-center mb-4 frame">Earn Certificates for Latest <span class="text-violet">Industry-oriented
+                    Tools</span></h2>
+
+            <div class="grid-four">
+                <div class="img-box">
+                    <img src="{{ asset('frontend/assets/images/courses/googleanalytics.png')}}" alt="Digital Marketing Certification on Google Analytics 4" />
+                </div>
+                <div class="img-box">
+                    <img src="{{ asset('frontend/assets/images/courses/semrush.png')}}" alt="Digital Marketing Certification on Semrush" />
+                </div>
+                <div class="img-box">
+                    <img src="{{ asset('frontend/assets/images/courses/hubspot.png')}}" alt="Digital Marketing Certification on Hubspot" />
+                </div>
+                <div class="img-box">
+                    <img src="{{ asset('frontend/assets/images/courses/g-ads.png')}}" alt="Digital Marketing Certification on Google Ads" />
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
     <section class="sp-100 mbl-spt-0">
         <div class="container">
-            <h2 class="text-center mb-3">Benefits of Joining BrandStory Academy for
+            <h2 class="text-center my-3">Benefits of Joining BrandStory Academy for
                 <span class="db">Digital <span class="text-violet">Marketing Courses</span></span>
             </h2>
             <p class="text-center mb-4 max-1000">Brandstory Academy gives you more than just <a href="https://brandstoryacademy.com/digital-marketing-course-in-bangalore" style="color: black; font-size: 18px; text-decoration: underline;"><b>digital marketing courses in
@@ -1363,7 +1507,7 @@
 
     <section class="sp-100 mbl-spt-0">
     <div class="container">
-        <h2 class="text-center db">Learning in Action - <span class="text-violet">Classroom</span></h2>
+        <h2 class="text-center db">Life at<span class="text-violet">BrandStory Academy</span></h2>
         <p class="max-1000 text-center my-5">
             At <span class="fw-600">BrandStory Academy</span>, our classrooms are designed to foster collaboration and hands-on experience. From interactive lectures to real-world projects, our gallery captures the energy and enthusiasm that define every session at BrandStory Academy.
         </p>
@@ -1391,7 +1535,96 @@
     </div>
 </section>
 
-    <section class="ourstudents-sec">
+
+    <section class="spb-100">
+        <div class="container">
+            <h2 class="text-center mb-md-5 mb-4">Why Digital Marketing is <span class="text-violet">The Best Career Choice</span></h2>
+            <div class="row col-reverse">
+                <div class="col-md-6">
+                    <div class="key-highlight-main facts">
+                        <div class="accordion" id="accordionExample1">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingfOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsefOne" aria-expanded="true" aria-controls="collapsefOne">
+                                        <img class="me-2" src="{{asset('frontend/assets/images/home/fact-icon1.svg')}}">The
+                                        Industry
+                                    </button>
+                                </h4>
+                                <div id="collapsefOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingfOne" data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+                                        <p class="mb-0">Digital marketing is a booming industry with 25-30% annual growth.
+                                            The digital advertising industry alone is valued at over ₹30,000 crore in 2024,
+                                            and it is expected to double in the next 3–4 years.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingfTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsefTwo" aria-expanded="false" aria-controls="collapsefTwo">
+                                        <img class="me-2"
+                                            src="{{asset('frontend/assets/images/home/fact-icon2.svg')}}">Career Growth
+                                    </button>
+                                </h4>
+                                <div id="collapsefTwo" class="accordion-collapse collapse" aria-labelledby="headingfTwo"
+                                    data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+                                        <p class="mb-0">Digital marketing is widely recognized as one of the top 10 most
+                                            in-demand career options in 2025, both in India and globally. The demand for
+                                            qualified digital marketing professionals is also rising with time.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingfthree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsefthree" aria-expanded="false"
+                                        aria-controls="collapsefthree">
+                                        <img class="me-2"
+                                            src="{{asset('frontend/assets/images/home/fact-icon3.svg')}}">Skills to Learn
+                                    </button>
+                                </h4>
+                                <div id="collapsefthree" class="accordion-collapse collapse" aria-labelledby="headingfthree"
+                                    data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+                                        <p class="mb-0">The most demanding skills to learn in digital marketing are Search
+                                            Engine Optimization, Meta Ads, Google Ads, Video production, and E-commerce
+                                            marketing. These skills will help you land a successful career in digital
+                                            marketing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingffour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseffour" aria-expanded="false" aria-controls="collapseffour">
+                                        <img class="me-2"
+                                            src="{{asset('frontend/assets/images/home/fact-icon4.svg')}}">Latest Trends
+                                    </button>
+                                </h4>
+                                <div id="collapseffour" class="accordion-collapse collapse" aria-labelledby="headingffour"
+                                    data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+                                        <p class="mb-0">A large proportion of consumers prefer buying from businesses that
+                                            have a good online presence. People now engage with more brands that have a
+                                            strong social media influence.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="w-100" src="{{asset('frontend/assets/images/home/fast-img.webp')}}" alt="Mentor taking classes at BrandStory Academy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- <section class="ourstudents-sec">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -1488,8 +1721,141 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
+        <section class="testimonial-section" id="testimony">
+        <h2 class="text-center mb-4">See What Our <span class="text-violet">Alumni Say</span></h2>
+        <div class="testimonial-row left-to-right">
+            <div class="testimonial">
+                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <p>Recently had the pleasure of experiencing BrandStory Academy, and I must say, it exceeded my
+                    expectations. From the moment I enrolled, the academy’s dedication to nurturing professional growth and
+                    providing high-quality education was evident.</p>
+                <div class="d-flex align-items-center g-4">
+                    <div class="profile"></div>
+                    Jerophin Jeevitha
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <p>BrandStory Academy offers a strong foundation in digital marketing through a hands-on approach. Right
+                    from the start, I worked on real agency projects, gaining practical experience that many other courses
+                    lack. The six-month internship following the course was a transformative experience, allowing me to
+                    refine my skills in a real work environment.</p>
+                <div class="d-flex align-items-center g-4">
+                    <div class="profile"></div>
+                    Sandra R
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
+                    for my professional growth. The program was structured effectively, addressing all the key components of
+                    digital marketing. What impressed me the most was the 6-month internship offered with Brandstory Digital
+                    Marketing company.</p>
+                <div class="d-flex align-items-center g-4">
+                    <div class="profile"></div>
+                    Ayesha Ms
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <p>BrandStory Academy stands out for its focus on practical training, engaging students with real client
+                    projects from day one for an immersive learning experience. The trainers are both knowledgeable and
+                    approachable, and the extended six-month internship offers valuable industry exposure. It’s an excellent
+                    place to start a career in digital marketing!</p>
+                <div class="d-flex align-items-center g-4">
+                    <div class="profile"></div>
+                    Maria Sherly
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <p>Enrolling at Brandstory Academy was an eye-opening experience. The course combines academic rigor with
+                    hands-on practice for the Indian market. With dedicated mentors and real projects, my digital marketing
+                    skills have flourished, inspiring my ambitions.</p>
+                <div class="d-flex align-items-center g-4">
+                    <div class="profile"></div>
+                    Gowtham AG
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <p>Brandstory Academy is a leading digital marketing institute with a practical curriculum. They teach the
+                    fundamentals of digital marketing, offer a 6-month internship, and assist with placements. Joining is a
+                    decision you won’t regret.</p>
+                <div class="d-flex align-items-center g-4">
+                    <div class="profile"></div>
+                    Shobika Akilan
+                </div>
+            </div>
+
+            <!-- duplicate for smooth infinite loop -->
+            <div class="testimonial">
+                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <p>Recently had the pleasure of experiencing BrandStory Academy, and I must say, it exceeded my
+                    expectations. From the moment I enrolled, the academy’s dedication to nurturing professional growth and
+                    providing high-quality education was evident.</p>
+                <div class="d-flex align-items-center g-4">
+                    <div class="profile"></div>
+                    Jerophin Jeevitha
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <p>BrandStory Academy offers a strong foundation in digital marketing through a hands-on approach. Right
+                    from the start, I worked on real agency projects, gaining practical experience that many other courses
+                    lack. The six-month internship following the course was a transformative experience, allowing me to
+                    refine my skills in a real work environment.</p>
+                <div class="d-flex align-items-center g-4">
+                    <div class="profile"></div>
+                    Sandra R
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
+                    for my professional growth. The program was structured effectively, addressing all the key components of
+                    digital marketing. What impressed me the most was the 6-month internship offered with Brandstory Digital
+                    Marketing company.</p>
+                <div class="d-flex align-items-center g-4">
+                    <div class="profile"></div>
+                    Ayesha Ms
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <p>BrandStory Academy stands out for its focus on practical training, engaging students with real client
+                    projects from day one for an immersive learning experience. The trainers are both knowledgeable and
+                    approachable, and the extended six-month internship offers valuable industry exposure. It’s an excellent
+                    place to start a career in digital marketing!</p>
+                <div class="d-flex align-items-center g-4">
+                    <div class="profile"></div>
+                    Maria Sherly
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <p>Enrolling at Brandstory Academy was an eye-opening experience. The course combines academic rigor with
+                    hands-on practice for the Indian market. With dedicated mentors and real projects, my digital marketing
+                    skills have flourished, inspiring my ambitions.</p>
+                <div class="d-flex align-items-center g-4">
+                    <div class="profile"></div>
+                    Gowtham AG
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <p>Brandstory Academy is a leading digital marketing institute with a practical curriculum. They teach the
+                    fundamentals of digital marketing, offer a 6-month internship, and assist with placements. Joining is a
+                    decision you won’t regret.</p>
+                <div class="d-flex align-items-center g-4">
+                    <div class="profile"></div>
+                    Shobika Akilan
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <section class="sp-100">
@@ -1594,93 +1960,8 @@
             </div>
         </div>
     </section>
-        <section class="spb-100">
-        <div class="container">
-            <h2 class="text-center mb-md-5 mb-4">Why Digital Marketing is <span class="text-violet">The Best Career Choice</span></h2>
-            <div class="row col-reverse">
-                <div class="col-md-6">
-                    <div class="key-highlight-main facts">
-                        <div class="accordion" id="accordionExample1">
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="headingfOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsefOne" aria-expanded="true" aria-controls="collapsefOne">
-                                        <img class="me-2" src="{{asset('frontend/assets/images/home/fact-icon1.svg')}}">The
-                                        Industry
-                                    </button>
-                                </h4>
-                                <div id="collapsefOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingfOne" data-bs-parent="#accordionExample1">
-                                    <div class="accordion-body">
-                                        <p class="mb-0">Digital marketing is a booming industry with 25-30% annual growth.
-                                            The digital advertising industry alone is valued at over ₹30,000 crore in 2024,
-                                            and it is expected to double in the next 3–4 years.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="headingfTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsefTwo" aria-expanded="false" aria-controls="collapsefTwo">
-                                        <img class="me-2"
-                                            src="{{asset('frontend/assets/images/home/fact-icon2.svg')}}">Career Growth
-                                    </button>
-                                </h4>
-                                <div id="collapsefTwo" class="accordion-collapse collapse" aria-labelledby="headingfTwo"
-                                    data-bs-parent="#accordionExample1">
-                                    <div class="accordion-body">
-                                        <p class="mb-0">Digital marketing is widely recognized as one of the top 10 most
-                                            in-demand career options in 2025, both in India and globally. The demand for
-                                            qualified digital marketing professionals is also rising with time.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="headingfthree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsefthree" aria-expanded="false"
-                                        aria-controls="collapsefthree">
-                                        <img class="me-2"
-                                            src="{{asset('frontend/assets/images/home/fact-icon3.svg')}}">Skills to Learn
-                                    </button>
-                                </h4>
-                                <div id="collapsefthree" class="accordion-collapse collapse" aria-labelledby="headingfthree"
-                                    data-bs-parent="#accordionExample1">
-                                    <div class="accordion-body">
-                                        <p class="mb-0">The most demanding skills to learn in digital marketing are Search
-                                            Engine Optimization, Meta Ads, Google Ads, Video production, and E-commerce
-                                            marketing. These skills will help you land a successful career in digital
-                                            marketing.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="headingffour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseffour" aria-expanded="false" aria-controls="collapseffour">
-                                        <img class="me-2"
-                                            src="{{asset('frontend/assets/images/home/fact-icon4.svg')}}">Latest Trends
-                                    </button>
-                                </h4>
-                                <div id="collapseffour" class="accordion-collapse collapse" aria-labelledby="headingffour"
-                                    data-bs-parent="#accordionExample1">
-                                    <div class="accordion-body">
-                                        <p class="mb-0">A large proportion of consumers prefer buying from businesses that
-                                            have a good online presence. People now engage with more brands that have a
-                                            strong social media influence.</p>
-                                    </div>
-                                </div>
-                            </div>
+    
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <img class="w-100" src="{{asset('frontend/assets/images/home/fast-img.webp')}}" alt="Mentor taking classes at BrandStory Academy">
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 <div class="pt-100">
@@ -1961,7 +2242,8 @@
                                     aria-labelledby="flush-headingfourteen" data-bs-parent="#accordionFlushExample2">
                                     <div class="accordion-body">
                                         <p class="mb-0 fs-16">Our course fees vary depending on the program you choose. For detailed pricing, current offers, 
-                                            and exclusive discounts on our <b>Digital Marketing, SEO, PPC, Social Media, etc.</b>, please visit our <a href="https://brandstoryacademy.com/courses" style="color: black; font-size: 16px; text-decoration: underline;"><b>course details page</b></a> or contact 
+                                            and exclusive discounts on our <b>Digital Marketing, SEO, PPC, Social Media, etc.</b>, please visit our 
+                                            <a href="https://brandstoryacademy.com/courses" style="color: black; font-size: 16px; text-decoration: underline;"><b>course details page</b></a> or contact 
                                             our admissions team. We ensure our fee structure remains competitive while providing hands-on training, paid internships, 
                                             and complete career support to help you succeed in the digital marketing industry.
                                         </p>
@@ -2046,31 +2328,5 @@ document.addEventListener("DOMContentLoaded", function () {
     </style>
 
     <!-- ====== JavaScript ====== -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const modal = document.getElementById('videoModal');
-            const btn = document.getElementById('watchNowBtn');
-            const span = document.querySelector('.video-close');
-            const iframe = document.getElementById('youtubeVideo');
 
-            const videoURL = "https://www.youtube.com/embed/6hQiwD0eLsw?autoplay=1";
-
-            btn.onclick = function () {
-                iframe.src = videoURL;
-                modal.style.display = "block";
-            }
-
-            span.onclick = function () {
-                iframe.src = ""; // Stop video
-                modal.style.display = "none";
-            }
-
-            window.onclick = function (event) {
-                if (event.target === modal) {
-                    iframe.src = "";
-                    modal.style.display = "none";
-                }
-            }
-        });
-    </script>
 @endsection
