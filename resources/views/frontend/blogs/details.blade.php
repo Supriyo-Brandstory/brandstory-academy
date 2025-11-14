@@ -77,7 +77,7 @@
         }
         .hero-title {
             margin-bottom: 0px !important;
-            margin-top: 18px;
+            margin-top: 78px !important;
         }
     }
     h1.hero-title.mb-1 {
