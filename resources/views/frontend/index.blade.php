@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-7 text-md-start text-center">
-                    <h1 class="mb-3">Best <span class="text-violet">Digital Marketing Institute in Bangalore</span> for Career-focused Courses</h1>
+                    <h1 class="mb-3">Best Digital Marketing<span class="text-violet"> Institute in Bangalore</span> for Career-focused Courses</h1>
                     <p class="mb-4"><span >At BrandStory Academy, you can learn the A-Z of
                         digital marketing, work on live projects, and get certified to launch your career as a digital
                         marketing expert. Learn, work, and certify your skills in 6 months</span>
@@ -1507,7 +1507,7 @@ Show More/Less Button
 
     <section class="sp-100 mbl-spt-0">
     <div class="container">
-        <h2 class="text-center db">Life at<span class="text-violet">BrandStory Academy</span></h2>
+        <h2 class="text-center db">Life at<span class="text-violet"> BrandStory Academy</span></h2>
         <p class="max-1000 text-center my-5">
             At <span class="fw-600">BrandStory Academy</span>, our classrooms are designed to foster collaboration and hands-on experience. From interactive lectures to real-world projects, our gallery captures the energy and enthusiasm that define every session at BrandStory Academy.
         </p>
