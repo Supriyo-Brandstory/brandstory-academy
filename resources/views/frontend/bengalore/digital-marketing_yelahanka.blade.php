@@ -1593,8 +1593,6 @@
     <div class="pt-100">
         <x-blog-component />
     </div>
-  
-
     <section class="sp-100 ">
         <div class="container">
             <h2 class="mb-lg-5 mb-4 text-center">Course Related FAQs</h2>
@@ -1904,25 +1902,7 @@
         </div>
     </section>
 
-  <div class="spb-100">
-        <div class="container">
-    <ul class="location_page">
-    <li><a href="{{ route('digital_marketing_marathahalli') }}">Digital Marketing Marathahalli</a></li>
-    <li><a href="{{ route('digital_marketing_btm_layout') }}">Digital Marketing BTM Layout</a></li>
-    <li><a href="{{ route('digital_marketing_indiranagar') }}">Digital Marketing Indiranagar</a></li>
-    <li><a href="{{ route('digital_marketing_koramangala') }}">Digital Marketing Koramangala</a></li>
-    <li><a href="{{ route('digital_marketing_yelahanka') }}">Digital Marketing Yelahanka</a></li>
-    <li><a href="{{ route('digital_marketing_malleswaram') }}">Digital Marketing Malleswaram</a></li>
-    <li><a href="{{ route('digital_marketing_hsr_layout') }}">Digital Marketing HSR Layout</a></li>
-    <li><a href="{{ route('digital_marketing_rajajinagar') }}">Digital Marketing Rajajinagar</a></li>
-    <li><a href="{{ route('digital_marketing_vijayanagar') }}">Digital Marketing Vijayanagar</a></li>
-    <li><a href="{{ route('digital_marketing_jayanagar') }}">Digital Marketing Jayanagar</a></li>
-    <li><a href="{{ route('digital_marketing_hebbal') }}">Digital Marketing Hebbal</a></li>
-    <li><a href="{{ route('digital_marketing_electronic_city') }}">Digital Marketing Electronic City</a></li>
-    <li><a href="{{ route('digital_marketing_ombr_layout') }}">Digital Marketing OMBR Layout</a></li>
-</ul>
-</div>
-</div>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>

@@ -25,6 +25,33 @@ Route::get('/digital-marketing-course-in-bangalore',[WebsiteController::class,'n
 Route::get('/seo-course-in-bangalore',[WebsiteController::class,'seo_course_in_bangalore'])->name('seo_course_in_bangalore');
 Route::get('/ppc-course-in-bangalore',[WebsiteController::class,'ppc_course_in_bangalore'])->name('ppc_course_in_bangalore');
 
+
+Route::get('/digital-marketing-marathahalli',[WebsiteController::class,'digital_marketing_marathahalli'])->name('digital_marketing_marathahalli');
+
+Route::get('/digital-marketing-btm-layout',[WebsiteController::class,'digital_marketing_btm_layout'])->name('digital_marketing_btm_layout');
+
+Route::get('/digital-marketing-indiranagar',[WebsiteController::class,'digital_marketing_indiranagar'])->name('digital_marketing_indiranagar');
+
+Route::get('/digital-marketing-koramangala',[WebsiteController::class,'digital_marketing_koramangala'])->name('digital_marketing_koramangala');
+
+Route::get('/digital-marketing-yelahanka',[WebsiteController::class,'digital_marketing_yelahanka'])->name('digital_marketing_yelahanka');
+
+Route::get('/digital-marketing-malleswaram',[WebsiteController::class,'digital_marketing_malleswaram'])->name('digital_marketing_malleswaram');
+
+Route::get('/digital-marketing-hsr-layout',[WebsiteController::class,'digital_marketing_hsr_layout'])->name('digital_marketing_hsr_layout');
+
+Route::get('/digital-marketing-rajajinagar',[WebsiteController::class,'digital_marketing_rajajinagar'])->name('digital_marketing_rajajinagar');
+
+Route::get('/digital-marketing-vijayanagar',[WebsiteController::class,'digital_marketing_vijayanagar'])->name('digital_marketing_vijayanagar');
+
+Route::get('/digital-marketing-jayanagar',[WebsiteController::class,'digital_marketing_jayanagar'])->name('digital_marketing_jayanagar');
+
+Route::get('/digital-marketing-hebbal',[WebsiteController::class,'digital_marketing_hebbal'])->name('digital_marketing_hebbal');
+
+Route::get('/digital-marketing-electronic-city',[WebsiteController::class,'digital_marketing_electronic_city'])->name('digital_marketing_electronic_city');
+
+Route::get('/digital-marketing-ombr-layout',[WebsiteController::class,'digital_marketing_ombr_layout'])->name('digital_marketing_ombr_layout');
+
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -28,51 +28,51 @@ class WebsiteController extends Controller
     }
     public function index()
     {
-        $currentRoute = request()->path();;
+        $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
 
         return view('frontend.index', compact('seo'));
     }
     public function about()
     {
-        $currentRoute = request()->path();;
+        $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.about', compact('seo'));
     }
     public function contact()
     {
-        $currentRoute = request()->path();;
+        $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.contact', compact('seo'));
     }
 
     public function course_digital_marketing()
     {
-        $currentRoute = request()->path();;
+        $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.course.digital-marketing-mastery', compact('seo'));
     }
     public function advanced_digital_marketing_boot_camp()
     {
-        $currentRoute = request()->path();;
+        $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.course.advanced-digital-marketing-boot-camp', compact('seo'));
     }
     public function course_360_degree_digital_marketing()
     {
-        $currentRoute = request()->path();;
+        $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.course.360-degree-digital-marketing-course', compact('seo'));
     }
     public function privacy_policy()
     {
-        $currentRoute = request()->path();;
+        $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.privacy-policy', compact('seo'));
     }
     public function terms_and_conditions()
     {
-        $currentRoute = request()->path();;
+        $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.terms-and-conditions', compact('seo'));
     }
@@ -256,42 +256,121 @@ public function store_enquery(Request $request)
 
   public function gallery()
     {
-        $currentRoute = request()->path();;
+        $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.gallery', compact('seo'));
     }
       public function reviews()
     {
-        $currentRoute = request()->path();;
+        $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.reviews', compact('seo'));
     }
       public function placement()
     {
-        $currentRoute = request()->path();;
+        $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.placement', compact('seo'));
     }
     public function courseList()
     {
-        $currentRoute = request()->path();;
+        $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.course.course-list', compact('seo'));
 
 }
 public function new_digital_marketing(){
-    $currentRoute = request()->path();;
+    $currentRoute = request()->path();
     $seo = SEO::where('page_url', $currentRoute)->first();
     return view('frontend.course.new-digital-marketing', compact('seo'));
 }
 public function seo_course_in_bangalore(){
-    $currentRoute = request()->path();;
+    $currentRoute = request()->path();
     $seo = SEO::where('page_url', $currentRoute)->first();
     return view('frontend.course.seo-course-in-bangalore', compact('seo'));
 }
 public function ppc_course_in_bangalore(){
-    $currentRoute = request()->path();;
+    $currentRoute = request()->path();
     $seo = SEO::where('page_url', $currentRoute)->first();
     return view('frontend.course.ppc-course-in-bangalore', compact('seo'));
+} 
+
+public function digital_marketing_marathahalli(){
+    $currentRoute = request()->path();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.bengalore.digital-marketing_marathahalli', compact('seo'));
 }
+
+public function digital_marketing_btm_layout(){
+    $currentRoute = request()->path();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.bengalore.digital-marketing-btm-layout', compact('seo'));
+}
+
+public function digital_marketing_indiranagar(){
+    $currentRoute = request()->path();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.bengalore.digital-marketing_indiranagar', compact('seo'));
+}
+
+public function digital_marketing_koramangala(){
+    $currentRoute = request()->path();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.bengalore.digital-marketing_koramangala', compact('seo'));
+}
+
+public function digital_marketing_yelahanka(){
+    $currentRoute = request()->path();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.bengalore.digital-marketing_yelahanka', compact('seo'));
+}
+
+public function digital_marketing_malleswaram(){
+    $currentRoute = request()->path();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.bengalore.digital-marketing_malleswaram', compact('seo'));
+}
+
+public function digital_marketing_hsr_layout(){
+    $currentRoute = request()->path();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.bengalore.digital-marketing-hsr-layout', compact('seo'));
+}
+
+public function digital_marketing_rajajinagar(){
+    $currentRoute = request()->path();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.bengalore.digital-marketing_rajajinagar', compact('seo'));
+}
+
+public function digital_marketing_vijayanagar(){
+    $currentRoute = request()->path();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.bengalore.digital-marketing_vijayanagar', compact('seo'));
+}
+
+public function digital_marketing_jayanagar(){
+    $currentRoute = request()->path();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.bengalore.digital-marketing_jayanagar', compact('seo'));
+}
+
+public function digital_marketing_hebbal(){
+    $currentRoute = request()->path();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.bengalore.digital-marketing-hebbal', compact('seo'));
+}
+
+public function digital_marketing_electronic_city(){
+    $currentRoute = request()->path();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.bengalore.digital-marketing-electronic-city', compact('seo'));
+}
+
+public function digital_marketing_ombr_layout(){
+    $currentRoute = request()->path();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.bengalore.digital-marketing_ombr-layout', compact('seo'));
+}
+
 }
