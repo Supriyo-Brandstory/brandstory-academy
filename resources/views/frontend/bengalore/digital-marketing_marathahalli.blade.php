@@ -2,48 +2,78 @@
 
 @section('content')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <section class="banner-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 order-2 order-lg-1 col-md-7 text-md-start text-center align-self-center mt-3">
-                    <h1 class="mb-3 text-blue">Best Digital Marketing Course in Bangalore for Job-ready Learning</h1>
-                    <p class="mb-2">Job-ready digital marketing course in Bangalore with 30+ learning modules, 50+
-                        AI-powered tools, and industry certifications. We are the best digital marketing institute in
-                        Bangalore, collaborating with 1000+ global placement partners. Enroll for a free demo class today!
-                    </p>
-                    <div class="d-md-flex align-items-center">
-                        <div
-                            class="outline-btn d-flex me-lg-5 mb-lg-0 my-4 justify-content-md-start justify-content-center">
-                            <a href="{{route('about')}}"><strong>About Academy</strong></a>
+                <div class="col-lg-6 col-md-7 text-md-start text-center">
+                    <h1 class="mb-3">No.1 Digital<span class="text-violet">  Marketing Training Institute</span> in Marathahalli, Bangalore</h1>
+                    <p class="mb-4"><span >Join the top digital marketing training institute in Marathahalli and master SEO, PPC, Social Media, and 
+                        AI-driven marketing with 100% placement support. Learn, practice, and apply real-world skills through hands-on training led by 
+                        industry experts.</p>
+                    <div class="d-lg-flex align-items-center">
+                        <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 justify-content-md-start justify-content-center">
+                            <a href="{{route('contact')}}">Enquire Now!</a>
                         </div>
-                        <div class="violet-btn d-flex me-lg-5 mb-lg-0 my-4 justify-content-md-start justify-content-center">
-                            <a href="{{route('contact')}}">Contact Us</a>
+                        <div class="student-main mb-md-0 mb-5">
+                            <img class="mb-1" src="{{asset('frontend/assets/images/home/students.webp')}}" alt="Our Students - BrandStory Academy">
+                            <p class="mb-0 fs-12">Trusted by 10,000+ Students</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2 col-md-5">
-                    <img class="w-100" src="{{asset('frontend/assets/images/courses/Digital-Marketing.webp')}}" alt="Digital Marketing Course in Bangalore by BrandStory Academy">
+                <div class="col-lg-6 col-md-5">
+                    <img class="w-100" src="{{asset('frontend/assets/images/home/banner-img.webp')}}" alt="Digital Marketing training Institute in Bangalore - BrandStory Academy">
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="bannerform">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2">
+                            <p class="mb-0 fw-600 fs-16 text-lg-start text-center mb-lg-0 mb-4">Enroll for Courses</p>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="banner-form-main">
+                                <form  action="{{ route('enquiry.store') }}" method="post"
+                                    class="d-md-flex justify-content-between text-md-start text-center enquiry-form">
+                                    @csrf
+                                    <div class="d-md-flex gap-2 flex-grow-1">
+
+                                        <input type="text" name="firstname" id="name" class="form-control"
+                                            placeholder="Name" pattern="[A-Za-z\s]+"
+                                            title="Only alphabets and spaces are allowed" required>
+
+                                        <input type="tel" class="form-control" id="mobile" name="phone"
+                                            placeholder="Mobile Number" pattern="[0-9]+" title="Only numbers are allowed"
+                                            required>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Mail"
+                                            required>
+                                    </div>
+                                    <input type="hidden" id="recaptcha_response" name="recaptcha_response">
+                                    <input type="hidden" id="page_url" name="page_url" value="{{ url()->current() }}">
+                                    <input type="hidden" name="formFragment" value="enquiry"> <!-- or "enquiry" -->
+
+                                    <button type="submit" class="btn">Join the Academy</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="sp-100">
         <div class="container">
             <h2 class="mb-3 text-lg-start text-center">About <span class="text-violet">BrandStory Academy</span> </h2>
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6 px-2 text-center text-lg-start order-2 order-lg-1">
                     <p><a href="https://www.brandstoryacademy.com" style="color: black; font-size: 18px; text-decoration: underline;"><b>BrandStory Academy</a></b>
-                         is a premier digital marketing institute in Bangalore. We provide
-                        industry-oriented digital marketing courses in Bangalore, both offline and self-paced learning
-                        options. At BrandStory, we are the most successful digital marketing agency, we train our students
-                        with <b>industry-relevant skills</b>, providing hands-on project experience, and prepare them to get higher
-                        packages and a <b>100% job guarantee.</b> </p>
-                    <p>The digital marketing industry is continuously evolving at a rapid pace. Thus, we provide the most
-                        advanced digital marketing course where students are equipped with the latest AI tools and modern
-                        marketing methodologies. We help every student to get the real-world insights of the industry, make
-                        them job-ready, and place them in <b>1000+ global partner agencies</b>. We are the top institute offering
-                        digital marketing courses for 5+ years, ensuring nothing is missed. We value each candidate and
-                        their career prospect with utmost priority. </p>
+                         is athe top-rated digital marketing institute in Marathahalli, offering industry-focused digital marketing courses with classroom and self-paced 
+                         learning options. As a successful digital marketing agency, we equip our students with practical skills, <b>live project experience</b>, and career-ready 
+                         training, helping them achieve better packages and securing 100% placement opportunities.</p>
+                    <p>The digital marketing industry is evolving constantly , and our courses are designed to keep pace with the latest trends. Students get hands-on experience with 
+                        advanced AI-powered tools, modern marketing strategies, and real-world campaign exposure. We prepare every learner to be fully job-ready and connect them with <b>1000+ hiring partners</b>. 
+                        With over 5 years of experience delivering successful digital marketing training, BrandStory Academy in Marathahalli ensures comprehensive learning.</p>
 
                 </div>
                 <div class="col-12 col-lg-6  order-1 order-lg-2">
@@ -57,58 +87,51 @@
             <h2 class="mb-3 text-lg-center text-center frame-700">Why Enroll in BrandStory Academy for
                 <span class="text-violet ">Digital Marketing Course?</span>
             </h2>
-            <p class="frame-700 text-center">BrandStory Academy is one of the leading digital marketing institutes in
-                Bangalore, offering an expert-led, industry-focused learning experience. We have the most experienced and
-                expert faculty to teach the hooks and crooks of digital marketing. With <b>1000+ placement partners</b>, we place
-                our students in global agencies. </p>
+            <p class="frame-700 text-center">BrandStory Academy is a top <b>digital marketing institute in Marathahalli</b>, delivering expert-led, 
+                industry-oriented training. Our seasoned faculty provide in-depth knowledge of all aspects of digital marketing, from strategy 
+                to execution. With a network of 1000+ placement partners, we ensure our students secure opportunities in leading global agencies.</p>
             <div class="row whychoose-boxes ">
                 <div class="col-12 col-lg-4 mb-4 ">
                     <div class="box y-top">
                         <img src="{{ asset('frontend/assets/images/courses/certificate.svg') }}" />
                         <h4>Certifications</h4>
-                        <p>Earn global recognition and certification from HubSpot, Google Ads, Semrush, etc. These
-                            credentials
-                            strengthen your digital expertise and make your resume stand out.</p>
+                        <p>Earn industry-recognized certifications from HubSpot, Google Ads, Semrush, and more, adding credibility to your digital marketing 
+                            skills and elevating your resume.</p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 mb-4">
                     <div class="box g-top">
                         <img src="{{ asset('frontend/assets/images/courses/live.svg') }}" />
                         <h4>Live Campaign Experience</h4>
-                        <p>Get hands-on exposure by running real SEO, PPC, and social media campaigns and analyzing
-                            performance metrics under expert guidance and support. </p>
+                        <p>Build real-world skills by launching and optimizing SEO, PPC, and social media campaigns and reviewing performance metrics with professional guidance.</p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 mb-4">
                     <div class="box s-top">
                         <img src="{{ asset('frontend/assets/images/courses/career.svg') }}" />
                         <h4>Career Guidance & Placement</h4>
-                        <p>Get comprehensive placement support, including resume building, mock interviews, and access to
-                            top hiring partners across various industries.</p>
+                        <p>Benefit from end-to-end placement support with resume building, interview preparation, and opportunities to connect with top recruiters from various sectors.</p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 mb-4">
                     <div class="box r-top">
                         <img src="{{ asset('frontend/assets/images/courses/interview.svg') }}" />
                         <h4>Interview Preparation</h4>
-                        <p>Participate in expert-led interview workshops to refine your presentation, problem-solving, and
-                            communication skills. We get you job-ready with expert guidance. </p>
+                        <p>Join expert-led interview workshops designed to sharpen your communication, presentation, and problem-solving skills. Our mentors help you become fully job-ready. </p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 mb-4">
                     <div class="box v-top">
                         <img src="{{ asset('frontend/assets/images/courses/mentorship.svg') }}" />
                         <h4>Mentorship from Industry Experts</h4>
-                        <p>Learn directly from seasoned marketing professionals who bring real-world experience and insights
-                            to every session. Join group learning and 1-to-1 learning sessions. </p>
+                        <p>Study under seasoned digital marketing specialists who bring practical knowledge & real campaign experience to each session. Access both group classes and learning support. </p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 mb-4">
                     <div class="box o-top">
                         <img src="{{ asset('frontend/assets/images/courses/soft-skill.svg') }}" />
                         <h4>Soft Skills & Personal Branding</h4>
-                        <p>Develop essential communication, leadership, and personal branding skills to stand out in the
-                            digital industry. We ensure you have the right opportunities to launch your career.</p>
+                        <p>Strengthen your communication, leadership, and personal brand to shine in the competitive industry. Our team supports you gain best opportunities to begin your professional journey.</p>
                     </div>
                 </div>
             </div>
@@ -150,10 +173,8 @@
         <div class="container">
             <h2 class="text-center">Digital Marketing Course <span class="text-violet">Curriculum</span></h2>
             <p class="frame-1100 text-center">
-                Our digital marketing course curriculum covers <b>30 industry-oriented modules</b>. Among the best digital
-                marketing institutes in Bangalore, we provide the most advanced digital marketing courses with <b>100%
-                placement support</b>. We offer the most affordable digital marketing coaching in Bangalore backed by <b>10+
-                years of digital marketing expertise</b>.
+                With <b>30+ practical and industry-driven modules</b>, our course stands out as one of the most advanced digital marketing programs in Bangalore. 
+                Supported by <b>100% placement assistance</b> and a decade of expertise, we ensure affordable yet high-quality training for every learner</b>.
             </p>
 
             <div class="curriculum-grid">
@@ -915,9 +936,8 @@
         <div class="container">
             <h2 class="frame-800 text-center">Who Can Benefit from Our Digital Marketing Course in <span
                     class="text-violet">Bangalore?</span></h2>
-            <p class="text-center frame-800">Our digital marketing course in Bangalore is designed for people who want to
-                become market-ready digital marketing professionals. We provide industry-recognized certification and
-                <a href="https://brandstoryacademy.com/blogs/key-digital-marketing-skills-youll-master-in-a-digital-marketing-course" style="color: black; font-size: 18px; text-decoration: underline;"><strong>hands-on skills</strong></a> to help you excel in your career. </p>
+            <p class="text-center frame-800">This digital marketing course in Bangalore is crafted for individuals looking to build a strong, 
+                <b>job-ready skillset</b>. We provide practical training and <b>industry-approved certifications</b> to help you advance in your career.</p>
 
             <!-- Swiper CSS -->
 
@@ -1608,20 +1628,14 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapseOne" aria-expanded="false"
                                         aria-controls="flush-collapseOne">
-                                        Which is the best digital marketing academy in Bangalore?
+                                        What is The Duration of The Digital Marketing Course?
                                     </button>
                                 </h4>
                                 <div id="flush-collapseOne" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">At BrandStory Academy, we are proud to be among the top
-                                            digital marketing
-                                            institute in Bangalore, offering practical, industry-focused courses. Our
-                                            students gain hands-on
-                                            experience through real client projects, 6 month internships, and expert-led
-                                            training. We also provide
-                                            dedicated placement support to help them start successful careers in the digital
-                                            marketing industry.</p>
+                                        <p class="mb-0 fs-16">The program typically takes 6 months to complete and includes hands-on practice 
+                                            with live projects to help you build real-world skills.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1630,21 +1644,15 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                         aria-controls="flush-collapseTwo">
-                                        Who will be teaching digital marketing courses in BrandStory Academy?
+                                        Do You Provide Placement Assistance & Support?
                                     </button>
                                 </h4>
                                 <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <ul class="mb-0">
-                                            <p class="mb-0 fs-16">our digital marketing courses are led by seasoned industry
-                                                professionals who bring years of real-world experience. Our trainers are
-                                                passionate
-                                                about guiding students and offer direct access with personalized 1-to-1
-                                                mentorship.
-                                                This ensures every learner receives tailored support, practical insights,
-                                                and the
-                                                confidence to succeed.</p>
+                                      
+                                            <p class="mb-0 fs-16">Yes, we offer 100% placement support, including resume building, mock interviews, 
+                                                and access to our hiring partners across multiple industries.</p>
                                         </ul>
                                     </div>
                                 </div>
@@ -1654,22 +1662,14 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapseThree" aria-expanded="false"
                                         aria-controls="flush-collapseThree">
-                                        Who can enroll in the digital marketing course?
+                                        Is The Course Available in An Online Format?
                                     </button>
                                 </h4>
                                 <div id="flush-collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Anyone interested in building or advancing their career
-                                            in digital marketing can enroll in our courses. Whether you’re a student
-                                            exploring
-                                            career options, a working professional looking to upskill, an entrepreneur
-                                            wanting
-                                            to grow your business, or someone seeking a career change, BrandStory Academy’s
-                                            digital
-                                            marketing course is designed to meet your needs. No prior experience is
-                                            required—just a
-                                            willingness to learn and grow.</p>
+                                        <p class="mb-0 fs-16">Absolutely, you can choose between classroom training in Bangalore or flexible 
+                                            online learning, depending on your convenience.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1678,28 +1678,32 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapsefour" aria-expanded="false"
                                         aria-controls="flush-collapsefour">
-                                        What digital marketing courses do BrandStory Academy offer?
+                                        What Certifications Will I Receive Upon Completion?
                                     </button>
                                 </h4>
                                 <div id="flush-collapsefour" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="fs-16">At BrandStory Academy, we offer three specialized digital marketing
-                                            courses designed to
-                                            meet different career goals:</p>
-                                        <ul>
-                                            <li class="fs-16">Digital Marketing MASTERY with Artificial Intelligence (AI) –
-                                                2.5 months training + 6 months internship</li>
-                                            <li class="fs-16">Advanced Digital Marketing Boot Camp – 3.5 months training + 6
-                                                months internship</li>
-                                            <li class="fs-16">360° Digital Marketing – 4 months training + 6 months
-                                                internship</li>
-                                        </ul>
-                                        <p class="mb-0 fs-16">Each program focuses on practical learning, real client
-                                            projects, and agency-style training. By the end of your
-                                            chosen course, you’ll gain hands-on experience, build a strong portfolio, and be
-                                            career-ready for the fast-growing digital marketing
-                                            industry.</p>
+                                        <p class="fs-16">You will receive the BrandStory Academy certification along with additional global certifications from platforms 
+                                            like Google Ads, HubSpot, and Semrush, depending on the modules you complete.</p>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="accordion-item">
+                                <h4 class="accordion-header" id="flush-headingfour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapsefour" aria-expanded="false"
+                                        aria-controls="flush-collapsefour">
+                                        What Kind of Support Will I Receive after Finishing The Course?
+                                    </button>
+                                </h4>
+                                <div id="flush-collapsefour" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p class="fs-16">Students receive ongoing support even after completing the program. This includes 
+                                            placement assistance, access to hiring partners, resume-building help, interview training, and guidance 
+                                            on career paths like freelancing, agency jobs, or startup opportunities. You remain part of our learning 
+                                            community and can always return for clarification or help.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1708,57 +1712,20 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapsefive" aria-expanded="false"
                                         aria-controls="flush-collapsefive">
-                                        What are the timings at your digital marketing academy in Bangalore?
+                                        What Makes This Course Career- and Job-oriented?
                                     </button>
                                 </h4>
                                 <div id="flush-collapsefive" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Our digital marketing academy in Bangalore runs Monday to
-                                            Friday, from 9:30
-                                            AM to 6:00 PM. The schedule includes a 30-minute lunch break and two short
-                                            15-minute breaks for
-                                            a comfortable learning experience.</p>
+                                        <p class="mb-0 fs-16">Our comprehensive digital marketing course is structured to make you industry-ready from day one. 
+                                            You will work on live projects, learn using real marketing tools, and practice creating campaigns across SEO, Google Ads, 
+                                            and social media. The focus is on hands-on application, not just theory. Combined with interview preparation and placement 
+                                            support, the course ensures you leave with the skills and confidence needed to secure a job.</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingseven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseseven" aria-expanded="false"
-                                        aria-controls="flush-collapseseven">
-                                        I’m a working professional. Can I get flexible hours?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseseven" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingseven" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Absolutely! We understand the needs of working professionals,
-                                            so we offer a self-paced learning option
-                                            that allows you to study at your own convenience.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingeight">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseeight" aria-expanded="false"
-                                        aria-controls="flush-collapseeight">
-                                        Do I get future assistance after completing the course?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseeight" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingeight" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Yes! At BrandStory Academy, we provide ongoing support even
-                                            after you complete
-                                            your course. Our team offers career guidance, mentorship, and access to updated
-                                            resources to help
-                                            you stay ahead in the ever-changing digital marketing industry.</p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -1815,25 +1782,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingeleven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseeleven" aria-expanded="false"
-                                        aria-controls="flush-collapseeleven">
-                                        How long is the internship after completing the course?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseeleven" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingeleven" data-bs-parent="#accordionFlushExample1">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">We offer a 6-month paid internship after the course, providing
-                                            hands-on experience
-                                            with real client projects and agency-style training. This ensures you gain
-                                            practical skills, industry
-                                            exposure, and a strong portfolio to kick-start your career.</p>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
 
@@ -1877,31 +1826,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingfourteen">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapsefourteen" aria-expanded="false"
-                                        aria-controls="flush-collapsefourteen">
-                                        What are the course fees for each program?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapsefourteen" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingfourteen" data-bs-parent="#accordionFlushExample2">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">The Digital Marketing Course at BrandStory Academy is <b>priced at ₹40,000</b>, offering 
-                                            comprehensive training that covers SEO, social media marketing, Google Ads, email marketing, and analytics. 
-                                            The program includes hands-on live projects, a 6-month internship, and 100% placement assistance, making it 
-                                            one of the most valuable and career-focused digital marketing courses in Bangalore.</p>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
