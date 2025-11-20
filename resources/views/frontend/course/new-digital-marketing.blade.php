@@ -6,18 +6,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 order-2 order-lg-1 col-md-7 text-md-start text-center align-self-center mt-3">
-                    <h1 class="mb-3 text-blue">Best Digital Marketing Course in Bangalore for Job-ready Learning</h1>
-                    <p class="mb-2">Job-ready digital marketing course in Bangalore with 30+ learning modules, 50+
-                        AI-powered tools, and industry certifications. We are the best digital marketing institute in
-                        Bangalore, collaborating with 1000+ global placement partners. Enroll for a free demo class today!
+                    <h1 class="mb-3 text-blue">Digital Marketing Course in Bangalore for Job-Ready Expertise</h1>
+                    <p class="mb-2">AI-enabled digital marketing course in Bangalore with 30+ learning modules, 50+
+                        AI-powered tools, and 10+ industry recognised certifications. We are only digital marketing institute in
+                        Bangalore, collaborating with 1000+ global placement partners. Enroll Today!
                     </p>
                     <div class="d-md-flex align-items-center">
                         <div
                             class="outline-btn d-flex me-lg-5 mb-lg-0 my-4 justify-content-md-start justify-content-center">
-                            <a href="{{route('about')}}"><strong>About Academy</strong></a>
+                            <a href="/digital-marketing-course-in-bangalore#curriculum"><strong>Explore Details</strong></a>
                         </div>
                         <div class="violet-btn d-flex me-lg-5 mb-lg-0 my-4 justify-content-md-start justify-content-center">
-                            <a href="{{route('contact')}}">Contact Us</a>
+                            <a href="{{route('contact')}}">Enroll Now</a>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
     <section class="spb-100 why-enroll-coursepage">
         <div class="container">
             <h2 class="mb-3 text-lg-center text-center frame-700">Why Enroll in BrandStory Academy for
-                <span class="text-violet ">Digital Marketing Course?</span>
+                <span class="text-violet ">Digital Marketing Courses?</span>
             </h2>
             <p class="frame-700 text-center">BrandStory Academy is one of the leading digital marketing institutes in
                 Bangalore, offering an expert-led, industry-focused learning experience. We have the most experienced and
@@ -115,6 +115,163 @@
 
         </div>
     </section>
+
+        <section class="dm-course-section spb-100">
+        <div class="container">
+            <h2 class="text-center db"><span class="text-violet">Expert-led Digital Marketing Courses</span> in Bangalore <br>for Omni-Level Expertise</h2>
+            <p class="max-1000 text-center">BrandStory Academy, the best digital marketing training institute in Bangalore is offering most affordable and advanced 
+                <a href="https://www.brandstoryacademy.com/courses" style="color: black; font-size: 18px; text-decoration: underline;"><b>digital marketing courses</b></a> in Bangalore that cover everything from the fundamentals to expert-level learning. We prepare aspiring 
+                professionals with a well-structured curriculum, experienced faculty, and practical learning.</p>
+            <div class="dm-course-main mt-5">
+                <ul class="nav nav-pills mb-md-5 mb-4 d-flex justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-course1-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-course1" type="button" role="tab" aria-controls="pills-course1"
+                            aria-selected="true">Mastery</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-course2-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-course2" type="button" role="tab" aria-controls="pills-course2"
+                            aria-selected="false">Advanced</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-course3-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-course3" type="button" role="tab" aria-controls="pills-course3"
+                            aria-selected="false">Expert</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <!-- Course 1 start -->
+                    <div class="tab-pane fade show active" id="pills-course1" role="tabpanel"
+                        aria-labelledby="pills-course1-tab">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img class="w-100 mb-lg-0 mb-3 d-lg-block d-none"
+                                    src="{{asset('frontend/assets/images/home/course1.webp')}}" alt="Digital Marketing Mastery with Artificial Intelligence(AI) Course - BrandStory Academy">
+                                <img class="w-100 mb-lg-0 mb-3 d-lg-none d-block"
+                                    src="{{asset('frontend/assets/images/home/mbl-course1.webp')}}">
+                            </div>
+                            <div class="col-lg-6 d-flex">
+                                <div class="course-main d-flex flex-column w-100">
+                                    <h4 class="mb-3 text-blue">Digital Marketing MASTERY With <span
+                                            class="text-violet">Artificial Intelligence(AI)</span></h4>
+                                    <p class="mb-lg-5 mb-4 fw-500 fs-16">Duration: 2.5 Months + 6 Months Internship</p>
+                                    <ul class="mb-0 list-unstyled p-0">
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course1-icon.svg')}}">Professional
+                                            Level Certification</li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course1-icon.svg')}}">AI-Led
+                                            Digital Marketing</li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course1-icon.svg')}}">8+ Live
+                                            Projects</li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course1-icon.svg')}}">6 Months
+                                            Internship</li>
+                                    </ul>
+                                    <div class="coursebtns one mt-auto">
+                                        <a class="text-decoration-none d-block w-100 text-center bg-violet"
+                                            href="{{route('course_digital_marketing')}}">Enroll Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Course 1 End -->
+
+                    <!-- Course 2 start -->
+                    <div class="tab-pane fade" id="pills-course2" role="tabpanel" aria-labelledby="pills-course2-tab">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img class="w-100 mb-lg-0 mb-3 d-lg-block d-none"
+                                    src="{{asset('frontend/assets/images/home/course2.webp')}}" alt="Advanced Digital Marketing Boot Camp Course - BrandStory Academy">
+                                <img class="w-100 mb-lg-0 mb-3 d-lg-none d-block"
+                                    src="{{asset('frontend/assets/images/home/mbl-course2.webp')}}">
+                            </div>
+                            <div class="col-lg-6 d-flex">
+                                <div class="course-main d-flex flex-column w-100">
+                                    <h4 class="mb-3 text-blue">Advanced Digital Marketing <span class="text-lightblue">Boot
+                                            Camp</span></h4>
+                                    <p class="mb-lg-5 mb-3 fw-500 fs-16">Duration: 3.5 Month + Internship of 6 Months</p>
+                                    <ul class="mb-0 list-unstyled p-0">
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course2-icon.svg')}}">Advanced-Level
+                                            Certification</li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course2-icon.svg')}}">Full-Stack
+                                            Digital Marketing</li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course2-icon.svg')}}">AI &
+                                            Automation</li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course2-icon.svg')}}">Video
+                                            Editing & Podcasting</li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course2-icon.svg')}}">Studio
+                                            Techniques</li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course2-icon.svg')}}">10+ Live
+                                            Projects</li>
+                                    </ul>
+                                    <div class="coursebtns one mt-auto">
+                                        <a class="text-decoration-none d-block w-100 text-center bg-violet"
+                                            href="{{route('advanced_digital_marketing_boot_camp')}}">Enroll Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Course 2 End -->
+
+                    <!-- Course 3 Start -->
+                    <div class="tab-pane fade" id="pills-course3" role="tabpanel" aria-labelledby="pills-course3-tab">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img class="w-100 mb-lg-0 mb-3 d-lg-block d-none"
+                                    src="{{asset('frontend/assets/images/home/course3.webp')}}" alt="Digital Marketing Course in Bangalore - BrandStory Academy">
+                                <img class="w-100 mb-lg-0 mb-3 d-lg-none d-block"
+                                    src="{{asset('frontend/assets/images/home/mbl-course3.webp')}}">
+                            </div>
+                            <div class="col-lg-6 d-flex">
+                                <div class="course-main d-flex flex-column w-100">
+                                    <h4 class="mb-3 text-blue">360° Digital <span class="text-yellow">Marketing Course</span></h4>
+                                    <p class="mb-lg-5 mb-4 fw-500 fs-16">Duration: 4 Months + 6 Months Internship</p>
+                                    <ul class="mb-0 list-unstyled p-0">
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">Master-Level
+                                            Certification</li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">E-Commerce
+                                            Growth Marketing</li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">Full-Stack
+                                            Digital Marketing</li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">SEO & Google Ads</li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">Content Production & Social Media
+                                            </li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">E-mail Marketing & Perf. Marketing</li>
+                                        <li class="mb-4"><img class="me-2"
+                                                src="{{asset('frontend/assets/images/home/course3-icon.svg')}}">20+ Live
+                                            Projects</li>
+                                    </ul>
+                                    <div class="coursebtns one mt-auto">
+                                        <a class="text-decoration-none d-block w-100 text-center bg-violet"
+                                            href="{{route('course_360_degree_digital_marketing')}}">Enroll Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Course 3 End -->
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="placement-coursepage">
         <div class="container">
             <h2 class="text-center">Placement Opportunity & <span class="text-violet">Support</span></h2>
@@ -146,7 +303,7 @@
             <img src="{{ asset('frontend/assets/images/courses/journy.webp') }}" class="img-fluid mt-5" alt="Your Digital Marketing Learning Journey at BrandStory Academy"/>
         </div>
     </section>
-    <section class="curicullmn-coursepage spb-100">
+    <section id="curriculum" class="curicullmn-coursepage spb-100">
         <div class="container">
             <h2 class="text-center">Digital Marketing Course <span class="text-violet">Curriculum</span></h2>
             <p class="frame-1100 text-center">
