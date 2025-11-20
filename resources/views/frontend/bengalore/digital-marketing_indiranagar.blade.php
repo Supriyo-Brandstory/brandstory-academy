@@ -71,7 +71,7 @@
                     <p>Founded in 2018, <a href="https://www.brandstoryacademy.com" style="color: black; font-size: 18px; text-decoration: underline;"><b>BrandStory Academy</a></b>
                          has grown into one of Indiranagar’s trusted destinations for digital marketing education, <b>trained 10,000+ students</b>. Built by industry professionals from BrandStory, 
                          the academy focuses on practical, <b>agency-style learning</b> that equips students with real skills that employers look for.
-</p>
+                   </p>
                     <p>With hundreds of successful batches and a growing community of learners who have started careers across agencies, startups, and global brands, BrandStory Academy continues to
                          bridge the gap between training and industry expectations. Every student receives <b>hands-on exposure</b>, <b>guided mentorship</b>, and access to updated tools and techniques used in modern 
                          digital marketing. Our digital marketing institute in Indiranagar offers <b>certification programs</b>, <b>portfolio-building support</b>, and <b>placement guarantee</b> to help learners 
