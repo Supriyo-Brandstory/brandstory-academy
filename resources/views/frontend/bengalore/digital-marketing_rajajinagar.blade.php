@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-5">
-                    <img class="w-100" src="{{asset('frontend/assets/images/home/banner-img.webp')}}" alt="Digital Marketing training Institute in Bangalore - BrandStory Academy">
+                    <img class="w-100" src="{{asset('frontend/assets/images/courses/digital-marketing-course-rajajinagar.webp')}}" alt="Professional Digital Marketing Course in Rajajinagar, Bangalore - BrandStory Academy">
                 </div>
             </div>
             <div class="container mt-5">
