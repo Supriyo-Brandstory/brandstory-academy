@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-7 text-md-start text-center">
-                    <h1 class="mb-3">AI-Enabled <span class="text-violet"> Digital Marketing Course</span> in Indiranagar, Bangalore</h1>
+                    <h1 class="mb-3">AI-Enabled <span class="text-violet"> Digital Marketing Course</span> in Indiranagar</h1>
                     <p class="mb-4"><span >Step into the next era of marketing with the AI-Driven Digital Marketing Program in Indiranagar offered by 
                         BrandStory Academy. This course is designed to help learners master modern marketing skills by combining foundational digital 
                         strategies with powerful AI applications that are reshaping the industry.</p>
@@ -79,7 +79,7 @@
 
                 </div>
                 <div class="col-12 col-lg-6  order-1 order-lg-2">
-                    <img src="{{asset('frontend/assets/images/courses/certificate.webp')}}" class="img-fluid" alt="Digital Marketing Course Completion Certificate by BrandStory Academy"/>
+                    <img src="{{asset('frontend/assets/images/courses/about-digital-marketing-academy.webp')}}" class="img-fluid" alt="Digital Marketing Course in Bangalore with 100% placement, 30+ modules, and 10+ certifications"/>
                 </div>
             </div>
         </div>

@@ -47,7 +47,7 @@
 
                 </div>
                 <div class="col-12 col-lg-6  order-1 order-lg-2">
-                    <img src="{{asset('frontend/assets/images/courses/certificate.webp')}}" class="img-fluid" alt="Digital Marketing Course Completion Certificate by BrandStory Academy"/>
+                    <img src="{{asset('frontend/assets/images/courses/about-digital-marketing-academy.webp')}}" class="img-fluid" alt="Digital Marketing Course in Bangalore with 100% placement, 30+ modules, and 10+ certifications"/>
                 </div>
             </div>
         </div>
