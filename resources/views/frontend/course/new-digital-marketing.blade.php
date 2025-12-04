@@ -47,7 +47,7 @@
 
                 </div>
                 <div class="col-12 col-lg-6  order-1 order-lg-2">
-                    <img src="{{asset('frontend/assets/images/courses/about-digital-marketing-academy.webp')}}" class="img-fluid" alt="Digital Marketing Course in Bangalore with 100% placement, 30+ modules, and 10+ certifications"/>
+                    <img src="{{asset('frontend/assets/images/courses/certificate.webp')}}" class="img-fluid" alt="Digital Marketing Course in Bangalore with 100% placement, 30+ modules, and 10+ certifications"/>
                 </div>
             </div>
         </div>
@@ -1573,7 +1573,150 @@
         </div>
     </section>
 
-        
+    <section class="Certified-coursepage pt-100 pb-40">
+
+        <div class="container">
+            <h2 class="text-center frame mb-4">Clear Your Doubts About 
+                <span class="text-violet">Digital Marketing Courses in Bangalore</span></h2>
+                
+                <div class="row con-fix2">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandstoryacademy.com/blogs/is-digital-marketing-easy-or-hard-to-learn-honest-breakdown-for-students" style="text-decoration: none;">
+                </a><div class="blog-card"><a href="https://brandstoryacademy.com/blogs/is-digital-marketing-easy-or-hard-to-learn-honest-breakdown-for-students" style="text-decoration: none;">
+                    <div class="blog-card-img">
+                        <img src="https://brandstoryacademy.com/storage/blogs/U6H5WCH0hErqMfXKuIRzPL3qyRYaLWvbl08Wb31P.jpg" alt="Is Digital Marketing Easy or Hard to Learn? Honest Breakdown for Students">
+                    </div>
+                    </a><div class="blog-card-body"><a href="https://brandstoryacademy.com/blogs/is-digital-marketing-easy-or-hard-to-learn-honest-breakdown-for-students" style="text-decoration: none;">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="badge">LEARNING SKILLS</span>
+                            <span class="time">Digital Marketing</span>
+                        </div>
+                        </a><div class="d-flex justify-content-between align-items-center"><a href="https://brandstoryacademy.com/blogs/is-digital-marketing-easy-or-hard-to-learn-honest-breakdown-for-students" style="text-decoration: none;">
+                            <h5 class="blog-card-title mb-0">Is Digital Marketing Easy or Hard to Learn? Honest Justification</h5>
+                                                        </a><a href="https://brandstoryacademy.com/blogs/is-digital-marketing-easy-or-hard-to-learn-honest-breakdown-for-students" style="color: #e43d12;">Read More</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandstoryacademy.com/blogs/is-digital-marketing-still-worth-learning-in-the-age-of-ai" style="text-decoration: none;">
+                </a><div class="blog-card"><a href="https://brandstoryacademy.com/blogs/is-digital-marketing-still-worth-learning-in-the-age-of-ai" style="text-decoration: none;">
+                    <div class="blog-card-img">
+                        <img src="https://brandstoryacademy.com/storage/blogs/bQpD8zNKS0N7NXoX6vtN1aBFjndVsPIO9JCGIom3.jpg" alt="Is Digital Marketing Still Worth Learning in the Age of AI?">
+                    </div>
+                    </a><div class="blog-card-body"><a href="https://brandstoryacademy.com/blogs/is-digital-marketing-still-worth-learning-in-the-age-of-ai" style="text-decoration: none;">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="badge">AI IN DIGITAL MARKETING</span>
+                            <span class="time">Digital Marketing</span>
+                        </div>
+                        </a><div class="d-flex justify-content-between align-items-center"><a href="https://brandstoryacademy.com/blogs/is-digital-marketing-still-worth-learning-in-the-age-of-ai" style="text-decoration: none;">
+                            <h5 class="blog-card-title mb-0">Is Digital Marketing Still Worth Learning in the Age of AI?</h5>
+                            </a><a href="https://brandstoryacademy.com/blogs/is-digital-marketing-still-worth-learning-in-the-age-of-ai" style="color: #e43d12;">Read More</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+        </div>
+               
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandstoryacademy.com/blogs/key-digital-marketing-skills-youll-master-in-a-digital-marketing-course" style="text-decoration: none;">
+                </a><div class="blog-card"><a href="https://brandstoryacademy.com/blogs/key-digital-marketing-skills-youll-master-in-a-digital-marketing-course" style="text-decoration: none;">
+                    <div class="blog-card-img">
+                        <img src="https://brandstoryacademy.com/storage/blogs/utUtSg62hTaStVuW7zRl1vLderRYYmkdycFhTCuV.jpg" alt="Key Digital Marketing Skills You’ll Master in a Digital Marketing Course">
+                    </div>
+                    </a><div class="blog-card-body"><a href="https://brandstoryacademy.com/blogs/key-digital-marketing-skills-youll-master-in-a-digital-marketing-course" style="text-decoration: none;">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="badge">MARKETING SKILLS</span>
+                            <span class="time">Digital Marketing</span>
+                        </div>
+                        </a><div class="d-flex justify-content-between align-items-center"><a href="https://brandstoryacademy.com/blogs/key-digital-marketing-skills-youll-master-in-a-digital-marketing-course" style="text-decoration: none;">
+                            <h5 class="blog-card-title mb-0">Key Digital Marketing Skills You’ll Master in a Digital Marketing Course</h5>
+                            </a><a href="https://brandstoryacademy.com/blogs/key-digital-marketing-skills-youll-master-in-a-digital-marketing-course" style="color: #e43d12;">Read More</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+        </div>
+              
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandstoryacademy.com/blogs/digital-marketing-courses-in-bangalore-learning-path-career-opportunities" style="text-decoration: none;">
+                </a><div class="blog-card"><a href="https://brandstoryacademy.com/blogs/digital-marketing-courses-in-bangalore-learning-path-career-opportunities" style="text-decoration: none;">
+                    <div class="blog-card-img">
+                        <img src="https://brandstoryacademy.com/storage/blogs/yaa1RP2r7EzK1vdbKsj8ZPaLn7vupSal4fOgxTEP.jpg" alt="Digital Marketing Courses in Bangalore: Learning Path &amp; Career Opportunities">
+                    </div>
+                    </a><div class="blog-card-body"><a href="https://brandstoryacademy.com/blogs/digital-marketing-courses-in-bangalore-learning-path-career-opportunities" style="text-decoration: none;">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="badge">DIGITAL MARKETING COURSE</span>
+                            <span class="time">Digital Marketing</span>
+                        </div>
+                        </a><div class="d-flex justify-content-between align-items-center"><a href="https://brandstoryacademy.com/blogs/digital-marketing-courses-in-bangalore-learning-path-career-opportunities" style="text-decoration: none;">
+                            <h5 class="blog-card-title mb-0">Digital Marketing Courses in Bangalore: Learning Path & Career Scope</h5>
+                            </a><a href="https://brandstoryacademy.com/blogs/digital-marketing-courses-in-bangalore-learning-path-career-opportunities" style="color: #e43d12;">Read More</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+        </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandstoryacademy.com/blogs/how-to-choose-the-most-suitable-digital-marketing-institute-in-bangalore" style="text-decoration: none;">
+                </a><div class="blog-card"><a href="https://brandstoryacademy.com/blogs/how-to-choose-the-most-suitable-digital-marketing-institute-in-bangalore" style="text-decoration: none;">
+                    <div class="blog-card-img">
+                        <img src="https://brandstoryacademy.com/storage/blogs/hzNXicjZZvyMzllKRfJ2G8Euibdb07kQNLwPMxY0.jpg" alt="How to Choose the Most Suitable Digital Marketing Institute in Bangalore">
+                    </div>
+                    </a><div class="blog-card-body"><a href="https://brandstoryacademy.com/blogs/how-to-choose-the-most-suitable-digital-marketing-institute-in-bangalore" style="text-decoration: none;">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="badge">MARKETING INSTITUTE</span>
+                            <span class="time">Digital Marketing</span>
+                        </div>
+                        </a><div class="d-flex justify-content-between align-items-center"><a href="https://brandstoryacademy.com/blogs/how-to-choose-the-most-suitable-digital-marketing-institute-in-bangalore" style="text-decoration: none;">
+                            <h5 class="blog-card-title mb-0">How to Choose a Suitable Digital Marketing Institute in Bangalore</h5>
+                            </a><a href="https://brandstoryacademy.com/blogs/how-to-choose-the-most-suitable-digital-marketing-institute-in-bangalore" style="color: #e43d12;">Read More</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+        </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandstoryacademy.com/blogs/the-benefits-of-hands-on-projects-in-digital-marketing-courses" style="text-decoration: none;">
+                </a><div class="blog-card"><a href="https://brandstoryacademy.com/blogs/the-benefits-of-hands-on-projects-in-digital-marketing-courses" style="text-decoration: none;">
+                    <div class="blog-card-img">
+                        <img src="https://brandstoryacademy.com/storage/blogs/ESfdIHR7dF7lEF4JOEIcOP0ciEBIG9O0pH3nTOYl.jpg" alt="The Benefits of Hands-On Projects in Digital Marketing Courses">
+                    </div>
+                    </a><div class="blog-card-body"><a href="https://brandstoryacademy.com/blogs/the-benefits-of-hands-on-projects-in-digital-marketing-courses" style="text-decoration: none;">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="badge">PRACTICAL SKILLS</span>
+                            <span class="time">Digital Marketing</span>
+                        </div>
+                        </a><div class="d-flex justify-content-between align-items-center"><a href="https://brandstoryacademy.com/blogs/the-benefits-of-hands-on-projects-in-digital-marketing-courses" style="text-decoration: none;">
+                            <h5 class="blog-card-title mb-0">Benefits of Hands-On Projects in Digital Marketing Course in Bangalore</h5>
+                            </a><a href="https://brandstoryacademy.com/blogs/the-benefits-of-hands-on-projects-in-digital-marketing-courses" style="color: #e43d12;">Read More</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+        </div>
+
+            
+        </div>
+
+            </div>
+
+
+
+
+        </div>
+    </section>
+
     <section class="testimonial-section" id="testimony">
         <h2 class="text-center mb-4">See What Our <span class="text-violet">Alumni Say</span></h2>
         <div class="testimonial-row left-to-right">
@@ -1747,9 +1890,9 @@
         </div>
     </section>
 
-    <div class="pt-100">
+    <!--<div class="pt-100">
         <x-blog-component />
-    </div>
+    </div>-->
   
 
     <section class="sp-100 ">
