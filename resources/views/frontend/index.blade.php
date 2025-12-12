@@ -503,7 +503,7 @@
 
     <section class="spb-100">
         <div class="container">
-            <h2 class="text-center mb-lg-5 mb-4">BrandStory Academy -<span class="text-violet">Digital Marketing Institute Highlights</span></h2>
+            <h2 class="text-center mb-lg-5 mb-4">Why Choose BrandStory Academy <br><span class="text-violet">for Digital Marketing Courses</span></h2>
             <div class="row col-reverse">
                 <div class="col-lg-5">
                     <div class="key-highlight-main">
@@ -594,8 +594,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-4"></div>
                 <div class="col-lg-6 col-md-8">
-                    <h2 class="text-white mb-4 text-md-start text-center">Are you looking to gain real-time agency
-                        experience and work with clients?</h2>
+                    <h2 class="text-white mb-4 text-md-start text-center">Are you looking for the best AI-powered digital marketing courses in Bangalore?</h2>
                     <div class="coursebtns one d-flex justify-content-md-start justify-content-center" bis_skin_checked="1">
                         <a class="text-decoration-none bg-violet" href="{{route('contact')}}">Start Learning Today with
                             us!</a>
@@ -608,7 +607,7 @@
     <section class="sp-100">
         <div class="container">
             <h2 class="text-center mb-lg-5 mb-4">Anyone Can Enroll & Start Their Digital Marketing
-                <span class="db">Career with Us - <span class="text-violet">Digital Marketing Academy</span></span>
+                <span class="db"><span class="text-violet">Career with Us</span></span>
             </h2>
             <div class="position-relative">
                 <div class="swiper dmcareersld">
@@ -1421,25 +1420,23 @@ Show More/Less Button
                         <div class="mb-5">
                             <div class="d-flex mb-3">
                                 <img class="me-2" src="{{asset('frontend/assets/images/home/inter-icon1.svg')}}">
-                                <h5 class="mb-0 text-blue fw-600">Get Certified</h5>
+                                <h5 class="mb-0 text-blue fw-600">92% Learners</h5>
                             </div>
-                            <p class="mb-0">Earn a recognized digital marketing certificate from Brandstory Academy.</p>
+                            <p class="mb-0">Students reported clearer understanding of how real digital campaigns work (not just theory).</p>
                         </div>
                         <div class="mb-5">
                             <div class="d-flex mb-3">
                                 <img class="me-2" src="{{asset('frontend/assets/images/home/inter-icon2.svg')}}">
-                                <h5 class="mb-0 text-blue fw-600">Real-World Experience</h5>
+                                <h5 class="mb-0 text-blue fw-600">3 Out of 4</h5>
                             </div>
-                            <p class="mb-0">Learning through hands-on workshops and real-world projects helps you build your
-                                skills.</p>
+                            <p class="mb-0">Built a verified live project that strengthened their interview performance.</p>
                         </div>
                         <div class="mb-0">
                             <div class="d-flex mb-3">
                                 <img class="me-2" src="{{asset('frontend/assets/images/home/inter-icon3.svg')}}">
-                                <h5 class="mb-0 text-blue fw-600">Market Recognition</h5>
+                                <h5 class="mb-0 text-blue fw-600">90% Alumni</h5>
                             </div>
-                            <p class="mb-0">With a certificate highlighting your expertise, you can always standout in the
-                                job market.</p>
+                            <p class="mb-0">Saw career improvement through better roles, internships, freelance clients, and salary revisions.</p>
                         </div>
                     </div>
                 </div>
@@ -1473,13 +1470,13 @@ Show More/Less Button
 
     <section class="sp-100 mbl-spt-0">
         <div class="container">
-            <h2 class="text-center my-3">Benefits of Joining BrandStory Academy for
-                <span class="db">Digital <span class="text-violet">Marketing Courses</span></span>
+            <h2 class="text-center my-3">Globally Accredited Digital Marketing 
+                <span class="db"> <span class="text-violet">Institute in Bengaluru</span></span>
             </h2>
-            <p class="text-center mb-4 max-1000">Brandstory Academy gives you more than just <a href="https://brandstoryacademy.com/digital-marketing-course-in-bangalore" style="color: black; font-size: 18px; text-decoration: underline;"><b>digital marketing courses in
-                Bangalore</b></a>. With our comprehensive digital marketing courses + internship, students will learn the
-                fundamentals, work on live projects, and become experts. Our hands-on approach to learning will help you
-                apply the knowledge in real-world projects, gain insights, and become a specialist.</p>
+            <p class="text-center mb-4 max-1000">Start your digital marketing career with confidence at BrandStory Academy, Bengaluru’s dedicated learning
+                 hub for future-ready digital professionals. Our program is designed to give you practical skills, real project experience, and a clear understanding
+                  of how the digital industry works. With expert trainers who have spent over 15+ years driving digital growth for brands, you get guidance that is 
+                  rooted in real industry practice, not theory.</p>
             <img class="w-100 mb-4" src="{{asset('frontend/assets/images/home/institute.webp')}}" alt="Best Digital marketing Training Institute in Bangalore  - BrandStory Academy">
             <ul class="d-lg-flex mb-0 list-unstyled p-0 justify-content-center">
                 <li class="mb-4 me-md-5 me-0"><img class="me-2"
