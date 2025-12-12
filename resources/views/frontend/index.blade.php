@@ -149,7 +149,7 @@
 
     <section class="dm-course-section spb-100">
         <div class="container">
-            <h2 class="text-center db"><span class="text-violet">AI-powered </span>Digital Marketing Courses in Bangalore</h2>
+            <h2 class="text-center db"><span class="text-violet">AI Powered </span>Digital Marketing Courses in Bangalore</h2>
             <p class="max-1000 text-center">BrandStory Academy is offering most affordable and advanced 
                 <a href="https://www.brandstoryacademy.com/courses" style="color: black; font-size: 18px; text-decoration: underline;"><b>digital marketing courses</b></a> in Bangalore 
                 that cover everything from the fundamentals to expert-level learning. We prepare aspiring 
