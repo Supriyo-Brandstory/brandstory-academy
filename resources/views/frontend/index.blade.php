@@ -5,11 +5,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-7 text-md-start text-center">
-                    <h1 class="mb-3">Best Digital Marketing<span class="text-violet"> Institute in Bangalore</span> for Career-focused Courses</h1>
-                    <p class="mb-4"><span >At BrandStory Academy, you can learn the A-Z of
-                        digital marketing, work on live projects, and get certified to launch your career as a digital
-                        marketing expert. Learn, work, and certify your skills in 6 months</span>
-                        with digital marketing, SEO, PPC courses in Bangalore.</p>
+                    <h1 class="mb-3">Bangalore's Leading Digital <span class="text-violet">Marketing Training Institute</span> (Est. 2018)</h1>
+                    <p class="mb-4"><span >At BrandStory Academy, you can learn the A-Z of digital marketing, work on live projects, and get certified to launch your career as a 
+                        digital marketing expert. Learn, work, and certify your skills in 6 months with the best digital marketing training with placements in bangalore.</p>
                     <div class="d-lg-flex align-items-center">
                         <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 justify-content-md-start justify-content-center">
                             <a href="{{route('contact')}}">Enquire Now!</a>
@@ -125,10 +123,10 @@
                     </h2>
                     <img class="w-100 d-lg-none d-block mb-3"
                         src="{{asset('frontend/assets/images/home/about-academy-img.webp')}}" alt="Digital Marketing training Institute in Bangalore - BrandStory Academy">
-                    <p><b>BrandStory Academy</b> was founded in 2018 with a vision to redefine how digital marketing is taught. As a leading digital marketing training institute in 
+                    <p><b>BrandStory Academy</b> was established in 2018 with a vision to redefine how digital marketing is taught. As a leading digital marketing training institute in 
                         Bangalore, we believe learning should spark curiosity, creativity, and confidence. Our classrooms are collaborative spaces where ideas can flow freely, challenges 
-                        are embraced, and innovation is celebratedp</p>
-                    <p class="mb-0">We are among the <b>top-rated digital marketing Institutes</b> in Bangalore offering advanced and industry-relevant course curriculum. Our digital marketing 
+                        are embraced, and innovation is celebrated.</p>
+                    <p class="mb-0">We are the <b>top-rated digital marketing institute</b> in Bangalore offering advanced and industry-relevant course curriculum. Our digital marketing 
                         courses are designed to transform you into job-ready professionals and secure placements with <b>1,000+ global companies</b>.</p>
                     <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 mt-4 justify-content-md-start justify-content-center">
                             <a href="{{route('about')}}">Know About Us</a>
@@ -151,10 +149,11 @@
 
     <section class="dm-course-section spb-100">
         <div class="container">
-            <h2 class="text-center db"><span class="text-violet">Best</span> Digital Marketing Institute in Bangalore</h2>
-            <p class="max-1000 text-center">BrandStory Academy, the best digital marketing training institute in Bangalore is offering most affordable and advanced 
-                <a href="https://www.brandstoryacademy.com/courses" style="color: black; font-size: 18px; text-decoration: underline;"><b>digital marketing courses</b></a> in Bangalore that cover everything from the fundamentals to expert-level learning. We prepare aspiring 
-                professionals with a well-structured curriculum, experienced faculty, and practical learning.</p>
+            <h2 class="text-center db"><span class="text-violet">AI-powered </span>Digital Marketing Courses in Bangalore</h2>
+            <p class="max-1000 text-center">BrandStory Academy is offering most affordable and advanced 
+                <a href="https://www.brandstoryacademy.com/courses" style="color: black; font-size: 18px; text-decoration: underline;"><b>digital marketing courses</b></a> in Bangalore 
+                that cover everything from the fundamentals to expert-level learning. We prepare aspiring 
+                professionals with a well-structured curriculum, 40+ AI tools, experienced faculty, and practical learning.</p>
             <div class="dm-course-main mt-5">
                 <ul class="nav nav-pills mb-md-5 mb-4 d-flex justify-content-center" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -308,7 +307,7 @@
         <section class="course_list spb-100">
         <div class="container">
             <h2 class="text-center db">Digital Marketing <span class="text-violet">Certificate Courses</span></h2>
-                        <p class="max-1000 text-center">Dive Deep into Core Marketing Concepts and Transform Your Skillset</p>
+                        <p class="max-1000 text-center">Backed by a 4.9/5 Student Rating, Empowering You Master Core Marketing Concepts</p>
             <div class="course_grid">
                 <div class="grid_box">
                     <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Digital-Marketing.webp') }}"
@@ -400,8 +399,8 @@
                 <div class="col-lg-12 col-md-8">
                     <h3 class="mb-md-4 mb-3 fw-600 text-md-start text-center">Courses Designed<span
                             class="text-lightblue"> for Your Success</span></h3>
-                    <p class="fs-20 mbl-fs-16 fw-500 mb-4 text-md-start text-center">Explore our digital marketing courses at the best digital 
-                        <span class="db">marketing traning institute in Bangalore, designed to</span> <span class="db">equip you with the expert-level skills and knowledge.</span>
+                    <p class="fs-20 mbl-fs-16 fw-500 mb-4 text-md-start text-center">During the training, you’ll work on live project of your own showing real work, 
+                        <span class="db">real learnings, and real results. With 96% of learners feeling more confident,</span> <span class="db">4 in 5 developing stronger skills, and 2 in 3 advancing their careers through new roles.</span>
                     </p>
                     <div class="mentorship-btn d-flex justify-content-md-start justify-content-center">
                         <a class="btn-font" href="{{route('course.list')}}">Explore Our Courses</a>
@@ -417,6 +416,9 @@
     <section class="placement-coursepage">
         <div class="container">
             <h2 class="text-center">Proud Achievements of <span class="text-violet">Our Alumni</span></h2>
+            <p class="max-1000 text-center">We offer the best digital marketing training with placements in Bangalore that focuses on practical learning and real career outcomes.
+                 You’ll work on live projects, learn in agency-like experience, and build a strong portfolio. Our placement track record speaks for itself, 
+                 many of our learners have already secured roles across top companies.</p>
             <div class="mt-5">
                 <div class="row g-4">
                     <div class="col-12 col-lg-4">
