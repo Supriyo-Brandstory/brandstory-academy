@@ -178,95 +178,95 @@ class WebsiteController extends Controller
 
 
 
-public function store_enquery(Request $request)
-{
-    // Validation
-    $validator = Validator::make($request->all(), [
-        'firstname' => 'required|string',
-        'lastname' => 'nullable|string',
-        'phone' => 'required|digits_between:6,15',
-        'recaptcha_response' => 'required|string',
-    ]);
-
-    // Check if fragment exists
-    $fragment = $request->input('formFragment');
-    $isJson = !empty($fragment); // Return JSON if fragment is present
-
-    if ($validator->fails()) {
-        if ($isJson) {
-            return response()->json([
-                'status' => 'error',
-                'errors' => $validator->errors(),
-            ], 422);
-        }
-
-        return back()
-            ->withErrors($validator)
-            ->withInput()
-            ->withFragment('enquiryForm');
-    }
-
-    // Verify reCAPTCHA
-    $recaptcha = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-        'secret' => env('RECAPTCHA_SECRET_KEY'),
-        'response' => $request->recaptcha_response,
-    ])->json();
-
-    if (!($recaptcha['success'] ?? false) || ($recaptcha['score'] ?? 0) < 0.5) {
-        if ($isJson) {
-            return response()->json([
-                'status' => 'error',
-                'message' => 'reCAPTCHA failed. Try again.',
-            ], 403);
-        }
-
-        return back()
-            ->withErrors(['recaptcha' => 'reCAPTCHA failed. Try again.'])
-            ->withInput()
-            ->withFragment('enquiryForm');
-    }
-
-    // Save Enquiry
-    $fullName = trim($request->firstname . ' ' . $request->lastname);
-
-    Enquiry::create([
-        'name' => $fullName,
-        'phone' => $request->phone,
-        'email' => $request->email,
-        'message' => $request->message,
-        'program' => $request->program,
-        'terms_accepted' => $request->has('termsAndConditions-Consent'),
-        'recaptcha_response' => 'Validated',
-        'page_url' => $request->page_url,
-    ]);
-
-    if ($isJson) {
-        return response()->json([
-            'status' => 'success',
-            'message' => 'Your enquiry has been submitted!',
+    public function store_enquery(Request $request)
+    {
+        // Validation
+        $validator = Validator::make($request->all(), [
+            'firstname' => 'required|string',
+            'lastname' => 'nullable|string',
+            'phone' => 'required|digits_between:6,15',
+            'recaptcha_response' => 'required|string',
         ]);
+
+        // Check if fragment exists
+        $fragment = $request->input('formFragment');
+        $isJson = !empty($fragment); // Return JSON if fragment is present
+
+        if ($validator->fails()) {
+            if ($isJson) {
+                return response()->json([
+                    'status' => 'error',
+                    'errors' => $validator->errors(),
+                ], 422);
+            }
+
+            return back()
+                ->withErrors($validator)
+                ->withInput()
+                ->withFragment('enquiryForm');
+        }
+
+        // Verify reCAPTCHA
+        $recaptcha = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+            'secret' => env('RECAPTCHA_SECRET_KEY'),
+            'response' => $request->recaptcha_response,
+        ])->json();
+
+        if (!($recaptcha['success'] ?? false) || ($recaptcha['score'] ?? 0) < 0.5) {
+            if ($isJson) {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'reCAPTCHA failed. Try again.',
+                ], 403);
+            }
+
+            return back()
+                ->withErrors(['recaptcha' => 'reCAPTCHA failed. Try again.'])
+                ->withInput()
+                ->withFragment('enquiryForm');
+        }
+
+        // Save Enquiry
+        $fullName = trim($request->firstname . ' ' . $request->lastname);
+
+        Enquiry::create([
+            'name' => $fullName,
+            'phone' => $request->phone,
+            'email' => $request->email,
+            'message' => $request->message,
+            'program' => $request->program,
+            'terms_accepted' => $request->has('termsAndConditions-Consent'),
+            'recaptcha_response' => 'Validated',
+            'page_url' => $request->page_url,
+        ]);
+
+        if ($isJson) {
+            return response()->json([
+                'status' => 'success',
+                'message' => 'Your enquiry has been submitted!',
+            ]);
+        }
+
+        return redirect()
+            ->back()
+            ->with('success', 'Your enquiry has been submitted!')
+            ->withFragment('enquiryForm');
     }
 
-    return redirect()
-        ->back()
-        ->with('success', 'Your enquiry has been submitted!')
-        ->withFragment('enquiryForm');
-}
 
-
-  public function gallery()
+    public function gallery()
     {
         $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.gallery', compact('seo'));
     }
-      public function reviews()
+    public function reviews()
     {
         $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.reviews', compact('seo'));
     }
-      public function placement()
+    public function placement()
     {
         $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
@@ -277,100 +277,120 @@ public function store_enquery(Request $request)
         $currentRoute = request()->path();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.course.course-list', compact('seo'));
+    }
+    public function new_digital_marketing()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.course.new-digital-marketing', compact('seo'));
+    }
+    public function seo_course_in_bangalore()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.course.seo-course-in-bangalore', compact('seo'));
+    }
+    public function ppc_course_in_bangalore()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.course.ppc-course-in-bangalore', compact('seo'));
+    }
+    public function social_media_marketing()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.course.social-media-marketing', compact('seo'));
+    }
 
-}
-public function new_digital_marketing(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.course.new-digital-marketing', compact('seo'));
-}
-public function seo_course_in_bangalore(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.course.seo-course-in-bangalore', compact('seo'));
-}
-public function ppc_course_in_bangalore(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.course.ppc-course-in-bangalore', compact('seo'));
-} 
+    public function digital_marketing_marathahalli()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.bengalore.digital-marketing_marathahalli', compact('seo'));
+    }
 
-public function digital_marketing_marathahalli(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.bengalore.digital-marketing_marathahalli', compact('seo'));
-}
+    public function digital_marketing_btm_layout()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.bengalore.digital-marketing-btm-layout', compact('seo'));
+    }
 
-public function digital_marketing_btm_layout(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.bengalore.digital-marketing-btm-layout', compact('seo'));
-}
+    public function digital_marketing_indiranagar()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.bengalore.digital-marketing_indiranagar', compact('seo'));
+    }
 
-public function digital_marketing_indiranagar(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.bengalore.digital-marketing_indiranagar', compact('seo'));
-}
+    public function digital_marketing_koramangala()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.bengalore.digital-marketing_koramangala', compact('seo'));
+    }
 
-public function digital_marketing_koramangala(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.bengalore.digital-marketing_koramangala', compact('seo'));
-}
+    public function digital_marketing_yelahanka()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.bengalore.digital-marketing_yelahanka', compact('seo'));
+    }
 
-public function digital_marketing_yelahanka(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.bengalore.digital-marketing_yelahanka', compact('seo'));
-}
+    public function digital_marketing_malleswaram()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.bengalore.digital-marketing_malleswaram', compact('seo'));
+    }
 
-public function digital_marketing_malleswaram(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.bengalore.digital-marketing_malleswaram', compact('seo'));
-}
+    public function digital_marketing_hsr_layout()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.bengalore.digital-marketing-hsr-layout', compact('seo'));
+    }
 
-public function digital_marketing_hsr_layout(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.bengalore.digital-marketing-hsr-layout', compact('seo'));
-}
+    public function digital_marketing_rajajinagar()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.bengalore.digital-marketing_rajajinagar', compact('seo'));
+    }
 
-public function digital_marketing_rajajinagar(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.bengalore.digital-marketing_rajajinagar', compact('seo'));
-}
+    public function digital_marketing_vijayanagar()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.bengalore.digital-marketing_vijayanagar', compact('seo'));
+    }
 
-public function digital_marketing_vijayanagar(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.bengalore.digital-marketing_vijayanagar', compact('seo'));
-}
+    public function digital_marketing_jayanagar()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.bengalore.digital-marketing_jayanagar', compact('seo'));
+    }
 
-public function digital_marketing_jayanagar(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.bengalore.digital-marketing_jayanagar', compact('seo'));
-}
+    public function digital_marketing_hebbal()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.bengalore.digital-marketing-hebbal', compact('seo'));
+    }
 
-public function digital_marketing_hebbal(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.bengalore.digital-marketing-hebbal', compact('seo'));
-}
+    public function digital_marketing_electronic_city()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.bengalore.digital-marketing-electronic-city', compact('seo'));
+    }
 
-public function digital_marketing_electronic_city(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.bengalore.digital-marketing-electronic-city', compact('seo'));
-}
-
-public function digital_marketing_ombr_layout(){
-    $currentRoute = request()->path();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.bengalore.digital-marketing_ombr-layout', compact('seo'));
-}
-
+    public function digital_marketing_ombr_layout()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.bengalore.digital-marketing_ombr-layout', compact('seo'));
+    }
 }
