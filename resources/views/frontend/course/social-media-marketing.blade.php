@@ -6,13 +6,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 order-2 order-lg-1 col-md-7 text-md-start text-center align-self-center mt-3">
-                    <h1 class="mb-3 text-blue">Best SEO Course in Bangalore- SEO Training Institute Bangalore</h1>
-                    <p class="mb-2">Enroll in the best SEO course and training institute in Bangalore to gain real-world
-                        expertise in Search
-                        Engine Optimization. Our SEO course covers on-page, off-page, and technical SEO to help you get
-                        industry-grade knowledge. We provide 1,000+ Placement Partners, 99% Placement Assurance, and 15+
-                        Industry Certifications.
-                    </p>
+                    <h2 class="mb-3 text-blue">Best Social Media Marketing Course in Bangalore | SMM Training & Certification</h2>
+                    <p class="mb-2">Learn practical, industry-focused social media marketing from expert trainers at Brandstory Academy, designed for real business growth. Get hands-on projects, certification, and job-ready skills to build powerful campaigns across major platforms.</p>
                     <div class="d-md-flex align-items-center">
                         <div class="outline-btn d-flex me-lg-5 mb-lg-0 my-4 justify-content-md-start justify-content-center">
                             <a href="{{ route('about') }}"><strong>About Academy</strong></a>
@@ -29,7 +24,200 @@
             </div>
         </div>
     </section>
-    <section class="sp-100">
+    <section class="zig-zag">
+        <div class="container">
+            <h2 class="mt-5">
+                Why Choose Our Social Media Marketing<span class="text-violet"> Training in Bangalore?</span>
+            </h2>
+            <div class="zig-box zig-reverse">
+                <div class="zig-image">
+                    <img src="https://images.unsplash.com/photo-1683721003111-070bcc053d8b?q=80&w=1700&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="sm-1">
+                </div>
+                <div class="zig-desc">
+                    <h3 >
+                        Industry-Expert Faculty & Live Projects
+                    </h3>
+                    <p>Our program is led by experienced SMM trainers in Bangalore professionals who’ve worked with leading brands, agencies, and startups. Many of our faculty members bring 7 to 12+ years of experience in running paid campaigns, organic growth strategies, influencer partnerships, content calendars, and performance optimization.</p>
+                    <p>Instead of only studying case studies, you’ll work on real-world SMM case studies and live campaigns.</p>
+                </div>
+            </div>
+            <div class="zig-box">
+                <div class="zig-image">
+                    <img src="https://plus.unsplash.com/premium_photo-1684341008757-3b456034e943?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="sm-2">
+                </div>
+                <div class="zig-desc">
+                    <h3>
+                        Hands-On Learning & Portfolio Building
+                    </h3>
+                    <p>We believe employers hire skills - and proof of those skills. That’s why our course focuses heavily on interactive SMM workshops and guided execution.</p>
+                    <p>You’ll practice with major SMM tools such as Meta Business Suite, Google Analytics, Canva, Hootsuite, and more - while learning how to plan, launch, track, and scale campaigns. </p>
+                </div>
+            </div>
+            <div class="zig-box  zig-reverse">
+                <div class="zig-image">
+                    <img src="https://images.unsplash.com/photo-1675352161865-27816c76141a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="sm-3">
+                </div>
+                <div class="zig-desc">
+                    <h3>
+                        Recognized SMM Certification
+                    </h3>
+                    <p>Upon completion, you earn an industry-recognized SMM certificate from Brandstory Academy, validating your skills and commitment to professional growth. Our social media marketing accreditation helps enhance your resume, strengthens your credibility with employers.</p>
+                    <p>This career-boosting certification is aligned with global best practices, making it valuable whether you aim to work in agencies, corporate teams, or freelance as an independent strategist.</p>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="curicullmn-coursepage spb-100">
+    <div class="container">
+        <h2 class="text-center">
+            Comprehensive Social Media Marketing 
+            <span class="text-violet">Course Curriculum</span>
+        </h2>
+
+        <p class="frame-1100 text-center mt-5">
+            At <b>Brandstory Academy</b>, our <b>Comprehensive Social Media Marketing (SMM) Course Curriculum</b> is designed to equip learners in <b>Bangalore and across India</b> with industry-ready skills. This in-depth SMM training blends strategy, creativity, analytics, and paid advertising to prepare students for real-world marketing challenges.
+        </p>
+
+        <p class="frame-1100 text-center mb-2 mt-2">
+            Our <b>social media marketing syllabus</b> focuses on practical learning, live projects, agency tools, and real brand case studies. By the end of the course, learners gain the confidence to plan, execute, analyze, and scale social media campaigns across multiple platforms.
+        </p>
+
+        <div class="curriculum-grid">
+
+            <!-- LEFT COLUMN -->
+            <div class="grup-col">
+
+                <!-- Module 1 -->
+                <div class="curr-item">
+                    <button class="curr-header" aria-expanded="false">
+                        <span>Core Social Media Platforms Mastery</span>
+                        <svg class="chev" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="curr-content">
+                        <p>This module focuses on mastering the most important social media platforms used by brands today. Students receive hands-on training in <b>platform-specific strategies</b> to understand how each channel works and how to use it effectively for marketing goals.</p>
+                        <ul>
+                            <li>Facebook Marketing: Page optimization, organic reach & community building</li>
+                            <li>Instagram Marketing: Reels strategy, Stories, hashtags & visual branding</li>
+                            <li>LinkedIn Marketing: Personal branding & B2B lead generation</li>
+                            <li>Twitter (X) Marketing: Trend marketing & audience engagement</li>
+                            <li>YouTube Marketing: Channel optimization & video SEO</li>
+                            <li>Pinterest Marketing: Pins strategy & traffic generation</li>
+                            <li>Platform-specific algorithms & best practices</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 3 -->
+                <div class="curr-item">
+                    <button class="curr-header" aria-expanded="false">
+                        <span>Content Creation & Curation for Social Media</span>
+                        <svg class="chev" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="curr-content">
+                        <p>
+                            Content is the backbone of social media success. This module teaches students how to create, curate, and manage high-performing content across platforms.
+                        </p>
+                        <p>
+                            Students learn:
+                        </p>
+                        <ul>
+                            <li>Social media copywriting techniques</li>
+                            <li>Visual content creation using design tools</li>
+                            <li>Video marketing for Reels, Shorts & Stories</li>
+                            <li>Brand storytelling frameworks</li>
+                            <li>Content curation strategies</li>
+                            <li>Content calendar planning & automation tools</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 5 -->
+                <div class="curr-item">
+                    <button class="curr-header" aria-expanded="false">
+                        <span>Paid Social Media Advertising</span>
+                        <svg class="chev" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="curr-content">
+                        <p>This advanced module focuses on performance marketing on social media, preparing students for high-demand paid advertising roles.</p>
+                        <p>Topics covered include:</p>
+                        <ul>
+                            <li>Meta Ads (Facebook & Instagram Ads) setup</li>
+                            <li>Campaign objectives & funnel-based advertising</li>
+                            <li>Audience targeting, retargeting & lookalike audiences</li>
+                            <li>Budget planning & ad scaling strategies</li>
+                            <li>Influencer marketing campaigns</li>
+                            <li>Google Ads basics & social integration</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="grup-col">
+
+                <!-- Module 2 -->
+                <div class="curr-item">
+                    <button class="curr-header" aria-expanded="false">
+                        <span>Social Media Strategy & Planning</span>
+                        <svg class="chev" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="curr-content">
+                        <p>A successful campaign starts with a strong strategy. In this module, students learn social media strategy development from scratch, aligning business goals with digital marketing outcomes.</p>
+                        <p>Key learning areas include:</p>
+                        <ul>
+                            <li>Audience research & buyer persona creation</li>
+                            <li>SMART goal setting for campaigns</li>
+                            <li>End-to-end social media campaign planning</li>
+                            <li>Content calendar creation & scheduling</li>
+                            <li>Competitor analysis & benchmarking</li>
+                            <li>Platform selection based on business goals</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Module 4 -->
+                <div class="curr-item">
+                    <button class="curr-header" aria-expanded="false">
+                        <span>Social Media Analytics & Reporting Fundamentals</span>
+                        <svg class="chev" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="curr-content">
+                        <p>Data-driven decision-making is critical in modern SMM roles. This module introduces students to social media analytics tools and reporting techniques.</p>
+                        <p>Learners will understand:</p>
+                        <ul>
+                            <li>Key performance metrics: reach, engagement, CTR & conversions</li>
+                            <li>ROI tracking for social media campaigns</li>
+                            <li>Native platform analytics dashboards</li>
+                            <li>Campaign performance analysis</li>
+                            <li>Optimization using data insights</li>
+                            <li>Client-ready reporting formats</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- <section class="sp-100">
         <div class="container">
             <h2 class="mb-3 text-lg-start text-center">About <span class="text-violet">BrandStory Academy</span> </h2>
             <div class="row align-items-center">
@@ -56,8 +244,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="spb-100 why-enroll-coursepage">
+    </section> -->
+    <!-- <section class="spb-100 why-enroll-coursepage">
         <div class="container">
             <h2 class="mb-3 text-lg-center text-center frame-700">Why Enroll in BrandStory Academy for
                 <span class="text-violet ">SEO Course in Bangalore?</span>
@@ -119,8 +307,8 @@
             </div>
 
         </div>
-    </section>
-    <section class="placement-coursepage">
+    </section> -->
+    <!-- <section class="placement-coursepage">
         <div class="container">
             <h2 class="text-center">Placement Opportunity & <span class="text-violet">Support</span></h2>
             <div class="mt-5">
@@ -146,378 +334,16 @@
             </div>
         </div>
 
-    </section>
-    <section class="journy-couresepage sp-100">
+    </section> -->
+    <!-- <section class="journy-couresepage sp-100">
         <div class="container">
             <h2 class="text-center frame-700">Map Your Journey from Beginner to <span class="text-violet">Successful
                     Marketer </span></h2>
             <img src="{{ asset('frontend/assets/images/courses/journy.webp') }}" class="img-fluid mt-5"
                 alt="Your SEO Learning Journey at BrandStory Academy" />
         </div>
-    </section>
-    <section class="curicullmn-coursepage spb-100">
-        <div class="container">
-            <h2 class="text-center">All-inclusive SEO Course <span class="text-violet">Syllabus</span></h2>
-            <p class="frame-1100 text-center">
-                Our full-suite SEO course in Bangalore includes <b>13+ expertly designed modules</b> to make you an
-                industry-ready professional. <b>“Full-suite”</b> means we start from the fundamentals to the advanced
-                strategies of search engine optimization.
-            </p>
-
-            <div class="curriculum-grid">
-                <div class="grup-col">
-                    <!-- Item 1 -->
-                    <div class="curr-item">
-                        <button class="curr-header" aria-expanded="false">
-                            <span>Introduction to SEO & Search Engines</span>
-                            <svg class="chev" viewBox="0 0 24 24">
-                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <div class="curr-content">
-                            <ul>
-                                <li>What is SEO and Why It Matters</li>
-                                <li>Search Engines Crawling, Indexing, and Ranking</li>
-                                <li>Understanding SERPs and Search Intent</li>
-                                <li>SEO Terminology and Concepts</li>
-                                <li>Difference Between On-Page, Off-Page, and Technical SEO</li>
-                                <li>How Algorithms Influence Search Rankings</li>
-                                <li>User Experience and Site Performance</li>
-                                <li>White Hat & Black Hat SEO Practices</li>
-                                <li>Evolution of SEO and Future Trends</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Item 2 -->
-                    <div class="curr-item">
-                        <button class="curr-header" aria-expanded="false">
-                            <span>Keyword Research & Analysis</span>
-                            <svg class="chev" viewBox="0 0 24 24">
-                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <div class="curr-content">
-                            <ul>
-                                <li>Introduction to Keyword Research</li>
-                                <li>Understanding Search Intent & User Behavior</li>
-                                <li>Keyword Types: Short-Tail, Long-Tail, and LSI</li>
-                                <li>Keyword Research Tools (Google Keyword Planner, Ahrefs, SEMrush, etc.)</li>
-                                <li>Keyword Difficulty, Volume, and Competition</li>
-                                <li>Content Gaps and Keyword Opportunity</li>
-                                <li>Competitor Keyword Analysis Techniques</li>
-                                <li>Mapping Keywords to Website Pages</li>
-                                <li>Creating a Keyword Strategy for Better ROI</li>
-                                <li>Tracking Keyword Performance and Refining Strategy</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Item 3 -->
-                    <div class="curr-item">
-                        <button class="curr-header" aria-expanded="false">
-                            <span>On-Page Optimization</span>
-                            <svg class="chev" viewBox="0 0 24 24">
-                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <div class="curr-content">
-                            <ul>
-                                <li>Introduction to On-Page SEO and Its Role</li>
-                                <li>Title Tags, Meta Descriptions, and Header Tags</li>
-                                <li>Practices for Keyword Placement and Density</li>
-                                <li>Image Optimization (Alt Text, File Names, Compression)</li>
-                                <li>Creating SEO-Friendly URLs and Internal Linking</li>
-                                <li>Improving Content Readability and Structure</li>
-                                <li>Enhancing Page Speed and Core Web Vitals</li>
-                                <li>Mobile-Friendliness and Responsive Design</li>
-                                <li>Schema Markup and Rich Snippets Implementation</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Item 4 -->
-                    <div class="curr-item">
-                        <button class="curr-header" aria-expanded="false">
-                            <span>Technical SEO</span>
-                            <svg class="chev" viewBox="0 0 24 24">
-                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <div class="curr-content">
-                            <ul>
-                                <li>Introduction to Technical SEO</li>
-                                <li>How Search Engines Crawl & Index Websites</li>
-                                <li>XML Sitemaps and Robots.txt Configuration</li>
-                                <li>Fixing Crawl Errors and Broken Links</li>
-                                <li>Implementing HTTPS Secure Protocols</li>
-                                <li>Improving Site Speed and Core Web Vitals</li>
-                                <li>Mobile-First Indexing & Responsive Design</li>
-                                <li>Canonical Tags & Duplicate Content Management</li>
-                                <li>Structured Data and Schema Markup Setup</li>
-                                <li>Performing Technical SEO Audits</li>
-                                <li>Technical SEO Tools</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Item 5 -->
-                    <div class="curr-item">
-                        <button class="curr-header" aria-expanded="false">
-                            <span>Off-Page SEO & Link Building</span>
-                            <svg class="chev" viewBox="0 0 24 24">
-                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <div class="curr-content">
-                            <ul>
-                                <li>Off-Page SEO and Its Role in Ranking</li>
-                                <li>Backlinks and Domain Authority</li>
-                                <li>Types of Backlinks: Dofollow, Nofollow, and Sponsored</li>
-                                <li>Strategies for High-Quality Link Building</li>
-                                <li>Guest Posting, Outreach, and Blogger Collaboration</li>
-                                <li>Social Bookmarking and Directory Submissions</li>
-                                <li>Using PR and Influencer Outreach</li>
-                                <li>Competitor Backlink Analysis with SEO Tools</li>
-                                <li>Avoiding Toxic Links and Google Penalties</li>
-                                <li>Tracking Backlink Performance and DA Growth</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Item 6 -->
-                    <div class="curr-item">
-                        <button class="curr-header" aria-expanded="false">
-                            <span>Local SEO & Google Business Profile</span>
-                            <svg class="chev" viewBox="0 0 24 24">
-                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <div class="curr-content">
-                            <ul>
-                                <li>Local SEO and Its Business Benefits</li>
-                                <li>Set Up & Optimizing Your Google Business Profile</li>
-                                <li>Importance of Name, Address, Phone Consistency</li>
-                                <li>Localized Content for Better Visibility</li>
-                                <li>Managing Reviews & Building Online Reputation</li>
-                                <li>Local Keyword Research & Optimization</li>
-                                <li>Building Local Citations and Directory Listings</li>
-                                <li>Adding Photos, Posts, and Offers to GBP</li>
-                                <li>Tracking Local Rankings & Performance Metrics</li>
-                                <li>Running Local Ads & Leveraging GBP Insights</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Item 7 -->
-                    <div class="curr-item">
-                        <button class="curr-header" aria-expanded="false">
-                            <span>Mobile SEO Optimization</span>
-                            <svg class="chev" viewBox="0 0 24 24">
-                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <div class="curr-content">
-                            <ul>
-                                <li>Introduction to Mobile SEO and Its Importance</li>
-                                <li>Understanding Mobile-First Indexing</li>
-                                <li>Responsive Web Design Best Practices</li>
-                                <li>Optimizing Page Speed for Mobile</li>
-                                <li>Mobile-Friendly Navigation and UX Enhancements</li>
-                                <li>AMP (Accelerated Mobile Pages) Implementation</li>
-                                <li>Images, Fonts, and Media for Mobile Devices</li>
-                                <li>Ensuring Proper Indexing of Mobile Versions</li>
-                                <li>Testing with Google’s Mobile-Friendly Test Tool</li>
-                                <li>Tracking Mobile SEO Performance and Analytics</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="grup-col">
-                    <!-- Item 8 -->
-                    <div class="curr-item">
-                        <button class="curr-header" aria-expanded="false">
-                            <span>SEO Tools & Analytics</span>
-                            <svg class="chev" viewBox="0 0 24 24">
-                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <div class="curr-content">
-                            <ul>
-                                <li>SEO Tools and Their Role in Optimization</li>
-                                <li>Google Analytics, Search Console, Ahrefs, and SEMrush</li>
-                                <li>Keyword Research Tools for Data-Driven Insights</li>
-                                <li>Competitor and Backlink Analysis Tools</li>
-                                <li>Website Audit Tools for Technical SEO</li>
-                                <li>Rank Tracking & Keyword Performance Monitoring</li>
-                                <li>Measuring Organic Traffic, CTR, & Bounce Rate</li>
-                                <li>Set Up Goals and Conversion Tracking</li>
-                                <li>Reporting & Visualizing SEO Data for Clients</li>
-                                <li>Tools for Comprehensive SEO Insights</li>
-                            </ul>
-                        </div>
-                    </div>
-
-
-                    <!-- Item 9 -->
-                    <div class="curr-item">
-                        <button class="curr-header" aria-expanded="false">
-                            <span>Competitor & Website SEO Audit</span>
-                            <svg class="chev" viewBox="0 0 24 24">
-                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <div class="curr-content">
-                            <ul>
-                                <li>Introduction to SEO Audit & Its Importance</li>
-                                <li>Identifying and Analyzing Key Competitors</li>
-                                <li>Competitor Keywords, Backlinks, & Content Strategies</li>
-                                <li>Performing Comprehensive On-Page and Off-Page Audits</li>
-                                <li>Assessing Technical SEO Health (Speed, Indexing, Mobile, etc.)</li>
-                                <li>Checking Domain Authority, Trust Flow, and Site Structure</li>
-                                <li>Identifying Content Gaps and Opportunities</li>
-                                <li>SEMrush, Ahrefs, and Screaming Frog for Website Audits</li>
-                                <li>Creating Audit Reports with Actionable Insights</li>
-                                <li>Implementing Audit Findings to Improve Overall SEO</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Item 10 -->
-                    <div class="curr-item">
-                        <button class="curr-header" aria-expanded="false">
-                            <span>Voice Search Optimization</span>
-                            <svg class="chev" viewBox="0 0 24 24">
-                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <div class="curr-content">
-                            <ul>
-                                <li>Introduction to Voice Search & Its Growth</li>
-                                <li>How Voice Assistants Work (Google Assistant, Siri, Alexa)</li>
-                                <li>Understanding Voice Search Algorithms</li>
-                                <li>Difference Between Text and Voice Queries</li>
-                                <li>Optimizing for Conversational Keywords</li>
-                                <li>Keyword Strategy for Voice Search</li>
-                                <li>Content for Question-Based Searches</li>
-                                <li>Role of Featured Snippets in Voice SEO</li>
-                                <li>Using Schema Markup for Voice Optimization</li>
-                                <li>Mobile Optimization for Voice Search</li>
-                                <li>Local SEO & “Near Me” Voice Queries</li>
-                                <li>Page Speed & Technical Factors for Voice SEO</li>
-                                <li>Creating FAQ and Conversational Content</li>
-                                <li>Measuring Voice Search Performance</li>
-                                <li>Future Trends in Voice Search & AI Integration</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Item 11 -->
-                    <div class="curr-item">
-                        <button class="curr-header" aria-expanded="false">
-                            <span>AI SEO</span>
-                            <svg class="chev" viewBox="0 0 24 24">
-                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <div class="curr-content">
-                            <ul>
-                                <li>Introduction to AI in SEO</li>
-                                <li>Role of AI in Google Algorithms (RankBrain, BERT, Gemini)</li>
-                                <li>Using AI for Keyword Research & Clustering</li>
-                                <li>Content Generation with AI Tools</li>
-                                <li>Optimizing Content with NLP (Natural Language Processing)</li>
-                                <li>AI-Powered On-Page Optimization</li>
-                                <li>Predictive SEO & Trend Forecasting</li>
-                                <li>Automating Meta Tags and Descriptions with AI</li>
-                                <li>AI Tools for Competitor Analysis</li>
-                                <li>Image & Voice Search Optimization with AI</li>
-                                <li>Using ChatGPT & Gemini for SEO Strategy</li>
-                                <li>Data Analysis & Reporting with AI Tools</li>
-                                <li>Ethical Use of AI in SEO</li>
-                                <li>Future of AI-Driven SEO Strategies</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Item 12 -->
-                    <div class="curr-item">
-                        <button class="curr-header" aria-expanded="false">
-                            <span>E-commerce SEO</span>
-                            <svg class="chev" viewBox="0 0 24 24">
-                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <div class="curr-content">
-                            <ul>
-                                <li>Introduction to E-commerce SEO</li>
-                                <li>E-commerce Search Intent</li>
-                                <li>Keyword Research for Product & Category Pages</li>
-                                <li>On-Page Optimization for Product Listings</li>
-                                <li>Optimizing Product Titles, Descriptions & Meta Tags</li>
-                                <li>Structured Data & Schema for E-commerce Sites</li>
-                                <li>Image Optimization for Online Stores</li>
-                                <li>Technical SEO for E-commerce Platforms</li>
-                                <li>URL Structure & Internal Linking Best Practices</li>
-                                <li>Handling Duplicate Content & Canonical Tags</li>
-                                <li>Mobile Optimization for E-commerce</li>
-                                <li>User Experience (UX) & Conversion Optimization</li>
-                                <li>Link Building for E-commerce Websites</li>
-                                <li>Product Reviews & Rich Snippets Optimization</li>
-                                <li>Measuring Performance with Google Analytics</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Item 13 -->
-                    <div class="curr-item">
-                        <button class="curr-header" aria-expanded="false">
-                            <span>Reporting & Performance Tracking</span>
-                            <svg class="chev" viewBox="0 0 24 24">
-                                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <div class="curr-content">
-                            <ul>
-                                <li>Introduction to SEO Reporting</li>
-                                <li>Performance Report on Google Analytics 4</li>
-                                <li>Key SEO Metrics (Clicks, CTR, Impressions, Position)</li>
-                                <li>Traffic Source Analysis</li>
-                                <li>Keyword Ranking Reports</li>
-                                <li>Landing Page Performance Tracking</li>
-                                <li>Conversion Tracking & Goal Setup</li>
-                                <li>Creating Custom Dashboards</li>
-                                <li>Competitor Performance Comparison</li>
-                                <li>Bounce Rate & User Behavior Analysis</li>
-                                <li>Measuring ROI of SEO Campaigns</li>
-                                <li>Monthly & Weekly Report Structuring</li>
-                                <li>Automated Reporting Tools Overview</li>
-                                <li>Interpreting Data for Strategic Decisions</li>
-                                <li>Insights to Clients & Stakeholders</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Continue same structure for all remaining items -->
-                <!-- LinkedIn, Twitter, Pinterest, WhatsApp, Performance, YouTube, Canva, Blogging, Video Editing, Influencer, Affiliate, Meta Ads, AdSense, Email, Content, Advanced Tools, Tag Manager, CRO, E-commerce, Sales Funnel, Microsoft Clarity -->
-            </div>
-        </div>
-    </section>
-    <section class="Benefit-coursepage">
+    </section> -->
+    <!-- <section class="Benefit-coursepage">
         <div class="container">
             <h2 class="frame-800 text-center">Who Can Benefit from Our SEO Course in <span
                     class="text-violet">Bangalore?</span></h2>
@@ -532,7 +358,6 @@
                 by renowned SEO professionals.
             </p>
 
-            <!-- Swiper CSS -->
 
 
             <section class="user-type-section">
@@ -540,7 +365,6 @@
                     <div class="swiper user-type-slider">
                         <div class="swiper-wrapper">
 
-                            <!-- Slide 1 -->
                             <div class="swiper-slide">
                                 <div class="user-card">
                                     <div class="imgbox">
@@ -552,7 +376,6 @@
                                 </div>
                             </div>
 
-                            <!-- Slide 2 -->
                             <div class="swiper-slide">
                                 <div class="user-card">
                                     <div class="imgbox">
@@ -564,7 +387,6 @@
                                 </div>
                             </div>
 
-                            <!-- Slide 3 -->
                             <div class="swiper-slide">
                                 <div class="user-card">
                                     <div class="imgbox">
@@ -642,12 +464,11 @@
                 </div>
             </section>
 
-            <!-- Swiper JS -->
 
 
         </div>
-    </section>
-    <section class="Costs-coursepage">
+    </section> -->
+    <!-- <section class="Costs-coursepage">
         <div class="container">
             <h2 class="text-center mb-4 frame-800">Professional SEO Training in Bangalore at <span
                     class="text-violet">Affordable Costs</span></h2>
@@ -752,8 +573,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="Certified-coursepage sp-100">
+    </section> -->
+    <!-- <section class="Certified-coursepage sp-100">
 
         <div class="container">
             <h2 class="text-center frame mb-4">From Fresher to Experienced Professional Get
@@ -775,8 +596,8 @@
             </div>
 
         </div>
-    </section>
-    <section class="Tools-coursepage">
+    </section> -->
+    <!-- <section class="Tools-coursepage">
         <div class="container">
             <h2 class="text-center mb-4 frame">Earn Certificates for Latest <span class="text-violet">Industry-oriented
                     Tools</span></h2>
@@ -802,10 +623,10 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
 
-    <section class="sp-100 Marketing-Tools-coursepage">
+    <!-- <section class="sp-100 Marketing-Tools-coursepage">
         <div class="container">
             <h2 class="text-center ">Learn Latest AI Automation & <span class="text-violet">SEO <br>Marketing
                     Tools</span></h2>
@@ -986,9 +807,9 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="spb-100 bg-lightblue1">
+    <!-- <section class="spb-100 bg-lightblue1">
         <div class="container">
             <h2 class="text-center pt-4">Our Premium Placement <span class="text-violet"><br>Partners</span></h2>
 
@@ -1040,10 +861,10 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
-    <section class="testimonial-section" id="testimony">
+    <!-- <section class="testimonial-section" id="testimony">
         <h2 class="text-center mb-4">See What Our <span class="text-violet">Alumni Say</span></h2>
         <div class="testimonial-row left-to-right">
             <div class="testimonial">
@@ -1109,8 +930,6 @@
                     Shobika Akilan
                 </div>
             </div>
-
-            <!-- duplicate for smooth infinite loop -->
             <div class="testimonial">
                 <img src="{{ asset('frontend/assets/images/quoteicon.png') }}" class="img-fluid mb-4" width="40">
                 <p>Recently had the pleasure of experiencing BrandStory Academy, and I must say, it exceeded my
@@ -1176,9 +995,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="spb-100 mbl-spt-0">
+    <!-- <section class="spb-100 mbl-spt-0">
         <div class="container">
             <h2 class="text-center db">Learning in Action- <span class="text-violet">Our Classroom</span></h2>
             <p class="max-1000 text-center my-5">
@@ -1188,7 +1007,6 @@
             </p>
 
             <div class="tab-content" id="pills-tabContent">
-                <!-- Course 1 start -->
                 <div class="tab-pane fade show active" id="pills-course1" role="tabpanel"
                     aria-labelledby="pills-course1-tab">
                     <div class="row">
@@ -1212,389 +1030,443 @@
                         </div>
                     </div>
                 </div>
-                <!-- Course 1 end -->
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <div class="pt-100">
+    <!-- <div class="pt-100">
         <x-blog-component />
+    </div> -->
+
+<!-- <section class="sp-100">
+<div class="container">
+
+    <h2 class="text-center">
+      Flexible Learning Options: Online, Classroom &
+      <span class="text-violet">Weekend SMM Classes</span>
+    </h2>
+
+    <p class="frame-900 text-center mt-5">
+      At Brandstory Academy, we understand that every learner has a unique schedule, learning style, and career goal. That’s why our Social Media Marketing (SMM) course in Bangalore is offered through multiple flexible learning modes—online, classroom, and weekend classes. These flexible SMM programs are designed to support students, working professionals, entrepreneurs, and freelancers across Bangalore and India, without compromising on quality or outcomes.
+    </p>
+
+    <p class="frame-900 text-center mt-2">
+      Whether you prefer learning from home, engaging in face-to-face classroom sessions, or upskilling on weekends, Brandstory Academy provides a hybrid SMM course structure that ensures consistent curriculum, expert mentorship, hands-on projects, and industry-recognized certification across all formats.
+    </p>
+
+    <div class="row mt-5 g-4">
+        <div class="col-lg-7 ">
+            <div class="ratio ratio-21x9 mb-3">
+                <img 
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1415&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="img-fluid rounded-4 object-fit-cover"
+                alt="Online SMM Course">
+            </div>
+            <h4><span class="text-violet">Online</span> Social Media Marketing Course with Certification</h4>
+            <p>
+              Our online SMM course in Bangalore with certification is ideal for learners who want flexibility without sacrificing depth or interaction. Delivered through a robust virtual learning platform, this program combines live instructor-led sessions with recorded modules for self-paced revision.
+            </p>
+        </div>
+        <div class="col-lg-5">
+            <h5>Key features of our online SMM training include:</h5>
+            <ul class="mt-3">
+                <li><p>Live interactive virtual SMM classes with industry experts</p></li>
+                <li><p>Access to recorded sessions for lifetime learning</p></li>
+                <li><p>Real-time doubt-clearing and mentorship support</p></li>
+                <li><p>Hands-on assignments, live projects, and case studies</p></li>
+                <li><p>Online assessments and project-based evaluations</p></li>
+                <li><p>Industry-recognized certification from Brandstory Academy</p></li>
+            </ul>
+            <p>
+              This mode is perfect for remote learners, outstation students, and professionals seeking flexible online learning in social media marketing.
+            </p>
+        </div>
     </div>
-    <section class="sp-100 ">
-        <div class="container">
-            <h2 class="mb-lg-5 mb-4 text-center">Course Related FAQs</h2>
-            <div class="row gx-md-3">
-                <div class="col-lg-6">
-                    <div class="faq-main mb-lg-0 mb-4">
-                        <div class="faq-head">
-                            <p class="text-violet mb-0 fw-500 fs-16">Course/Content</p>
-                        </div>
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                        aria-controls="flush-collapseOne">
-                                        Why Do Businesses Need SEO Today?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">In today’s digital-first world, visibility is everything. SEO
-                                            helps businesses
-                                            appear on top of search results, attract the right audience, and build trust
-                                            with potential customers.
-                                            Unlike paid ads, SEO drives long-term growth through organic reach, making it
-                                            one of the most cost-effective
-                                            and sustainable marketing strategies. Businesses that invest in SEO gain a
-                                            strong competitive advantage in their
-                                            industry.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                        aria-controls="flush-collapseTwo">
-                                        Is Coding Knowledge Necessary for Learning SEO?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <ul class="mb-0">
-                                            <p class="mb-0 fs-16">No, coding is not mandatory to master SEO. While a basic
-                                                understanding of website structure and HTML tags can help, SEO is more about
-                                                strategy,
-                                                creativity, content, and data interpretation. Our instructors guide you
-                                                step-by-step,
-                                                ensuring you understand both the technical and non-technical aspects with
-                                                ease.
-                                            </p>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                        aria-controls="flush-collapseThree">
-                                        Can I Take The SEO Course Online?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Yes, BrandStory Academy offers both online and classroom
-                                            learning options.
-                                            The online sessions are live and interactive, allowing you to engage directly
-                                            with mentors,
-                                            ask questions in real-time, and participate in practical exercises- just like in
-                                            a classroom setup.
-                                            You can choose the format that best suits your schedule and learning
-                                            preferences.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingfour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapsefour" aria-expanded="false"
-                                        aria-controls="flush-collapsefour">
-                                        Why Should I Choose BrandStory Academy for SEO Training?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapsefour" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">At BrandStory Academy, we focus on job-oriented and practical
-                                            learning.
-                                            Our trainers are industry professionals who share real-world insights, case
-                                            studies, and proven
-                                            strategies. You’ll gain hands-on experience through live projects, performance
-                                            tracking, and exposure
-                                            to premium tools- ensuring you graduate not just with knowledge, but with the
-                                            skills employers truly
-                                            value.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingfive">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapsefive" aria-expanded="false"
-                                        aria-controls="flush-collapsefive">
-                                        What Topics are Covered in The SEO Course?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapsefive" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">The course includes On-page SEO, Off-page SEO, Technical SEO,
-                                            Keyword Research,
-                                            Local SEO, Mobile SEO, Voice SEO, E-commerce SEO, and SEO Reporting.</p>
-                                    </div>
-                                </div>
-                            </div>
+    <div class="row g-4">
+        <div class="col-lg-5">
+            <h5>Highlights of our classroom-based SMM course:</h5>
+            <ul class="mt-3 ">
+                <li><p>Small batch sizes for personalized attention</p></li>
+                <li><p>Live demonstrations and practical lab sessions</p></li>
+                <li><p>Direct interaction with trainers and mentors</p></li>
+                <li><p>Collaborative learning through group activities</p></li>
+                <li><p>Access to campus facilities and learning resources</p></li>
+                <li><p>Real-world case studies and agency-style workflows</p></li>
+            </ul>
+            <p>
+              This in-person SMM course in Bangalore is ideal for students and fresh graduates who value structured learning and hands-on classroom exposure.
+            </p>
+        </div>
+        <div class="col-lg-7 ">
+            <div class="ratio ratio-21x9 mb-3">
+                <img 
+                src="https://images.unsplash.com/photo-1557838923-2985c318be48?q=80&w=2662&auto=format&fit=crop"
+                class="img-fluid rounded-4 object-fit-cover"
+                alt="Classroom SMM Training">
+            </div>
+            <h4><span class="text-violet">Interactive Classroom</span> SMM Training in Bangalore</h4>
+            <p>
+              For learners who thrive in face-to-face environments, our classroom SMM training in Bangalore offers an immersive, interactive learning experience. Conducted at our well-equipped training center, this format emphasizes direct instructor interaction, practical exposure, and peer collaboration.
+            </p>
+        </div>
+    </div>
+    <p class="frame-900 text-center mt-2">
+      With Brandstory Academy’s flexible learning options, you can choose the format that best fits your lifestyle while gaining in-demand social media marketing skills, expert mentorship, and a recognized certification-making you industry-ready in today’s competitive digital landscape.
+    </p>
+</div>
+</section> -->
 
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingseven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseseven" aria-expanded="false"
-                                        aria-controls="flush-collapseseven">
-                                        I’m a Working Professional. Can I Get Flexible Learning Hours?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseseven" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingseven" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Yes, BrandStory Academy provides flexible batch timings and
-                                            online
-                                            options to ensure working professionals can learn conveniently.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingeight">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseeight" aria-expanded="false"
-                                        aria-controls="flush-collapseeight">
-                                        Do I Get Future Assistance after Completing The Course?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseeight" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingeight" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Yes! At BrandStory Academy, we provide ongoing support even
-                                            after you complete
-                                            your course. Our team offers career guidance, mentorship, and access to updated
-                                            resources to help
-                                            you stay ahead in the ever-changing digital marketing industry.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+<section class="dm-course-section spb-100">
+    <div class="container">
+        <div class="row">
+        <div class="col-12 col-lg-5">
+            <h2>
+                Flexible Learning Options: Online, Classroom &
+                <span class="text-violet">Weekend SMM Classes</span>
+            </h2>
+        </div>
+        <div class="col-12 col-lg-7">
+                <p>
+                    At Brandstory Academy, we understand that every learner has a unique schedule, learning style, and career goal. That's why our Social Media Marketing (SMM) course in Bangalore is offered through multiple flexible learning modes—online, classroom, and weekend classes. These flexible SMM programs are designed to support students, working professionals, entrepreneurs, and freelancers across Bangalore and India, without compromising on quality or outcomes.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="dm-course-main mt-5">
+            <ul class="nav nav-pills mb-md-5 mb-4 d-flex justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-course1-tab" data-bs-toggle="pill" data-bs-target="#pills-course1" type="button" role="tab" aria-controls="pills-course1" aria-selected="true">Online Classroom</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-course2-tab" data-bs-toggle="pill" data-bs-target="#pills-course2" type="button" role="tab" aria-controls="pills-course2" aria-selected="false">Interactive Classroom</button>
+                </li>
+            </ul>
+            <div class="row h-100">
+                <div class="col-lg-6 d-flex">
+                    <img class="w-100 rounded-4 d-lg-block d-none object-fit-cover" src="{{asset('frontend/assets/images/about/abouttab.jpg')}}">
+                    <img class="w-100 rounded-4 d-lg-none d-block mb-3" src="{{asset('frontend/assets/images/about/abouttab-mbl.jpg')}}">
                 </div>
-                <div class="col-lg-6">
-                    <div class="faq-main mb-lg-3 mb-4">
-                        <div class="faq-head">
-                            <p class="text-violet mb-0 fw-500 fs-16">Job/clarification/Certification</p>
-                        </div>
-                        <div class="accordion accordion-flush" id="accordionFlushExample1">
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingnine">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapsenine" aria-expanded="false"
-                                        aria-controls="flush-collapsenine">
-                                        What Certifications Will I Receive After The Course?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapsenine" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingnine" data-bs-parent="#accordionFlushExample1">
-                                    <div class="accordion-body">
-                                        <ul class="mb-0">
-                                            <p class="mb-0 fs-16">After successfully completing the program, you will
-                                                receive an industry-recognized
-                                                BrandStory Academy SEO Certification. In addition, we guide you to earn free
-                                                and valuable certifications
-                                                from Google, HubSpot, and Semrush, which further strengthen your
-                                                professional portfolio and credibility
-                                                in the job market.
-                                            </p>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingten">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseten" aria-expanded="false"
-                                        aria-controls="flush-collapseten">
-                                        Does BrandStory Academy Provide Placement Assistance?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseten" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingten" data-bs-parent="#accordionFlushExample1">
-                                    <div class="accordion-body">
-                                        <ul class="mb-0">
-                                            <p class="mb-0 fs-16">Absolutely, we provide dedicated <b>100% placement
-                                                    assistance</b> to help
-                                                students transition smoothly into the industry. From resume-building and
-                                                mock interviews
-                                                to connecting you with hiring partners and agencies, our team ensures you’re
-                                                ready to take
-                                                on real-world roles in digital marketing. We have <b>1000+ dedicated
-                                                    placement partners</b> to help
-                                                you land a good job just after completing the course and internship.
-                                            </p>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingten">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseten" aria-expanded="false"
-                                        aria-controls="flush-collapseten">
-                                        What Job Roles Can I Expect after Completing The SEO Course?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseten" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingten" data-bs-parent="#accordionFlushExample1">
-                                    <div class="accordion-body">
-                                        <ul class="mb-0">
-                                            <p class="mb-0 fs-16">After completing the course, you can explore diverse
-                                                roles such as
-                                                SEO Executive, Digital Marketing Analyst, Content Strategist, SEO
-                                                Copywriter, or SEO Manager.
-                                                With experience, you can also progress into specialized roles like Technical
-                                                SEO Specialist,
-                                                SEO Consultant, or Digital Marketing Lead. The <b>demand for SEO
-                                                    professionals is growing</b> rapidly
-                                                across all industries.
-                                            </p>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingten">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseten" aria-expanded="false"
-                                        aria-controls="flush-collapseten">
-                                        What’s The Average Salary for an SEO Professional in India?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseten" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingten" data-bs-parent="#accordionFlushExample1">
-                                    <div class="accordion-body">
-                                        <ul class="mb-0">
-                                            <p class="mb-0 fs-16">Salaries in SEO depend on experience, skills, and
-                                                performance. Beginners can
-                                                expect a starting package of <b>₹2.5 LPA to ₹6.5 LPA</b>, while experienced
-                                                professionals can earn
-                                                anywhere from ₹8 LPA to ₹15 LPA or even higher in managerial roles. With
-                                                experience and continuous
-                                                learning, SEO professionals can build a highly rewarding career in digital
-                                                marketing.</p>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingeleven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseeleven" aria-expanded="false"
-                                        aria-controls="flush-collapseeleven">
-                                        Is SEO Still a Good Career Choice in 2025?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseeleven" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingeleven" data-bs-parent="#accordionFlushExample1">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Definitely, as businesses increasingly shift online, SEO
-                                            remains one of the most sought-after
-                                            digital marketing skills. Companies across industries are actively looking for
-                                            SEO experts who can help them
-                                            grow visibility, generate leads, and outperform competitors. It’s a career that
-                                            combines creativity, strategy,
-                                            and analytics- and offers tremendous growth opportunities.
-                                        </p>
-                                    </div>
-                                </div>
+                <div class="col-lg-6 d-flex">
+                    <div class="tab-content w-100" id="pills-tabContent">
+                        <!-- Course 1 start -->
+                        <div class="tab-pane fade show active" id="pills-course1" role="tabpanel" aria-labelledby="pills-course1-tab">
+                            <div class="abouttab-main">
+                                <h4 class="text-violet mb-3">Online Social Media Marketing Course with Certification</h4>
+                                <p>Our online SMM course in Bangalore with certification is ideal for learners who want flexibility without sacrificing depth or interaction. Delivered through a robust virtual learning platform, this program combines live instructor-led sessions with recorded modules for self-paced revision.</p>
+                                <b>Key features of our online SMM training include:</b>
+                                <ul class="mt-2">
+                                    <li>Live interactive virtual SMM classes with industry experts</li>
+                                    <li>Access to recorded sessions for lifetime learning</li>
+                                    <li>Real-time doubt-clearing and mentorship support</li>
+                                    <li>Hands-on assignments, live projects, and case studies</li>
+                                    <li>Online assessments and project-based evaluations</li>
+                                    <li>Industry-recognized certification from Brandstory Academy</li>
+                                </ul>
                             </div>
                         </div>
-                    </div>
+                        <!-- Course 1 End -->
 
-
-                    <div class="faq-main">
-                        <div class="faq-head">
-                            <p class="text-violet mb-0 fw-500 fs-16">Fee/payments</p>
-                        </div>
-                        <div class="accordion accordion-flush" id="accordionFlushExample2">
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingtwelve">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapsetwelve" aria-expanded="false"
-                                        aria-controls="flush-collapsetwelve">
-                                        What Payment Methods are Available in Your Academy?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapsetwelve" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingtwelve" data-bs-parent="#accordionFlushExample2">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">At BrandStory Academy, we accept various payment methods for
-                                            your convenience, including UPI (Google Pay, PhonePe, Paytm, and more), cash,
-                                            credit cards, and net banking.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingthirteen">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapsethirteen" aria-expanded="false"
-                                        aria-controls="flush-collapsethirteen">
-                                        Is EMI-based Fee Convenience Available in Your Digital Marketing Institute?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapsethirteen" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingthirteen" data-bs-parent="#accordionFlushExample2">
-                                    <div class="accordion-body">
-                                        <p class="mb-0">Yes, we offer EMI options to make the course more accessible. For
-                                            detailed information about course fees and EMI options, feel free to contact our
-                                            team at +91 88584 58584.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingfive">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapsefive" aria-expanded="false"
-                                        aria-controls="flush-collapsefive">
-                                        What are the timings at your digital marketing academy in Bangalore?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapsefive" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">Our digital marketing academy in Bangalore runs Monday to
-                                            Friday, from 9:30
-                                            AM to 6:00 PM. The schedule includes a 30-minute lunch break and two short
-                                            15-minute breaks for
-                                            a comfortable learning experience.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingfourteen">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapsefourteen" aria-expanded="false"
-                                        aria-controls="flush-collapsefourteen">
-                                        What is The Course Fees for SEO Course in Bangalore?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapsefourteen" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingfourteen" data-bs-parent="#accordionFlushExample2">
-                                    <div class="accordion-body">
-                                        <p class="mb-0 fs-16">The SEO Course in Bangalore at BrandStory Academy is
-                                            <b>priced at ₹30,000</b>, offering excellent value through
-                                            practical training, live projects, and placement support.</p>
-                                    </div>
-                                </div>
+                        <!-- Course 2 start -->
+                        <div class="tab-pane fade" id="pills-course2" role="tabpanel" aria-labelledby="pills-course2-tab">
+                            <div class="abouttab-main">
+                                <h4 class="text-violet mb-3">Interactive Classroom SMM Training in Bangalore</h4>
+                                <p>For learners who thrive in face-to-face environments, our classroom SMM training in Bangalore offers an immersive, interactive learning experience. Conducted at our well-equipped training center, this format emphasizes direct instructor interaction and peer collaboration.</p>
+                                <b>Highlights of our classroom-based SMM course:</b>
+                                <ul class="mt-2">
+                                    <li>Small batch sizes for personalized attention</li>
+                                    <li>Live demonstrations and practical lab sessions</li>
+                                    <li>Direct interaction with trainers and mentors</li>
+                                    <li>Collaborative learning through group activities</li>
+                                    <li>Access to campus facilities and learning resources</li>
+                                    <li>Real-world case studies and agency-style workflows</li>
+                                </ul>
+                                <p class="mb-0">This in-person SMM course in Bangalore is ideal for students and fresh graduates who value structured learning and hands-on classroom exposure.</p>
                             </div>
                         </div>
+                        <!-- Course 2 End -->
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<section class="sp-100 bg-lightblue1">
+    <div class="container">
+        <div class="row pb-4">
+            <!-- <div class="col-12 col-lg-5"> -->
+                <h2 class="text-center">
+                    Flexible Learning Options: Online,<br> Classroom &
+                    <span class="text-violet">Weekend SMM Classes</span>
+                </h2>
+            <!-- </div>
+            <div class="col-12 col-lg-7">
+                <p>
+                    At Brandstory Academy, we understand that every learner has a unique schedule, learning style, and career goal. That's why our Social Media Marketing (SMM) course in Bangalore is offered through multiple flexible learning modes—online, classroom, and weekend classes. These flexible SMM programs are designed to support students, working professionals, entrepreneurs, and freelancers across Bangalore and India, without compromising on quality or outcomes.
+                </p>
+            </div> -->
+        </div>
+
+        <div class="row gx-md-3">
+
+            <!-- LEFT COLUMN -->
+            <div class="col-lg-6">
+                <div class="faq-main mb-lg-0 p-3">
+                    <p>
+                        At Brandstory Academy, we understand that every learner has a unique schedule, learning style, and career goal. That's why our Social Media Marketing (SMM) course in Bangalore is offered through multiple flexible learning modes—online, classroom, and weekend classes. These flexible SMM programs are designed to support students, working professionals, entrepreneurs, and freelancers across Bangalore and India, without compromising on quality or outcomes.
+                    </p>
+                </div>
+                <div class="faq-main mb-lg-0 mt-4 mb-4">
+                    <div class="faq-head">
+                        <p class="text-violet mb-0 fw-500 fs-16">Top SMM Job Roles & Responsibilities</p>
+                    </div>
+                    <div class="col-12">
+                        <!-- <div class="ratio" style="--bs-aspect-ratio: 20%;"> 
+                            <img 
+                                src="https://plus.unsplash.com/premium_photo-1678917827802-721b5f5b4bf0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGpvYnxlbnwwfHwwfHx8MA%3D%3D" 
+                                class="img-fluid object-fit-cover" 
+                                alt="Extra Wide SMM Header">
+                        </div> -->
+                    </div>
+                    <div class="p-3">
+                        <p>
+                            After completing the Social Media Marketing course at Brandstory Academy, learners can pursue the following career roles:
+                        </p>
+                        <ul>
+                            <li><span class="text-violet">Social Media Manager:</span> Manages brand presence, content calendars, campaigns, and performance.</li>
+                            <li><span class="text-violet">SMM Executive:</span> Executes strategies, posts content, runs ads, and tracks engagement.</li>
+                            <li><span class="text-violet">Content Creator:</span> Produces reels, posts, stories, and short videos.</li>
+                            <li><span class="text-violet">Community Manager:</span> Handles audience engagement and brand reputation.</li>
+                            <li><span class="text-violet">Digital Marketing Executive:</span> Manages SMM along with SEO, email marketing, and influencer outreach.</li>
+                        </ul>
+                        <p>
+                            Ideal for freshers, career switchers, and marketing graduates.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="col-lg-6">
+                <div class="faq-main mb-lg-3 mb-4">
+                    <div class="faq-head">
+                        <p class="text-violet mb-0 fw-500 fs-16">Social Media Marketing Salary Trends in Bangalore</p>
+                    </div>
+                    <div class="p-3">
+                        <p>
+                            Salary potential in social media marketing varies based on skills, experience, and specialization.
+                            Professionals skilled in paid advertising, performance marketing, analytics, and influencer marketing
+                            often command higher packages.
+                        </p>
+                        <p>
+                            Freelancers and consultants can earn additional income through project-based work and retainers.
+                            With the right training and portfolio, social media marketing offers one of the fastest-growing
+                            salary trajectories in digital marketing.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- PLACEMENT -->
+                <div class="faq-main">
+                    <div class="faq-head">
+                        <p class="text-violet mb-0 fw-500 fs-16">Dedicated Placement Assistance & Career Support</p>
+                    </div>
+                    <div class="p-3">
+                        <p>
+                            At Brandstory Academy, we provide strong placement support to make students job-ready.
+                            Our placement assistance includes:
+                        </p>
+                        <ul>
+                            <li>Resume & portfolio building for SMM roles</li>
+                            <li>Mock interviews & interview preparation</li>
+                            <li>Career counseling & role guidance</li>
+                            <li>Internship & live project opportunities</li>
+                            <li>Access to hiring partners & alumni network</li>
+                        </ul>
+                        <p>
+                            Focused on SMM courses with placement in Bangalore for a smooth career transition.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- fAQ -->
+    <section class="sp-100 ">
+    <div class="container">
+        <h2 class="mb-lg-5 mb-4 text-center">FAQs</h2>
+
+        <div class="row gx-md-3">
+            <div class="col-lg-12">
+                <div class="faq-main mb-lg-0 mb-4">
+                    <div class="faq-head">
+                        <p class="text-violet mb-0 fw-500 fs-16">Social Media Marketing Course in Bangalore</p>
+                    </div>
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                        <!-- FAQ 1 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    What Makes Your Social Media Marketing Course in Bangalore the Best?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0 fs-16">
+                                        Brandstory Academy offers an industry-aligned Social Media Marketing curriculum
+                                        designed by professionals. The course includes hands-on projects, expert trainers,
+                                        real brand case studies, flexible learning modes, and strong career support,
+                                        making it one of the most practical SMM courses in Bangalore.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 2 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Will I Receive a Certification After Completing the SMM Course?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0 fs-16">
+                                        Yes, upon successful completion of the Social Media Marketing course, you will
+                                        receive an industry-recognized certification from Brandstory Academy, validating
+                                        your skills and practical expertise.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 3 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Are There Practical Projects Included in the SMM Training?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0 fs-16">
+                                        Yes, the Social Media Marketing course includes live projects, real-world
+                                        assignments, and industry case studies. This hands-on approach ensures learners
+                                        gain practical experience in executing and managing social media campaigns.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefour" aria-expanded="false"
+                                    aria-controls="flush-collapsefour">
+                                    What Topics Are Covered in the Social Media Marketing Course Curriculum?
+                                </button>
+                            </h4>
+                            <div id="flush-collapsefour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0 fs-16">
+                                        The curriculum covers core social media platforms, content creation, paid social
+                                        media advertising, analytics and reporting, social media strategy planning, and
+                                        the use of essential SMM tools required by agencies and brands.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingfive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefive" aria-expanded="false"
+                                    aria-controls="flush-collapsefive">
+                                    Is Content Creation for Social Media Included in the Course?
+                                </button>
+                            </h4>
+                            <div id="flush-collapsefive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0 fs-16">
+                                        Yes, content creation is a core part of the Social Media Marketing course. You
+                                        will learn copywriting, visual storytelling, video marketing, reels, shorts, and
+                                        content calendar management.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingseven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseseven" aria-expanded="false"
+                                    aria-controls="flush-collapseseven">
+                                    Do You Offer an Online Social Media Marketing Course in Bangalore?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseseven" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingseven" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0 fs-16">
+                                        Yes, Brandstory Academy offers a fully interactive online Social Media Marketing
+                                        course accessible from Bangalore and across India, with live mentor-led
+                                        sessions.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 7 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingeight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseeight" aria-expanded="false"
+                                    aria-controls="flush-collapseeight">
+                                    What Career Support Is Provided After Completing the SMM Course?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseeight" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingeight" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0 fs-16">
+                                        We provide resume preparation, interview training, career guidance, and placement
+                                        assistance. Graduates can pursue roles such as Social Media Executive, SMM
+                                        Specialist, Content Creator, or Social Media Manager.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

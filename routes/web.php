@@ -25,6 +25,7 @@ Route::get('/digital-marketing-course-in-bangalore', [WebsiteController::class, 
 Route::get('/seo-course-in-bangalore', [WebsiteController::class, 'seo_course_in_bangalore'])->name('seo_course_in_bangalore');
 Route::get('/ppc-course-in-bangalore', [WebsiteController::class, 'ppc_course_in_bangalore'])->name('ppc_course_in_bangalore');
 Route::get('/social-media-marketing', [WebsiteController::class, 'social_media_marketing'])->name('social_media_marketing');
+Route::get('/ui-ux', [WebsiteController::class, 'ui_ux'])->name('ui_ux');
 
 
 Route::get('/digital-marketing-marathahalli', [WebsiteController::class, 'digital_marketing_marathahalli'])->name('digital_marketing_marathahalli');
