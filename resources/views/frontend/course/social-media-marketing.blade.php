@@ -1145,7 +1145,10 @@
             </ul>
             <div class="row h-100">
                 <div class="col-lg-6 d-flex">
-                    <img class="w-100 rounded-4 d-lg-block d-none object-fit-cover" src="{{asset('frontend/assets/images/about/abouttab.jpg')}}">
+                    <div class="background-image-sms">
+
+                    </div>
+                    <!-- <img class="w-100 rounded-4 d-lg-block d-none object-fit-cover" src="{{asset('frontend/assets/images/about/abouttab.jpg')}}"> -->
                     <img class="w-100 rounded-4 d-lg-none d-block mb-3" src="{{asset('frontend/assets/images/about/abouttab-mbl.jpg')}}">
                 </div>
                 <div class="col-lg-6 d-flex">
