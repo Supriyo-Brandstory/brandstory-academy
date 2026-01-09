@@ -308,6 +308,12 @@ class WebsiteController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.course.ui-ux', compact('seo'));
     }
+    public function web_design()
+    {
+        $currentRoute = request()->path();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.course.web-design', compact('seo'));
+    }
 
     public function digital_marketing_marathahalli()
     {
