@@ -244,11 +244,11 @@
             same high-quality instruction and hands-on experience.
         </p>
 
-        <div class="row gap-5 pt-3">
+        <div class="row g-5 pt-3">
 
             <div class="col-12 col-md-6">
                 <div class="capsule-card d-flex align-items-center">
-                    <img src="https://picsum.photos/100?random=11" class="rounded-circle me-3 capsule-img" alt="">
+                    <img src="https://picsum.photos/100?random=11" class="capsule-img" alt="">
                     <div>
                         <h3 class="fs-5 mb-1">1. Immersive Classroom Training</h3>
                         <p class="mb-0">Instructor-led classes with real-time guidance and collaboration.</p>
@@ -258,7 +258,7 @@
 
             <div class="col-12 col-md-6">
                 <div class="capsule-card d-flex align-items-center">
-                    <img src="https://picsum.photos/100?random=12" class="rounded-circle me-3 capsule-img" alt="">
+                    <img src="https://picsum.photos/100?random=12" class="capsule-img" alt="">
                     <div>
                         <h3 class="fs-5 mb-1">2. Interactive Online Training</h3>
                         <p class="mb-0">Live virtual sessions, flexible access, and mentor support.</p>
@@ -268,7 +268,7 @@
 
             <div class="col-12 col-md-6">
                 <div class="capsule-card d-flex align-items-center">
-                    <img src="https://picsum.photos/100?random=13" class="rounded-circle me-3 capsule-img" alt="">
+                    <img src="https://picsum.photos/100?random=13" class="capsule-img" alt="">
                     <div>
                         <h3 class="fs-5 mb-1">3. Hybrid Learning Model</h3>
                         <p class="mb-0">Blend of classroom and online learning for flexibility.</p>
@@ -278,7 +278,7 @@
 
             <div class="col-12 col-md-6">
                 <div class="capsule-card d-flex align-items-center">
-                    <img src="https://picsum.photos/100?random=14" class="rounded-circle me-3 capsule-img" alt="">
+                    <img src="https://picsum.photos/100?random=14" class="capsule-img" alt="">
                     <div>
                         <h3 class="fs-5 mb-1">4. LMS & Student Support</h3>
                         <p class="mb-0">Access materials, track progress, and get dedicated support.</p>
