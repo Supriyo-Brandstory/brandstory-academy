@@ -2630,3 +2630,121 @@ li a:hover {
         height: 160px;
     }
 }
+
+/* pointing-data */
+
+.pointing-item {
+  position: relative;
+  padding-left: 70px;
+  min-height: 60px;
+  margin-bottom: 2rem;
+}
+
+h3{
+    font-size: 24px;
+}
+@media (max-width:786px) {
+    h3{
+        font-size: 20px;
+    }
+}
+
+.pointing-item::before {
+  content: "1";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #855EF7;
+  color: white;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(13, 110, 253, 0.3);
+}
+
+
+/* 📱 Mobile fix */
+@media (max-width: 576px) {
+  .pointing-item {
+    padding-left: 0;
+    padding-top: 60px; /* space for circle */
+  }
+  .pointing-item::before {
+    left: 0;
+    top: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Change numbers upto 4 */
+.pointing-item:nth-child(2)::before { content: "2"; }
+.pointing-item:nth-child(3)::before { content: "3"; }
+.pointing-item:nth-child(4)::before { content: "4"; }
+.pointing-item:nth-child(5)::before { content: "5"; }
+.stacked-cards-container {
+  position: relative;
+  height: 520px;
+  max-width: 700px;
+  margin-left: auto;
+  perspective: 1000px;
+}
+
+
+/* stack cards */
+.stack-card {
+  position: absolute;
+  inset: 0;
+  transition: all 0.9s cubic-bezier(0.23, 1, 0.32, 1);
+  transform-origin: bottom center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.stack-card:nth-child(1) {
+  z-index: 2;
+  transform: translateY(0) scale(1) rotate(0deg);
+}
+
+.stack-card:nth-child(2) {
+  z-index: 1;
+  transform: translateY(28px) scale(0.94) rotate(2.5deg);
+  opacity: 0.92;
+  filter: brightness(0.95);
+}
+
+/* Swipe simulated style states */
+#stacked-cards.swiped #card1 {
+  transform: translateX(220%) translateY(40px) rotate(12deg) scale(0.88);
+  opacity: 0;
+  pointer-events: none;
+}
+
+#stacked-cards.swiped #card2 {
+  z-index: 3;
+  transform: translateY(0) scale(1) rotate(0deg);
+  opacity: 1;
+  filter: none;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 991px) {
+  .stacked-cards-container {
+    margin: 0 auto;
+    height: 480px;
+  }
+}
+
+@media (max-width: 576px) {
+  .stacked-cards-container {
+    height: 460px;
+  }
+}
+
+
+
