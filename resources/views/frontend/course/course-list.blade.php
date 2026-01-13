@@ -30,7 +30,7 @@
                         src="{{ asset('frontend/assets/images/courses/Digital-Marketing-Executive-banner.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
-                        <h3>Digital Marketing Mastery</h3>
+                        <h3 class="text-violet">Digital Marketing Mastery</h3>
 
                         <div class="badge-bg">
                             <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">2.5 Months + 6 Months
@@ -55,7 +55,7 @@
                         src="{{ asset('frontend/assets/images/courses/Advanced-Digital-Marketing-Boot-Camp.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
-                        <h3>Advanced Digital Marketing Boot Camp</h3>
+                        <h3 class="text-violet">Advanced Digital Marketing Boot Camp</h3>
 
                         <div class="badge-bg">
                             <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">3.5 Months + 6 Months
@@ -80,7 +80,7 @@
                         src="{{ asset('frontend/assets/images/courses/360-Degree-Digital-Marketing-Course.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
-                        <h3>360 Degree Digital Marketing Course</h3>
+                        <h3 class="text-violet">360 Degree Digital Marketing Course</h3>
 
                         <div class="badge-bg">
                             <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">4 Months + 6 Months
@@ -114,7 +114,7 @@
                     <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Digital-Marketing.webp') }}"
                         alt="Digital Marketing">
                     <div class="content">
-                        <h3>Digital Marketing</h3>
+                        <h3 class="text-violet">Digital Marketing</h3>
 
                         <div class="badge-bg">
                             <div>
@@ -140,7 +140,7 @@
                         src="{{ asset('frontend/assets/images/courses/Search-Engine-Optimization.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
-                        <h3>Search Engine Optimization (SEO)</h3>
+                        <h3 class="text-violet">Search Engine Optimization (SEO)</h3>
 
                         <div class="badge-bg">
                             <div>
@@ -165,7 +165,7 @@
                     <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Pay-Per-Click-PPC).webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
-                        <h3>Pay Per Click (PPC)</h3>
+                        <h3 class="text-violet">Pay Per Click (PPC)</h3>
 
                         <div class="badge-bg">
                             <div>
@@ -191,7 +191,7 @@
                         src="{{ asset('frontend/assets/images/courses/Social-Media-Marketing.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
-                        <h3>Social Media Marketing</h3>
+                        <h3 class="text-violet">Social Media Marketing</h3>
 
                         <div class="badge-bg">
                             <div>
@@ -216,7 +216,7 @@
                     <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/UX-UI-Design.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
-                        <h3>UX/UI Design</h3>
+                        <h3 class="text-violet">UX/UI Design</h3>
 
                         <div class="badge-bg">
                             <div>
@@ -241,7 +241,7 @@
                     <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Web-Design.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
-                        <h3>Web Design</h3>
+                        <h3 class="text-violet">Web Design</h3>
 
                         <div class="badge-bg">
                             <div>
@@ -266,7 +266,7 @@
                     <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Graphic-Design.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
-                        <h3>Graphic Design</h3>
+                        <h3 class="text-violet">Graphic Design</h3>
 
                         <div class="badge-bg">
                             <div>
@@ -291,7 +291,7 @@
                     <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/video-editing.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
-                        <h3>Video Editing</h3>
+                        <h3 class="text-violet">Video Editing</h3>
 
                         <div class="badge-bg">
                             <div>
@@ -316,7 +316,7 @@
                     <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Free-1-Day-Session.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
-                        <h3>Free 1 Day Session</h3>
+                        <h3 class="text-violet">Free 1 Day Session</h3>
 
                         <div class="badge-bg">
                             <div>
@@ -332,8 +332,8 @@
                             <li>Join Our Free 1-day Demo Session to Start Your Journey</li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="#" class="outline-btn">Talk To Expert</a>
-                            <a href="{{ route('contact') }}" class="violet-btn">Explore Details </a>
+                            <a href="{{ route('contact') }}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{ route('one_day_session') }}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
