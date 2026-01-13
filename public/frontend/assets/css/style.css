@@ -2589,6 +2589,7 @@ li a:hover {
     overflow-x: auto;
     padding-bottom: 10px;
     scroll-behavior: smooth;
+    padding: 0 20px;
 }
 
 .h-scroll .card {
@@ -2622,6 +2623,9 @@ li a:hover {
 
 /* Mobile */
 @media (max-width: 768px) {
+    .h-scroll{
+        justify-content: start;
+    }
     .h-scroll .card {
         width: 90%;
         padding: 15px;

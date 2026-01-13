@@ -29,6 +29,7 @@ Route::get('/ui-ux', [WebsiteController::class, 'ui_ux'])->name('ui_ux');
 Route::get('/web-design', [WebsiteController::class, 'web_design'])->name('web_design');
 Route::get('/graphic-design', [WebsiteController::class, 'graphic_design'])->name('graphic_design');
 Route::get('/video-editing', [WebsiteController::class, 'video_editing'])->name('video_editing');
+Route::get('/one-day-session', [WebsiteController::class, 'one_day_session'])->name('one_day_session');
 
 
 Route::get('/digital-marketing-marathahalli', [WebsiteController::class, 'digital_marketing_marathahalli'])->name('digital_marketing_marathahalli');
