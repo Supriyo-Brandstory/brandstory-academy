@@ -9,13 +9,13 @@
                     <p class="mb-2">We Have Placed 1000+ Learners in Global Agencies</p>
                     <div class="d-md-flex align-items-center">
                         <div class="violet-btn d-flex me-lg-5 mb-lg-0 mb-4 justify-content-md-start justify-content-center">
-                            <a href="{{route('contact')}}">Hire from</a>
+                            <a href="{{ route('contact') }}">Hire from</a>
                         </div>
 
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-5">
-                    <img class="w-100" src="{{asset('frontend/assets/images/courselist-banner.webp')}}">
+                    <img class="w-100" src="{{ asset('frontend/assets/images/courselist-banner.webp') }}">
                 </div>
             </div>
         </div>
@@ -44,8 +44,8 @@
                             <li>6 Months Internship</li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="{{route('contact')}}" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('course_digital_marketing')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{ route('contact') }}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{ route('course_digital_marketing') }}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
@@ -69,8 +69,9 @@
                             <li>10+ Live Projects</li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="{{route('contact')}}" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('advanced_digital_marketing_boot_camp')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{ route('contact') }}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{ route('advanced_digital_marketing_boot_camp') }}" class="violet-btn">Explore Details
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +83,8 @@
                         <h3>360 Degree Digital Marketing Course</h3>
 
                         <div class="badge-bg">
-                            <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">4 Months + 6 Months Internship
+                            <img src="{{ asset('frontend/assets/images/courses/time.svg') }}">4 Months + 6 Months
+                            Internship
                         </div>
                         <ul>
                             <li>Professional Level Certification</li>
@@ -93,8 +95,9 @@
 
                         </ul>
                         <div class="btn-grup">
-                            <a href="{{route('contact')}}" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('course_360_degree_digital_marketing')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{ route('contact') }}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{ route('course_360_degree_digital_marketing') }}" class="violet-btn">Explore Details
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -127,8 +130,8 @@
                             <li>Become Zero to Hero in Digital Marketing </li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="{{route('contact')}}" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('new_digital_marketing')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{ route('contact') }}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{ route('new_digital_marketing') }}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
@@ -153,8 +156,8 @@
                             <li>Gain Real-world Experience by Working on Live SEO Projects </li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="{{route('contact')}}" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('seo_course_in_bangalore')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{ route('contact') }}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{ route('seo_course_in_bangalore') }}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
@@ -178,13 +181,14 @@
                             <li>Build Strategy and Launch High-impact PPC Campaigns </li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="{{route('contact')}}" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('ppc_course_in_bangalore')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{ route('contact') }}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{ route('ppc_course_in_bangalore') }}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
                 <div class="grid_box">
-                    <img class="main-bg-img" src="{{ asset('frontend/assets/images/courses/Social-Media-Marketing.webp') }}"
+                    <img class="main-bg-img"
+                        src="{{ asset('frontend/assets/images/courses/Social-Media-Marketing.webp') }}"
                         alt="Digital Marketing Executive">
                     <div class="content">
                         <h3>Social Media Marketing</h3>
@@ -203,8 +207,8 @@
                             <li>Learn Proven Social Media Growth Tactics</li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="#" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{ route('contact') }}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{ route('social_media_marketing') }}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
@@ -228,8 +232,8 @@
                             <li>Master user-focused design through practical UX/UI training</li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="#" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{ route('contact') }}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{ route('ui_ux') }}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
@@ -253,8 +257,8 @@
                             <li>Create impactful websites with hands-on web design training</li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="#" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{ route('contact') }}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{ route('web_design') }}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
@@ -278,8 +282,8 @@
                             <li>Design creative visuals with practical graphic design training</li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="#" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{ route('contact') }}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{ route('graphic_design') }}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
@@ -303,8 +307,8 @@
                             <li>Master video creation using professional editing tools</li>
                         </ul>
                         <div class="btn-grup">
-                            <a href="#" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{ route('contact') }}" class="outline-btn">Talk To Expert</a>
+                            <a href="{{ route('video_editing') }}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
@@ -329,7 +333,7 @@
                         </ul>
                         <div class="btn-grup">
                             <a href="#" class="outline-btn">Talk To Expert</a>
-                            <a href="{{route('contact')}}" class="violet-btn">Explore Details </a>
+                            <a href="{{ route('contact') }}" class="violet-btn">Explore Details </a>
                         </div>
                     </div>
                 </div>
@@ -351,7 +355,7 @@
                 <a href="#" class="btn-join">Join the Waitlist</a>
             </div>
             <div class="image-section">
-                <img src="{{asset('frontend/assets/images/courses/woman.webp')}}" alt="Student Image" />
+                <img src="{{ asset('frontend/assets/images/courses/woman.webp') }}" alt="Student Image" />
             </div>
         </div>
     </section>
@@ -360,7 +364,7 @@
         <h2 class="text-center mb-4"> Inspiring Journeys of<span class="text-violet">Our Achievers</span></h2>
         <div class="testimonial-row left-to-right">
             <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <img src="{{ asset('frontend/assets/images/quoteicon.png') }}" class="img-fluid mb-4" width="40">
                 <p>Recently had the pleasure of experiencing BrandStory Academy, and I must say, it exceeded my
                     expectations. From the moment I enrolled, the academy’s dedication to nurturing professional growth and
                     providing high-quality education was evident.</p>
@@ -370,7 +374,7 @@
                 </div>
             </div>
             <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <img src="{{ asset('frontend/assets/images/quoteicon.png') }}" class="img-fluid mb-4" width="40">
                 <p>BrandStory Academy offers a strong foundation in digital marketing through a hands-on approach. Right
                     from the start, I worked on real agency projects, gaining practical experience that many other courses
                     lack. The six-month internship following the course was a transformative experience, allowing me to
@@ -381,7 +385,7 @@
                 </div>
             </div>
             <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <img src="{{ asset('frontend/assets/images/quoteicon.png') }}" class="img-fluid mb-4" width="40">
                 <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
                     for my professional growth. The program was structured effectively, addressing all the key components of
                     digital marketing. What impressed me the most was the 6-month internship offered with Brandstory Digital
@@ -392,7 +396,7 @@
                 </div>
             </div>
             <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <img src="{{ asset('frontend/assets/images/quoteicon.png') }}" class="img-fluid mb-4" width="40">
                 <p>BrandStory Academy stands out for its focus on practical training, engaging students with real client
                     projects from day one for an immersive learning experience. The trainers are both knowledgeable and
                     approachable, and the extended six-month internship offers valuable industry exposure. It’s an excellent
@@ -403,7 +407,7 @@
                 </div>
             </div>
             <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <img src="{{ asset('frontend/assets/images/quoteicon.png') }}" class="img-fluid mb-4" width="40">
                 <p>Enrolling at Brandstory Academy was an eye-opening experience. The course combines academic rigor with
                     hands-on practice for the Indian market. With dedicated mentors and real projects, my digital marketing
                     skills have flourished, inspiring my ambitions.</p>
@@ -413,7 +417,7 @@
                 </div>
             </div>
             <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <img src="{{ asset('frontend/assets/images/quoteicon.png') }}" class="img-fluid mb-4" width="40">
                 <p>Brandstory Academy is a leading digital marketing institute with a practical curriculum. They teach the
                     fundamentals of digital marketing, offer a 6-month internship, and assist with placements. Joining is a
                     decision you won’t regret.</p>
@@ -425,7 +429,7 @@
 
             <!-- duplicate for smooth infinite loop -->
             <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <img src="{{ asset('frontend/assets/images/quoteicon.png') }}" class="img-fluid mb-4" width="40">
                 <p>Recently had the pleasure of experiencing BrandStory Academy, and I must say, it exceeded my
                     expectations. From the moment I enrolled, the academy’s dedication to nurturing professional growth and
                     providing high-quality education was evident.</p>
@@ -435,7 +439,7 @@
                 </div>
             </div>
             <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <img src="{{ asset('frontend/assets/images/quoteicon.png') }}" class="img-fluid mb-4" width="40">
                 <p>BrandStory Academy offers a strong foundation in digital marketing through a hands-on approach. Right
                     from the start, I worked on real agency projects, gaining practical experience that many other courses
                     lack. The six-month internship following the course was a transformative experience, allowing me to
@@ -446,7 +450,7 @@
                 </div>
             </div>
             <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <img src="{{ asset('frontend/assets/images/quoteicon.png') }}" class="img-fluid mb-4" width="40">
                 <p>I recently completed my Digital Marketing course at Brandstory Academy, and it was an excellent choice
                     for my professional growth. The program was structured effectively, addressing all the key components of
                     digital marketing. What impressed me the most was the 6-month internship offered with Brandstory Digital
@@ -457,7 +461,7 @@
                 </div>
             </div>
             <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <img src="{{ asset('frontend/assets/images/quoteicon.png') }}" class="img-fluid mb-4" width="40">
                 <p>BrandStory Academy stands out for its focus on practical training, engaging students with real client
                     projects from day one for an immersive learning experience. The trainers are both knowledgeable and
                     approachable, and the extended six-month internship offers valuable industry exposure. It’s an excellent
@@ -468,7 +472,7 @@
                 </div>
             </div>
             <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <img src="{{ asset('frontend/assets/images/quoteicon.png') }}" class="img-fluid mb-4" width="40">
                 <p>Enrolling at Brandstory Academy was an eye-opening experience. The course combines academic rigor with
                     hands-on practice for the Indian market. With dedicated mentors and real projects, my digital marketing
                     skills have flourished, inspiring my ambitions.</p>
@@ -478,7 +482,7 @@
                 </div>
             </div>
             <div class="testimonial">
-                <img src="{{asset('frontend/assets/images/quoteicon.png')}}" class="img-fluid mb-4" width="40">
+                <img src="{{ asset('frontend/assets/images/quoteicon.png') }}" class="img-fluid mb-4" width="40">
                 <p>Brandstory Academy is a leading digital marketing institute with a practical curriculum. They teach the
                     fundamentals of digital marketing, offer a 6-month internship, and assist with placements. Joining is a
                     decision you won’t regret.</p>
@@ -534,7 +538,8 @@
                                     aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <ul class="mb-0">
-                                            <p class="mb-0 fs-16">our digital marketing courses are led by seasoned industry
+                                            <p class="mb-0 fs-16">our digital marketing courses are led by seasoned
+                                                industry
                                                 professionals who bring years of real-world experience. Our trainers are
                                                 passionate
                                                 about guiding students and offer direct access with personalized 1-to-1
@@ -581,13 +586,16 @@
                                 <div id="flush-collapsefour" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <p class="fs-16">At BrandStory Academy, we offer three specialized digital marketing
+                                        <p class="fs-16">At BrandStory Academy, we offer three specialized digital
+                                            marketing
                                             courses designed to
                                             meet different career goals:</p>
                                         <ul>
-                                            <li class="fs-16">Digital Marketing MASTERY with Artificial Intelligence (AI) –
+                                            <li class="fs-16">Digital Marketing MASTERY with Artificial Intelligence (AI)
+                                                –
                                                 2.5 months training + 6 months internship</li>
-                                            <li class="fs-16">Advanced Digital Marketing Boot Camp – 3.5 months training + 6
+                                            <li class="fs-16">Advanced Digital Marketing Boot Camp – 3.5 months training +
+                                                6
                                                 months internship</li>
                                             <li class="fs-16">360° Digital Marketing – 4 months training + 6 months
                                                 internship</li>
@@ -663,6 +671,4 @@
             </div>
         </div>
     </section>
-
-
 @endsection
