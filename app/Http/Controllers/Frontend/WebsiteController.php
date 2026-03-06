@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Response;
 use App\Models\Enquiry;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Log;
 
 class WebsiteController extends Controller
 {
@@ -239,6 +240,86 @@ class WebsiteController extends Controller
             'recaptcha_response' => 'Validated',
             'page_url' => $request->page_url,
         ]);
+
+        // Monday.com Integration
+        $apiToken = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjUzNzg1NzMzOCwiYWFpIjoxMSwidWlkIjo3ODE2NDU5OCwiaWFkIjoiMjAyNS0wNy0xMVQwNToxOToyNi4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzAzMTc0NjksInJnbiI6ImFwc2UyIn0.FSjnTYiHpeGN_XquSk386d-ZdZ2u1pcMvKGXV3y-rzM';
+
+        $itemName = $fullName;
+        $currentDate = date('Y-m-d');
+
+        $columnValues = [
+            "text_mm14tv3x" => $fullName,
+            "text_mm14cwv1" => $request->lastname,
+            "email_mm14t50t" => ["email" => $request->email, "text" => $request->email],
+            "phone_mm14c8j2" => [
+                "phone" => $request->phone,
+                //"countryShortName" => "US"
+            ],
+            "long_text_mm14c4bc" => $request->message,
+            "dropdown_mm14w9p6" => $request->program,
+            "date_mm14en69" => [
+                "date" => $currentDate
+            ]
+        ];
+
+        $boardId = '5026862618';
+        $groupId = 'group_mm1474yh';
+
+        // Encode and escape JSON for GraphQL
+        $columnValuesJson = json_encode($columnValues, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+        $escapedColumnValues = addslashes($columnValuesJson);
+
+        $query = 'mutation {
+            create_item (
+                board_id: ' . $boardId . ',
+                group_id: "' . $groupId . '",
+                item_name: "' . $itemName . '",
+                column_values: "' . $escapedColumnValues . '"
+            ) {
+                id
+            }
+        }';
+
+        $postData = json_encode(['query' => $query]);
+
+        // Initialize cURL
+        $ch = curl_init('https://api.monday.com/v2');
+
+        // Set cURL options
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Content-Type: application/json',
+            'Authorization: ' . $apiToken
+        ]);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $postData);
+
+        // Execute request
+        $response = curl_exec($ch);
+
+        // Error handling
+        if (curl_errno($ch)) {
+            Log::error('Curl error: ' . curl_error($ch));
+        } else {
+            $result = json_decode($response, true);
+
+            $email = $request->email;
+            if (isset($email) && $email == "muthukumar@brandstory.in") {
+                echo "<pre>";
+                print_r($result);
+                echo "TEST";
+                die;
+            }
+
+            if (isset($result['errors'])) {
+                Log::error("GraphQL Error:", $result['errors']);
+            } else {
+                Log::info("Created Item ID: " . ($result['data']['create_item']['id'] ?? 'unknown'));
+            }
+        }
+
+        // Close cURL session
+        curl_close($ch);
 
         if ($isJson) {
             return response()->json([
