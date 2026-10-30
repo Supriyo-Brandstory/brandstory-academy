@@ -181,17 +181,20 @@ class WebsiteController extends Controller
 
     public function store_enquery(Request $request)
     {
-        // Validation
+        // Validation - allow phone numbers with optional spaces, dashes, or + country code
         $validator = Validator::make($request->all(), [
-            'firstname' => 'required|string',
-            'lastname' => 'nullable|string',
-            'phone' => 'required|digits_between:6,15',
+            'firstname' => 'required|string|max:100',
+            'lastname' => 'nullable|string|max:100',
+            'phone' => ['required', 'string', 'min:6', 'max:20', 'regex:/^[0-9+\s\-()]+$/'],
+            'email' => 'nullable|email|max:150',
             'recaptcha_response' => 'required|string',
+        ], [
+            'phone.regex' => 'The phone number format is invalid. Please enter numbers only.',
         ]);
 
-        // Check if fragment exists
+        // Check if JSON response is expected
         $fragment = $request->input('formFragment');
-        $isJson = !empty($fragment); // Return JSON if fragment is present
+        $isJson = !empty($fragment) || $request->expectsJson() || $request->ajax();
 
         if ($validator->fails()) {
             if ($isJson) {
@@ -208,118 +211,72 @@ class WebsiteController extends Controller
         }
 
         // Verify reCAPTCHA
-        $recaptcha = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-            'secret' => env('RECAPTCHA_SECRET_KEY'),
-            'response' => $request->recaptcha_response,
-        ])->json();
+        $secretKey = config('services.recaptcha.secret_key', env('RECAPTCHA_SECRET_KEY'));
+        $recaptchaSuccess = false;
 
-        if (!($recaptcha['success'] ?? false) || ($recaptcha['score'] ?? 0) < 0.5) {
+        if (!empty($secretKey) && !empty($request->recaptcha_response)) {
+            try {
+                $recaptcha = Http::asForm()->timeout(10)->post('https://www.google.com/recaptcha/api/siteverify', [
+                    'secret' => $secretKey,
+                    'response' => $request->recaptcha_response,
+                ])->json();
+
+                $recaptchaSuccess = ($recaptcha['success'] ?? false) && (($recaptcha['score'] ?? 0) >= 0.5);
+
+                if (!$recaptchaSuccess) {
+                    Log::warning('reCAPTCHA verification failed', [
+                        'response' => $recaptcha,
+                        'ip' => $request->ip(),
+                    ]);
+                }
+            } catch (\Throwable $e) {
+                Log::error('reCAPTCHA verification exception: ' . $e->getMessage());
+                if (app()->environment('local')) {
+                    $recaptchaSuccess = true;
+                }
+            }
+        } elseif (app()->environment('local')) {
+            $recaptchaSuccess = true;
+        }
+
+        if (!$recaptchaSuccess) {
             if ($isJson) {
                 return response()->json([
                     'status' => 'error',
-                    'message' => 'reCAPTCHA failed. Try again.',
+                    'message' => 'reCAPTCHA failed. Please try again.',
                 ], 403);
             }
 
             return back()
-                ->withErrors(['recaptcha' => 'reCAPTCHA failed. Try again.'])
+                ->withErrors(['recaptcha' => 'reCAPTCHA verification failed. Please try again.'])
                 ->withInput()
                 ->withFragment('enquiryForm');
         }
 
-        // Save Enquiry
-        $fullName = trim($request->firstname . ' ' . $request->lastname);
+        // Save Enquiry to Database
+        $fullName = trim($request->firstname . ' ' . ($request->lastname ?? ''));
 
-        Enquiry::create([
-            'name' => $fullName,
-            'phone' => $request->phone,
-            'email' => $request->email,
-            'message' => $request->message,
-            'program' => $request->program,
-            'terms_accepted' => $request->has('termsAndConditions-Consent'),
-            'recaptcha_response' => 'Validated',
-            'page_url' => $request->page_url,
-        ]);
-
-        // Monday.com Integration
-        $apiToken = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjcxNjk4ODUyMCwiYWFpIjoxMSwidWlkIjo3ODE2NDU5OCwiaWFkIjoiMjAyNi0xMC0yM1QwNjozMjoxMS4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzAzMTc0NjksInJnbiI6ImFwc2UyIn0.mocTgX7fDQj4B7h_6_HzYj2jS5pvXE3KvWQjhabiS9c';
-
-        $itemName = $fullName;
-        $currentDate = date('Y-m-d');
-
-        $columnValues = [
-            "text_mm14tv3x" => $fullName,
-            "text_mm14cwv1" => $request->lastname,
-            "email_mm14t50t" => ["email" => $request->email, "text" => $request->email],
-            "phone_mm14c8j2" => [
-                "phone" => $request->phone,
-                //"countryShortName" => "US"
-            ],
-            "long_text_mm14c4bc" => $request->message,
-            "dropdown_mm14w9p6" => $request->program,
-            "date_mm14en69" => [
-                "date" => $currentDate
-            ]
-        ];
-
-        $boardId = '5026862618';
-        $groupId = 'group_mm1474yh';
-
-        // Encode and escape JSON for GraphQL
-        $columnValuesJson = json_encode($columnValues, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
-        $escapedColumnValues = addslashes($columnValuesJson);
-
-        $query = 'mutation {
-            create_item (
-                board_id: ' . $boardId . ',
-                group_id: "' . $groupId . '",
-                item_name: "' . $itemName . '",
-                column_values: "' . $escapedColumnValues . '"
-            ) {
-                id
-            }
-        }';
-
-        $postData = json_encode(['query' => $query]);
-
-        // Initialize cURL
-        $ch = curl_init('https://api.monday.com/v2');
-
-        // Set cURL options
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, [
-            'Content-Type: application/json',
-            'Authorization: ' . $apiToken
-        ]);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $postData);
-
-        // Execute request
-        $response = curl_exec($ch);
-
-        // Error handling
-        if (curl_errno($ch)) {
-            Log::error('Curl error: ' . curl_error($ch));
-        } else {
-            $result = json_decode($response, true);
-
-            $email = $request->email;
-            if (isset($email) && $email == "muthukumar@brandstory.in") {
-                echo "<pre>";
-                print_r($result);
-                echo "TEST";
-                die;
-            }
-
-            if (isset($result['errors'])) {
-                Log::error("GraphQL Error:", $result['errors']);
-            } else {
-                Log::info("Created Item ID: " . ($result['data']['create_item']['id'] ?? 'unknown'));
-            }
+        try {
+            Enquiry::create([
+                'name' => $fullName,
+                'phone' => $request->phone,
+                'email' => $request->email,
+                'message' => $request->message,
+                'program' => $request->program,
+                'terms_accepted' => $request->has('termsAndConditions-Consent'),
+                'recaptcha_response' => 'Validated',
+                'page_url' => $request->page_url,
+            ]);
+        } catch (\Throwable $e) {
+            Log::error('Failed to save enquiry in DB: ' . $e->getMessage(), [
+                'name' => $fullName,
+                'phone' => $request->phone,
+                'email' => $request->email,
+            ]);
         }
 
-        // Close cURL session
-        curl_close($ch);
+        // Monday.com CRM Integration
+        $this->sendToMonday($fullName, $request);
 
         if ($isJson) {
             return response()->json([
@@ -332,6 +289,131 @@ class WebsiteController extends Controller
             ->back()
             ->with('success', 'Your enquiry has been submitted!')
             ->withFragment('enquiryForm');
+    }
+
+    /**
+     * Send lead data to Monday.com CRM
+     */
+    protected function sendToMonday(string $fullName, Request $request): void
+    {
+        $apiToken = config('services.monday.api_token');
+        $boardId = config('services.monday.board_id', '5026862618');
+        $groupId = config('services.monday.group_id', 'group_mm1474yh');
+
+        if (empty($apiToken) || empty($boardId)) {
+            Log::warning('Monday.com API token or Board ID is not configured.');
+            return;
+        }
+
+        $itemName = !empty($fullName) ? $fullName : 'New Lead';
+        $currentDate = date('Y-m-d');
+
+        // Prepare column values for Monday CRM
+        $columnValues = [
+            'text_mm14tv3x' => (string) $request->firstname,
+            'text_mm14cwv1' => (string) ($request->lastname ?? ''),
+            'date_mm14en69' => [
+                'date' => $currentDate,
+            ],
+        ];
+
+        if (!empty($request->email)) {
+            $columnValues['email_mm14t50t'] = [
+                'email' => $request->email,
+                'text' => $request->email,
+            ];
+        }
+
+        if (!empty($request->phone)) {
+            // Monday phone column requires numbers only (optional leading +) with no spaces, dashes, or brackets
+            $cleanPhone = preg_replace('/[^0-9+]/', '', (string) $request->phone);
+            if (!empty($cleanPhone)) {
+                $phoneData = ['phone' => $cleanPhone];
+                // Default to India (IN) for standard 10-digit Indian numbers without country code
+                if (preg_match('/^[6-9]\d{9}$/', $cleanPhone)) {
+                    $phoneData['countryShortName'] = 'IN';
+                }
+                $columnValues['phone_mm14c8j2'] = $phoneData;
+            }
+        }
+
+        $message = (string) ($request->message ?? '');
+
+        // Monday board dropdown only accepts exact defined labels:
+        $validPrograms = [
+            'Digital Marketing Mastery',
+            'Advanced Digital Marketing Boot Camp',
+            '360 Degree Digital Marketing',
+        ];
+
+        if (!empty($request->program)) {
+            $matchedProgram = null;
+            $trimmed = trim($request->program);
+            foreach ($validPrograms as $validProg) {
+                if (strcasecmp($validProg, $trimmed) === 0) {
+                    $matchedProgram = $validProg;
+                    break;
+                }
+            }
+
+            if ($matchedProgram) {
+                $columnValues['dropdown_mm14w9p6'] = $matchedProgram;
+            } else {
+                // If program does not match the dropdown choices, preserve it in the message notes
+                $message = trim($message . "\nProgram Interested: " . $request->program);
+            }
+        }
+
+        if (!empty($request->page_url)) {
+            $message = trim($message . "\nPage URL: " . $request->page_url);
+        }
+
+        if (!empty($message)) {
+            $columnValues['long_text_mm14c4bc'] = $message;
+        }
+
+        // Use GraphQL variables to prevent syntax/escaping issues with quotes or newlines
+        $mutation = 'mutation ($boardId: ID!, $groupId: String!, $itemName: String!, $columnValues: JSON!) {
+            create_item (
+                board_id: $boardId,
+                group_id: $groupId,
+                item_name: $itemName,
+                column_values: $columnValues
+            ) {
+                id
+            }
+        }';
+
+        $payload = [
+            'query' => $mutation,
+            'variables' => [
+                'boardId' => (string) $boardId,
+                'groupId' => (string) $groupId,
+                'itemName' => (string) $itemName,
+                'columnValues' => json_encode($columnValues, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE),
+            ],
+        ];
+
+        try {
+            $response = Http::withHeaders([
+                'Content-Type' => 'application/json',
+                'Authorization' => $apiToken,
+            ])->timeout(15)->post('https://api.monday.com/v2', $payload);
+
+            $result = $response->json();
+
+            if (!empty($result['errors'])) {
+                Log::error('Monday.com GraphQL Error:', [
+                    'errors' => $result['errors'],
+                    'payload' => $payload,
+                ]);
+            } else {
+                $itemId = $result['data']['create_item']['id'] ?? 'unknown';
+                Log::info("Monday.com Item Created Successfully: ID {$itemId}");
+            }
+        } catch (\Throwable $e) {
+            Log::error('Monday.com Request Failed: ' . $e->getMessage());
+        }
     }
 
 

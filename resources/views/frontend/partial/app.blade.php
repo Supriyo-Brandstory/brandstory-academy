@@ -243,24 +243,33 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const form = document.getElementById('enquiryForm');
-            if (!form) return; // prevent error if form doesn't exist
+            if (!form || !(form instanceof HTMLFormElement)) return;
 
             form.addEventListener('submit', function(event) {
-                let firstName = document.getElementById('firstName').value;
-                let lastName = document.getElementById('lastName').value;
-                let phone = document.getElementById('phone').value;
+                const firstNameInput = form.querySelector('input[name="firstname"]');
+                const lastNameInput = form.querySelector('input[name="lastname"]');
+                const phoneInput = form.querySelector('input[name="phone"]');
 
-                let namePattern = /^[A-Za-z]+$/;
-                if (!namePattern.test(firstName) || !namePattern.test(lastName)) {
-                    alert("First Name and Last Name should contain only alphabets.");
+                const namePattern = /^[A-Za-z\s]+$/;
+                if (firstNameInput && firstNameInput.value.trim() && !namePattern.test(firstNameInput.value.trim())) {
+                    alert("First Name should contain only alphabets and spaces.");
                     event.preventDefault();
+                    event.stopImmediatePropagation();
                     return;
                 }
 
-                let phonePattern = /^[0-9]+$/;
-                if (!phonePattern.test(phone)) {
-                    alert("Phone Number should contain only numbers.");
+                if (lastNameInput && lastNameInput.value.trim() && !namePattern.test(lastNameInput.value.trim())) {
+                    alert("Last Name should contain only alphabets and spaces.");
                     event.preventDefault();
+                    event.stopImmediatePropagation();
+                    return;
+                }
+
+                const phonePattern = /^[0-9+\s\-()]+$/;
+                if (phoneInput && phoneInput.value.trim() && !phonePattern.test(phoneInput.value.trim())) {
+                    alert("Phone Number should contain numbers and optional country code.");
+                    event.preventDefault();
+                    event.stopImmediatePropagation();
                     return;
                 }
             });
@@ -336,7 +345,7 @@
   <script src="https://www.google.com/recaptcha/api.js?render=6LfEBOIqAAAAAGSxBwirAeNNnL-GSGkVxyOQNS77"></script> --}}
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key', env('RECAPTCHA_SITE_KEY')) }}"></script>
 
 
     <script src="{{ asset('frontend/assets/js/bootstrap-bundle.js') }}"></script>
@@ -389,7 +398,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const form = document.getElementById('enquiryForm');
-            if (!form) return; // prevent error if form not found
+            if (!form || !(form instanceof HTMLFormElement)) return;
 
             form.addEventListener('submit', function(e) {
                 e.preventDefault();
@@ -402,7 +411,7 @@
                 }
 
                 grecaptcha.ready(function() {
-                    grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', {
+                    grecaptcha.execute('{{ config('services.recaptcha.site_key', env('RECAPTCHA_SITE_KEY')) }}', {
                         action: 'submit'
                     }).then(function(token) {
                         const recaptchaInput = form.querySelector(
@@ -421,7 +430,7 @@
                 e.preventDefault();
 
                 grecaptcha.ready(function() {
-                    grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', {
+                    grecaptcha.execute('{{ config('services.recaptcha.site_key', env('RECAPTCHA_SITE_KEY')) }}', {
                         action: 'submit'
                     }).then(function(token) {
                         form.querySelector('.recaptcha_response').value = token;
@@ -442,7 +451,7 @@
 
                 // Call reCAPTCHA first
                 grecaptcha.ready(function() {
-                    grecaptcha.execute('{{ env('RECAPTCHA_SITE_KEY') }}', {
+                    grecaptcha.execute('{{ config('services.recaptcha.site_key', env('RECAPTCHA_SITE_KEY')) }}', {
                         action: 'submit'
                     }).then(function(token) {
                         formData.set('recaptcha_response', token);
